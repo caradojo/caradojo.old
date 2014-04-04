@@ -3,23 +3,19 @@
 		<div class="row">
 		  <div class = "col-md-12" >   
         <div class="panel panel-default transparent_black75">
-          	<div class="panel-body text-center">
-	          <h1 class="ag-section-title">Participants</h1>
-	          <p>
-	          	Vous trouverez ici toutes les informations utiles pour vous préparer à la conférence.
-	          </p>
-
- 				<div class="btn-group" role="toolbar" ng-init="info='access'">
+          	<div class="panel-body">
+	          <h1 class="ag-section-title">Participants	        
+ 							<div class="btn-group" role="toolbar" ng-init="info='access'">
               		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'access', 'btn btn-ag-panel-default' : info != 'access' }"   ng-click="info='access'">Accès</button>              
                 	<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'program','btn btn-ag-panel-default' : info != 'program' }"  ng-click="info='program'">Programme</button>
               		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'register', 'btn btn-ag-panel-default' : info != 'register' }"  ng-click="info='register'">Inscriptions</button>
             	</div>
-
+						</h1>
 
 
 				<div class="col-md-12" ng-show="info == 'access'">
 		      <div class="col-md-6">
-		      	<h3>Lieu de la conférence</h3>
+		      	<h4>Lieu de la conférence</h4>
 		        <address>
 		          <strong>Centre de congrès du WTC</strong><br>
 		          5 place Robert Schumann<br>
@@ -36,7 +32,7 @@
 		        </div>
 		      </div>
 		      <div class="col-md-6">
-		      	<h3>Hôtels les plus proches</h3>
+		      	<h4>Hôtels les plus proches</h4>
 		        <ul class="list-unstyled visible-md visible-lg" ng-init="hotels = [
 		        {
 		        name:'Novotel Grenoble Centre',
