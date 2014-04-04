@@ -1,0 +1,28 @@
+{
+  "name": "agile-grenoble-website",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ptaillard/agile-grenoble-website",
+  "authors": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14"
+  },
+  "devDependencies": {
+    "angular-resource": "~1.2.14",
+    "angular-bootstrap": "~0.10.0",
+    "jquery": "~2.1.0",
+    "angular-route": "~1.2.14",
+    "bower-skrollr": "~0.6.21",
+    "jquery-waypoints": "~2.0.4",
+    "bootstrap": "~3.1.1",
+    "angular-directive.g-signin": "*",
+    "angular-ui-utils": "~0.1.1"
+  }
+}

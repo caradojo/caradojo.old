@@ -1,0 +1,15 @@
+{
+  "name": "agile-grenoble-website",
+  "version": "0.0.0",
+  "description": "",
+  "directories": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "bower": "~1.3.1"
+  }
+}
