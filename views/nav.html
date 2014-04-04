@@ -1,0 +1,53 @@
+<div>
+  <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand logo-nav">
+           <img  src="./images/media/logo/logo_ag_0327_white_100.png" alt="logo" width="80px">                      
+        </div>  
+        <h4 class="ag-agtext">Agile Grenoble</h4> 
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+         <li smooth-scroll-jquery target="accueil" ng-class="{active: menuselected == 'accueil'}" ng-click="menuselected = 'accueil'">
+              <a>Accueil</a>
+          </li>
+          <li smooth-scroll-jquery target="keynotes" ng-class="{active: menuselected == 'keynotes'}" ng-click="menuselected = 'keynotes'">
+            <a>Keynotes</a>
+          </li>
+          <li smooth-scroll-jquery target="sponsors" ng-class="{active: menuselected == 'sponsors'}" ng-click="menuselected = 'sponsors'" >
+              <a>Sponsors</a>
+          </li>
+          <li smooth-scroll-jquery target="orateurs" ng-class="{active: menuselected == 'orateurs'}" ng-click="menuselected = 'orateurs'">
+              <a>Orateurs</a>
+          </li>
+          <li smooth-scroll-jquery target="participants" ng-class="{active: menuselected == 'participants'}" ng-click="menuselected = 'participants'">
+              <a>Participants</a>
+          </li>
+          <li smooth-scroll-jquery target="apropos" ng-class="{active: menuselected == 'apropos'}" ng-click="menuselected = 'apropos'">
+              <a>A propos</a>
+          </li>
+        </ul>
+      <!--div>  
+        <div class="connexion" ng-controller="ModalConnexionCtrl">
+          <div class="btn btn-default" ng-hide="logged" ng-click="open()">Connexion</div>
+          <div class="btn btn-default" ng-show="logged" ng-click="disconnect()">Deconnexion</div>
+        </div>
+      </div>
+      <div ng-show="logged" class="userProfile" popover-placement="left" popover="{{name}} ({{email}})" popover-trigger="mouseenter">
+        <img ng-src="{{ image }}" width="40px" height="40px"/>
+      </div-->
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>

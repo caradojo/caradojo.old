@@ -1,0 +1,136 @@
+
+	<div class="content container">
+		<div class="row">
+		  <div class = "col-md-12" >   
+        <div class="panel panel-default transparent_black75">
+          	<div class="panel-body text-center">
+	          <h1 class="ag-section-title">Participants</h1>
+	          <p>
+	          	Vous trouverez ici toutes les informations utiles pour vous préparer à le conférence.
+	          </p>
+
+ 				<div class="btn-group" role="toolbar" ng-init="info='access'">
+              		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'access', 'btn btn-ag-panel-default' : info != 'access' }"   ng-click="info='access'">Accès</button>              
+                	<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'program','btn btn-ag-panel-default' : info != 'program' }"  ng-click="info='program'">Programme</button>
+              		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'register', 'btn btn-ag-panel-default' : info != 'register' }"  ng-click="info='register'">Inscriptions</button>
+            	</div>
+
+
+
+				<div class="col-md-12" ng-show="info == 'access'">
+		      <div class="col-md-6">
+		      	<h3>Lieu de la conférence</h3>
+		        <address>
+		          <strong>Centre de congrès du WTC</strong><br>
+		          5 place Robert Schumann<br>
+		          38000 Grenoble<br>
+		        </address>
+		        <div class="visible-md visible-lg">
+		          <iframe class="container well well-small" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 300px;" frameborder="0" style="border:0"></iframe>
+		        </div>
+		        <div class="visible-sm">
+		          <iframe class="container well well-small visible-sd" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 150px;" frameborder="0" style="border:0"></iframe>
+		        </div>
+		        <div class="visible-xs">
+		          <a href="https://www.google.fr/maps/place/Centre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble/@45.1910246,5.713109,17z/data=!3m1!4b1!4m2!3m1!1s0x478af481b7661f97:0x2f475fe8d95f61e0">Google maps</a>
+		        </div>
+		      </div>
+		      <div class="col-md-6">
+		      	<h3>Hôtels les plus proches</h3>
+		        <ul class="list-unstyled visible-md visible-lg" ng-init="hotels = [
+		        {
+		        name:'Novotel Grenoble Centre',
+		        stars: 3,
+		        url:'http://www.accorhotels.com/fr/hotel-1624-novotel-grenoble-centre/index.shtml',
+		        address: 'jouxtant le WTC et à une minute de la gare',
+		        phone:'4 76 70 84 84',
+		        },
+		        {
+		        name:'Grenoble Europole',
+		        stars: 3,
+		        url:'http://www.hoteleuropole.com/',
+		        address: '(en face du WTC) 29, rue Pierre-Sémard',
+		        phone:'4 76 49 51 52',
+		        },
+		        {
+		        name:'Best Western Terminus',
+		        stars: 3,
+		        url:'http://www.terminus-hotel-grenoble.fr',
+		        address: '(en face de la gare)',
+		        phone:'4 76 87 24 33',
+		        },
+							{
+		        name:'Ibis',
+		        stars: 3,
+		        url:'http://www.ibishotel.com/fr/hotel-2737-ibis-grenoble-gare/index.shtml',
+		        address: '(plus loin, le long des quais) 27 Quai Claude Bernard',
+		        phone:'4 76 86 68 68',
+		        },
+							{
+		        name:'Hôtel des Alpes',
+		        stars: 2,
+		        url:'http://www.hotel-des-alpes.fr',
+		        address: '(proche gare) 45, avenue Félix Viallet',
+		        phone:'4 76 87 00 71',
+		        },
+							{
+		        name:'Hôtel Bastille',
+		        stars: 2,
+		        url:'http://www.isere-tourisme.com/HOT/Hotel-Bastille/Grenoble/fiche-1104-1-38AAHOT100025.html',
+		        address: '(proche gare) 25 avenue Félix Viallet',
+		        phone:'4 76 43 10 27',
+		        },
+							{
+		        name:'Hôtel Institut',
+		        stars: '2',
+		        url:'http://www.institut-hotel.fr',
+		        address: '(proche WTC, gare) 10 rue Louis Barbillon',
+		        phone:'4 76 46 36 44',
+		        }
+		        ]">
+		        	<li ng-repeat="hotel in hotels">
+			         	<a href="{{hotel.url}}" target="_blank">
+			         		{{hotel.name}}
+			         	</a> 
+			         	<span ng-repeat="item in [1,2,3]|limitTo:hotel.stars">			         		
+		         			<span class="glyphicon glyphicon-star">
+		         			</span>
+		         		</span>
+		         		Tél. <span itemprop="telephone"><a href="tel:+33 {{hotel.phone}}">+33 (0){{hotel.phone}}</a></span>
+		         		<br/>{{hotel.address}}	
+		         	</li> 
+		        </ul>				        
+		        <p>Plus d'hôtels sur 
+		        <a href="http://www.grenoble-tourisme.com/" target="_blank">Grenoble Tourisme</a>
+		      </div>
+		    </div>
+
+				<div class="col-md-12" ng-show="info == 'program'">
+					<h3>Programme de la Conférence</h3>
+					<p>
+				  Découvrez dès maintenant nos <a smooth-scroll-jquery target="keynotes">orateurs keynotes en 2014</a>!
+					Un programme provisoire de la conférence sera communiqué en septembre. D'ici là restez à l'écoute!
+					<br/>
+					Nostalgique ou bien curieux ? Vous pouvez consulter le programme de l'édition 2013 de la conférence.
+					</p>
+			 		<a href="http://sessions.agile-grenoble.org/program" class="btn btn-primary btn-lg">
+			      <span class="glyphicon glyphicon-eye-open"></span>
+			        Voir le programme 2013
+			    </a>  
+				</div>
+
+				<div class="col-md-12" ng-show="info == 'register'">
+					<h3>Inscriptions à la conférence</h3>
+					<p> L'inscription à la conférence est obligatoire. Le tarif du billet d'entrée est de 50 €. 
+				  Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons
+				  servies pendant les pauses. Les inscriptions à la conférence seront ouvertes courant septembre.
+					</p>
+
+				</div>
+
+        	</div>
+        </div>
+		  </div>
+		</div>  	
+	
+	</div> 

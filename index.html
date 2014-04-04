@@ -1,1 +1,79 @@
-hello world
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="AgileGrenobleApp">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+      <title>Agile Grenoble</title>
+      
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+      
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="styles/agile-grenoble.css" />
+      <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+      <link rel="stylesheet" type="text/css" href="styles/accueil.css" />
+      <link rel="stylesheet" type="text/css" href="styles/keynotes.css" />
+      <link rel="stylesheet" type="text/css" href="styles/sponsors.css" />
+      <link rel="stylesheet" type="text/css" href="styles/orateurs.css" />
+      <link rel="stylesheet" type="text/css" href="styles/participants.css" />
+      <link rel="stylesheet" type="text/css" href="styles/apropos.css" />
+
+  </head>
+  <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
+
+    <div ag-nav></div>
+
+    <div ag-social-network url="http://cahiers.de.voyage.free.fr/app/"></div>
+
+    <div ag-page="accueil" offsetdown="-1" offsetup="-1">
+      <div ag-accueil></div>
+    </div>
+
+    <div ag-page="keynotes" offsetdown="0" offsetup="-1">
+      <div ag-keynotes></div>
+    </div>
+    
+    <div ag-page="sponsors" offsetdown="0" offsetup="-1">
+      <div ag-sponsors></div>
+    </div>
+
+    <div ag-page="orateurs" offsetdown="0" offsetup="-1">
+      <div ag-orateurs></div> 
+    </div>
+
+    <div ag-page="participants" offsetdown="0" offsetup="-1">
+      <div ag-participants></div>
+    </div>
+
+    <div ag-page="apropos" offsetdown="10" offsetup="-1">
+      <div ag-apropos></div>
+    </div>
+
+
+    <script src="bower_components/bower-skrollr/skrollr.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="scripts/directives/scrollDirective.js"></script>
+    <script src="scripts/directives/angular-smoothscroll.js"></script>
+    
+    <script src="scripts/app.js"></script>
+    <script src="scripts/directives/navDirective.js"></script>
+    <script src="scripts/directives/accueilDirective.js"></script>
+    <script src="scripts/directives/keynotesDirective.js"></script>
+    <script src="scripts/directives/sponsorsDirective.js"></script>
+    <script src="scripts/directives/orateursDirective.js"></script>
+    <script src="scripts/directives/participantsDirective.js"></script>
+    <script src="scripts/directives/aproposDirective.js"></script>
+    <script src="scripts/directives/pageDirective.js"></script>
+    <script src="scripts/directives/socialNetworkDirective.js"></script>
+
+  </body>
+</html>
