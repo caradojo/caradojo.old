@@ -6,7 +6,7 @@ AgileGrenobleApp.directive('agOrateurs', ['$window', function($window) {
 			replace: true,
 			controller: function ($scope) {
 				$scope.soumettre = function() {
-					$window.location.href = 'http://secret-tundra-7433.herokuapp.com/';
+					$window.location.href = 'http://cfp.agile-grenoble.org/';
 				};
 			},
 			templateUrl: './views/orateurs.html'
