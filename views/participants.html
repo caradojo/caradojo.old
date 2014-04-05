@@ -1,39 +1,39 @@
 
 	<div class="content container">
 		<div class="row">
-		  <div class = "col-md-12" >   
+		  <div class = "col-md-12 col-sm-11" >   
         <div class="panel panel-default transparent_black75">
           	<div class="panel-body">
-	          <h1 class="ag-section-title">Participants	        
+	          <h3 class="ag-section-title">Jeudi 20 Novembre 2014	        
  							<div class="btn-group" role="toolbar" ng-init="info='access'">
               		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'access', 'btn btn-ag-panel-default' : info != 'access' }"   ng-click="info='access'">Accès</button>              
                 	<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'program','btn btn-ag-panel-default' : info != 'program' }"  ng-click="info='program'">Programme</button>
               		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'register', 'btn btn-ag-panel-default' : info != 'register' }"  ng-click="info='register'">Inscriptions</button>
+              		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'hotels', 'btn btn-ag-panel-default' : info != 'hotels' }"  ng-click="info='hotels'">Hôtels</button>
             	</div>
-						</h1>
+						</h3>
 
 
 				<div class="col-md-12" ng-show="info == 'access'">
-		      <div class="col-md-6">
-		      	<h4>Lieu de la conférence</h4>
-		        <address>
-		          <strong>Centre de congrès du WTC</strong><br>
-		          5 place Robert Schumann<br>
-		          38000 Grenoble<br>
-		        </address>
-		        <div class="visible-md visible-lg">
-		          <iframe class="container well well-small" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 300px;" frameborder="0" style="border:0"></iframe>
-		        </div>
-		        <div class="visible-sm">
-		          <iframe class="container well well-small visible-sd" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 150px;" frameborder="0" style="border:0"></iframe>
-		        </div>
-		        <div class="visible-xs">
-		          <a href="https://www.google.fr/maps/place/Centre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble/@45.1910246,5.713109,17z/data=!3m1!4b1!4m2!3m1!1s0x478af481b7661f97:0x2f475fe8d95f61e0">Google maps</a>
-		        </div>
-		      </div>
-		      <div class="col-md-6">
-		      	<h4>Hôtels les plus proches</h4>
-		        <ul class="list-unstyled visible-md visible-lg" ng-init="hotels = [
+	        <address>
+	          <strong>Centre de congrès du WTC</strong><br>
+	          5 place Robert Schumann<br>
+	          38000 Grenoble<br>
+	        </address>
+	        <div class="visible-md visible-lg">
+	          <iframe class="container well well-small" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 300px;" frameborder="0" style="border:0"></iframe>
+	        </div>
+	        <div class="visible-sm">
+	          <iframe class="container well well-small visible-sd" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 150px;" frameborder="0" style="border:0"></iframe>
+	        </div>
+	        <div class="visible-xs">
+	          <a href="https://www.google.fr/maps/place/Centre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble/@45.1910246,5.713109,17z/data=!3m1!4b1!4m2!3m1!1s0x478af481b7661f97:0x2f475fe8d95f61e0">Google maps</a>
+	        </div>
+      	</div>
+				
+
+				<div class="col-md-12" ng-show="info == 'hotels'">
+		        <ul class=" hidden-xs" ng-init="hotels = [
 		        {
 		        name:'Novotel Grenoble Centre',
 		        stars: 3,
@@ -93,20 +93,20 @@
 		         			</span>
 		         		</span>
 		         		Tél. <span itemprop="telephone"><a href="tel:+33 {{hotel.phone}}">+33 (0){{hotel.phone}}</a></span>
-		         		<br/>{{hotel.address}}	
+		         		{{hotel.address}}	
 		         	</li> 
 		        </ul>				        
-		        <p>Plus d'hôtels sur 
+		        <p><span class="glyphicon glyphicon-info-sign"> Plus d'hôtels sur 
 		        <a href="http://www.grenoble-tourisme.com/" target="_blank">Grenoble Tourisme</a>
+		      </p>
 		      </div>
-		    </div>
+		    
 
 				<div class="col-md-12" ng-show="info == 'program'">
-					<h3>Programme de la Conférence</h3>
 					<p>
-				  Découvrez dès maintenant nos <a smooth-scroll-jquery target="keynotes">orateurs keynotes en 2014</a>!
-					Un programme provisoire de la conférence sera communiqué en septembre. D'ici là restez à l'écoute!
-					<br/>
+				  Découvrez dès maintenant nos <a smooth-scroll-jquery target="keynotes">orateurs keynotes en 2014</a> !
+					Un programme provisoire de la conférence sera communiqué en septembre. D'ici là restez à l'écoute ! 
+					<br/><br/>
 					Nostalgique ou bien curieux ? Vous pouvez consulter le programme de l'édition 2013 de la conférence.
 					</p>
 			 		<a href="http://sessions.agile-grenoble.org/program" class="btn btn-primary btn-lg">
@@ -116,9 +116,9 @@
 				</div>
 
 				<div class="col-md-12" ng-show="info == 'register'">
-					<h3>Inscriptions à la conférence</h3>
+					<h4 class="hidden-xs hidden-sm">Inscription à la conférence</h4>
 					<p> L'inscription à la conférence est obligatoire. Le tarif du billet d'entrée est de 50 €. 
-				  Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons
+				   Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons
 				  servies pendant les pauses. Les inscriptions à la conférence seront ouvertes courant septembre.
 					</p>
 

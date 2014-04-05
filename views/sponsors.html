@@ -19,7 +19,7 @@
 
 	<div class="row">
    		
-  <div class="col-md-7">
+  <div class="col-md-7 col-sm-7">
       <div class="panel panel-default transparent_black75">
         <div class="panel-body"> 
 
@@ -31,7 +31,7 @@
           </h3> 
 
           <div ng-show="offre == 'gold'">
-          <p>L'offre Gold, c'est</p>
+          <p class="hidden-xs hidden-sm">L'offre Gold, c'est</p>
           <ul>        
             <li>L'ensemble des avantages de l'offre Silver</li>
             <li>Un espace prévilégié pour votre stand</li>
@@ -42,7 +42,7 @@
           </div>
 
           <div ng-show="offre == 'silver'">
-          <p>L'offre Silver, c'est</p>
+          <p class="hidden-xs hidden-sm">L'offre Silver, c'est</p>
           <ul>
             <li>Exploiter le logo "Sponsor Agile Grenoble 2014" sur vos outils de communication</li>
             <li>Affichage de votre logo et entreprise sur tous nos supports de communication</li>
@@ -56,11 +56,11 @@
       </div> 
     </div>
       
-    <div class="col-md-5">
+    <div class="col-md-5 col-sm-5">
       <div class="panel panel-default transparent_white75">
         <div class="panel-body">            
           <div class="media">
-            <img class="media-object pull-left img-responsive" src="images/media/icon_orange_notes_100.png" width="64"/>
+            <img class="media-object pull-left img-responsive hidden-xs hidden-sm" src="images/media/icon_orange_notes_100.png" width="64"/>
             <div class="media-body">
               <h3>Agile Grenoble 2014, c'est...</h3>
               <ul class="ag-noindent">
@@ -80,11 +80,11 @@
   </div>
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-5">
       <div class="panel panel-default transparent_white75">
         <div class="panel-body"> 
-          <h3>En savoir plus?</h3>     
-          <p>
+          <h3 class="visible-md visible-lg">En savoir plus?</h3>           
+          <p class="hidden-xs hidden-sm">
             Contacter l'organisation pour obtenir plus de détails sur 
             l'offre de sponsoring ou pour manifester votre soutien à la conférence.
           </p>    

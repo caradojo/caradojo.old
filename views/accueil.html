@@ -1,76 +1,75 @@
 <div class="content container">
   <div class="row hidden-xs">
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-11">
 
       <div skrollr class="panel panel-default transparent_black65" data-start=" transform: scale(1.0); opacity:1.0;"
             data-500-start="opacity:0; transform: scale(0.25);">
           <div class="panel-body">
-          <h1 class="ag-section-title">Agile Grenoble 2014</h1>              
+          <h1 class="ag-section-title hidden-xs hidden-sm">Agile Grenoble 2014</h1>              
           <h3>Réconcilions plaisir et efficacité au travail !</h3>
             <p>
             Les méthodes agiles sont devenues incontournables. Elles ont prouvé leur efficacité et l'heure n'est plus aux questions mais à l'action !
-            La conférence Agile Grenoble sera encore cette année l’évènement agile incontournable de la région. C'est le rendez-vous pour tous les professionnels qui souhaitent savoir comment s'y prendre, découvrir, échanger, apprendre, expérimenter, tester, approfondir leurs connaissances, ou simplement discuter autour de l'agilité.             
-          </p>
+            </p>
+            <p class="hidden-xs hidden-sm">
+            La conférence Agile Grenoble sera encore cette année l’évènement agile incontournable de la région. C'est le rendez-vous pour tous les professionnels qui souhaitent savoir comment s'y prendre, découvrir, échanger, apprendre, expérimenter, tester, approfondir leurs connaissances, ou simplement discuter autour de l'agilité.<</p>            
+            <p>
         </div>
       </div>
-      <div class="dateConference visible-md visible-lg"></div>
+      <div class="dateConference hidden-xs"></div>
     </div>
   </div>
 
   
   <div class="row">
 
+    <div ng-init=" accesslist = [
+      {
+        cssid: 'sponsor',
+        title: 'Sponsors',
+        image: 'icon_blue_money',
+        text :'Vous êtes une entreprise qui souhaite associer son nom à l&#146;une des plus importante conférence agile en France ?',
+        scrolltarget:'sponsors',
+        menuselected: 'sponsors'
+      },
+      {
+        cssid: 'orateur',
+        title: 'Orateurs',
+        image: 'icon_red_speaker',
+        text :'Vous êtes passionné et vous souhaitez partager votre expérience et vos idées avec les participants de la conférence ?',
+        scrolltarget:'orateurs',
+        menuselected: 'orateurs'
+      },
+      {        
+        cssid: 'participant',
+        title: 'Participants',
+        image: 'icon_green_ticket',
+        text :'Vous souhaitez participer à la conférence et vous voulez en savoir plus sur les détails pratiques de celle-ci ?',
+        scrolltarget:'participants',
+        menuselected: 'participants'
+       }]">
+      <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">    
+        <div class="panel panel-default transparent_white65">
+          <div class="panel-body text-center">
+          <p class="hidden-xs hidden-sm"><img class="img-rounded" src="images/media/{{item.image}}.png" alt="" width="64px"></p>
+          <h1 class="visible-lg ag-{{item.cssid}}-text"> {{item.title}}</h1>
+          <p class="hidden-xs hidden-sm">{{item.text}}</p>
+                   
 
+          <a smooth-scroll-jquery target="{{item.scrolltarget}}" ng-click="menuselected = '{{item.menuselected}}'" class="btn btn-primary btn-lg btn-ag-{{item.cssid}}">
+            <div class="hidden-xs hidden-sm">
+              <span class="glyphicon glyphicon-hand-right"></span>
+              <span>Accès {{item.title}}</span>
+            </div>
+             <div class="visible-xs visible-sm">
+              <span class="glyphicon glyphicon-hand-right"></span>
+              <span>Accès<br/>{{item.title}}</span>
+            </div>
+          </a>
 
- 
-    <div class = "col-md-4" >    
-      <div class="panel panel-default transparent_white65">
-        <div class="panel-body text-center">
-        <h1 class="ag-sponsor-text"><img class="visible-lg" src="images/media/icon_blue_money.png" alt="" width="64px"> Sponsors</h1>
-        <p>
-          Vous êtes une entreprise qui souhaite associer son nom à l'une des plus importante conférence agile en France?
-        </p>
-        <a smooth-scroll-jquery target="sponsors" ng-click="menuselected = 'sponsors'" class="btn btn-primary btn-lg btn-ag-sponsor">
-        <span class="glyphicon glyphicon-hand-right"></span>
-        Accès Sponsors
-        </a>
-        </div>
-      </div>            
-    </div>   
-
- 
-    
-    <div class = "col-md-4" >    
-      <div class="panel panel-default transparent_white65">
-        <div class="panel-body text-center">
-        <h1 class="ag-orateur-text"><img class="visible-lg" src="images/media/icon_red_speaker.png" alt="" width="64px"> Orateurs</h1>
-        <p>
-          Vous êtes passionné et vous souhaitez partager votre expérience et vos idées avec les participants de la conférence?
-        </p>
-        <a smooth-scroll-jquery target="orateurs" ng-click="menuselected = 'orateurs'" class="btn btn-primary btn-lg btn-ag-orateur">
-        <span class="glyphicon glyphicon-hand-right"></span>
-        Accès Orateurs
-        </a>
-        </div>
-      </div>            
-    </div> 
-
-    
-    <div class = "col-md-4" >    
-      <div class="panel panel-default transparent_white65">
-        <div class="panel-body text-center">
-        <h1 class="ag-participant-text"><img class="visible-lg" src="images/media/icon_green_ticket.png" alt="" width="64px"> Participants</h1>
-        <p> Vous souhaitez participer à la conférence et vous voulez en savoir plus sur les détails pratiques de celle-ci?
-        </p>
-        <a smooth-scroll-jquery target="participants" ng-click="menuselected = 'participants'" class="btn btn-primary btn-lg btn-ag-participant">
-        <span class="glyphicon glyphicon-hand-right"></span>
-        Accès Participants
-        </a>
-        </div>
-      </div>            
-    </div> 
-
-
+          </div>
+        </div>            
+      </div> 
+    </div>
 
   </div>
 </div>
