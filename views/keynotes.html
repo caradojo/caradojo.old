@@ -1,5 +1,5 @@
   <div class="content container">
-    <div class="row">
+    <div class="row visible-lg">
       <div class = "col-md-12" >   
         <div class="panel panel-default transparent_white75">
           <div class="panel-body">
@@ -12,37 +12,35 @@
         </div>
       </div>
     </div>
-  <div class="row">
-    <div class = "col-md-6"> 
-      <div class="panel panel-default transparent_black75">
-        <div class="panel-body">                    
-  	      <div class="media">            
-  	        <img class="media-object pull-left img-thumbnail" src="images/portrait_ag.png" width="120px">
-      		  <div class="media-body">
-      		    <h3 class="media-heading">Alexandre GERARD</h3>              
-      		    <p>Alexandre GERARD est PDG de la société Chrono FLEX, société fondée en 1995 et leader national du service mobile de dépannage de flexibles hydrauliques. 
-                <br/><br/>"Nous avons transformé notre entreprise porte-avions en une armada de Speed Boat !”. C’est le sentiment qu’a aujourd’hui Alexandre, après 3 ans d’une vraie "libération" de l'entreprise. 
-              L’objectif : ne jamais revivre la situation de 2009 ou après 13 ans de croissance ininterrompue l’entreprise perd 34 % de son chiffre d’affaires avec pour conséquence des licenciements.
-                <br/><br/>Un chef d’entreprise devenu “entraîneur d’entraîneurs”, manager par “la vision et les valeurs”, travailler à améliorer l’environnement plutôt qu’incriminer les individus, miser sur la confiance et la responsabilisation plutôt que les consignes et le contrôle. Il semble qu’un changement agile d’entreprise, ça ressemblerait à ça.
-    		      </p>                          
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
-    <div class = "col-md-6" >    
+  <div class="row" ng-init="keynotes =[
+    {
+      photo : 'images/portrait_ag.png',
+      name : 'Alexandre GERARD',
+      text1 : 'Alexandre GERARD est PDG de la société Chrono FLEX, société fondée en 1995 et leader national du service mobile de dépannage de flexibles hydrauliques.',
+      text2 : '&quot;Nous avons transformé notre entreprise porte-avions en une armada de Speed Boat !&quot;. C&#146;est le sentiment qu&#146;a aujourd&#146;hui Alexandre, après 3 ans d&#146;une vraie &quot;libération&quot; de l&#146;entreprise. L&#146;objectif : ne jamais revivre la situation de 2009 ou après 13 ans de croissance ininterrompue l&#146;entreprise perd 34 &#37; de son chiffre d&#146;affaires avec pour conséquence des licenciements.',
+      text3 : 'Un chef d&#146;entreprise devenu &quot;entraîneur d&#146;entraîneurs&quot;, manager par &quot;la vision et les valeurs&quot;, travailler à améliorer l&#146;environnement plutôt qu&#146;incriminer les individus, miser sur la confiance et la responsabilisation plutôt que les consignes et le contrôle. Il semble qu&#146;un changement agile d&#146;entreprise, ça ressemblerait à ça.'
+    },
+    {
+      photo : 'images/portrait_fb.png', 
+      name : 'François BEAUREGARD',
+      text1 : 'François est président et fondateur de Pyxis. Animé d&#146;une passion pour le développement logiciel, il souhaite participer à des projets de développement logiciel dont les résultats sont exceptionnels tout en maximisant la qualité de vie et la satisfaction personnelle de tous les intervenants.',
+      text3 : 'En juillet 2002, avec des collègues de Pyxis, il a fondé Agile Montréal, un groupe d&#146;intérêt sur les méthodes de développement agiles, et y fait des présentations régulièrement. De plus, il a donné plusieurs conférences à Agile Tour, au PMI, à IIBA et lors d&#146;événements agiles internationaux.',
+      text2: 'Formateur certifié en Management 3.0, François agit comme accompagnateur, formateur, facilitateur et conseiller expert pour des entreprises désirant améliorer leur productivité en développement informatique et adopter une approche agile.'
+    }]">
+
+    <div class = "col-md-6 col-sm-6" ng-repeat="item in keynotes">    
      	<div class="panel panel-default transparent_white75">
         <div class="panel-body">
   		    <div class="media">
-    				<img class="media-object img-thumbnail pull-left" src="images/portrait_fb.png" width="120px">
-    			  <div class="media-body">
-    				  <h3 class="media-heading">François BEAUREGARD</h3>
-    				  <p>
-                François est président et fondateur de Pyxis. Animé d’une passion pour le développement logiciel, il souhaite participer à des projets de développement logiciel dont les résultats sont exceptionnels tout en maximisant la qualité de vie et la satisfaction personnelle de tous les intervenants. <br/><br/> Formateur certifié en Management 3.0, François agit comme accompagnateur, formateur, facilitateur et conseiller expert pour des entreprises désirant améliorer leur productivité en développement informatique et adopter une approche Agile. <br/><br/> En juillet 2002, avec des collègues de Pyxis, il a fondé Agile Montréal, un groupe d’intérêt sur les méthodes de développement Agiles, et y fait des présentations régulièrement. 
-                De plus, il a donné plusieurs conférences à Agile Tour, au PMI, à IIBA et lors d’événements agiles internationaux.
-              </p>
-  	          </div>
-  	      </div>           
+    				<img class="img-thumbnail visible-md visible-lg pull-left" src="{{item.photo}}" width="120px">
+            <img class="img-thumbnail visible-sm hidden-xs pull-left" src="{{item.photo}}" width="60px">
+    				  <h3 class="visible-md visible-lg">{{item.name}}</h3>
+              <h4 class="visible-sm">{{item.name}}</h4>              
+              <p class="visible-xs"><strong>{{item.name}}</strong></p>
+    				  <p class="hidden-xs">{{item.text1}}</p>
+              <p>{{item.text2}}</p>
+              <p class="hidden-xs hidden-sm">{{item.text3}}</p>
+              </p>        
         </div>
       </div>
     </div>                    

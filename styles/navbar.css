@@ -77,15 +77,30 @@
 
 
 /* Logo Agile Grenoble */
-.logo-nav {
+
+
+@media (max-width: 994px) {
+  .ag-agtext {
+    margin-top: 24px;  
+    color: #E0E0E0;
+    width: 160px;
+  }
+  .logo-nav {
+   margin-top: 10 px;  
+  }
+}
+@media (min-width: 995px) {
+  .ag-agtext {
+    margin-top: 24px;  
+    color: #E0E0E0;
+    width: 240px;
+  }
+  .logo-nav {
    margin-top: -10px;  
+  }
 }
 
-.ag-agtext {
-  margin-top: 24px;  
-  color: #E0E0E0;
-  width: 280px; 
-}
+
 
 .ag-anneetext {
   color: #00b8fc;
