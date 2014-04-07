@@ -6,7 +6,7 @@ AgileGrenobleApp.directive('agOrateurs', ['$window', function($window) {
 			replace: true,
 			controller: function ($scope) {
 				$scope.soumettre = function() {
-					$window.location.href = 'http://cfp.agile-grenoble.org/';
+					$window.location.href = 'http://cfp.agile-grenoble.org/sessions/new';
 				};
 			},
 			templateUrl: './views/orateurs.html'
