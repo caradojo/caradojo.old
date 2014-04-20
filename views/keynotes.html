@@ -12,28 +12,13 @@
         </div>
       </div>
     </div>
-  <div class="row" ng-init="keynotes =[
-    {
-      photo : 'images/portrait_ag.png',
-      name : 'Alexandre GERARD',
-      text1 : 'Alexandre GERARD est PDG de la société Chrono FLEX, société fondée en 1995 et leader national du service mobile de dépannage de flexibles hydrauliques.',
-      text2 : '&quot;Nous avons transformé notre entreprise porte-avions en une armada de Speed Boat !&quot;. C&#146;est le sentiment qu&#146;a aujourd&#146;hui Alexandre, après 3 ans d&#146;une vraie &quot;libération&quot; de l&#146;entreprise. L&#146;objectif : ne jamais revivre la situation de 2009 ou après 13 ans de croissance ininterrompue l&#146;entreprise perd 34 &#37; de son chiffre d&#146;affaires avec pour conséquence des licenciements.',
-      text3 : 'Un chef d&#146;entreprise devenu &quot;entraîneur d&#146;entraîneurs&quot;, manager par &quot;la vision et les valeurs&quot;, travailler à améliorer l&#146;environnement plutôt qu&#146;incriminer les individus, miser sur la confiance et la responsabilisation plutôt que les consignes et le contrôle. Il semble qu&#146;un changement agile d&#146;entreprise, ça ressemblerait à ça.'
-    },
-    {
-      photo : 'images/portrait_fb.png', 
-      name : 'François BEAUREGARD',
-      text1 : 'François est président et fondateur de Pyxis. Animé d&#146;une passion pour le développement logiciel, il souhaite participer à des projets de développement logiciel dont les résultats sont exceptionnels tout en maximisant la qualité de vie et la satisfaction personnelle de tous les intervenants.',
-      text3 : 'En juillet 2002, avec des collègues de Pyxis, il a fondé Agile Montréal, un groupe d&#146;intérêt sur les méthodes de développement agiles, et y fait des présentations régulièrement. De plus, il a donné plusieurs conférences à Agile Tour, au PMI, à IIBA et lors d&#146;événements agiles internationaux.',
-      text2: 'Formateur certifié en Management 3.0, François agit comme accompagnateur, formateur, facilitateur et conseiller expert pour des entreprises désirant améliorer leur productivité en développement informatique et adopter une approche agile.'
-    }]">
-
+  <div class="row">
     <div class = "col-md-6 col-sm-6" ng-repeat="item in keynotes">    
      	<div class="panel panel-default transparent_white75">
         <div class="panel-body">
   		    <div class="media">
-    				<img class="img-thumbnail visible-md visible-lg pull-left" src="{{item.photo}}" width="120px">
-            <img class="img-thumbnail visible-sm hidden-xs pull-left" src="{{item.photo}}" width="60px">
+    				<img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px">
+            <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px">
     				  <h3 class="visible-md visible-lg">{{item.name}}</h3>
               <h4 class="visible-sm">{{item.name}}</h4>              
               <p class="visible-xs"><strong>{{item.name}}</strong></p>

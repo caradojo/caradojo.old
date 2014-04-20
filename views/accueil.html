@@ -22,35 +22,12 @@
   
   <div class="row">
 
-    <div ng-init=" accesslist = [
-      {
-        cssid: 'sponsor',
-        title: 'Sponsors',
-        image: 'icon_blue_money',
-        text :'Vous êtes une entreprise qui souhaite associer son nom à l&#146;une des plus importante conférence agile en France ?',
-        scrolltarget:'sponsors',
-        menuselected: 'sponsors'
-      },
-      {
-        cssid: 'orateur',
-        title: 'Orateurs',
-        image: 'icon_red_speaker',
-        text :'Vous êtes passionné et vous souhaitez partager votre expérience et vos idées avec les participants de la conférence ?',
-        scrolltarget:'orateurs',
-        menuselected: 'orateurs'
-      },
-      {        
-        cssid: 'participant',
-        title: 'Participants',
-        image: 'icon_green_ticket',
-        text :'Vous souhaitez participer à la conférence et vous voulez en savoir plus sur les détails pratiques de celle-ci ?',
-        scrolltarget:'participants',
-        menuselected: 'participants'
-       }]">
-      <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">    
+      <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">
         <div class="panel panel-default transparent_white65">
           <div class="panel-body text-center">
-          <p class="hidden-xs hidden-sm"><img class="img-rounded" src="images/media/{{item.image}}.png" alt="" width="64px"></p>
+          <p class="hidden-xs hidden-sm">
+            <img class="img-rounded" ng-src="images/media/{{item.image}}.png" alt="" width="64px">
+          </p>
           <h1 class="visible-lg ag-{{item.cssid}}-text"> {{item.title}}</h1>
           <p class="hidden-xs hidden-sm">{{item.text}}</p>
                    
@@ -69,7 +46,6 @@
           </div>
         </div>            
       </div> 
-    </div>
 
   </div>
 </div>
