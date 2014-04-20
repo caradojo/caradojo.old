@@ -17,38 +17,27 @@
     <div class="panel panel-default transparent_black85">
       <div class="panel-body">
         <h3>Contacts</h3>
-        <p class="hidden-xs hidden-sm">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :
-          <ul ng-init="emails = [
-            {
-            addr:'orateur',
-            desc: 'pour l&#146;appel à orateur et les soumissions de sessions'
-            },
-            {
-            addr:'sponsor', 
-            desc: 'pour l&#146;offre de sponsoring'
-            },
-            {
-            addr:'inscription', 
-            desc: 'pour les inscriptions à la conférence'
-            },
-            {
-            addr:'contact', 
-            desc: 'pour toute autre question au sujet de la conférence'
-            }]" >  
-            <li ng-repeat="email in emails">           
+        <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
+        <ul class="hidden-xs">  
+          <li ng-repeat="email in emails">           
             <a href="mailto:{{email.addr}}@agile-grenoble.org" >
               {{email.addr}}@agile-grenoble.org
-            </a> {{email.desc}}
-            </li>        
-            </ul>           
+            </a>{{email.desc}}
+          </li>        
+        </ul>
+        <p class="visible-xs">
+          <a href="mailto:contact@agile-grenoble.org" >
+                contact@agile-grenoble.org
+          </a>
+        </p>    
       </div> 
     </div>
   </div>
 
-  <div class="col-md-6 col-sm-6">
+  <div class="col-md-6 col-sm-6 hidden-xs">
     <div class="panel panel-default transparent_white85">
       <div class="panel-body">
-        <h3><img class="hidden-xs hidden-sm" src="images/media/logo/green_cara.png" width="32px"> Club Agile Rhône Alpes (CARA)</h3>
+        <h3><img class="hidden-sm" src="images/media/logo/green_cara.png" width="32px"> Club Agile Rhône Alpes (CARA)</h3>
         <p>Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.
         </p>
         <a href="http://www.clubagilerhonealpes.org/" class="btn btn-primary btn-lg">
@@ -64,32 +53,8 @@
 
   <div class="row">
     <div class="col-md-12">
-       <div class="alert alert-info transparent_white75">
-            <p ng-init="credits = [
-              {
-              photourl:'http://www.camptocamp.org/images/377738/fr/la-cordee',
-              desc: 'La Cordée',
-              ownername:'susheen',
-              ownerurl:'http://www.camptocamp.org/users/202842',
-              licencename:'CC-by-SA',
-              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
-              },
-              {
-              photourl:'http://www.camptocamp.org/images/378896/fr/grenoble-sous-les-etoiles',
-              desc: 'Grenoble sous les étoiles',
-              ownername:'Benoit Audige',
-              ownerurl:'http://www.camptocamp.org/users/11491',
-              licencename:'CC-by-SA',
-              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
-              },
-              {
-              photourl:'http://www.camptocamp.org/images/241031/fr/un-matin-au-mont-rose',
-              desc: 'Un matin au mont rose',
-              ownername:'Jean-Louis Decosse',
-              ownerurl:'http://www.camptocamp.org/users/13874',
-              licencename:'CC-by-SA',
-              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
-              }]" >                   
+       <div class="alert alert-info transparent_white85">
+            <p>                   
               <span class="glyphicon glyphicon-copyright-mark"></span>
               2014 Club Agile Rhône Alpes - Crédits Photos: 
               <span ng-repeat="credit in credits">                
