@@ -39,7 +39,7 @@ AgileGrenobleApp
 				  $timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 				});
 			},
-			templateUrl: './views/carouselSponsors.html'
+			templateUrl: './views/carouselsponsors.html'
 		};
 	}])
 ;
