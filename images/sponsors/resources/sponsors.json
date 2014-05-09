@@ -1,0 +1,35 @@
+[
+	{
+	  "photo" : "sogilis.png", 
+	  "entreprise" : "Sogilis",
+	  "web" : "http://sogilis.com/",
+	  "niveau" : "Sponsor Gold",
+	  "gold" : true,
+	  "description" : "sogilis.html"
+	},
+	{
+	  "photo" : "moodys.png",
+	  "entreprise" : "Moody's analytics",
+	  "web" : "http://www.moodysanalytics.com/france/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "moodys.html"
+	},
+	{
+	  "photo" : "persistent.jpg",
+	  "entreprise" : "Persistent",
+	  "web" : "http://www.persistentsas.com",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "persistent.html"
+	},
+	{
+	  "photo" : "thales.jpg",
+	  "entreprise" : "Thales",
+	  "web" : "http://www.thalesgroup.com/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "thales.html"
+	}
+
+]
