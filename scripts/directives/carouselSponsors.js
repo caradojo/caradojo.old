@@ -10,6 +10,13 @@ AgileGrenobleApp
 				$scope.sponsors = sponsorsService.get();
 			    $scope._Index = 0;
 
+				var slideshow = function() {
+				  timer = $timeout(function() {
+				    $scope.next();
+				    timer = $timeout(slideshow, delay);
+				  }, delay);
+				};
+
 			    $scope.isActive = function (index) {
 			        return $scope._Index === index;
 			    };
@@ -18,26 +25,26 @@ AgileGrenobleApp
 			        $scope._Index = ($scope._Index < $scope.sponsors.length - 1) ? ++$scope._Index : 0;
 			    };
 
-			    $scope.visite = function(sponsor) {
-					$window.location.href = sponsor.web;
+			    $scope.stopSlideshow = function() {
+					$timeout.cancel(timer);
+				};
+
+				$scope.startSlideshow = function() {
+					slideshow();
 				};
 
  				$scope.description = function(sponsor) {
 					return "images/sponsors/resources/" + sponsor.description;
 				};
 
-				var slideshow = function() {
-				  timer = $timeout(function() {
-				    $scope.next();
-				    timer = $timeout(slideshow, delay);
-				  }, delay);
-				};
-				 
-				slideshow();
+				$scope.startSlideshow();
 				 
 				$scope.$on('$destroy', function() {
-				  $timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
+				  $scope.stopSlideshow();
 				});
+			},
+			scope : {
+				name : '@agCarousel'
 			},
 			templateUrl: './views/carouselsponsors.html'
 		};

@@ -15,6 +15,13 @@
     transform-style: preserve-3d;
 }
 
+.carousel .modal {
+    color: black;
+}
+
+.carousel .modal img {
+    height: 70px;
+}
 
 .slider-size {
     width: 400px;
