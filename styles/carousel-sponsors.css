@@ -22,9 +22,8 @@
 }
 
 .blockquote-size {
-    height: 70px;
+    height: 25px;
     position: relative;
-    overflow-y: auto;
 }
 
 @media (max-width: 1200px) {

@@ -1,5 +1,5 @@
 <div class="content container">
-	
+
   <div class="row visible-lg">
 		<div class="col-md-12">
 			<div class="panel panel-default transparent_black75">
@@ -19,72 +19,83 @@
 
 	<div class="row">
    		
-  <div class="col-md-7 col-sm-7">
-      <div class="panel panel-default transparent_black75">
-        <div class="panel-body"> 
+    <div class="col-md-7 col-sm-7">
+        <div class="panel panel-default transparent_black75">
+          <div class="panel-body"> 
 
-          <h3>Découvrez les offres
-            <div class="btn-group hidden-xs hidden-sm" role="toolbar" ng-init="offre='silver'">
-              <button type="button"  ng-class="{'btn btn-ag-panel-default': offre == 'gold', 'btn btn-ag-panel-selected ': offre == 'silver'}"   ng-click="offre='silver'">Silver</button>              
-              <button type="button"  ng-class="{'btn btn-ag-panel-default': offre == 'silver', 'btn btn-ag-panel-selected': offre == 'gold'}"  ng-click="offre='gold'">Gold</button>              
+            <h3>Découvrez les offres</h3>
+
+            <div class="panel-group" id="accordionOffre">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordionOffre" ng-href="#collapseOneOffre">
+                      Offre Gold
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOneOffre" class="panel-collapse collapse">
+                  <div class="panel-body">
+                     <ul>        
+                      <li>L'ensemble des avantages de l'offre Silver</li>
+                      <li>Un espace prévilégié pour votre stand</li>
+                      <li>L'envoi d'une communication personnalisée par email aux participants</li>
+                      <li>10 minutes de présentation dans l'amphithéâtre incluant la présentation de votre entreprise</li>
+                      <li>Tarif <b>3 800 €</b></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordionOffre" ng-href="#collapseTwoOffre">
+                      Offre Silver
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwoOffre" class="panel-collapse collapse">
+                  <div class="panel-body">
+                     <ul>
+                      <li>Exploiter le logo "Sponsor Agile Grenoble 2014" sur vos outils de communication</li>
+                      <li>Affichage de votre logo et entreprise sur tous nos supports de communication</li>
+                      <li>Un stand sur le lieu de la conférence avec affichage (type kamémono)</li>            
+                      <li>Deux entrées offertes pour tenue du stand</li>
+                      <li>Tarif <b>1 700 €</b></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-          </h3> 
-
-          <div ng-show="offre == 'gold'" class="hidden-xs hidden-sm">
-            <p>L'offre Gold, c'est</p>
-            <ul>        
-              <li>L'ensemble des avantages de l'offre Silver</li>
-              <li>Un espace prévilégié pour votre stand</li>
-              <li>L'envoi d'une communication personnalisée par email aux participants</li>
-              <li>10 minutes de présentation dans l'amphithéâtre incluant la présentation de votre entreprise</li>
-              <li>Tarif 3 800 €</li>
-            </ul>
+            <h3 class="hidden-xs">En savoir plus?
+              <a href="mailto:sponsor@agile-grenoble.org" class="btn btn-primary btn-sm btn-sm">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                  Nous contacter
+              </a>
+            </h3>
           </div>
-
-          <div ng-show="offre == 'silver'" class="hidden-xs hidden-sm">
-            <p>L'offre Silver, c'est</p>
-            <ul>
-              <li>Exploiter le logo "Sponsor Agile Grenoble 2014" sur vos outils de communication</li>
-              <li>Affichage de votre logo et entreprise sur tous nos supports de communication</li>
-              <li>Un stand sur le lieu de la conférence avec affichage (type kamémono)</li>            
-              <li>Deux entrées offertes pour tenue du stand</li>
-              <li>Tarif 1 700 €</li>
-            </ul>
+        </div> 
+      </div>
+        
+      <div class="hidden-xs col-md-5 col-sm-5">
+        <div class="panel panel-default transparent_white75">
+          <div class="panel-body">            
+            <div class="media">
+              <img class="media-object pull-left img-responsive hidden-xs hidden-sm" src="images/media/icon_orange_notes_100.png" width="64"/>
+              <div class="media-body">
+                <h3>Agile Grenoble 2014, c'est...</h3>
+                <ul class="ag-noindent">
+                  <li>500 participants dans un cadre de prestige</li>
+                  <li>Deux keynotes données par des orateurs reconnus mondialement</li>
+                  <li>Une déjeuner propice au networking</li>
+                  <li>45 sessions réparties sur 9 salles</li>
+                  <li>Un tarif d'entrée attractif</li>
+                </ul>     
+              </div> 
+            </div>     
           </div>
-
-          <h3 class="visible-lg">En savoir plus?</h3>           
-          <p>
-            Contacter l'organisation pour obtenir plus de détails sur 
-            l'offre de sponsoring ou pour manifester votre soutien à la conférence.
-          </p>  
-          <a href="mailto:sponsor@agile-grenoble.org" class="btn btn-primary btn-lg">
-            <span class="glyphicon glyphicon-envelope"></span>
-            Nous contacter
-          </a>
-
-        </div>
-      </div> 
-    </div>
-      
-    <div class="hidden-xs col-md-5 col-sm-5">
-      <div class="panel panel-default transparent_white75">
-        <div class="panel-body">            
-          <div class="media">
-            <img class="media-object pull-left img-responsive hidden-xs hidden-sm" src="images/media/icon_orange_notes_100.png" width="64"/>
-            <div class="media-body">
-              <h3>Agile Grenoble 2014, c'est...</h3>
-              <ul class="ag-noindent">
-                <li>500 participants dans un cadre de prestige</li>
-                <li>Deux keynotes données par des orateurs reconnus mondialement</li>
-                <li>Une déjeuner propice au networking</li>
-                <li>45 sessions réparties sur 9 salles</li>
-                <li>Un tarif d'entrée attractif</li>
-              </ul>     
-            </div> 
-          </div>     
         </div>
       </div>
-    </div>
   </div>
 
   <div class="row">
