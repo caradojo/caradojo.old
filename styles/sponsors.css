@@ -5,3 +5,7 @@
 #accordionOffre {
 	color: black;
 }
+
+#accordionOffre .panel-title {
+	cursor: pointer;
+}
