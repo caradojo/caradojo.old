@@ -30,6 +30,22 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "thales.html"
+	},
+	{
+	  "photo" : "zenika.jpg",
+	  "entreprise" : "Zenika",
+	  "web" : "https://www.zenika.com/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "zenika.html"
+	},
+	{
+	  "photo" : "salesforce.png",
+	  "entreprise" : "Salesforce",
+	  "web" : "http://www.salesforce.com/fr/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "salesforce.html"
 	}
 
 ]
