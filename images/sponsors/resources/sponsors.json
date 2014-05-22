@@ -46,6 +46,14 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "salesforce.html"
+	},
+	{
+	  "photo" : "bonitasoft.png",
+	  "entreprise" : "Bonitasoft",
+	  "web" : "http://www.bonitasoft.com",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "bonitasoft.html"
 	}
 
 ]
