@@ -54,6 +54,13 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "bonitasoft.html"
+	},
+	{
+	  "photo" : "open.jpg",
+	  "entreprise" : "Open-groupe",
+	  "web" : "http://www.open-groupe.com/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "open.html"
 	}
-
 ]
