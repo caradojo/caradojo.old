@@ -62,6 +62,14 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "open.html"
+	},
+	{
+	  "photo" : "araymond.jpg",
+	  "entreprise" : "ARaymond",
+	  "web" : "http://www.araymond.fr/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "araymond.html"
 	}
 	
 ]
