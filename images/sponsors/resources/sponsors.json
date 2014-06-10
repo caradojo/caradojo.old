@@ -32,7 +32,7 @@
 	  "description" : "thales.html"
 	},
 	{
-	  "photo" : "zenika.jpg",
+	  "photo" : "zenika.png",
 	  "entreprise" : "Zenika",
 	  "web" : "https://www.zenika.com/",
 	  "niveau" : "Sponsor Silver",
@@ -70,6 +70,14 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "araymond.html"
+	},
+	{
+	  "photo" : "sopra.png",
+	  "entreprise" : "Sopra",
+	  "web" : "http://www.sopra.com/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "sopra.html"
 	}
 	
 ]
