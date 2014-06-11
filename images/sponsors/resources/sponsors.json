@@ -8,6 +8,14 @@
 	  "description" : "sogilis.html"
 	},
 	{
+	  "photo" : "samse.jpg", 
+	  "entreprise" : "Samse",
+	  "web" : "http://www.samse.fr/",
+	  "niveau" : "Sponsor Gold",
+	  "gold" : true,
+	  "description" : "samse.html"
+	},
+	{
 	  "photo" : "moodys.png",
 	  "entreprise" : "Moody's analytics",
 	  "web" : "http://www.moodysanalytics.com/france/",
