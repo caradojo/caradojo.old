@@ -48,7 +48,7 @@
 	  "description" : "zenika.html"
 	},
 	{
-	  "photo" : "salesforce.png",
+	  "photo" : "salesforce.jpg",
 	  "entreprise" : "Salesforce",
 	  "web" : "http://www.salesforce.com/fr/",
 	  "niveau" : "Sponsor Silver",
@@ -86,6 +86,14 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "sopra.html"
+	},
+	{
+	  "photo" : "beebuzziness.png",
+	  "entreprise" : "BeeBuzziness",
+	  "web" : "http://www.beebuzziness.com/",
+	  "niveau" : "Sponsor Silver",
+	  "gold" : false,
+	  "description" : "beebuzziness.html"
 	}
 	
 ]
