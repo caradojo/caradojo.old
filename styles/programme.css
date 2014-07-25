@@ -1,0 +1,66 @@
+
+.program {
+    font-family: trebuchet, sans-serif;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+.horaire {
+    border-top: 1px solid #D9D9D9;
+    font-weight: bold;
+}
+
+.session {
+	/*border-radius: 8px;*/
+	font-size: x-small;
+	padding: 10px;
+    border: 1px solid #D9D9D9;
+}
+
+.Unselected {
+   /*background-color: #EBF4FC;*/
+}
+
+.Découverte {
+    background-color: #D0F56C;
+}
+
+.Management {
+    background-color: #FAF687;
+}
+
+.Technique {
+    background-color: #F5C55D;
+}
+
+.Coaching {
+    background-color: #C2D7FF;
+}
+
+.Portfolio {
+    background-color: pink;}
+
+.Kanban-Lean {
+    background-color: #E3B6B6;
+}
+
+.header_program {
+	font-size: x-small;
+	background-color : #4C494D;
+	color: white;
+}
+
+@media (min-width: 992px) {
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+
+	.header_program {
+		padding: 5px;
+		height: 60px;
+	}
+}

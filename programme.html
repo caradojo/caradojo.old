@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AGProgrammeApp">
+    <head>
+        <title>Programme</title>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="styles/programme.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </head>
+    <body ng-controller="AGProgrammeCtrl">
+        
+        <div class="jumbotron">
+          <h1>Programme Agile Grenoble 2014</h1>
+        </div>
+        <div class="program container-fluid">
+
+          <div class="row header_program">
+            <div class="col-md-1"></div>
+            <div ng-repeat="room in rooms" class="col-md-1 text-center">
+              <b>{{room}}</b><br>
+              <span class="badge">{{room_info[room].capacity}}</span>
+            </div>
+          </div>
+
+          <div class="row row-eq-height" ng-repeat="slot in slots" >
+            <div ng-if="!isEmptySlot(slot)" class="col-md-1" ng-class="{horaire: getSlotTime(slot) != ''}">{{getSlotTime(slot)}}</div>
+            <div ng-repeat="room in rooms" ng-if="isSession(slot)" class="col-md-{{nombreSallesUtilisesParLaSession(slot[room])}} session {{slot[room].theme}}"><b>{{slot[room].title}}</b><br><i>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}</i>
+            </div>
+            <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session"><b>{{slot['all'].title}}</b>
+            </div>
+          </div>
+        </div>
+
+        <br>Slots:<br>
+        <div class="row row-eq-height" ng-repeat="slot in datas.slots" >
+          {{slot}}
+        </div>
+        <br>Sessions:<br>
+        {{datas.sessions}}
+
+
+        <div class="jumbotron">
+          <h1>Programme détaillé</h1>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-resource.min.js"></script>
+
+
+        <script src="scripts/programme/app.js"></script>
+        <script src="scripts/programme/factorySlots.js"></script>
+
+        
+    </body>
+</html>
