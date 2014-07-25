@@ -34,7 +34,7 @@
 
           <div class="row row-eq-height" ng-repeat="slot in slots" >
             <div ng-if="!isEmptySlot(slot)" class="col-md-1" ng-class="{horaire: getSlotTime(slot) != ''}">{{getSlotTime(slot)}}</div>
-            <div ng-repeat="room in rooms" ng-if="isSession(slot)" class="col-md-{{nombreSallesUtilisesParLaSession(slot[room])}} session {{slot[room].theme}}">
+            <div ng-if="isSession(slot)" ng-repeat="room in rooms" class="col-md-{{nombreSallesUtilisesParLaSession(slot[room])}} session {{slot[room].theme}}">
                 <a ng-href="#session_detail_{{slot[room].id}}">
                     <b>{{slot[room].title}}</b><br><i>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}</i>
                 </a>
@@ -58,9 +58,17 @@
                   <div class="panel-body">
                         <div>{{session.theme}}</div>
                         <div>{{session.room}}</div>
+                        <div>{{session["Niveau | Level"]}}</div>
                         <div><b>Résumé : </b>{{session.abstract}}</div>
                         <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
-                        <div>{{session.level}}</div>
+                    </div>
+                    <div class="panel-footer">
+                        <div ng-repeat="speaker in session['speaker-list']">
+                            <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
+                                {{speaker.bio}}
+                            </div>
+                        </div>
+                        
                   </div>
                 </div>
             </div>
