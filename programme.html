@@ -36,7 +36,8 @@
             <div ng-if="!isEmptySlot(slot)" class="col-md-1" ng-class="{horaire: getSlotTime(slot) != ''}">{{getSlotTime(slot)}}</div>
             <div ng-if="isSession(slot)" ng-repeat="room in rooms" class="col-md-{{nombreSallesUtilisesParLaSession(slot[room])}} session {{slot[room].theme}}">
                 <a ng-href="#session_detail_{{slot[room].id}}">
-                    <b>{{slot[room].title}}</b><br><i>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}</i>
+                    <b>{{slot[room].title}}</b><br><i><span ng-repeat="speaker in slot[room].speakers"><span ng-if="!$first">, </span>{{speaker}}</span></i>
+                    <br>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}
                 </a>
             </div>
             <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session"><b>{{slot['all'].title}}</b>
@@ -54,22 +55,27 @@
                 <a id="session_detail_{{session.id}}"> </a>
                 <br>
                 <div class="panel panel-default">
-                  <div class="panel-heading"><h1>{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h1></div>
-                  <div class="panel-body">
-                        <div>{{session.theme}}</div>
-                        <div>{{session.room}}</div>
-                        <div>{{session["Niveau | Level"]}}</div>
+                    <div class="panel-heading">
+                        <h1 class="hidden-xs hidden-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h1>
+                        <h4 class="visible-xs visible-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h4>
+                    </div>
+                    <div class="panel-body">
+                        <div><b>Salle:</b> {{session.room}}</div>
+                        <div><b>Thème:</b> {{session.theme}}</div>
+                        <div><b>Audience:</b> {{session["Niveau | Level"]}}</div>
+                    </div>
+                    <div class="panel-body">
                         <div><b>Résumé : </b>{{session.abstract}}</div>
                         <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
                     </div>
-                    <div class="panel-footer">
+                    <div class="panel-body">
                         <div ng-repeat="speaker in session['speaker-list']">
                             <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
                                 {{speaker.bio}}
                             </div>
                         </div>
-                        
-                  </div>
+                    
+                    </div>
                 </div>
             </div>
         </div>
