@@ -1,5 +1,5 @@
-var AGProgrammeApp = angular.module('AGProgrammeApp', ['ngResource', 'ngRoute'])
-	.controller('AGProgrammeCtrl', ['$scope', 'Slots', function($scope, Slots) {
+var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngResource', 'ngRoute'])
+	.controller('AGProgrammeCtrl', ['$scope', 'Slots', 'KeynotesService', function($scope, Slots, KeynotesService) {
 	   
 	   $scope.rooms = ["Auditorium",
 					    "Makalu",  
@@ -28,6 +28,7 @@ var AGProgrammeApp = angular.module('AGProgrammeApp', ['ngResource', 'ngRoute'])
 	   
 
 	   var loadData = function() {
+	   		$scope.keynotes = KeynotesService.get();
 	   		Slots.get(function(datas) {
 	   				$scope.datas = datas;
 

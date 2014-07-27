@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="AGProgrammeApp">
+<html lang="en" ng-app="AgileGrenobleApp">
     <head>
         <title>Programme</title>
         <meta charset="utf-8" />
@@ -45,7 +45,7 @@
             </div>
             <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session" ng-class="{keynote: isKeynote(slot['all'])}">
                 <span ng-if="!isKeynote(slot['all'])">{{slot['all'].title}}</span>
-                <a ng-if="isKeynote(slot['all'])" href="index.html#keynotes">
+                <a ng-if="isKeynote(slot['all'])" ng-href="#keynote_detail_{{slot['all'].speakers[0]}}">
                     <b>
                         {{slot['all'].title}}
                         <br><i ng-repeat="speaker in slot['all'].speakers">{{speaker}}</i>
@@ -61,6 +61,24 @@
         </div>
 
         <div class="container">
+            <div ng-repeat="keynote in keynotes">
+                <a id="keynote_detail_{{keynote.name}}"> </a>
+                <br>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="hidden-xs hidden-sm">Keynote: {{keynote.name}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h1>
+                        <h4 class="visible-xs visible-sm">Keynote: {{keynote.name}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h4>
+                    </div>
+                    <div class="panel-body media">
+                        <img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{keynote.photo}}" width="120px">
+                        <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{keynote.photo}}" width="60px">
+                        <p>{{keynote.text1}}</p>
+                        <p>{{keynote.text2}}</p>
+                        <p>{{keynote.text3}}</p>
+                    </div>
+                </div>
+            </div>
+
             <div ng-repeat="session in datas.sessions">
                 <a id="session_detail_{{session.id}}"> </a>
                 <br>
@@ -84,6 +102,7 @@
                             <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
                                 {{speaker.bio}}
                             </div>
+                            <br>
                         </div>
                     
                     </div>
@@ -100,6 +119,7 @@
 
         <script src="scripts/programme/app.js"></script>
         <script src="scripts/programme/factorySlots.js"></script>
+        <script src="scripts/keynotesService.js"></script>
 
         
     </body>
