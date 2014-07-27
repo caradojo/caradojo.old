@@ -49,6 +49,10 @@ var AGProgrammeApp = angular.module('AGProgrammeApp', ['ngResource', 'ngRoute'])
 	   	return (Object.keys(slot).length-1) == 0;
 	   };
 
+	   $scope.isKeynote = function(uniqueSlot) {
+	   		return uniqueSlot.type == "keynote";
+	   }
+
 	   $scope.getSlotTime = function(slot) {
 	   	if(!$scope.isEmptySlot(slot) && !$scope.isSessionUnique(slot)) {
 	   		var key = getFirstKey(slot);

@@ -1,12 +1,16 @@
 a, a:hover { 
 	text-decoration: none;
 	color: #4C494D;
-} 
+}
 
 .program {
     font-family: trebuchet, sans-serif;
     text-align: center;
-    background-color: #eee;
+    background-color: #F5F5F5;
+}
+
+.panel-divider {
+	border-bottom: 1px solid #eee;
 }
 
 
@@ -20,6 +24,10 @@ a, a:hover {
 	font-size: x-small;
 	padding: 10px;
     border: 1px solid #D9D9D9;
+}
+
+.keynote {
+	background-color: #E8E4ED;
 }
 
 .Découverte {

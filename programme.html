@@ -19,7 +19,10 @@
     <body ng-controller="AGProgrammeCtrl">
         
         <div class="jumbotron">
-          <h1>Programme Agile Grenoble 2014</h1>
+            <h1>
+                <img src="./images/media/logo/logo_ag_white_64.png" alt="logo" width="120px"> Programme
+                <a href="index.html" class="pull-right glyphicon glyphicon-home"></a>
+            </h1>
         </div>
 
         <a id="program_header"></a>
@@ -28,7 +31,7 @@
             <div class="col-md-1"></div>
             <div ng-repeat="room in rooms" class="col-md-1 text-center">
               <b>{{room}}</b><br>
-              <span class="badge">{{room_info[room].capacity}}</span>
+              <span class="badge"><small>{{room_info[room].capacity}} places</small></span>
             </div>
           </div>
 
@@ -40,7 +43,14 @@
                     <br>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}
                 </a>
             </div>
-            <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session"><b>{{slot['all'].title}}</b>
+            <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session" ng-class="{keynote: isKeynote(slot['all'])}">
+                <span ng-if="!isKeynote(slot['all'])">{{slot['all'].title}}</span>
+                <a ng-if="isKeynote(slot['all'])" href="index.html#keynotes">
+                    <b>
+                        {{slot['all'].title}}
+                        <br><i ng-repeat="speaker in slot['all'].speakers">{{speaker}}</i>
+                    </b>
+                </a>
             </div>
           </div>
         </div>
@@ -68,6 +78,7 @@
                         <div><b>Résumé : </b>{{session.abstract}}</div>
                         <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
                     </div>
+                    <div class="panel-divider"></div>
                     <div class="panel-body">
                         <div ng-repeat="speaker in session['speaker-list']">
                             <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
