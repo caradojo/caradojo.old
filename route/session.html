@@ -1,0 +1,26 @@
+ <div>
+	 <div class="panel panel-default">
+	    <div class="panel-heading">
+	        <h1 class="hidden-xs hidden-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a></h1>
+	        <h4 class="visible-xs visible-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a></h4>
+	    </div>
+	    <div class="panel-body">
+	        <div><b>Salle:</b> {{session.room}}</div>
+	        <div><b>Thème:</b> {{session.theme}}</div>
+	    </div>
+	    <div class="panel-body">
+	        <div><b>Résumé : </b>{{session.abstract}}</div>
+	        <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
+	    </div>
+	    <div class="panel-divider"></div>
+	    <div class="panel-body">
+	        <div ng-repeat="speaker in session['speaker-list']">
+	            <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
+	                {{speaker.bio}}
+	            </div>
+	            <br>
+	        </div>
+	    
+	    </div>
+	</div>
+</div>

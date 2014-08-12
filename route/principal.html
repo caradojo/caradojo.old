@@ -1,0 +1,30 @@
+<div>
+	<div class="jumbotron">
+	    <h1>
+	        <img src="./images/media/logo/logo_ag_white_64.png" alt="logo" width="120px"> Programme
+	        <a href="index.html" class="pull-right glyphicon glyphicon-home"></a>
+	    </h1>
+	</div>
+
+	<div gridster="gridsterOpts" class="header_program">
+		<ul>
+			<li gridster-item="item" ng-repeat="room in rooms" class="text-center">
+              <b>{{room}}</b><br>
+              <span class="badge"><small>{{room_info[room].capacity}} places</small></span>
+            </li>
+            <!--li gridster-item="item" ng-repeat="item in standardItems">
+            </li-->
+        </ul>
+    </div>
+    <div class="program" gridster="gridsterOpts">
+        <ul ng-repeat="slot in slots">
+            <li data-gridster-item  class="session {{item.theme}} text-center  gridster-item" ng-class="{keynote: isKeynote(slot['all'])}" ng-click="click()" data-sizex="item.width" data-sizey="item.length" data-col="item.colposition" data-row="item.rowposition" ng-repeat="item in slot">
+                <a ng-href="#/session/{{item.id}}">
+                    <b>{{item.title}}</b><br><i><span ng-repeat="speaker in item.speakers"><span ng-if="!$first">, </span>{{speaker}}</span></i>
+                </a>
+                    {{item}}
+                    {{item.id}} : {{item.title}}<br>width:{{item.width}} : len:{{item.length}} row:{{item.rowposition}} : col:{{item.colposition}}
+            </li>
+        </ul>
+    </div>
+</div>
