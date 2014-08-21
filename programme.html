@@ -10,116 +10,23 @@
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bower_components/angular-gridster/angular-gridster.min.css" />
+        <link rel="stylesheet" href="styles/programme.css" />
 
-        <link rel="stylesheet" href="styles/programme.css">
         <!-- Latest compiled and minified JavaScript -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    </head>
-    <body ng-controller="AGProgrammeCtrl">
-        
-        <div class="jumbotron">
-            <h1>
-                <img src="./images/media/logo/logo_ag_white_64.png" alt="logo" width="120px"> Programme
-                <a href="index.html" class="pull-right glyphicon glyphicon-home"></a>
-            </h1>
-        </div>
-
-        <a id="program_header"></a>
-        <div class="program container-fluid">
-          <div class="row header_program hidden-xs hidden-sm">
-            <div class="col-md-1"></div>
-            <div ng-repeat="room in rooms" class="col-md-1 text-center">
-              <b>{{room}}</b><br>
-              <span class="badge"><small>{{room_info[room].capacity}} places</small></span>
-            </div>
-          </div>
-
-          <div class="row row-eq-height" ng-repeat="slot in slots" >
-            <div ng-if="!isEmptySlot(slot)" class="col-md-1" ng-class="{horaire: getSlotTime(slot) != ''}">{{getSlotTime(slot)}}</div>
-            <div ng-if="isSession(slot)" ng-repeat="room in rooms" class="col-md-{{nombreSallesUtilisesParLaSession(slot[room])}} session {{slot[room].theme}}">
-                <a ng-href="#session_detail_{{slot[room].id}}">
-                    <b>{{slot[room].title}}</b><br><i><span ng-repeat="speaker in slot[room].speakers"><span ng-if="!$first">, </span>{{speaker}}</span></i>
-                    <br>{{slot[room].type}} width={{slot[room].width}} length={{slot[room].length}}
-                </a>
-            </div>
-            <div ng-if="isSessionUnique(slot)" class="col-md-{{nombreTotalSalles()}} text-center session" ng-class="{keynote: isKeynote(slot['all'])}">
-                <span ng-if="!isKeynote(slot['all'])">{{slot['all'].title}}</span>
-                <a ng-if="isKeynote(slot['all'])" ng-href="#keynote_detail_{{slot['all'].speakers[0]}}">
-                    <b>
-                        {{slot['all'].title}}
-                        <br><i ng-repeat="speaker in slot['all'].speakers">{{speaker}}</i>
-                    </b>
-                </a>
-            </div>
-          </div>
-        </div>
-
-        <br><br>
-        <div class="jumbotron">
-          <h1>Programme détaillé</h1>
-        </div>
-
-        <div class="container">
-            <div ng-repeat="keynote in keynotes">
-                <a id="keynote_detail_{{keynote.name}}"> </a>
-                <br>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h1 class="hidden-xs hidden-sm">Keynote: {{keynote.name}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h1>
-                        <h4 class="visible-xs visible-sm">Keynote: {{keynote.name}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h4>
-                    </div>
-                    <div class="panel-body media">
-                        <img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{keynote.photo}}" width="120px">
-                        <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{keynote.photo}}" width="60px">
-                        <p>{{keynote.text1}}</p>
-                        <p>{{keynote.text2}}</p>
-                        <p>{{keynote.text3}}</p>
-                    </div>
-                </div>
-            </div>
-
-            <div ng-repeat="session in datas.sessions">
-                <a id="session_detail_{{session.id}}"> </a>
-                <br>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h1 class="hidden-xs hidden-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h1>
-                        <h4 class="visible-xs visible-sm">{{session.title}}  <a class="pull-right glyphicon glyphicon-chevron-up" href="#program_header"></a></h4>
-                    </div>
-                    <div class="panel-body">
-                        <div><b>Salle:</b> {{session.room}}</div>
-                        <div><b>Thème:</b> {{session.theme}}</div>
-                    </div>
-                    <div class="panel-body">
-                        <div><b>Résumé : </b>{{session.abstract}}</div>
-                        <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
-                    </div>
-                    <div class="panel-divider"></div>
-                    <div class="panel-body">
-                        <div ng-repeat="speaker in session['speaker-list']">
-                            <div><b>{{speaker.firstname}} {{speaker.lastname}}</b>:
-                                {{speaker.bio}}
-                            </div>
-                            <br>
-                        </div>
-                    
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-resource.min.js"></script>
-
+        <script src="bower_components/angular-gridster/angular-gridster.min.js"></script>
 
         <script src="scripts/programme/app.js"></script>
-        <script src="scripts/programme/factorySlots.js"></script>
-        <script src="scripts/keynotesService.js"></script>
 
-        
+        <script src="scripts/keynotesService.js"></script>
+        <!--script src="scripts/factorySlots.js"></script-->
+    </head>
+    <body>
+        <div class="fluid-container" ng-view></div>
     </body>
 </html>

@@ -1,6 +1,18 @@
+body {
+    background-color: #F2F4F7;
+}
+
 a, a:hover { 
-	text-decoration: none;
-	color: #4C494D;
+    text-decoration: none;
+    color: #4C494D;
+}
+
+
+.gridster .gridster-item {
+    /*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);*/
+    padding-top: 5px;
 }
 
 .program {
@@ -9,21 +21,18 @@ a, a:hover {
     background-color: #F5F5F5;
 }
 
-.panel-divider {
-	border-bottom: 1px solid #eee;
-}
-
-
-.horaire {
-    border-top: 1px solid #D9D9D9;
-    font-weight: bold;
+.header_program {
+    font-size: x-small;
+    background-color : #4C494D;
+    color: white;
+    height: 50px !important;
 }
 
 .session {
-	/*border-radius: 8px;*/
+	border-radius: 2px;
 	font-size: x-small;
-	padding: 10px;
     border: 1px solid #D9D9D9;
+    overflow: auto;
 }
 
 .keynote {
@@ -35,7 +44,7 @@ a, a:hover {
 }
 
 .Management {
-    background-color: #FAF687;
+    background-color: #FAF687; 
 }
 
 .Technique {
@@ -47,28 +56,9 @@ a, a:hover {
 }
 
 .Portfolio {
-    background-color: pink;}
+    background-color: pink;
+}
 
 .Kanban-Lean {
     background-color: #E3B6B6;
-}
-
-.header_program {
-	font-size: x-small;
-	background-color : #4C494D;
-	color: white;
-}
-
-@media (min-width: 992px) {
-	.row-eq-height {
-	  display: -webkit-box;
-	  display: -webkit-flex;
-	  display: -ms-flexbox;
-	  display:         flex;
-	}
-
-	.header_program {
-		padding: 5px;
-		height: 60px;
-	}
 }
