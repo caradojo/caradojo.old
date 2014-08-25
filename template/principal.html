@@ -11,14 +11,14 @@
             <li data-gridster-item  class="text-center gridster-item" data-sizex="1" data-sizey="1" data-col="0" data-row="0">
                 <b>Horaire</b>
             </li>
-			<li gridster-item="item" ng-repeat="room in rooms" class="text-center">
+			<li gridster-item="item" ng-repeat="room in program.rooms" class="text-center">
               <b>{{room}}</b><br>
-              <span class="badge"><small>{{room_info[room].capacity}} places</small></span>
+              <span class="badge"><small>{{program.room_info[room].capacity}} places</small></span>
             </li>
         </ul>
     </div>
     <div class="program" gridster="gridsterOpts">
-        <ul ng-repeat="slot in slots">
+        <ul ng-repeat="slot in program.slots">
             <li data-gridster-item  class="session text-center gridster-item" data-sizex="1" data-sizey="getHoursLength($index)" data-col="0" data-row="getHoursRowPosition($index)">
                 <b>{{getHourText($index)}}</b>
             </li>
