@@ -1,10 +1,15 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
-AgileGrenobleApp.controller('ProgrammeSessionCtrl' , function($scope, $routeParams, Slots) {
+AgileGrenobleApp.controller('ProgrammeSessionCtrl' , function($scope, $routeParams, Session) {
 
 		var loadData = function() {
-   			Slots.get(function(datas) {
-	   				$scope.session = datas.sessions[$routeParams.id];
-	   		});
+			Session.jsonp_query({id:$routeParams.id}).$promise.then(
+                function( datas ) {
+                	$scope.session = datas;
+                },
+                function( error ) {
+                    alert( "Something went wrong!" );
+                }
+            );
 	   };
 
 	   loadData();

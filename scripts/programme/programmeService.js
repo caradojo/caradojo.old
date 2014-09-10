@@ -4,19 +4,6 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
         var slots = {};
         var rooms = {};
 
-         var room_info = {
-            "Auditorium":{"id": 0, "capacity" : 530},
-            "Makalu": {"id":1, "capacity" : 110},  
-            "Kili 1+2": {"id":2, "capacity" : 55},
-            "Kili 3+4": {"id":3, "capacity" : 55},
-            "Cervin": {"id":4, "capacity" : 40},
-            "Everest": {"id":5, "capacity" : 40},
-            "Mt-Blanc 1": {"id":6, "capacity" : 24},
-            "Mt-Blanc 2": {"id":7, "capacity" : 24},
-            "Mt-Blanc 3": {"id":8, "capacity" : 24},
-            "Mt-Blanc 4": {"id":9, "capacity" : 24},
-        };
-
         var slot_hours = [
             "8h00",
             "8h30",
@@ -45,34 +32,42 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
 
 
         this.get = function() {
-            clearDatas();
-
+            
             var deferred = $q.defer();
-            Slots.get(function(datas) {
-                slots = datas.slots;
-                prepareSlots();
+            
+            Slots.jsonp_query().$promise.then(
+                function( datas ) {
+                    prepareSlots(datas);
 
-                var datasDeferred = {};
-                datasDeferred.slots = slots;
-                datasDeferred.rooms = datas.rooms;
-                datasDeferred.room_info = room_info;
-                datasDeferred.slot_hours_length = slot_hours_length;
-                datasDeferred.row_hours_position = row_hours_position;
-                datasDeferred.slot_hours = slot_hours;
-                deferred.resolve(datasDeferred);
-            });
+                    var datasDeferred = {};
+                    datasDeferred.slots = slots;
+                    datasDeferred.rooms = datas.rooms;
+                    datasDeferred.slot_hours_length = slot_hours_length;
+                    datasDeferred.row_hours_position = row_hours_position;
+                    datasDeferred.slot_hours = slot_hours;
+                    deferred.resolve(datasDeferred);
+                },
+                function( error ) {
+                    alert( "Something went wrong!" );
+                }
+            );
             return deferred.promise;
        };
 
-       var clearDatas = function() {
-            room_length = Array.apply(null, Array(Object.keys(room_info).length)).map(function() { return 0 });            
+       var clearDatas = function(datas) {
+            room_length = Array.apply(null, Array(Object.keys(datas.rooms).length)).map(function() { return 0 });
             slot_hours_length = [];
             row_hours_position = [];
             slots = {};
             rooms = {};
        }
 
-       var prepareSlots = function() {
+       var prepareSlots = function(datas) {
+            clearDatas(datas);
+
+            slots = datas.slots;
+            rooms = datas.rooms;
+
             var rowposition = 0;
             for(var index in slots) {
                 var lengthmin = addGridLayoutInformationsToAllSession(slots[index], rowposition);
@@ -91,7 +86,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
                         splitAndCreateAllSession(slot, slot[prop], rowposition);
                     } else {
                         addGridLayoutColumnPositionToSession(slot[prop], prop);
-                        updateRoomLength(room_info[prop].id, slot[prop].length, slot[prop].width);
+                        updateRoomLength(rooms[prop].id, slot[prop].length, slot[prop].width);
                     }
                     addGridLayoutRowPositionToSession(slot[prop], rowposition);
                 }
@@ -139,9 +134,8 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
        }
 
         var updateMinSessionLength = function(session, minlength) {
-            var sessionlength = session.length;
-            if(minlength > sessionlength) {
-                minlength = sessionlength;
+            if(minlength > session.length) {
+                minlength = session.length;
             }
             return minlength;
         }
@@ -151,6 +145,6 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
         }
 
        var addGridLayoutColumnPositionToSession = function(session, room) {
-            session.colposition = room_info[room].id;
+            session.colposition = rooms[room].id;
        }
     });

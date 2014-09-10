@@ -11,9 +11,9 @@
             <li data-gridster-item  class="text-center gridster-item" data-sizex="1" data-sizey="1" data-col="0" data-row="0">
                 <b>Horaire</b>
             </li>
-			<li gridster-item="item" ng-repeat="room in program.rooms" class="text-center">
-              <b>{{room}}</b><br>
-              <span class="badge"><small>{{program.room_info[room].capacity}} places</small></span>
+			<li gridster-item="item" ng-repeat="(name, room) in program.rooms" class="text-center">
+              <b>{{name}}</b><br>
+              <span class="badge"><small>{{room.capacity}} places</small></span>
             </li>
         </ul>
     </div>
@@ -24,7 +24,8 @@
             </li>
             <li data-gridster-item  class="session {{item.theme}} text-center  gridster-item" ng-class="{keynote: isKeynote(slot['all'])}" data-sizex="item.width" data-sizey="item.length" data-col="getColPosition(item)" data-row="item.rowposition" ng-repeat="item in slot">
                 <a ng-href="{{getSessionLink(item)}}">
-                    <b>{{item.title}}</b><br><i><span ng-repeat="speaker in item.speakers"><span ng-if="!$first">, </span>{{speaker}}</span></i>
+                    <b>{{item.title}}</b><br>
+                    <i><span ng-repeat="speaker in item.speakers track by $index"><span ng-if="!$first">, </span>{{speaker}}</span></i>
                 </a>
             </li>
         </ul>
