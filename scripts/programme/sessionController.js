@@ -7,7 +7,7 @@ AgileGrenobleApp.controller('ProgrammeSessionCtrl' , function($scope, $routePara
                 	$scope.session = datas;
                 },
                 function( error ) {
-                    alert( "Something went wrong!" );
+                    alert( "Erreur lors du chargement de la session" );
                 }
             );
 	   };

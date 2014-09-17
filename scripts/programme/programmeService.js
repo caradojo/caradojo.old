@@ -9,19 +9,17 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
             "8h30",
             "9h00",
             "10h00",
-            "10h45",
-            "11h05",
-            "11h35",
-            "11h50",
-            "13h20",
+            "10h50",
+            "11h10",
+            "12h00",
+            "13h30",
             "13h45",
-            "14h30",
             "14h50",
-            "15h35",
+            "15h40",
             "16h05",
-            "16h50",
+            "16h55",
             "17h10",
-            "17h55",
+            "18h00",
             "18h15",
         ];
 
@@ -32,9 +30,9 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
 
 
         this.get = function() {
-            
+
             var deferred = $q.defer();
-            
+           
             Slots.jsonp_query().$promise.then(
                 function( datas ) {
                     prepareSlots(datas);
@@ -48,7 +46,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
                     deferred.resolve(datasDeferred);
                 },
                 function( error ) {
-                    alert( "Something went wrong!" );
+                    alert( "Erreur lors du chargement du programme" );
                 }
             );
             return deferred.promise;

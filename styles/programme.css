@@ -36,26 +36,19 @@ a, a:hover {
 	background-color: #E8E4ED;
 }
 
-.Découverte {
+.sharing {
     background-color: #D0F56C;
 }
 
-.Management {
-    background-color: #FAF687; 
+.change {
+    background-color: #E3B6B6; 
 }
 
-.Technique {
+.pleasure {
     background-color: #F5C55D;
 }
 
-.Coaching {
+.desire {
     background-color: #C2D7FF;
 }
 
-.Portfolio {
-    background-color: pink;
-}
-
-.Kanban-Lean {
-    background-color: #E3B6B6;
-}
