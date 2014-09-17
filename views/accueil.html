@@ -18,8 +18,11 @@
       <div class="dateConference hidden-xs"></div>
     </div>
   </div>
-
   
+  <div class="row">
+
+	<div class="col-md-8">
+ 	
   <div class="row">
 
       <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">
@@ -31,7 +34,7 @@
           <a smooth-scroll-jquery target="{{item.scrolltarget}}" ng-click="menuselected = '{{item.menuselected}}'" class="btn btn-primary btn-lg btn-ag-{{item.cssid}}">
             <div class="hidden-xs hidden-sm">
               <span class="glyphicon glyphicon-hand-right"></span>
-              <span>Accès {{item.title}}</span>
+              <span>{{item.title}}</span>
             </div>
              <div class="visible-xs visible-sm">
               <span class="glyphicon glyphicon-hand-right"></span>
@@ -43,21 +46,40 @@
         </div>            
       </div> 
 
-  </div>
-  <div class="row">
- 	<div class="col-md-5">
- 	
- 		<div class="panel panel-default transparent_black65">
+ 	 </div>
+
+    <div class="row">
+    	<div class="col-md-7">
+      	<div ag-carousel="accueil"></div>
+      </div>
+     
+     <div class="col-md-5"> 
+     <div class="panel panel-default transparent_white85">
       	<div class="panel-body text-left"> 	
-				<h3 class="hidden-xs">Les inscriptions sont ouvertes !</h3>
-				<a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"><img src="http://www.weezevent.com/images/statique/bt_achetez_billets_blu.png" alt="Achetez vos billets" /></a> 	   		
-				<p class="hidden-xs hidden-sm"> N'attendez pas le dernier moment pour acheter votre billets. 
- 	   		Sachez que les billets de la conférence sont généralement tous vendus plusieurs semaines avant l'événement.</p> 					
+				<h3 class="hidden-xs">Inscriptions ouvertes !</h3>
+				<p class="hidden-xs hidden-sm">N'attendez pas le dernier moment pour acheter votre billets. Sachez que les billets de la conférence sont généralement tous vendus plusieurs semaines avant l'événement.</p>
+				<a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"><img src="http://www.weezevent.com/images/statique/bt_achetez_billets_blu.png" alt="Achetez vos billets" /></a> 	   							
     		</div>
     	</div>
+      </div>
+    	
     </div>
-    <div class="col-md-7">
-      <div ag-carousel="accueil"></div>
+   
+  </div>
+  
+  	<div class="col-md-4">
+ 	
+		<div class="panel panel-default transparent_black65">
+      	<div class="panel-body text-left"> 	
+				<h3 >Management 3.0</h3>
+				<p><b>François Beauregard</b> organise une formation inédite à Grenoble les <b>17 et 18 Novembre</b>.</p>				
+				<p class="hidden-xs hidden-sm">L’Agilité amène son lot de nouveaux défis aux équipes de développement, mais aussi aux managers.
+				Comment répondre à ces nouvelles situations en tant que managers? Le cours de formation Management 3.0 permet de comprendre différentes façons de prendre en charge et de gérer avec leadership son organisation afin de tirer le maximum de valeur de cette approche.</p>			
+				<a href="http://pyxis-tech.com/fr/formation/cours/management-30/5/150">Informations et inscription</a>	   							
+    		</div>
+    	</div> 	
+ 	    	
     </div>
+ 
   </div>
 </div>
