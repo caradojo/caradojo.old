@@ -1,7 +1,7 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, ProgrammeCacheService, KeynotesService) {
-	
 
+		
 		$scope.gridsterOpts = {
 			columns: 11,
 			defaultSizeX: 1,
@@ -22,11 +22,11 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 
 		var loadData = function() {
 
-			/*	$http.jsonp('http://stark-sea-2092.herokuapp.com/jsonp/beta/program-summary-with-roomlist?JSON_CALLBACK')
+				/*$http.jsonp('http://stark-sea-2092.herokuapp.com/jsonp/beta/program-summary-with-roomlist?JSON_CALLBACK')
 				.success(function(data) {
 					var dfs = data;
-				});*/
-
+				});
+*/
                 $scope.keynotes = KeynotesService.get();
 
                 ProgrammeCacheService.get().then(function(data) {
@@ -37,7 +37,7 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
        };
 
 	   $scope.isKeynote = function(uniqueSlot) {
-	   		return (uniqueSlot == undefined)? false: uniqueSlot.type == "keynote";
+	   		return (uniqueSlot == undefined)? false: uniqueSlot.width == 10;
 	   }
 
 	  	$scope.getColPosition = function(item) {
@@ -57,7 +57,8 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 	   	}
 
 	   	$scope.getSessionLink = function(session) {
-	   		if(session.type == "Session en français") {
+	   		var type = (session.type == undefined) ? "" : session.type;
+	   		if(type.indexOf("Session") != -1) {
 	   			return '#/session/' + session.id;	
 	   		}
 	   		return '';
