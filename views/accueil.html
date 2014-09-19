@@ -5,14 +5,14 @@
       <div skrollr class="panel panel-default transparent_black65" data-start=" transform: scale(1.0); opacity:1.0;"
             data-500-start="opacity:0; transform: scale(0.25);">
           <div class="panel-body">
-          <h1 class="ag-section-title hidden-xs hidden-sm">Agile Grenoble 2014</h1>              
-          <h3>Réconcilions plaisir et efficacité au travail !</h3>
+            <h1 class="ag-section-title hidden-xs hidden-sm">Agile Grenoble 2014</h1>
+            <h3>Réconcilions plaisir et efficacité au travail !</h3>
             <p>
-            Les méthodes agiles sont devenues incontournables. Elles ont prouvé leur efficacité et l'heure n'est plus aux questions mais à l'action !
+              Les méthodes agiles sont devenues incontournables. Elles ont prouvé leur efficacité et l'heure n'est plus aux questions mais à l'action !
             </p>
             <p class="hidden-xs hidden-sm hidden-md">
-            La conférence Agile Grenoble sera encore cette année l’évènement agile incontournable de la région. C'est le rendez-vous pour tous les professionnels qui souhaitent savoir comment s'y prendre, découvrir, échanger, apprendre, expérimenter, tester, approfondir leurs connaissances, ou simplement discuter autour de l'agilité.
-            </p>                        
+              La conférence Agile Grenoble sera encore cette année l’évènement agile incontournable de la région. C'est le rendez-vous pour tous les professionnels qui souhaitent savoir comment s'y prendre, découvrir, échanger, apprendre, expérimenter, tester, approfondir leurs connaissances, ou simplement discuter autour de l'agilité.
+            </p>
         </div>
       </div>
       <div class="dateConference hidden-xs"></div>
@@ -21,65 +21,83 @@
   
   <div class="row">
 
-	<div class="col-md-8">
- 	
-  <div class="row">
+  	<div class="col-md-8">
 
-      <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">
-        <div class="panel panel-default transparent_white65">
-          <div class="panel-body text-center">
-          <p class="hidden-xs hidden-sm">
-            <img class="img-rounded" ng-src="images/media/{{item.image}}.png" alt="" width="64px">
-          </p>
-          <a smooth-scroll-jquery target="{{item.scrolltarget}}" ng-click="menuselected = '{{item.menuselected}}'" class="btn btn-primary btn-lg btn-ag-{{item.cssid}}">
-            <div class="hidden-xs hidden-sm">
-              <span class="glyphicon glyphicon-hand-right"></span>
-              <span>{{item.title}}</span>
-            </div>
-             <div class="visible-xs visible-sm">
-              <span class="glyphicon glyphicon-hand-right"></span>
-              <span>{{item.title}}</span>
-            </div>
-          </a>
+      <!--div class="row">
 
+        <div class = "col-md-4 col-sm-4" ng-repeat="item in accesslist">
+          <div class="panel panel-default transparent_white65">
+            <div class="panel-body text-center">
+            <p class="hidden-xs hidden-sm">
+              <img class="img-rounded" ng-src="images/media/{{item.image}}.png" alt="" width="64px">
+            </p>
+            <a smooth-scroll-jquery target="{{item.scrolltarget}}" ng-click="menuselected = '{{item.menuselected}}'" class="btn btn-primary btn-lg btn-ag-{{item.cssid}}">
+              <div class="hidden-xs hidden-sm">
+                <span class="glyphicon glyphicon-hand-right"></span>
+                <span>{{item.title}}</span>
+              </div>
+               <div class="visible-xs visible-sm">
+                <span class="glyphicon glyphicon-hand-right"></span>
+                <span>{{item.title}}</span>
+              </div>
+            </a>
+
+            </div>
+          </div>            
+        </div> 
+
+   	  </div-->
+
+      <div class="row">
+      	<div class="col-md-6">
+        	<div class="panel panel-default transparent_black65"> 
+            <div class="panel-body text-left">  
+              <h3 class="hidden-xs text-center">Programme provisoire</h3>
+              <p class="hidden-xs hidden-sm">Il est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées ainsi que leur description.</p>
+              <p class="text-center">
+                <a href="programme.html" class="btn btn-primary btn-lg">
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Programme provisoire
+                </a>
+              </p>
+            </div>
           </div>
-        </div>            
-      </div> 
-
- 	 </div>
-
-    <div class="row">
-    	<div class="col-md-7">
-      	<div ag-carousel="accueil"></div>
+        </div>
+       
+        <div class="col-md-6"> 
+          <div class="panel panel-default transparent_white85"> 
+            <div class="panel-body text-left"> 	
+      				<h3 class="hidden-xs text-center">Inscriptions ouvertes !</h3>
+      				<p class="hidden-xs hidden-sm">N'attendez pas le dernier moment pour acheter votre billets. Sachez que les billets de la conférence sont généralement tous vendus plusieurs semaines avant l'événement.</p>
+      				<p class="text-center">
+                <a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"><img src="http://www.weezevent.com/images/statique/bt_achetez_billets_blu.png" alt="Achetez vos billets" /></a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
      
-     <div class="col-md-5"> 
-     <div class="panel panel-default transparent_white85">
-      	<div class="panel-body text-left"> 	
-				<h3 class="hidden-xs">Inscriptions ouvertes !</h3>
-				<p class="hidden-xs hidden-sm">N'attendez pas le dernier moment pour acheter votre billets. Sachez que les billets de la conférence sont généralement tous vendus plusieurs semaines avant l'événement.</p>
-				<a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"><img src="http://www.weezevent.com/images/statique/bt_achetez_billets_blu.png" alt="Achetez vos billets" /></a> 	   							
-    		</div>
-    	</div>
-      </div>
-    	
     </div>
-   
-  </div>
-  
+    
   	<div class="col-md-4">
- 	
-		<div class="panel panel-default transparent_black65">
+		  <div class="panel panel-default transparent_black65">
       	<div class="panel-body text-left"> 	
-				<h3 >Management 3.0</h3>
-				<p><b>François Beauregard</b> organise une formation inédite à Grenoble les <b>17 et 18 Novembre</b>.</p>				
-				<p class="hidden-xs hidden-sm">L’Agilité amène son lot de nouveaux défis aux équipes de développement, mais aussi aux managers.
-				Comment répondre à ces nouvelles situations en tant que managers? Le cours de formation Management 3.0 permet de comprendre différentes façons de prendre en charge et de gérer avec leadership son organisation afin de tirer le maximum de valeur de cette approche.</p>			
-				<a href="http://pyxis-tech.com/fr/formation/cours/management-30/5/150">Informations et inscription</a>	   							
+  				<h3 class="text-center">Management 3.0</h3>
+  				<p class="hidden-xs"><b>François Beauregard</b> organise une formation inédite à Grenoble les <b>17 et 18 Novembre</b>.</p>				
+  				<p class="hidden-xs hidden-sm  hidden-md">L’Agilité amène son lot de nouveaux défis aux équipes de développement, mais aussi aux managers.
+  				Comment répondre à ces nouvelles situations en tant que managers? Le cours de formation Management 3.0 permet de comprendre différentes façons de prendre en charge et de gérer avec leadership son organisation afin de tirer le maximum de valeur de cette approche.</p>			
+  				<a href="http://pyxis-tech.com/fr/formation/cours/management-30/5/150">Informations et inscription</a>	   							
     		</div>
     	</div> 	
  	    	
     </div>
- 
+   
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div ag-carousel="accueil"></div>
+    </div>
+  </div>
+       
 </div>

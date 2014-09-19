@@ -1,5 +1,5 @@
 body {
-    background-color: #F2F4F7;
+    background-image:url('../images/media/background/accueil.jpg');
 }
 
 a, a:hover { 
@@ -52,3 +52,17 @@ a, a:hover {
     background-color: #C2D7FF;
 }
 
+.jumbotron {
+    opacity: 0.8;
+    filter: alpha(opacity=0.8);
+}
+
+.gridster {
+    opacity: 0.95;
+    filter: alpha(opacity=0.95);
+}
+
+.panel-session {
+    opacity: 0.95;
+    filter: alpha(opacity=0.95);
+}
