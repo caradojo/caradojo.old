@@ -2,10 +2,20 @@
 	background-image:url('../images/media/background/sponsors.jpg');
 }
 
-#accordionOffre {
+.panel-group {
 	color: black;
 }
 
-#accordionOffre .panel-title {
+.panel-heading {
 	cursor: pointer;
+}
+
+.sponsor-gold {
+	 color: #aa4502;
+	 background-color: #f4be42;
+}
+
+.sponsor-silver {
+	 color: #5974a3;
+	 background-color: #c4c4c4;	 
 }
