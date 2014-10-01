@@ -14,13 +14,13 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
             "11h50",
             "13h20",
             "13h45",
-            "14h30",
             "14h50",
             "15h35",
             "16h05",
             "16h50",
             "17h10",
             "17h55",
+            "18h15",
         ];
 
         var MAX_SESSION_LENGTH = 1000;
