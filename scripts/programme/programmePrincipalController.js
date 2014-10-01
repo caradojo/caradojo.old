@@ -58,7 +58,7 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 
 	   	$scope.getSessionLink = function(session) {
 	   		var type = (session.type == undefined) ? "" : session.type;
-	   		if(type.indexOf("session") != -1) {
+	   		if(type == "session") {
 	   			return '#/session/' + session.id;	
 	   		}
 	   		return '';
