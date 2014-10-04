@@ -39,7 +39,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
 
                     var datasDeferred = {};
                     datasDeferred.slots = slots;
-                    datasDeferred.rooms = datas.rooms;
+                    datasDeferred.rooms = createRooms(datas.rooms);
                     datasDeferred.slot_hours_length = slot_hours_length;
                     datasDeferred.row_hours_position = row_hours_position;
                     datasDeferred.slot_hours = slot_hours;
@@ -51,6 +51,16 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
             );
             return deferred.promise;
        };
+
+       var createRooms = function(rooms) {
+            var sort_array = [];
+            for (var key in rooms) {
+                sort_array.push({name:key,content:rooms[key]});
+            }
+
+            sort_array.sort(function(x,y){return x.content.id - y.content.id});
+            return sort_array;
+       }
 
        var clearDatas = function(datas) {
             room_length = Array.apply(null, Array(Object.keys(datas.rooms).length)).map(function() { return 0 });

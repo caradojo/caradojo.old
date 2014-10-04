@@ -11,9 +11,9 @@
             <li data-gridster-item  class="text-center gridster-item" data-sizex="1" data-sizey="1" data-col="0" data-row="0">
                 <b>Horaire</b>
             </li>
-			<li gridster-item="item" ng-repeat="(name, room) in program.rooms" class="text-center">
-              <b>{{name}}</b><br>
-              <span class="badge"><small>{{room.capacity}} places</small></span>
+			<li gridster-item="item" ng-repeat="room in program.rooms" class="text-center">
+              <b>{{room.name}}</b><br>
+              <span class="badge"><small>{{room.content.capacity}} places</small></span>
             </li>
         </ul>
     </div>
