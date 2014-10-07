@@ -94,6 +94,14 @@
 	  "niveau" : "Sponsor Silver",
 	  "gold" : false,
 	  "description" : "beebuzziness.html"
+	},
+	{
+	  "photo" : "memoclub.jpg",
+	  "entreprise" : "MEMOCLUB",
+	  "web" : "http://www.memoclub.fr/",
+	  "niveau" : "Partenaire",
+	  "gold" : false,
+	  "description" : "memoclub.html"
 	}
 	
 ]
