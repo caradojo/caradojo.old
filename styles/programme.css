@@ -8,6 +8,41 @@ a, a:hover {
 }
 
 
+.transparent_white75 {
+  color: black;
+  background: rgb(255,255,255);  
+  background: transparent\9;  
+  background:rgba(255,255,255,.75);  
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF); 
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.text-summary {
+    color: #4C494D !important;   
+}
+
+.animate-theme {
+    -webkit-transition:0.5s linear all;
+    transition:0.5s linear all;
+    opacity: 1;
+}
+
+.animate-theme.ng-hide {
+    opacity: 0;
+    padding:0px;
+    height:0px;
+}
+
+.animate-theme.ng-hide-add, .animate-theme.ng-hide-remove {
+  /* this needs to be here to make it visible during the animation
+     since the .ng-hide class is already on the element rendering
+     it as hidden. */
+  display:block!important;
+}
+
 .gridster .gridster-item {
     padding-top: 5px;
 }

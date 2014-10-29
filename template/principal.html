@@ -6,6 +6,22 @@
 	    </h1>
 	</div>
 
+    <div class="panel panel-default transparent_white75">
+        <div class="panel-heading clickable" ng-click="displaytheme=!displaytheme">
+            <span class="glyphicon glyphicon-chevron-down" ng-hide="!displaytheme"></span>
+            <span class="glyphicon glyphicon-chevron-right" ng-hide="displaytheme"></span>
+            <b> Thèmes</b>
+        </div>
+        <div class="panel-body animate-theme" ng-hide="!displaytheme">
+            <div class="row">
+                <div ng-repeat="legend in program.legend"  >
+                  <div class="col-xs-12 col-md-3 label text-summary {{legend.theme}}">{{legend.name}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 	<div gridster="gridsterOpts" class="header_program hidden-xs">
 		<ul>
             <li data-gridster-item  class="text-center gridster-item" data-sizex="1" data-sizey="1" data-col="0" data-row="0">

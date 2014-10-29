@@ -1,7 +1,7 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, ProgrammeCacheService, KeynotesService) {
 
-		
+		$scope.displaytheme = true;
 		$scope.gridsterOpts = {
 			columns: 11,
 			defaultSizeX: 1,

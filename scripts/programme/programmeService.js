@@ -28,6 +28,25 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
         var slot_hours_length = [];
         var row_hours_position = [];
 
+        var legend = [
+            {   
+                "theme": "sharing",
+                "name" : "Partage & Emulation"
+            },
+            {   
+                "theme": "change",
+                "name" : "Changement & Energie"
+            },
+            {   
+                "theme": "desire",
+                "name" : "Desir & Realite"
+            },
+            {   
+                "theme": "pleasure",
+                "name" : "Plaisir & Excellence"
+            }
+        ];
+
 
         this.get = function() {
 
@@ -43,6 +62,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
                     datasDeferred.slot_hours_length = slot_hours_length;
                     datasDeferred.row_hours_position = row_hours_position;
                     datasDeferred.slot_hours = slot_hours;
+                    datasDeferred.legend = legend;
                     deferred.resolve(datasDeferred);
                 },
                 function( error ) {
