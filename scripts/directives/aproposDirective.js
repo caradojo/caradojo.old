@@ -26,6 +26,14 @@ AgileGrenobleApp.directive('agApropos', [function() {
 						        ];
 				$scope.credits = [
 					              {
+					              photourl:'http://www.camptocamp.org/images/377738/fr/la-cordee',
+					              desc: 'La Cordée',
+					              ownername:'susheen',
+					              ownerurl:'http://www.camptocamp.org/users/202842',
+					              licencename:'CC-by-SA',
+					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
+					              },
+					              {
 					              photourl:'http://www.camptocamp.org/images/378896/fr/grenoble-sous-les-etoiles',
 					              desc: 'Grenoble sous les étoiles',
 					              ownername:'Benoit Audige',
