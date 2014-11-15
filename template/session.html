@@ -25,7 +25,7 @@
 	    <div class="panel-divider"></div>
 	    <div class="panel-body">
 	        <div ng-repeat="speaker in session['speakers-detail']">
-	            <div><b>{{speaker.name}}</b>: <span ng-show="speaker.twitter_id"><a href="https://twitter.com/gregalexandre">{{speaker.twitter_id}}</a></span> <br/>
+	            <div><b>{{speaker.name}}</b>: <span ng-show="speaker.twitter_id"><a href="https://twitter.com/{{speaker.twitter_id}}">{{speaker.twitter_id}}</a></span> <br/>
 	                {{speaker.bio}}
 	            </div>
 	            <br>
