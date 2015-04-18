@@ -8,18 +8,10 @@
       <meta name="description" content="La conf&#233;rence Agile Grenoble sera encore cette ann&#233;e l'&#233;v&#232;nement agile incontournable de la r&#233;gion. Elle est organis&#233;e par le Club Agile Rh&#244;ne-Alpes." />
 
       <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-      
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="styles/agile-grenoble.css" />
-      <link rel="stylesheet" type="text/css" href="styles/carousel-sponsors.css" />
-      <link rel="stylesheet" type="text/css" href="styles/navbar.css" />
-      <link rel="stylesheet" type="text/css" href="styles/accueil.css" />
-      <link rel="stylesheet" type="text/css" href="styles/keynotes.css" />
-      <link rel="stylesheet" type="text/css" href="styles/sponsors.css" />
-      <link rel="stylesheet" type="text/css" href="styles/orateurs.css" />
-      <link rel="stylesheet" type="text/css" href="styles/participants.css" />
-      <link rel="stylesheet" type="text/css" href="styles/apropos.css" />
 
+      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+      <link rel="stylesheet" type="text/css" href="styles/agile-grenoble-index.css" />
   </head>
   <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
 
@@ -34,13 +26,13 @@
     <!--div ag-page="keynotes" offsetdown="0" offsetup="-1">
       <div ag-keynotes></div>
     </div-->
-    
+
     <div ag-page="sponsors" offsetdown="0" offsetup="-1">
       <div ag-sponsors></div>
     </div>
 
     <!--div ag-page="orateurs" offsetdown="0" offsetup="-1">
-      <div ag-orateurs></div> 
+      <div ag-orateurs></div>
     </div-->
 
     <div ag-page="participants" offsetdown="0" offsetup="-1">
@@ -52,20 +44,20 @@
     </div>
 
 
-    <script src="bower_components/bower-skrollr/skrollr.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="lib/bower-skrollr/skrollr.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery-waypoints/waypoints.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-resource.min.js"></script>
-    <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="lib/angular-resource/angular-resource.min.js"></script>
+    <script src="lib/angular-ui-utils/ui-utils.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
     <script src="scripts/directives/scrollDirective.js"></script>
     <script src="scripts/directives/angular-smoothscroll.js"></script>
-    
+
     <script src="scripts/app.js"></script>
     <script src="scripts/sponsorsService.js"></script>
     <script src="scripts/keynotesService.js"></script>
