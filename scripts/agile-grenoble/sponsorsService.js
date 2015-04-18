@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp
-    .service('sponsorsService', ['$http', function($http){
+    .service('SponsorsService', ['$http', function($http){
         var error = '';
         var sponsors = [];
 

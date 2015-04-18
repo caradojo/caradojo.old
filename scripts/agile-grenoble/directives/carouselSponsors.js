@@ -1,13 +1,13 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp
-	.directive('agCarousel', ['$window', '$timeout', 'sponsorsService', function($window, $timeout, sponsorsService) {
+	.directive('agCarousel', function($window, $timeout, SponsorsService) {
 		return {
 			restrict: 'A',
 			replace: true,
 			controller: function ($scope) {
 				var timer;
 				var delay = 1500;
-				$scope.sponsors = sponsorsService.get();
+				$scope.sponsors = SponsorsService.get();
 			    $scope._Index = 0;
 
 				var slideshow = function() {
@@ -48,5 +48,5 @@ AgileGrenobleApp
 			},
 			templateUrl: './templates/agile-grenoble/carouselsponsors.html'
 		};
-	}])
+	})
 ;
