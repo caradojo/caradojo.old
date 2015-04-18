@@ -1,8 +1,8 @@
 body {
-    background-image:url('../images/media/background/accueil.jpg');
+    background-image:url('../../images/media/background/accueil.jpg');
 }
 
-a, a:hover { 
+a, a:hover {
     text-decoration: none;
     color: #4C494D;
 }
@@ -10,10 +10,10 @@ a, a:hover {
 
 .transparent_white75 {
   color: black;
-  background: rgb(255,255,255);  
-  background: transparent\9;  
-  background:rgba(255,255,255,.75);  
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF); 
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.75);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
 }
 
 .clickable {
@@ -21,7 +21,7 @@ a, a:hover {
 }
 
 .text-summary {
-    color: #4C494D !important;   
+    color: #4C494D !important;
 }
 
 .animate-theme {
@@ -76,7 +76,7 @@ a, a:hover {
 }
 
 .change {
-    background-color: #E3B6B6; 
+    background-color: #E3B6B6;
 }
 
 .pleasure {
