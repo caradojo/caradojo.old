@@ -2,10 +2,19 @@
   <div class="panel-body text-center carousel">
     <div ng-repeat="sponsor in sponsors" ng-show="isActive($index)" class="text-center">
         <div class="blockquote-size hidden-xs" ng-show="isActive($index)">
-          <p ng-class="{gold: sponsor.gold}"><b>{{sponsor.niveau}}</b></p>
+          <p ng-class="{gold: sponsor.goldNotSilver}">
+            <b>
+              <span ng-switch="sponsor.goldNotSilver">
+                <span ng-switch-when="true">Sponsor Gold</span>
+                <span ng-switch-when="false">Sponsor Silver</span>
+                <span ng-switch-default></span>
+              </span>
+              <span ng-if="sponsor.partenaire">Partenaire</span>
+            </b>
+          </p>
         </div>
         <div class="container slider slider-size">
-          <img data-toggle="modal" data-target="#modal{{name}}{{$index}}" ng-click="stopSlideshow()" title="Cliquez pour plus d'informations sur {{sponsor.entreprise}}" class="slide" ng-src="images/sponsors/{{sponsor.photo}}" />
+          <img data-toggle="modal" data-target="#modal{{name}}{{$index}}" ng-click="stopSlideshow()" title="Cliquez pour plus d'informations sur {{sponsor.entreprise}}" class="slide" ng-src="{{sponsor.photo}}" />
         </div>
 
         <!-- Modal -->
@@ -14,7 +23,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" ng-click="startSlideshow()" aria-hidden="true">&times;</button>
-                  <img data-toggle="modal" title="{{sponsor.entreprise}}" class="slide" ng-src="images/sponsors/{{sponsor.photo}}" />
+                  <img data-toggle="modal" title="{{sponsor.entreprise}}" class="slide" ng-src="{{sponsor.photo}}" />
               </div>
               <div class="modal-body text-left">
                 <div ng-include="description(sponsor)"></div>

@@ -7,7 +7,7 @@ AgileGrenobleApp
 			controller: function ($scope) {
 				var timer;
 				var delay = 1500;
-				$scope.sponsors = SponsorsService.get();
+				$scope.sponsors = SponsorsService.getAll();
 			    $scope._Index = 0;
 
 				var slideshow = function() {
@@ -33,9 +33,9 @@ AgileGrenobleApp
 					slideshow();
 				};
 
- 				$scope.description = function(sponsor) {
-					return "images/sponsors/resources/" + sponsor.description;
-				};
+				$scope.description = function(sponsor) {
+                    return sponsor.description;
+                };
 
 				$scope.startSlideshow();
 

@@ -12,53 +12,26 @@
   			  <h3 class="ag-section-title hidden-xs">Merci à nos sponsors 2014 <span class="sponsor-gold">GOLD</span></h3>
 
 
- 						<div class="panel-group" id="accordionSponsors">
+ 						<div class="panel-group" id="accordionSponsorsGold">
 
-              <div class="panel panel-default"><!-- Samse -->
+              <div class="panel panel-default" ng-repeat="sponsor in sponsorsGold">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <div data-toggle="collapse" data-parent="#accordionSponsorsGold" ng-href="#collapseSamse">
-                    <span class="glyphicon glyphicon-chevron-right"></span> SAMSE
+                    <div data-toggle="collapse" data-parent="#accordionSponsorsGold" ng-href="#collapse{{$index}}">
+                    <span class="glyphicon glyphicon-chevron-right"></span> {{sponsor.entreprise}}
                     </div>
                   </h4>
                 </div>
-                <div id="collapseSamse" class="panel-collapse collapse">
+                <div id="collapse{{$index}}" class="panel-collapse collapse">
                   <div class="panel-body">
-                  <p>
-                Groupe indépendant de distribution de matériaux de construction pour le bâtiment et l’habitat, nous sommes leader sur la moitié est de la France, déployant un réseau commercial dense de plus de 260 points de vente.
-                Présent sur deux métiers, le négoce (avec des enseignes comme Samse et Doras) et le bricolage (avec La Boîte à Outils et L’Entrepôt du Bricolage), à travers nos enseignes, nous offrons à nos clients, professionnels du bâtiment ou particuliers, des offres complémentaires dans un réseau de proximité.
-                 </p>
-                  <a href="http://www.groupe-samse.fr/">www.groupe-samse.fr</a>
+                    <div ng-include="description(sponsor)"></div>
+                    <br>
+                    <p>
+                      Pour plus d'informations: <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                    </p>
                   </div>
                 </div>
               </div>
-
-              <div class="panel panel-default"><!-- Sogilis -->
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <div data-toggle="collapse" data-parent="#accordionSponsorsGold" ng-href="#collapseSogilis">
-                    <span class="glyphicon glyphicon-chevron-right"></span> Sogilis
-                    </div>
-                  </h4>
-                </div>
-                <div id="collapseSogilis" class="panel-collapse collapse">
-                  <div class="panel-body">
-                  <p>
-                  Sogilis est une équipe de passionnés de génie logiciel. Notre mission est d'accompagner nos clients à tendre vers le zéro défaut lors de développements logiciels, devenir autonome et réduire significativement les coûts de maintenance.
-                  Les valeurs de Sogilis se résument en 4 principales : la passion, l'excellence technique, l'amélioration continue et la transparence.
-                  Sogilis possède 2 pôles d'activités :
-                  </p>
-                  <ul>
-                  	<li>Développement web, pour lequel nous privilégions un développement dirigé par les usages et l'ergonomie</li>
-                  	<li>Logiciels embarqués critiques</li>
-                  	<li>Sogilis vous accompagne pour vos développements from scratch et la reprise en main de legacy code.</li>
-                  </ul>
-                  <a href="http://sogilis.com/">sogilis.com</a>
-                  </div>
-                </div>
-              </div>
-
-
              </div>
 
    		  </div>
@@ -67,7 +40,7 @@
           <h3 class="ag-section-title hidden-xs">Merci à nos partenaires 2014</h3>
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <a href="http://www.memoclub.fr/">MEMOCLUB</a>
+                  <a ng-repeat="sponsor in sponsorsPartenaire" href="{{sponsor.web}}">{{sponsor.entreprise}}</a>
                 </div>
               </div>
         </div>
@@ -82,19 +55,16 @@
         <div class="panel-body">
   			  <h3 class="ag-section-title">Merci à nos sponsors 2014 <span class="sponsor-silver">SILVER</span> </h3>
 
- 						<div class="panel-group" id="accordionSponsors2">
-
-
-
-     					<div class="panel panel-default" ng-repeat="sponsor in sponsors"><!-- beebuzziness -->
+ 						<div class="panel-group" id="accordionSponsorsSilver">
+     					<div class="panel panel-default" ng-repeat="sponsor in sponsorsSilver">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <div data-toggle="collapse" data-parent="#accordionSponsors2" ng-href="#collapse{{sponsor.description}}">
+                    <div data-toggle="collapse" data-parent="#accordionSponsorsSilver" ng-href="#collapseSilver{{$index}}">
                     <span class="glyphicon glyphicon-chevron-right"></span> {{sponsor.entreprise}}
                     </div>
                   </h4>
                 </div>
-                <div id="collapse{{sponsor.description}}" class="panel-collapse collapse">
+                <div id="collapseSilver{{$index}}" class="panel-collapse collapse">
                   <div class="panel-body">
                     <div ng-include="description(sponsor)"></div>
                     <br>

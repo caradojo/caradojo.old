@@ -6,10 +6,12 @@ AgileGrenobleApp.directive('agSponsors', function(SponsorsService) {
 			//transclude: 'element',
 			replace: true,
             controller: function ($scope) {
-                $scope.sponsors = SponsorsService.get();
+                $scope.sponsorsSilver = SponsorsService.getSilver();
+                $scope.sponsorsGold = SponsorsService.getGold();
+                $scope.sponsorsPartenaire = SponsorsService.getPartenaire();
 
                 $scope.description = function(sponsor) {
-                    return "images/sponsors/resources/" + sponsor.description;
+                    return sponsor.description;
                 };
             },
 			templateUrl: './templates/agile-grenoble/sponsors.html'
