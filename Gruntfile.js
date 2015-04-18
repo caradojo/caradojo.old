@@ -29,6 +29,10 @@ module.exports = function(grunt) {
               cwd: 'bower_components/jquery/dist',
               src: ['*.js', '*.map'],
               dest: 'lib/jquery'
+          },{
+              cwd: 'bower_components/underscore',
+              src: ['*.js', '*.map'],
+              dest: 'lib/underscore'
           }],
         verbose: true // Display log messages when copying files
       }
@@ -39,5 +43,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sync');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', 'sync', 'concat');
+  grunt.registerTask('default', ['sync', 'concat']);
 };
