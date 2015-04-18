@@ -2,9 +2,9 @@
   <div class="row hidden-xs hidden-sm">
     <div class="col-md-12 ">
       <div class="panel panel-default transparent_white85">
-        <div class="panel-body">  
+        <div class="panel-body">
           <h1 class="ag-section-title">A propos</h1>
-          <p> La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires. 
+          <p> La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.
           </p>
         </div>
       </div>
@@ -18,19 +18,19 @@
       <div class="panel-body">
         <h3>Contacts</h3>
         <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
-        <ul class="hidden-xs">  
-          <li ng-repeat="email in emails">           
+        <ul class="hidden-xs">
+          <li ng-repeat="email in emails">
             <a href="mailto:{{email.addr}}@agile-grenoble.org" >
               {{email.addr}}@agile-grenoble.org
             </a>{{email.desc}}
-          </li>        
+          </li>
         </ul>
         <p class="visible-xs">
           <a href="mailto:contact@agile-grenoble.org" >
                 contact@agile-grenoble.org
           </a>
-        </p>    
-      </div> 
+        </p>
+      </div>
     </div>
   </div>
 
@@ -43,9 +43,9 @@
         <a href="http://www.clubagilerhonealpes.org/" class="btn btn-primary btn-lg">
           <span class="glyphicon glyphicon-globe"></span>
           Visiter le site du CARA
-        </a> 
-      
-      </div> 
+        </a>
+
+      </div>
     </div>
   </div>
 
@@ -54,15 +54,15 @@
   <div class="row">
     <div class="col-md-12">
        <div class="alert alert-info transparent_white85">
-            <p>                   
+            <p>
               <span class="glyphicon glyphicon-copyright-mark"></span>
-              2014 Club Agile Rhône Alpes - Crédits Photos: 
-              <span ng-repeat="credit in credits">                
+              2015 Club Agile Rhône Alpes - Crédits Photos:
+              <span ng-repeat="credit in credits">
                 <a href="{{credit.photourl}}" target="blank_">{{credit.desc}}</a>
                  de <a href="{{credit.ownername}}" target="blank_">{{credit.ownername}}</a>
                   sous <a href="{{credit.licenceurl}}" target="blank_">licence {{credit.licencename}}</a>.
               </span>
-            </p>        
+            </p>
       </div>
     </div>
   </div>
