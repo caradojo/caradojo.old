@@ -7,6 +7,10 @@ AgileGrenobleApp.directive('agSponsors', function(SponsorsService) {
 			replace: true,
             controller: function ($scope) {
                 $scope.sponsors = SponsorsService.get();
+
+                $scope.description = function(sponsor) {
+                    return "images/sponsors/resources/" + sponsor.description;
+                };
             },
 			templateUrl: './templates/agile-grenoble/sponsors.html'
 		};

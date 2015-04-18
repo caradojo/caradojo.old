@@ -6,7 +6,7 @@ AgileGrenobleApp
 
         this.get = function() {
             return sponsors;
-        }
+        };
 
         var loadSponsors = function() {
 
