@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.directive('agApropos', [function() {
-		
+
 		return {
 			restrict: 'A',
 			//transclude: 'element',
@@ -12,15 +12,15 @@ AgileGrenobleApp.directive('agApropos', [function() {
 						            desc: 'pour l\'appel à orateur et les soumissions de sessions'
 						            },
 						            {
-						            addr:'sponsor', 
+						            addr:'sponsor',
 						            desc: 'pour l\'offre de sponsoring'
 						            },
 						            {
-						            addr:'inscription', 
+						            addr:'inscription',
 						            desc: 'pour les inscriptions à la conférence'
 						            },
 						            {
-						            addr:'contact', 
+						            addr:'contact',
 						            desc: 'pour toute autre question au sujet de la conférence'
 						            }
 						        ];
@@ -31,7 +31,7 @@ AgileGrenobleApp.directive('agApropos', [function() {
 					              ownername:'susheen',
 					              ownerurl:'http://www.camptocamp.org/users/202842',
 					              licencename:'CC-by-SA',
-					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
+					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'
 					              },
 					              {
 					              photourl:'http://www.camptocamp.org/images/378896/fr/grenoble-sous-les-etoiles',
@@ -39,7 +39,7 @@ AgileGrenobleApp.directive('agApropos', [function() {
 					              ownername:'Benoit Audige',
 					              ownerurl:'http://www.camptocamp.org/users/11491',
 					              licencename:'CC-by-SA',
-					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
+					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'
 					              },
 					              {
 					              photourl:'http://www.camptocamp.org/images/241031/fr/un-matin-au-mont-rose',
@@ -47,11 +47,11 @@ AgileGrenobleApp.directive('agApropos', [function() {
 					              ownername:'Jean-Louis Decosse',
 					              ownerurl:'http://www.camptocamp.org/users/13874',
 					              licencename:'CC-by-SA',
-					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'              
+					              licenceurl:'http://creativecommons.org/licenses/by-sa/3.0/deed.fr'
 					              }
 					             ];
 			},
-			templateUrl: './views/apropos.html'
+			templateUrl: './templates/agile-grenoble/apropos.html'
 		};
 	}])
 ;

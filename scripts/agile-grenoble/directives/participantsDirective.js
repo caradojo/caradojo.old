@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.directive('agParticipants', ['$window', function($window) {
-		
+
 		return {
 			restrict: 'A',
 			//transclude: 'element',
@@ -70,7 +70,7 @@ AgileGrenobleApp.directive('agParticipants', ['$window', function($window) {
 					}
 				};
 			},
-			templateUrl: './views/participants.html'
+			templateUrl: './templates/agile-grenoble/participants.html'
 		};
 	}])
 ;

@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp
-	.directive('agCarousel', ['$window', '$timeout', 'sponsorsService', function($window, $timeout, sponsorsService) {	
+	.directive('agCarousel', ['$window', '$timeout', 'sponsorsService', function($window, $timeout, sponsorsService) {
 		return {
 			restrict: 'A',
 			replace: true,
@@ -38,7 +38,7 @@ AgileGrenobleApp
 				};
 
 				$scope.startSlideshow();
-				 
+
 				$scope.$on('$destroy', function() {
 				  $scope.stopSlideshow();
 				});
@@ -46,7 +46,7 @@ AgileGrenobleApp
 			scope : {
 				name : '@agCarousel'
 			},
-			templateUrl: './views/carouselsponsors.html'
+			templateUrl: './templates/agile-grenoble/carouselsponsors.html'
 		};
 	}])
 ;

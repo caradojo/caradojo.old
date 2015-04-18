@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.directive('agAccueil', [function(selectMenu) {
-		
+
 		return {
 			restrict: 'A',
 			//transclude: 'element',
@@ -23,7 +23,7 @@ AgileGrenobleApp.directive('agAccueil', [function(selectMenu) {
 			        scrolltarget:'orateurs',
 			        menuselected: 'orateurs'
 			      },
-			      {        
+			      {
 			        cssid: 'participant',
 			        title: 'Participants',
 			        image: 'icon_green_ticket',
@@ -33,7 +33,7 @@ AgileGrenobleApp.directive('agAccueil', [function(selectMenu) {
 			       }
 			    ];
 			},
-			templateUrl: './views/accueil.html'
+			templateUrl: './templates/agile-grenoble/accueil.html'
 		};
 	}])
 ;

@@ -9,7 +9,7 @@ AgileGrenobleApp.directive('agOrateurs', ['$window', function($window) {
 					$window.location.href = 'http://cfp.agile-grenoble.org/sessions/new';
 				};
 			},
-			templateUrl: './views/orateurs.html'
+			templateUrl: './templates/agile-grenoble/orateurs.html'
 		};
 	}])
 ;

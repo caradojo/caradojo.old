@@ -1,6 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.directive('agKeynotes', ['KeynotesService', function(KeynotesService) {
-		
+
 		return {
 			restrict: 'A',
 			replace: true,
@@ -9,10 +9,10 @@ AgileGrenobleApp.directive('agKeynotes', ['KeynotesService', function(KeynotesSe
 
 				$scope.scrolled = function() {
 					$scope.menuselected = "keynotes";
-					
+
 				};
 			},
-			templateUrl: './views/keynotes.html'
+			templateUrl: './templates/agile-grenoble/keynotes.html'
 		};
 	}])
 ;
