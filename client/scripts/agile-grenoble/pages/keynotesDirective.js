@@ -5,11 +5,15 @@ AgileGrenobleApp.directive('agKeynotes', ['KeynotesService', function(KeynotesSe
 			restrict: 'A',
 			replace: true,
 			controller: function ($scope) {
-				$scope.keynotes = KeynotesService.get();
-
+				$scope.content = KeynotesService.get().then(function(data) {
+					$scope.content = data;
+				},
+                function(data) {
+                    $scope.content = data;
+                });
+                
 				$scope.scrolled = function() {
 					$scope.menuselected = "keynotes";
-
 				};
 			},
 			templateUrl: 'client/templates/agile-grenoble/keynotes.html'

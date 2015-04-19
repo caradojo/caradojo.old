@@ -1,42 +1,25 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp
-    .service('SponsorsService', function($http){
-        var error = '';
-        var sponsors = [];
+    .service('SponsorsService', function($http, $q) {
 
-        this.getAll = function() {
-            return sponsors;
-        };
+        var sponsors = $q.defer();
 
-        this.getGold = function() {
-            return _.filter(sponsors, function(item) {
-                                return item.goldNotSilver;
-                            });
-        };
-
-        this.getSilver = function() {
-            return _.filter(sponsors, function(item) {
-                                return !item.goldNotSilver && !item.partenaire;
-                            });
-        };
-
-        this.getPartenaire = function() {
-            return _.filter(sponsors, function(item) {
-                                return item.partenaire;
-                            });
+        this.get = function() {
+            return sponsors.promise;
         };
 
         var loadSponsors = function() {
 
-            $http.get('client/media/sponsors/sponsors.json').
+            $http.get('client/media/sponsors/content.json').
                 success(function(data, status, headers, config) {
-                    sponsors.push.apply(sponsors, _.each(data, function(item) {
+                    data.sponsors = _.each(data.sponsors, function(item) {
                         item.description  = 'client/media/sponsors/descriptions/' + item.description;
                         item.photo = 'client/media/sponsors/images/' + item.photo;
-                    }));
+                    });
+                    sponsors.resolve(data);
                 }).
                 error(function(data, status, headers, config) {
-                    error = "Problème d'accès au serveur...";
+                    sponsors.reject({"error":"Problème d'accès au serveur..."});
                 });
         };
 

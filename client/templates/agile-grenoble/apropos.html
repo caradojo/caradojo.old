@@ -19,7 +19,7 @@
         <h3>Contacts</h3>
         <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
         <ul class="hidden-xs">
-          <li ng-repeat="email in emails">
+          <li ng-repeat="email in content.emails">
             <a href="mailto:{{email.addr}}@agile-grenoble.org" >
               {{email.addr}}@agile-grenoble.org
             </a>{{email.desc}}
@@ -57,7 +57,7 @@
             <p>
               <span class="glyphicon glyphicon-copyright-mark"></span>
               2015 Club Agile Rhône Alpes - Crédits Photos:
-              <span ng-repeat="credit in credits">
+              <span ng-repeat="credit in content.credits">
                 <a href="{{credit.photourl}}" target="blank_">{{credit.desc}}</a>
                  de <a href="{{credit.ownername}}" target="blank_">{{credit.ownername}}</a>
                   sous <a href="{{credit.licenceurl}}" target="blank_">licence {{credit.licencename}}</a>.

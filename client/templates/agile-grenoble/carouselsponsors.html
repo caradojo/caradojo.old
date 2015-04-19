@@ -1,6 +1,6 @@
-<div ng-show="sponsors.length" class="panel panel-default transparent_black65">
+<div ng-show="content.sponsors.length" class="panel panel-default transparent_black65">
   <div class="panel-body text-center carousel">
-    <div ng-repeat="sponsor in sponsors" ng-show="isActive($index)" class="text-center">
+    <div ng-repeat="sponsor in content.sponsors" ng-show="isActive($index)" class="text-center">
         <div class="blockquote-size hidden-xs" ng-show="isActive($index)">
           <p ng-class="{gold: sponsor.goldNotSilver}">
             <b>

@@ -1,5 +1,5 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
-AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, ProgrammeCacheService, KeynotesService) {
+AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, ProgrammeCacheService) {
 
 		$scope.displaytheme = true;
 		$scope.gridsterOpts = {
@@ -27,8 +27,6 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 					var dfs = data;
 				});
 */
-                $scope.keynotes = KeynotesService.get();
-
                 ProgrammeCacheService.get().then(function(data) {
                     $scope.program = data;
                 }, function(data) {

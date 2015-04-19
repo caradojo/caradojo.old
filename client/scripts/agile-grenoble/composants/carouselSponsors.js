@@ -7,7 +7,13 @@ AgileGrenobleApp
 			controller: function ($scope) {
 				var timer;
 				var delay = 1500;
-				$scope.sponsors = SponsorsService.getAll();
+				$scope.content = SponsorsService.get().then(function(data) {
+                    $scope.content = data;
+                },
+                function(data) {
+                    $scope.content = data;
+                });
+
 			    $scope._Index = 0;
 
 				var slideshow = function() {
@@ -22,7 +28,11 @@ AgileGrenobleApp
 			    };
 
 			    $scope.next = function () {
-			        $scope._Index = ($scope._Index < $scope.sponsors.length - 1) ? ++$scope._Index : 0;
+			    	if(_.isUndefined($scope.content.sponsors)) {
+                        return 0;
+                    }
+
+			        $scope._Index = ($scope._Index < $scope.content.sponsors.length - 1) ? ++$scope._Index : 0;
 			    };
 
 			    $scope.stopSlideshow = function() {
