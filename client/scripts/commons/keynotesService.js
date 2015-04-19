@@ -10,10 +10,10 @@ AgileGrenobleApp
 
         var loadKeynotes = function() {
 
-            $http.get('client/keynotes/keynotes.json').
+            $http.get('client/media/keynotes/keynotes.json').
                 success(function(data, status, headers, config) {
                     keynotes.push.apply(keynotes, _.each(data, function(item) {
-                        item.photo  = 'client/keynotes/images/' + item.photo;
+                        item.photo  = 'client/media/keynotes/images/' + item.photo;
                     }));
                 }).
                 error(function(data, status, headers, config) {
