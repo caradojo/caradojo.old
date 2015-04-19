@@ -28,11 +28,11 @@ AgileGrenobleApp
 
         var loadSponsors = function() {
 
-            $http.get('images/sponsors/resources/sponsors.json').
+            $http.get('sponsors/sponsors.json').
                 success(function(data, status, headers, config) {
                     sponsors.push.apply(sponsors, _.each(data, function(item) {
-                        item.description  = 'images/sponsors/resources/' + item.description;
-                        item.photo = 'images/sponsors/' + item.photo;
+                        item.description  = 'sponsors/description/' + item.description;
+                        item.photo = 'sponsors/images/' + item.photo;
                     }));
                 }).
                 error(function(data, status, headers, config) {
