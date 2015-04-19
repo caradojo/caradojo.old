@@ -1,32 +1,36 @@
-  <div class="content container">
-    <div class="row visible-lg">
-      <div class = "col-md-12" >   
-        <div class="panel panel-default transparent_white75">
-          <div class="panel-body">
+<div class="content container">
+
+  <div class="row visible-lg">
+    <div class = "col-md-12" >
+      <div class="panel panel-default transparent_white75">
+        <div class="panel-body">
           <h1 class="ag-section-title">Keynotes</h1>
-          <p>Cette année, nous avons l'immense privilège d'inviter deux personnes (ou devrait-on dire "personnages")
-          qui sont à la fois influenceurs, passionnés et changeurs de monde. Alexandre GERARD et François BEAUREGARD
-          seront au rendez-vous le 20 novembre 2014 pour votre plus grand plaisir !
+          <p>
+            Cette année, nous avons l'immense privilège d'inviter deux personnes (ou devrait-on dire "personnages")
+            qui sont à la fois influenceurs, passionnés et changeurs de monde. Alexandre GERARD et François BEAUREGARD
+            seront au rendez-vous le 20 novembre 2014 pour votre plus grand plaisir !
           </p>
-        </div>
         </div>
       </div>
     </div>
+  </div>
+
   <div class="row">
-    <div class = "col-md-6 col-sm-6" ng-repeat="item in content.keynotes">    
+    <div class = "col-md-6 col-sm-6" ng-repeat="item in content.keynotes">
      	<div class="panel panel-default transparent_white75">
         <div class="panel-body">
   		    <div class="media">
-    				<img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px">
-            <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px">
-    				  <h3 class="visible-md visible-lg">{{item.name}}</h3>
-              <h4 class="visible-sm">{{item.name}}</h4>              
-              <p class="visible-xs"><strong>{{item.name}}</strong></p>
-    				  <p>{{item.text1}}</p>
-              <p class="hidden-xs">{{item.text2}}</p>
-              <p class="hidden-xs hidden-sm">{{item.text3}}</p>
+    				<img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px"/>
+            <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px"/>
+  				  <h3 class="visible-md visible-lg">{{item.name}}</h3>
+            <h4 class="visible-sm">{{item.name}}</h4>
+            <p class="visible-xs"><strong>{{item.name}}</strong></p>
+  				  <p>{{item.text1}}</p>
+            <p class="hidden-xs">{{item.text2}}</p>
+            <p class="hidden-xs hidden-sm">{{item.text3}}</p>
         </div>
       </div>
-    </div>                    
+    </div>
   </div>
+
 </div>

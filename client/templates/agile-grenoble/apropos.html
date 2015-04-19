@@ -1,4 +1,5 @@
 <div class="content container" >
+
   <div class="row hidden-xs hidden-sm">
     <div class="col-md-12 ">
       <div class="panel panel-default transparent_white85">
@@ -11,45 +12,45 @@
     </div>
   </div>
 
- <div class="row">
+  <div class="row">
 
-  <div class="col-md-6 col-sm-6">
-    <div class="panel panel-default transparent_black85">
-      <div class="panel-body">
-        <h3>Contacts</h3>
-        <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
-        <ul class="hidden-xs">
-          <li ng-repeat="email in content.emails">
-            <a href="mailto:{{email.addr}}@agile-grenoble.org" >
-              {{email.addr}}@agile-grenoble.org
-            </a>{{email.desc}}
-          </li>
-        </ul>
-        <p class="visible-xs">
-          <a href="mailto:contact@agile-grenoble.org" >
-                contact@agile-grenoble.org
+    <div class="col-md-6 col-sm-6">
+      <div class="panel panel-default transparent_black85">
+        <div class="panel-body">
+          <h3>Contacts</h3>
+          <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
+          <ul class="hidden-xs">
+            <li ng-repeat="email in content.emails">
+              <a href="mailto:{{email.addr}}@agile-grenoble.org" >
+                {{email.addr}}@agile-grenoble.org
+              </a>{{email.desc}}
+            </li>
+          </ul>
+          <p class="visible-xs">
+            <a href="mailto:contact@agile-grenoble.org" >
+                  contact@agile-grenoble.org
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-sm-6 hidden-xs">
+      <div class="panel panel-default transparent_white85">
+        <div class="panel-body">
+          <h3><img class="hidden-sm" src="client/media/logo/green_cara.png" width="32px"> Club Agile Rhône Alpes (CARA)</h3>
+          <p>Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.
+          </p>
+          <a href="http://www.clubagilerhonealpes.org/" class="btn btn-primary btn-lg">
+            <span class="glyphicon glyphicon-globe"></span>
+            Visiter le site du CARA
           </a>
-        </p>
+
+        </div>
       </div>
     </div>
+
   </div>
-
-  <div class="col-md-6 col-sm-6 hidden-xs">
-    <div class="panel panel-default transparent_white85">
-      <div class="panel-body">
-        <h3><img class="hidden-sm" src="client/media/logo/green_cara.png" width="32px"> Club Agile Rhône Alpes (CARA)</h3>
-        <p>Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.
-        </p>
-        <a href="http://www.clubagilerhonealpes.org/" class="btn btn-primary btn-lg">
-          <span class="glyphicon glyphicon-globe"></span>
-          Visiter le site du CARA
-        </a>
-
-      </div>
-    </div>
-  </div>
-
-</div>
 
   <div class="row">
     <div class="col-md-12">
