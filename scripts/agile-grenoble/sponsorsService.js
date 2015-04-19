@@ -31,7 +31,7 @@ AgileGrenobleApp
             $http.get('sponsors/sponsors.json').
                 success(function(data, status, headers, config) {
                     sponsors.push.apply(sponsors, _.each(data, function(item) {
-                        item.description  = 'sponsors/description/' + item.description;
+                        item.description  = 'sponsors/descriptions/' + item.description;
                         item.photo = 'sponsors/images/' + item.photo;
                     }));
                 }).
