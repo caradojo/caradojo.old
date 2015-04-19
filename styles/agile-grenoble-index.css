@@ -1,5 +1,5 @@
 #accueil {
-	background-image:url('../images/media/background/accueil.jpg');
+	background-image:url('../media/background/accueil.jpg');
 }
 
 #accueil a {
@@ -12,7 +12,7 @@
 	top:-15px;
 	width: 35%;
 	height: 35%;
-	background-image: url(../images/media/text_hand_confdate_256.png);
+	background-image: url(../media/text_hand_confdate_256.png);
 	background-repeat: no-repeat;
 	background-size:contain;
 }
@@ -488,7 +488,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   background-color: #00b8fc; 
 }
 #apropos {
-	background-image:url('../images/media/background/apropos.jpg');
+	background-image:url('../media/background/apropos.jpg');
 }
 
 .list-group {
@@ -612,7 +612,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
     color: #F5D402;
 }
 #keynotes {
-	background-image:url('../images/media/background/keynotes.jpg');
+	background-image:url('../media/background/keynotes.jpg');
 }
 
 
@@ -725,15 +725,15 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   color: #00b8fc;
 }
 #orateurs {
-	background-image:url('../images/media/background/orateurs.jpg');
+	background-image:url('../media/background/orateurs.jpg');
 }
 
 #participants {
-	background-image:url('../images/media/background/participants.jpg');
+	background-image:url('../media/background/participants.jpg');
 }
 
 #sponsors {
-	background-image:url('../images/media/background/sponsors.jpg');
+	background-image:url('../media/background/sponsors.jpg');
 }
 
 .panel-group {

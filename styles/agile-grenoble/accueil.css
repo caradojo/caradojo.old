@@ -1,5 +1,5 @@
 #accueil {
-	background-image:url('../images/media/background/accueil.jpg');
+	background-image:url('../media/background/accueil.jpg');
 }
 
 #accueil a {
@@ -12,7 +12,7 @@
 	top:-15px;
 	width: 35%;
 	height: 35%;
-	background-image: url(../images/media/text_hand_confdate_256.png);
+	background-image: url(../media/text_hand_confdate_256.png);
 	background-repeat: no-repeat;
 	background-size:contain;
 }
