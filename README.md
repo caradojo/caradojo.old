@@ -18,15 +18,15 @@ Install bower
 
     execute "Node.js command prompt" already installed with nodeJS
     npm install bower -g
+
+Install grunt
+
+    execute "Node.js command prompt" already installed with nodeJS
+    npm install grunt-cli -g
     
 Install project dependencies
 
     cd caradojo.github.io/
-    bower install
+    ./build.sh
 
-Bower a package manager for the web:
-
-    how to search/install/update/uninstall library (example jquery)
-    bower search jquery
-    bower install jquery --save-dev  (--save-dev option useful to save dependencies)
-    bower 
+During installation, if there is some choice for Angular version, select always the more recent version.
