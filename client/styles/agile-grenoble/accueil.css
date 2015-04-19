@@ -1,0 +1,171 @@
+#accueil {
+	background-image:url('../media/background/accueil.jpg');
+}
+
+#accueil a {
+  text-decoration:none;  
+}
+
+#accueil .dateConference {
+	position: absolute;
+	left:70%;
+	top:-15px;
+	width: 35%;
+	height: 35%;
+	background-image: url(../client/media/text_hand_confdate_256.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+
+.ag-sponsor-text {
+  color:#1B5BBB;
+}
+
+.ag-orateur-text {
+  color: #FF2525;
+}
+
+.ag-participant-text {
+  color: #138123;
+}
+
+
+.btn-ag-orateur { 
+  color: #FFFFFF; 
+  background-color: #FF2525; 
+  border-color: #FF2525; 
+} 
+ 
+.btn-ag-orateur:hover, 
+.btn-ag-orateur:focus, 
+.btn-ag-orateur:active, 
+.btn-ag-orateur.active, 
+.open .dropdown-toggle.btn-ag-orateur { 
+  color: #FFFFFF; 
+  background-color: #C21D1D; 
+  border-color: #C21D1D; 
+} 
+ 
+.btn-ag-orateur:active, 
+.btn-ag-orateur.active, 
+.open .dropdown-toggle.btn-ag-orateur { 
+  background-image: none; 
+} 
+ 
+.btn-ag-orateur.disabled, 
+.btn-ag-orateur[disabled], 
+fieldset[disabled] .btn-ag-orateur, 
+.btn-ag-orateur.disabled:hover, 
+.btn-ag-orateur[disabled]:hover, 
+fieldset[disabled] .btn-ag-orateur:hover, 
+.btn-ag-orateur.disabled:focus, 
+.btn-ag-orateur[disabled]:focus, 
+fieldset[disabled] .btn-ag-orateur:focus, 
+.btn-ag-orateur.disabled:active, 
+.btn-ag-orateur[disabled]:active, 
+fieldset[disabled] .btn-ag-orateur:active, 
+.btn-ag-orateur.disabled.active, 
+.btn-ag-orateur[disabled].active, 
+fieldset[disabled] .btn-ag-orateur.active { 
+  background-color: #FF2525; 
+  border-color: #FF2525; 
+} 
+ 
+.btn-ag-orateur .badge { 
+  color: #FF2525; 
+  background-color: #FFFFFF; 
+}
+
+.btn-ag-participant { 
+  color: #FFFFFF; 
+  background-color: #138123; 
+  border-color: #138123; 
+} 
+ 
+.btn-ag-participant:hover, 
+.btn-ag-participant:focus, 
+.btn-ag-participant:active, 
+.btn-ag-participant.active, 
+.open .dropdown-toggle.btn-ag-participant { 
+  color: #FFFFFF; 
+  background-color: #0C5917; 
+  border-color: #0C5917; 
+} 
+ 
+.btn-ag-participant:active, 
+.btn-ag-participant.active, 
+.open .dropdown-toggle.btn-ag-participant { 
+  background-image: none; 
+} 
+ 
+.btn-ag-participant.disabled, 
+.btn-ag-participant[disabled], 
+fieldset[disabled] .btn-ag-participant, 
+.btn-ag-participant.disabled:hover, 
+.btn-ag-participant[disabled]:hover, 
+fieldset[disabled] .btn-ag-participant:hover, 
+.btn-ag-participant.disabled:focus, 
+.btn-ag-participant[disabled]:focus, 
+fieldset[disabled] .btn-ag-participant:focus, 
+.btn-ag-participant.disabled:active, 
+.btn-ag-participant[disabled]:active, 
+fieldset[disabled] .btn-ag-participant:active, 
+.btn-ag-participant.disabled.active, 
+.btn-ag-participant[disabled].active, 
+fieldset[disabled] .btn-ag-participant.active { 
+  background-color: #138123; 
+  border-color: #138123; 
+} 
+ 
+.btn-ag-participant .badge { 
+  color: #138123; 
+  background-color: #FFFFFF; 
+}
+
+.btn-ag-sponsor { 
+  color: #FFFFFF; 
+  background-color: #1B5BBB; 
+  border-color: #1B5BBB; 
+} 
+ 
+.btn-ag-sponsor:hover, 
+.btn-ag-sponsor:focus, 
+.btn-ag-sponsor:active, 
+.btn-ag-sponsor.active, 
+.open .dropdown-toggle.btn-ag-sponsor { 
+  color: #FFFFFF; 
+  background-color: #174487; 
+  border-color: #174487; 
+} 
+ 
+.btn-ag-sponsor:active, 
+.btn-ag-sponsor.active, 
+.open .dropdown-toggle.btn-ag-sponsor { 
+  background-image: none; 
+} 
+ 
+.btn-ag-sponsor.disabled, 
+.btn-ag-sponsor[disabled], 
+fieldset[disabled] .btn-ag-sponsor, 
+.btn-ag-sponsor.disabled:hover, 
+.btn-ag-sponsor[disabled]:hover, 
+fieldset[disabled] .btn-ag-sponsor:hover, 
+.btn-ag-sponsor.disabled:focus, 
+.btn-ag-sponsor[disabled]:focus, 
+fieldset[disabled] .btn-ag-sponsor:focus, 
+.btn-ag-sponsor.disabled:active, 
+.btn-ag-sponsor[disabled]:active, 
+fieldset[disabled] .btn-ag-sponsor:active, 
+.btn-ag-sponsor.disabled.active, 
+.btn-ag-sponsor[disabled].active, 
+fieldset[disabled] .btn-ag-sponsor.active { 
+  background-color: #1B5BBB; 
+  border-color: #1B5BBB; 
+} 
+ 
+.btn-ag-sponsor .badge { 
+  color: #1B5BBB; 
+  background-color: #FFFFFF; 
+}
+
+

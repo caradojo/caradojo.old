@@ -4,8 +4,8 @@ module.exports = function(grunt) {
 
     concat: {
         dist: {
-              src: ['styles/agile-grenoble/*.css'],
-              dest: 'styles/agile-grenoble-index.css'
+              src: ['client/styles/agile-grenoble/*.css'],
+              dest: 'client/styles/agile-grenoble-index.css'
             }
     },
 
@@ -16,23 +16,23 @@ module.exports = function(grunt) {
               src: [  '*/*.js',
                       '*/*.js.map',
                       '*/*.css'],
-              dest: 'lib'
+              dest: 'client/lib'
           },{
               cwd: 'bower_components/angular-gridster/dist/',
               src: [  '*'],
-              dest: 'lib/angular-gridster/'
+              dest: 'client/lib/angular-gridster/'
           },{
               cwd: 'bower_components/bootstrap/dist/',
               src: [  '*/*'],
-              dest: 'lib/bootstrap/'
+              dest: 'client/lib/bootstrap/'
           },{
               cwd: 'bower_components/jquery/dist',
               src: ['*.js', '*.map'],
-              dest: 'lib/jquery'
+              dest: 'client/lib/jquery'
           },{
               cwd: 'bower_components/underscore',
               src: ['*.js', '*.map'],
-              dest: 'lib/underscore'
+              dest: 'client/lib/underscore'
           }],
         verbose: true // Display log messages when copying files
       }
