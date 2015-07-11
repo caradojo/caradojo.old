@@ -5,11 +5,13 @@
       <div class="blockquote-size hidden-xs" ng-show="isActive($index)">
         <p ng-class="{gold: sponsor.goldNotSilver}">
           <b>
-            <span ng-switch="sponsor.goldNotSilver">
-              <span ng-switch-when="true">Sponsor Gold</span>
-              <span ng-switch-when="false">Sponsor Silver</span>
-              <span ng-switch-default></span>
-            </span>
+			  <span ng-if="!sponsor.partenaire">
+				<span ng-switch="sponsor.goldNotSilver">
+				  <span ng-switch-when="true">Sponsor Gold</span>
+				  <span ng-switch-when="false">Sponsor Silver</span>
+				  <span ng-switch-default></span>
+				</span>
+			  </span>
             <span ng-if="sponsor.partenaire">Partenaire</span>
           </b>
         </p>

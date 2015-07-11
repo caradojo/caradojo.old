@@ -6,7 +6,7 @@ AgileGrenobleApp
 			replace: true,
 			controller: function ($scope) {
 				var timer;
-				var delay = 1500;
+				var delay = 1000;
 				$scope.content = SponsorsService.get().then(function(data) {
                     $scope.content = data;
                 },
