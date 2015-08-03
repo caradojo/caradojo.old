@@ -4,9 +4,8 @@
     <div class="col-md-12 ">
       <div class="panel panel-default transparent_white85">
         <div class="panel-body">
-          <h1 class="ag-section-title">A propos</h1>
-          <p> La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.
-          </p>
+          <h1 class="ag-section-title" translate="apropos.title"></h1>
+          <p translate="apropos.description"></p>
         </div>
       </div>
     </div>
@@ -17,19 +16,28 @@
     <div class="col-md-6 col-sm-6">
       <div class="panel panel-default transparent_black85">
         <div class="panel-body">
-          <h3>Contacts</h3>
-          <p class="hidden-xs">Pour nous contacter avant la conférence envoyez-nous tout simplement un email :</p>
+          <h3 translate="emails.title"></h3>
+          <p class="hidden-xs" translate="emails.description"></p>
           <ul class="hidden-xs">
-            <li ng-repeat="email in content.emails">
-              <a href="mailto:{{email.addr}}@agile-grenoble.org" >
-                {{email.addr}}@agile-grenoble.org
-              </a>{{email.desc}}
+            <li>
+              <a href="mailto:{{mails('emails.orateur.addr')}}" translate="emails.orateur.addr"></a>
+              <span translate="emails.orateur.desc"></span>
+            </li>
+            <li>
+              <a href="mailto:{{mails('emails.sponsor.addr')}}" translate="emails.sponsor.addr"></a>
+              <span translate="emails.sponsor.desc"></span>
+            </li>
+            <li>
+              <a href="mailto:{{mails('emails.inscription.addr')}}" translate="emails.inscription.addr"></a>
+              <span translate="emails.inscription.desc"></span>
+            </li>
+            <li>
+              <a href="mailto:{{mails('emails.contact.addr')}}" translate="emails.contact.addr"></a>
+              <span translate="emails.contact.desc"></span>
             </li>
           </ul>
           <p class="visible-xs">
-            <a href="mailto:contact@agile-grenoble.org" >
-                  contact@agile-grenoble.org
-            </a>
+            <a href="mailto:{{mails('emails.orateur.addr')}} translate="emails.orateur.addr""></a>
           </p>
         </div>
       </div>
@@ -38,12 +46,14 @@
     <div class="col-md-6 col-sm-6 hidden-xs">
       <div class="panel panel-default transparent_white85">
         <div class="panel-body">
-          <h3><img class="hidden-sm" src="client/media/logo/green_cara.png" width="32px"> Club Agile Rhône Alpes (CARA)</h3>
-          <p>Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.
-          </p>
+          <h3>
+            <img class="hidden-sm" src="client/media/logo/green_cara.png" width="32px">
+            <span translate="cara.title"></span>
+          </h3>
+          <p translate="cara.description"></p>
           <a href="http://www.clubagilerhonealpes.org/" class="btn btn-primary btn-lg">
             <span class="glyphicon glyphicon-globe"></span>
-            Visiter le site du CARA
+            <span translate="cara.link.name"></span>
           </a>
 
         </div>
@@ -60,8 +70,10 @@
               2015 Club Agile Rhône Alpes - Crédits Photos:
               <span ng-repeat="credit in content.credits">
                 <a href="{{credit.photourl}}" target="blank_">{{credit.desc}}</a>
-                 de <a href="{{credit.ownername}}" target="blank_">{{credit.ownername}}</a>
-                  sous <a href="{{credit.licenceurl}}" target="blank_">licence {{credit.licencename}}</a>.
+                  <span translate="apropos.of"></span>
+                  <a href="{{credit.ownername}}" target="blank_">{{credit.ownername}}</a>
+                  <span translate="apropos.under"></span>
+                  <a href="{{credit.licenceurl}}" target="blank_">licence {{credit.licencename}}</a>.
               </span>
             </p>
       </div>

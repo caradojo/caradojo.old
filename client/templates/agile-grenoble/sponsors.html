@@ -6,7 +6,10 @@
 			<div class="panel panel-default transparent_black50">
         <div class="panel-body">
 
-  			  <h3 class="ag-section-title hidden-xs">Merci à nos sponsors 2015 <span class="sponsor-gold">GOLD</span></h3>
+  			  <h3 class="ag-section-title hidden-xs">
+            <span translate="sponsors.remerciements"></span>
+            <span class="sponsor-gold">GOLD</span>
+          </h3>
 
 					<div class="panel-group" id="accordionSponsorsGold">
             <div class="panel panel-default" ng-repeat="sponsor in getGold()">
@@ -22,7 +25,8 @@
                   <div ng-include="description(sponsor)"></div>
                   <br>
                   <p>
-                    Pour plus d'informations: <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                    <span translate="sponsors.more_informations"></span>
+                    <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
                   </p>
                 </div>
               </div>
@@ -32,7 +36,7 @@
    		  </div>
 
         <div class="panel-body">
-          <h3 class="ag-section-title hidden-xs">Merci à nos partenaires 2015</h3>
+          <h3 class="ag-section-title hidden-xs" translate="sponsors.remerciements_partenaire"></h3>
               <div class="panel panel-default">
                 <div class="panel-body">
                   <a ng-repeat="sponsor in getPartenaire()" href="{{sponsor.web}}">{{sponsor.entreprise}}</a>
@@ -49,7 +53,10 @@
   		<div class="panel panel-default transparent_black50">
         <div class="panel-body">
 
-  			  <h3 class="ag-section-title">Merci à nos sponsors 2015 <span class="sponsor-silver">SILVER</span> </h3>
+  			  <h3 class="ag-section-title">
+            <span translate="sponsors.remerciements"></span>
+            <span class="sponsor-silver">SILVER</span>
+          </h3>
 
   				<div class="panel-group" id="accordionSponsorsSilver">
    					<div class="panel panel-default" ng-repeat="sponsor in getSilver()">
@@ -65,7 +72,8 @@
                   <div ng-include="description(sponsor)"></div>
                   <br>
                   <p>
-                    Pour plus d'informations: <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                    <span translate="sponsors.more_informations"></span>
+                    <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
                   </p>
                 </div>
               </div>

@@ -6,12 +6,12 @@ AgileGrenobleApp.directive('agParticipants', ['$window', function($window) {
 			//transclude: 'element',
 			replace: true,
 			controller: function ($scope, ContentService) {
-				$scope.content = ContentService.getParticipants().then(function(data) {
+				$scope.content = ContentService.getCommonData().then(function(data) {
 					$scope.content = data;
 				},
-                function(data) {
-                    $scope.content = data;
-                });
+        function(data) {
+            $scope.content = data;
+        });
 
 				$scope.site = function(annee) {
 					if(annee <= 2009) {

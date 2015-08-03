@@ -1,19 +1,21 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
-AgileGrenobleApp.directive('agApropos', [function() {
+AgileGrenobleApp.directive('agApropos', function () {
+  return {
+    restrict: 'A',
+    replace: true,
+    controller: function ($scope, $filter, ContentService) {
+      var $translate = $filter('translate');
 
-		return {
-			restrict: 'A',
-			//transclude: 'element',
-			replace: true,
-			controller: function ($scope, ContentService) {
-				$scope.content = ContentService.getApropos().then(function(data) {
-					$scope.content = data;
-				},
-                function(data) {
-                    $scope.content = data;
-                });
-			},
-			templateUrl: 'client/templates/agile-grenoble/apropos.html'
-		};
-	}])
-;
+      $scope.content = ContentService.getCommonData().then(function (data) {
+        $scope.content = data;
+      }, function (data) {
+        $scope.content = data;
+      });
+
+      $scope.mails = function (strToTranslate) {
+        return $translate(strToTranslate);
+      };
+    },
+    templateUrl: 'client/templates/agile-grenoble/apropos.html'
+  };
+});

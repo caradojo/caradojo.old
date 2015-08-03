@@ -2,19 +2,13 @@ var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.directive('agOrateurs', ['$window', function($window) {
 		return {
 			restrict: 'A',
-			//transclude: 'element',
 			replace: true,
-			controller: function ($scope) {
-				$scope.content = ContentService.getOrateurs().then(function(data) {
-					$scope.content = data;
-				},
-                function(data) {
-                    $scope.content = data;
-                });
+			controller: function ($scope, $filter) {
+				var $translate = $filter('translate');
 
-				$scope.soumettre = function() {
-					$window.location.href = $scope.content.cfp;
-				};
+				$scope.lienSoumission = function() {
+          return $translate('cfp.link.addr');
+        };
 			},
 			templateUrl: 'client/templates/agile-grenoble/orateurs.html'
 		};

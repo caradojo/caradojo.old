@@ -35,12 +35,13 @@
               <div ng-include="description(sponsor)"></div>
               <br>
               <p>
-                Pour plus d'informations: <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                <span translate="sponsors.more_informations"></span>
+                <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
               </p>
             </div>
 
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="startSlideshow()">Fermer</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="startSlideshow()"><span translate="button.close"></span></button>
             </div>
 
           </div>

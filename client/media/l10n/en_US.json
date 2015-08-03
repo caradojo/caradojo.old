@@ -1,0 +1,115 @@
+{
+    "accueil": {
+        "title" : "accueil",
+        "title_ag" : "Agile Grenoble 2015 : se développer ensemble !",
+        "description" : {
+            "paragraphe1": "Passionnés par l’agilité dans l’informatique, qu’il s’agisse de technique, d’outils, de management ou tout simplement des humains et de leur bien-être au travail,  nous cherchons à améliorer constamment nos pratiques, nos comportements, notre état d’esprit. Dans ce monde où tout bouge très vite, nous avons besoin pour cela de repères, et donc de trouver du sens et des valeurs plus humaines au travail, comme à la maison ou dans la vie quotidienne.",
+            "paragraphe2": "Imaginons ensemble un monde du travail satisfait/satisfait où la collaboration durable est au centre des préoccupations. Un monde du travail où le savoir être se mélange avec le savoir-faire et le savoir apprendre, ensemble, en équipe, tout en prenant soin de soi-même. Pour de meilleurs résultats économiques, sociaux et humains.",
+            "paragraphe3": "Si vous aussi vous faites parfois ce rêve alors retrouvons nous à Agile Grenoble le <strong>jeudi 19 Novembre 2015</strong>. Nous partagerons nos rêves, nos espoirs, nos idées et nos expériences concrètes sur ce long chemin agile du savoir grandir ensemble !"
+        },
+        "date": "Rendez-vous le jeudi 19 Novembre 2015 !"
+    },
+
+    "orateurs": {
+        "title": "Orateurs",
+        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 19 novembre 2015 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
+    },
+
+    "keynotes": {
+        "title": "Keynotes",
+        "description": "En 2015 vous découvrirez plusieurs keynotes en plénière : en ouverture de la conférence, à la reprise de l'après-midi et enfin à la clôture en fin d'après-midi."
+    },
+
+    "sponsors": {
+        "title": "Sponsors",
+        "remerciements": "Merci à nos sponsors 2015",
+        "remerciements_partenaire": "Merci à nos partenaires 2015",
+        "more_informations": "Pour plus d'informations:"
+    },
+
+    "participants": {
+        "title": "Participants",
+        "date": "Novembre 2015"
+    },
+
+    "themes" : {
+        "title": "Thème de la conférence",
+        "description": "En 2015, le thème principale de la conférence sera : <strong>se développer ensemble !</strong>Les sessions s'organiseront autour des thèmes suivants :",
+        "theme1": "Organisations et Management du 21ème siècle",
+        "theme2": "Développement personnel et collectif",
+        "theme3": "Nouveaux compétences et savoir-faire",
+        "theme4": "Bien être au travail"
+    },
+
+    "cfp" : {
+        "title": "Sessions soumises",
+        "description": "Notre plateforme de soumissions permet à tous nos potentiels orateurs de voir toutes les sessions soumises afin d'échanger des feedbacks sur celles-ci et ainsi améliorer leur description ou même leur contenu. Vous pouvez changer et mettre au point la description de votre session à tout moment grâce à cette plateforme.",
+        "link": {
+            "name": "Soumettre votre session",
+            "addr": "http://cfp.agile-grenoble.org/"
+        }
+    },
+
+    "apropos" : {
+        "title": "A propos",
+        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
+        "of": "de",
+        "under": "sous"
+    },
+
+    "cara": {
+        "title": "Club Agile Rhône Alpes (CARA)",
+        "description": "Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.",
+        "link": {
+            "name": "Visiter le site du CARA",
+            "addr": "http://www.clubagilerhonealpes.org/"
+        }
+    },
+
+    "programme": {
+        "title": "Programme",
+        "nondisponible": "Notre programme de 2015 n'est pas encore disponible",
+        "disponible": "Le programme de la conférence est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées pour cette année ainsi que leur description.",
+        "link": "Voir le programme"
+    },
+
+    "hotels": {
+        "title": "Hôtels",
+        "more": "Plus d'hôtels sur"
+    },
+
+    "acces": {
+        "title": "Accès"
+    },
+
+    "inscriptions" : {
+        "title": "Inscriptions",
+        "price": "L'inscription à la conférence est obligatoire. Le tarif du billet d'entrée est de 50 €.",
+        "description": "Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons servies pendant les pauses."
+    },
+
+    "emails" : {
+        "title" : "Contacts",
+        "description": "Pour nous contacter avant la conférence envoyez-nous tout simplement un email :",
+        "orateur" : {
+            "addr": "orateur@agile-grenoble.org",
+            "desc": "pour l'appel à orateur et les soumissions de sessions"
+        },
+        "sponsor" : {
+            "addr": "sponsor@agile-grenoble.org",
+            "desc": "pour l'offre de sponsoring"
+        },
+        "inscription" : {
+            "addr": "inscription@agile-grenoble.org",
+            "desc": "pour les inscriptions à la conférence"
+        },
+        "contact" : {
+            "addr": "contact@agile-grenoble.org",
+            "desc": "pour toute autre question au sujet de la conférence"
+        }
+    },
+
+    "button": {
+        "close": "Fermer"
+    }
+}

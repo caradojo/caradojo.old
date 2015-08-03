@@ -19,6 +19,7 @@ angular.module('directive.g+signin', []).
         attrs.clientid += (ending.test(attrs.clientid) ? '' : '.apps.googleusercontent.com');
 
         attrs.$set('data-clientid', attrs.clientid);
+        attrs.$set('theme', attrs.theme);
 
         // Some default values, based on prior versions of this directive
         var defaults = {
@@ -26,10 +27,13 @@ angular.module('directive.g+signin', []).
           cookiepolicy: 'single_host_origin',
           requestvisibleactions: 'http://schemas.google.com/AddActivity',
           scope: 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email',
+          height: 'standard',
           width: 'wide',
+          state: ''
         };
 
         defaults.clientid = attrs.clientid;
+        defaults.theme = attrs.theme;
 
         // Overwrite default values if explicitly set
         angular.forEach(Object.getOwnPropertyNames(defaults), function(propName) {
