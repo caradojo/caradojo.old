@@ -1,11 +1,11 @@
 {
     "accueil": {
-        "title" : "accueil",
+        "title" : "Welcome",
         "title_ag" : "Agile Grenoble 2015 : Let's grow together!",
         "description" : {
-            "paragraphe1": "Passionnés par l’agilité dans l’informatique, qu’il s’agisse de technique, d’outils, de management ou tout simplement des humains et de leur bien-être au travail,  nous cherchons à améliorer constamment nos pratiques, nos comportements, notre état d’esprit. Dans ce monde où tout bouge très vite, nous avons besoin pour cela de repères, et donc de trouver du sens et des valeurs plus humaines au travail, comme à la maison ou dans la vie quotidienne.",
-            "paragraphe2": "Imaginons ensemble un monde du travail satisfait/satisfait où la collaboration durable est au centre des préoccupations. Un monde du travail où le savoir être se mélange avec le savoir-faire et le savoir apprendre, ensemble, en équipe, tout en prenant soin de soi-même. Pour de meilleurs résultats économiques, sociaux et humains.",
-            "paragraphe3": "Si vous aussi vous faites parfois ce rêve alors retrouvons nous à Agile Grenoble le <strong>jeudi 19 Novembre 2015</strong>. Nous partagerons nos rêves, nos espoirs, nos idées et nos expériences concrètes sur ce long chemin agile du savoir grandir ensemble !"
+            "paragraphe1": "We are passionate with informatics (techniques, tools, management, but also simply humans and their wellness at work) and we strive to constantly improve our practices, our behaviors and our mindset. In this world where everything is moving fast, we need key reference points for that, and thus we are looking for meaning and more human values at work, at home and in daily life.",
+            "paragraphe2": "Let's imagine together a satisfied/satisfied business world where durable collaboration is the focus of attention. A business world where together, as a team, we develop know-how, interpersonal skills, and learning skills, while still taking better care of ourselves. For better economical, social and human outcomes.",
+            "paragraphe3": "If you too you sometimes have this dream, then let's meet at Agile Grenoble on <strong>Thursday 19 November 2015</strong>. We'll share our dreams, our hopes, our ideas and our experiences on this long learning path of growing together!"
         },
         "date": "See you on Thursday, 19 November 2015!"
     },
