@@ -85,7 +85,7 @@
     "inscriptions" : {
         "title": "Registrations",
         "price": "Registrations are mandatory. The price is 50 €.",
-        "description": "Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons servies pendant les pauses."
+        "description": "The ticket gives access to all conference sessions , as well as lunch and beverages served during breaks."
     },
 
     "emails" : {
