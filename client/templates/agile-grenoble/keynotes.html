@@ -12,22 +12,48 @@
   </div>
 
   <div class="row">
-    <div class = "col-md-6 col-sm-6" ng-repeat="item in content.keynotes">
-     	<div class="panel panel-default transparent_white75">
-        <div class="panel-body">
-  		    <div class="media">
-    				<img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px"/>
-            <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px"/>
-  				  <h3 class="visible-md visible-lg">{{item.name}}</h3>
-            <h4 class="visible-sm">{{item.name}}</h4>
-            <p class="visible-xs"><strong>{{item.name}}</strong></p>
-  				  <p>{{item.text1}}</p>
-            <p class="hidden-xs">{{item.text2}}</p>
-            <p class="hidden-xs hidden-sm">{{item.text3}}</p>
-            <p class="hidden-xs hidden-sm">{{item.text4}}</p>
+    <div ng-switch="content.keynotes.length">
+
+      <div ng-switch-when="3">
+        <div class = "col-md-4 col-sm-4" ng-repeat="item in content.keynotes">
+          <div class="panel panel-default transparent_white75">
+            <div class="panel-body">
+              <div class="media">
+                <img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px"/>
+                <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px"/>
+                <h3 class="visible-md visible-lg">{{item.name}}</h3>
+                <h4 class="visible-sm">{{item.name}}</h4>
+                <p class="visible-xs"><strong>{{item.name}}</strong></p>
+                <p>{{item.text1}}</p>
+                <p class="hidden-xs">{{item.text2}}</p>
+                <p class="hidden-xs hidden-sm">{{item.text3}}</p>
+                <p class="hidden-xs hidden-sm">{{item.text4}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-default>
+        <div class = "col-md-6 col-sm-6" ng-repeat="item in content.keynotes">
+          <div class="panel panel-default transparent_white75">
+            <div class="panel-body">
+              <div class="media">
+                <img class="img-thumbnail visible-md visible-lg pull-left" ng-src="{{item.photo}}" width="120px"/>
+                <img class="img-thumbnail visible-sm hidden-xs pull-left" ng-src="{{item.photo}}" width="60px"/>
+                <h3 class="visible-md visible-lg">{{item.name}}</h3>
+                <h4 class="visible-sm">{{item.name}}</h4>
+                <p class="visible-xs"><strong>{{item.name}}</strong></p>
+                <p>{{item.text1}}</p>
+                <p class="hidden-xs">{{item.text2}}</p>
+                <p class="hidden-xs hidden-sm">{{item.text3}}</p>
+                <p class="hidden-xs hidden-sm">{{item.text4}}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
   </div>
 
 </div>
