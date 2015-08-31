@@ -14,6 +14,14 @@
           "text2" : "Gunther ventured into IT and software development in 1992. His Agile journey started with eXtreme Programming and Scrum in 2003. Years of dedication followed, of working with several teams and organizations, of using Scrum in diverse circumstances, resulting in being the inspiring force behind some large-scale enterprise transformations.",
           "text3" : "Gunther left consulting in 2013 to partner with Ken Schwaber, Scrum co-creator. He is Professional Scrum trainer, shepherds the ‘Professional Scrum’ series and is co-creator to the framework for Scaled Scrum of Scrum.org. ",
           "text4" : "In 2013 Gunther published his highly appraised book “Scrum – A Pocket Guide,” a ‘smart travel companion’ to Scrum."
-        }
+        },
+		
+		{
+			"photo" : "GabinBellet.png",
+			"name"  : "Gabin Bellet",
+			"text1" : "Il existe trois types de personnes : celle qui voudrait changer, celle qui pourrait changer et celle qui change les choses. Au travers d'histoires amusantes, d'exemples inspirants et des découvertes scientifiques les plus récentes, Gabin BELLET vous dévoilera les clés de ces individus qui font bouger les choses. Un kit de survie pratique pour toutes les personnes qui souhaitent impulser un changement durable avec efficacité, sérénité et enthousiasme.",
+			"text2" : "Gabin BELLET est coach, formateur et conférencier en développement humain. Il accompagne au quotidien les individus et les organisations à mettre en place les changements nécessaires pour atteindre leurs objectifs. Préparateur mental en sport de haut niveau depuis plusieurs années il accompagne aujourd'hui également les professionnels, les particuliers et les jeunes avec la même passion : révéler le meilleur en chacun de nous pour donner vie à nos rêves.",
+			"text3" : "Le site internet de Gabin : www.endeveloppement.fr"
+		}
 			]
 }
