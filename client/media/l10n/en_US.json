@@ -84,8 +84,8 @@
 
     "inscriptions" : {
         "title": "Registrations",
-        "price": "Registrations are mandatory. The price is 50 €.",
-        "description": "The ticket gives access to all conference sessions , as well as lunch and beverages served during breaks."
+        "price": "Registrations are mandatory. The price is 50 €. The ticket gives access to all conference sessions , as well as lunch and beverages served during breaks.",
+        "description": "Registrations should be open around September 15th."
     },
 
     "emails" : {

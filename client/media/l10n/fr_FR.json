@@ -84,8 +84,8 @@
 
     "inscriptions" : {
         "title": "Inscriptions",
-        "price": "L'inscription à la conférence est obligatoire. Le tarif du billet d'entrée est de 50 €.",
-        "description": "Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons servies pendant les pauses."
+        "price": "L'inscription à la conférence est obligatoire. Le tarif du billet d'entrée est de 50 €. Le billet donne droit d'accès à toutes les sessions de la conférence ainsi qu'à un déjeuner et aux boissons servies pendant les pauses.",
+        "description": "Les inscriptions devraient être ouvertes vers le 15 septembre."
     },
 
     "emails" : {
