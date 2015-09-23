@@ -50,6 +50,15 @@
         }
     },
 
+	"register" : {
+        "title": "Registrations",
+        "description": "Registrations are now open. Do not wait for the very late moment to buy your ticket. For 8 years the tickets for our conference are sold out every year well in advance.",
+        "link": {
+            "name": "Buy your ticket",
+            "addr": "http://yurplan.com/event/Agile-Grenoble-2015/5619"
+        }
+    },
+	
     "apropos" : {
         "title": "About",
         "description": "The conference <strong>Agile Grenoble</strong> exists since 2008 and the 2015 edition will be the 8th conference in a row. The event is wholly organized by the volunteers of the Club Agile Rhône-Alpes Grenoble, with of course the support of our sponsors and partners.",
@@ -68,7 +77,7 @@
 
     "programme": {
         "title": "Program",
-        "nondisponible": "Our 2015 program is not yet available",
+        "nondisponible": "2015 program is under finalization... stay tuned!",
         "disponible": "The conference program is now available!<br>You can already view this year sessions and their description.",
         "link": "See the program"
     },

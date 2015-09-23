@@ -8,6 +8,10 @@ AgileGrenobleApp.directive('agAccueil', function() {
 
         $scope.lienSoumission = function() {
           return $translate('cfp.link.addr');
+		};
+		
+		$scope.lienRegister = function() {
+          return $translate('register.link.addr');		  		  
         };
 			},
 			templateUrl: 'client/templates/agile-grenoble/accueil.html'
