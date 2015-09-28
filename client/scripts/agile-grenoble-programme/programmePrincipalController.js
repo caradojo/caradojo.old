@@ -3,7 +3,7 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 
 		$scope.displaytheme = true;
 		$scope.gridsterOpts = {
-			columns: 11,
+			columns: 12,
 			defaultSizeX: 1,
 			margins: [0, 0],
 			outerMargin: true,
@@ -35,7 +35,7 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
        };
 
 	   $scope.isKeynote = function(uniqueSlot) {
-	   		return (uniqueSlot == undefined)? false: uniqueSlot.width == 10;
+	   		return (uniqueSlot == undefined)? false: uniqueSlot.width == 11;
 	   }
 
 	  	$scope.getColPosition = function(item) {
