@@ -10,6 +10,15 @@
         "date": "Rendez-vous le jeudi 19 Novembre 2015 !"
     },
 
+	"agileinnovation": {
+		"title": "Agile Innovation 2015",
+        "description": "Vous en voulez plus ? Venez nous rejoindre à Agile Innovation 2015 le vendredi 20 novembre (le lendemain de Agile Grenoble). Cette journée se déroulera sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
+		"link": {
+            "name": "Visiter Agile Innovation 2015",
+            "addr": "http://2015.agile-grenoble.org/agile-innovation/"
+		}
+	},
+	
     "orateurs": {
         "title": "Orateurs",
         "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 19 novembre 2015 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
