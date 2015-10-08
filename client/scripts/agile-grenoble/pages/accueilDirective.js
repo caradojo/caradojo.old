@@ -13,6 +13,10 @@ AgileGrenobleApp.directive('agAccueil', function() {
 		$scope.lienRegister = function() {
           return $translate('register.link.addr');		  		  
         };
+		
+		$scope.lienAI2015 = function() {
+          return $translate('agileinnovation.link.addr');		  		  
+        };
 			},
 			templateUrl: 'client/templates/agile-grenoble/accueil.html'
 		};

@@ -9,6 +9,15 @@
         },
         "date": "See you on Thursday, 19 November 2015!"
     },
+	
+	"agileinnovation": {
+		"title": "Agile Innovation 2015",
+        "description": "You want more ? Please join us at Agile Innovation 2015 on Friday November 20th (the day after Agile Grenoble). This day will run as an open space format conference in which you will bring and take all the topics that matter for you and for the other participants.",
+		"link": {
+            "name": "More information...",
+            "addr": "http://2015.agile-grenoble.org/agile-innovation/"
+			}
+	},
 
     "orateurs": {
         "title": "Speakers",
