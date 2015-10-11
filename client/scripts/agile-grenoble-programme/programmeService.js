@@ -34,20 +34,20 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
 
         var legend = [
             {   
-                "theme": "sharing",
-                "name" : "Partage & Emulation"
+                "theme": "mom21",
+                "name" : "Organisation & management du 21eme siecle"
             },
             {   
-                "theme": "change",
-                "name" : "Changement & Energie"
+                "theme": "development",
+                "name" : "Developpement personnel & collectif"
             },
             {   
-                "theme": "desire",
-                "name" : "Desir & Realite"
+                "theme": "tech",
+                "name" : "Nouveaux savoir-faire & competences"
             },
             {   
                 "theme": "pleasure",
-                "name" : "Plaisir & Excellence"
+                "name" : "Bien-etre au travail"
             }
         ];
 
