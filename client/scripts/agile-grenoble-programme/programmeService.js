@@ -33,19 +33,19 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
         var row_hours_position = [];
 
         var legend = [
-            {   
-                "theme": "mom21",
-                "name" : "Organisation & management du 21eme siecle"
-            },
-            {   
-                "theme": "development",
-                "name" : "Developpement personnel & collectif"
-            },
-            {   
+            {
                 "theme": "tech",
                 "name" : "Nouveaux savoir-faire & competences"
             },
-            {   
+            {
+                "theme": "development",
+                "name" : "Developpement personnel & collectif"
+            },
+            {
+                "theme": "mom21",
+                "name" : "Organisation & management du 21eme siecle"
+            },
+            {
                 "theme": "pleasure",
                 "name" : "Bien-etre au travail"
             }
