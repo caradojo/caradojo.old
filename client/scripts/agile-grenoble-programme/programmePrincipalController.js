@@ -3,7 +3,6 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 
 		$scope.displaytheme = true;
 		$scope.gridsterOpts = {
-			columns: 12,
 			defaultSizeX: 1,
 			margins: [0, 0],
 			outerMargin: true,
@@ -17,25 +16,26 @@ AgileGrenobleApp.controller('ProgrammePrincipalCtrl', function($scope, $http, Pr
 			resizable: {
 				enabled: false,
 				handles: 'n, e, s, w, se, sw'
+			},
+			defineRoomCount: function(maxSessionsCount) {
+				this.columns = maxSessionsCount + 1;
 			}
 		};
 
 		var loadData = function() {
 
-				/*$http.jsonp('http://stark-sea-2092.herokuapp.com/jsonp/beta/program-summary-with-roomlist?JSON_CALLBACK')
-				.success(function(data) {
-					var dfs = data;
-				});
-*/
                 ProgrammeCacheService.get().then(function(data) {
                     $scope.program = data;
+					$scope.gridsterOpts.defineRoomCount(data.rooms.length)
+
                 }, function(data) {
                     // error case
                 });
        };
 
 	   $scope.isKeynote = function(uniqueSlot) {
-	   		return (uniqueSlot == undefined)? false: uniqueSlot.width == 11;
+		   var maxSessionWidth = $scope.program.rooms.length;
+           return uniqueSlot && uniqueSlot.width == maxSessionWidth;
 	   }
 
 	  	$scope.getColPosition = function(item) {
