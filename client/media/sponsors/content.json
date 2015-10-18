@@ -65,6 +65,15 @@
 				  "description" : "soprasteria.html"
 				},
 				{
+				  "photo" : "moodys.jpg",
+				  "entreprise" : "Moody's Analytics",
+				  "web" : "http://www.moodysanalytics.com/Regional/France",
+				  "partenaire": false,
+				  "goldNotSilver" : false,
+				  "description" : "moodys.html"
+				},
+				
+				{
 				  "photo" : "memoclub.jpg",
 				  "entreprise" : "MEMOCLUB",
 				  "web" : "http://www.memoclub.fr/",
