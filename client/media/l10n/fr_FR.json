@@ -51,10 +51,10 @@
     },
 
     "cfp" : {
-        "title": "Sessions soumises",
-        "description": "Notre plateforme de soumissions permet à tous nos potentiels orateurs de voir toutes les sessions soumises afin d'échanger des feedbacks sur celles-ci et ainsi améliorer leur description ou même leur contenu. Vous pouvez changer et mettre au point la description de votre session à tout moment grâce à cette plateforme jusqu'au 11 septembre. Une présélection sera effectuée fin août.",
+        "title": "La soumission des sessions est close",
+        "description": "Notre plateforme de soumissions reste ouverte afin de vous permettre d'améliorer la description des sessions ainsi que de saisir votre profil orateur.",
         "link": {
-            "name": "Soumettre votre session",
+            "name": "Editer sessions et profil",
             "addr": "http://cfp.agile-grenoble.org/"
         }
     },

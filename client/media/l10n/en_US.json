@@ -51,10 +51,10 @@
     },
 
     "cfp" : {
-        "title": "Submitted Sessions",
-        "description": "Our submission platform allows all potential speakers to view all submitted sessions, in order to exchange feedback and improve their content and/or description. You can change and adapt the description of your sessions at any time thanks to this platform until September 11th. An preselection will be done end of August.",
+        "title": "Submission is now closed",
+        "description": "Our submission platform remains open in order to allow improving your session description and editing your spear profile as well.",
         "link": {
-            "name": "Submit your session",
+            "name": "Edit sessions and profile",
             "addr": "http://cfp.agile-grenoble.org/"
         }
     },
