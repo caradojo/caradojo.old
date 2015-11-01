@@ -26,7 +26,7 @@ AgileGrenobleApp.service('SessionService', function() {
     var addLackingHttp = function(session) {
 	for (var speakerIndex in session['speakers-detail']) {
 	    speaker = session['speakers-detail'][speakerIndex];
-	    if(speaker && speaker.website!='' && speaker.website.substr(0,4)!="http" ) {
+	    if(speaker && speaker.website && speaker.website.substr(0,4)!="http" ) {
 		speaker.website = "http://" + speaker.website
 	    }
 	}
