@@ -4,7 +4,7 @@ AgileGrenobleApp.controller('ProgrammeSessionCtrl' , function($scope, $routePara
 		var loadData = function() {
 			Session.jsonp_query({id:$routeParams.id}).$promise.then(
                 function( session ) {
-		    SessionService.enableCarriageReturn(session);
+		    SessionService.fixSessionData(session);
                	    $scope.session = session;
                 },
                 function( error ) {
