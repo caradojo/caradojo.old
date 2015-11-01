@@ -19,12 +19,12 @@
 	        <div><b>Thème:</b> {{session.theme}}</div>
 	    </div>
 	    <div class="panel-body">
-	        <div><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
+	        <div ng-show="session.abstract"><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
 	            <p><b>Bénéfices pour les participants : </b>{{session.benefits}}</p>
 		</div>
 	    </div>
 	    <div class="panel-body">
-		<div><b>Détails : </b><p ng-bind-html="session.description"></p></div>
+		<div ng-show="session.description"><b>Description : </b><p ng-bind-html="session.description"></p></div>
 	    </div>
 	    <div class="panel-divider"></div>
 	    <div class="panel-body">
