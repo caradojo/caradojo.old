@@ -3,7 +3,6 @@ AgileGrenobleApp.service('SessionService', function() {
 
     /// Divers traitements pour afficher correctement les sessions
     this.fixSessionData = function (session) {
-	cleanUpSpeakers(session);
 	enableCarriageReturn(session);
 	addLackingHttp(session);
 	suppressDuplicateDescription(session);
@@ -39,15 +38,6 @@ AgileGrenobleApp.service('SessionService', function() {
 	    session.description = null;
 	} else if (session.description.substr(0, session.abstract.length) == session.abstract) {
 	    session.description = session.description.substr(session.abstract.length);
-	}
-    };
-
-    /// Remove speaker with no data (produces a ":" in the session)
-    var cleanUpSpeakers = function(session) {
-	for (var speakerIndex in session['speakers-detail']) {
-	    if (!session['speakers-detail'][speakerIndex]) {
-		delete session['speakers-detail'][speakerIndex];
-	    }
 	}
     };
 
