@@ -5,7 +5,6 @@ AgileGrenobleApp.service('SessionService', function() {
     this.fixSessionData = function (session) {
 	enableCarriageReturn(session);
 	addLackingHttp(session);
-	suppressDuplicateDescription(session);
     };
 
     /// Session: sauts de ligne dans description, bio, ...
@@ -29,15 +28,6 @@ AgileGrenobleApp.service('SessionService', function() {
 	    if(speaker && speaker.website!='' && speaker.website.substr(0,4)!="http" ) {
 		speaker.website = "http://" + speaker.website
 	    }
-	}
-    };
-
-    /// Supprime doublon entre session courte et longue (si la longue est égale ou commence par la courte)
-    var suppressDuplicateDescription = function (session) {
-        if (session.description == session.abstract) {
-	    session.description = '';
-	} else if (session.description.substr(0, session.abstract.length) == session.abstract) {
-	    session.description = session.description.substr(session.abstract.length);
 	}
     };
 
