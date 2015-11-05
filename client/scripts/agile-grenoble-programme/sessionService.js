@@ -32,10 +32,10 @@ AgileGrenobleApp.service('SessionService', function() {
 	}
     };
 
-    /// Supprime doublon entre description courte et longue (si la longue est égale ou commence par la courte)
+    /// Supprime doublon entre session courte et longue (si la longue est égale ou commence par la courte)
     var suppressDuplicateDescription = function (session) {
         if (session.description == session.abstract) {
-	    session.description = null;
+	    session.description = '';
 	} else if (session.description.substr(0, session.abstract.length) == session.abstract) {
 	    session.description = session.description.substr(session.abstract.length);
 	}
