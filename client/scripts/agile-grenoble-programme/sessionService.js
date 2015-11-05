@@ -1,9 +1,10 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
-AgileGrenobleApp.service('SessionService', function () {
+AgileGrenobleApp.service('SessionService', function (ThemeService) {
 
     /// Divers traitements pour afficher correctement les sessions
     this.fixSessionData = function (session) {
         cleanUpSpeakers(session);
+        session.themeName = ThemeService.findName(session.theme);
         addLackingHttp(session);
         suppressDuplicateDescription(session);
     };

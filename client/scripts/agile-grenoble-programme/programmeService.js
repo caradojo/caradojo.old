@@ -1,5 +1,5 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
-AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
+AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
         
         var slots = {};
         var rooms = {};
@@ -31,25 +31,6 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
         var slot_hours_length = [];
         var row_hours_position = [];
 
-        var legend = [
-            {
-                "theme": "tech",
-                "name" : "Nouveaux savoir-faire & competences"
-            },
-            {
-                "theme": "development",
-                "name" : "Developpement personnel & collectif"
-            },
-            {
-                "theme": "mom21",
-                "name" : "Organisation & management du 21eme siecle"
-            },
-            {
-                "theme": "pleasure",
-                "name" : "Bien-etre au travail"
-            }
-        ];
-
 
         this.get = function() {
 
@@ -65,7 +46,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots) {
                     datasDeferred.slot_hours_length = slot_hours_length;
                     datasDeferred.row_hours_position = row_hours_position;
                     datasDeferred.slot_hours = slot_hours;
-                    datasDeferred.legend = legend;
+                    datasDeferred.themes = ThemeService.themeDictionary();
                     deferred.resolve(datasDeferred);
                 },
                 function( error ) {
