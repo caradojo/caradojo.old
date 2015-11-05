@@ -67,6 +67,10 @@ a, a:hover {
     overflow: auto;
 }
 
+.preserve-line-wrap {
+    white-space:pre-wrap;
+}
+
 .keynote {
 	background-color: #E8E4ED;
 }
