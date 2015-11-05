@@ -4,13 +4,13 @@
 			<img src="client/media/logo/logo_ag_black_100.png" alt="logo" width="120px"> 
 			{{session.title}}  
 			<a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a>
-			<br/><small>{{session.sub_title}}</small>
+			<br><small>{{session.sub_title}}</small>
 		</h2>
         <h4 class="visible-xs visible-sm">
         	<img src="client/media/logo/logo_ag_black_100.png" alt="logo" width="50px"> 
         	{{session.title}} 
         	<a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a>
-        	<br/><small>{{session.sub_title}}</small>
+        	<br><small>{{session.sub_title}}</small>
         </h4>
     </div>
 	 <div class="panel panel-default panel-session">
@@ -19,12 +19,8 @@
 	        <div><b>Thème:</b> {{session.theme}}</div>
 	    </div>
 	    <div class="panel-body">
-	        <div><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
-	            <p><b>Bénéfices pour les participants : </b>{{session.benefits}}</p>
-		</div>
-	    </div>
-	    <div class="panel-body">
-		<div><b>Détails : </b><p ng-bind-html="session.description"></p></div>
+	        <div><b>Résumé : </b>{{session.abstract}} <p>{{session.description}}</p></div>
+	        <div><b>Bénéfices pour les participants : </b>{{session.benefits}}</div>
 	    </div>
 	    <div class="panel-divider"></div>
 	    <div class="panel-body">
@@ -36,9 +32,9 @@
 	            	</a>
 	            	<a ng-show="speaker.website" class="glyphicon glyphicon-home" ng-href="{{speaker.website}}"></a> 
 	            	<br/>
-	                <span ng-bind-html="speaker.bio"></span>
+	                {{speaker.bio}}
 	            </div>
-	            <br/>
+	            <br>
 	        </div>
 	    
 	    </div>

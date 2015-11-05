@@ -1,4 +1,4 @@
-var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngResource', 'gridster', 'ngRoute', 'ngAnimate', 'ngSanitize'])
+var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngResource', 'gridster', 'ngRoute', 'ngAnimate'])
 	.config(['$routeProvider',
 		function($routeProvider) {
 			$routeProvider.
