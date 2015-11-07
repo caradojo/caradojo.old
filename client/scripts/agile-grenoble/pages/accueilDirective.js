@@ -17,6 +17,14 @@ AgileGrenobleApp.directive('agAccueil', function() {
 		$scope.lienAI2015 = function() {
           return $translate('agileinnovation.link.addr');		  		  
         };
+
+		$scope.lienCaraContact = function() {
+          return $translate('cara.contactlink.addr');		  		  
+        };
+
+		$scope.lienCaraEvenements = function() {
+          return $translate('cara.eventslink.addr');		  		  
+        };
 			},
 			templateUrl: 'client/templates/agile-grenoble/accueil.html'
 		};
