@@ -6,6 +6,11 @@
   text-decoration:none;
 }
 
+.ag-margin-before-after {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 #accueil .dateConference {
 	position: absolute;
 	left:70%;

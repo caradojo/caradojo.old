@@ -79,7 +79,23 @@
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "samse.html"
-				}
-
+				}/*,
+				{
+				  "photo" : "",
+				  "entreprise" : "",
+				  "web" : "",
+				  "partenaire": false,
+				  "goldNotSilver" : false,
+				  "description" : "xerox.html"
+				}*/
+/*,
+				{
+				  "photo" : "",
+				  "entreprise" : "",
+				  "web" : "http://",
+				  "partenaire": false,
+				  "goldNotSilver" : false,
+				  "description" : ".html"
+				}*/
 			]
 }

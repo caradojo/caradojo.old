@@ -66,7 +66,11 @@
             "name": "Achetez votre billet",
             "addr": "http://yurplan.com/event/Agile-Grenoble-2015/5619"
         },
-				"registrationfinished": "... mais Agile Innovation n'est pas encore complet,<br>et vous pouvez participer toute l'année aux rencontres et atelier du Club Agile Rhône-Alpes (inscrivez-vous au groupe Yahoo pour être tenu informé)."
+        "queueLink": {
+            "name": "Liste d'attente",
+            "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
+        },
+				"registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation, qui n'affiche pas encore complet,</li><li>et durant toute l'année, participer aux rencontres et ateliers du Club Agile Rhône-Alpes (inscrivez-vous au groupe Yahoo pour être tenu informé).</li></ul>"
     },
 
     "apropos" : {
