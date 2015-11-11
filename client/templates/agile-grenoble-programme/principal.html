@@ -14,8 +14,8 @@
         </div>
         <div class="panel-body animate-theme" ng-hide="!displaytheme">
             <div class="row">
-                <div ng-repeat="legend in program.legend"  >
-                  <div class="col-xs-12 col-md-3 label text-summary {{legend.theme}}">{{legend.name}}</div>
+                <div ng-repeat="(theme, name) in program.themes"  >
+                  <div class="col-xs-12 col-md-3 label text-summary {{theme}}">{{name}}</div>
                 </div>
             </div>
         </div>
