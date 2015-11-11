@@ -31,7 +31,7 @@
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "moodys.html"
-				},	
+				},
 				{
 				  "photo" : "persistent.jpg",
 				  "entreprise" : "Persistent",
@@ -55,7 +55,7 @@
 				  "partenaire": false,
 				  "goldNotSilver" : true,
 				  "description" : "soprasteria.html"
-				},			
+				},
 				{
 				  "photo" : "memoclub.jpg",
 				  "entreprise" : "MEMOCLUB",
@@ -79,23 +79,6 @@
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "samse.html"
-				}/*,
-				{
-				  "photo" : "",
-				  "entreprise" : "",
-				  "web" : "",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "xerox.html"
-				}*/
-/*,
-				{
-				  "photo" : "",
-				  "entreprise" : "",
-				  "web" : "http://",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : ".html"
-				}*/
+				}
 			]
 }
