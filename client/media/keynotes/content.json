@@ -7,14 +7,6 @@
 				  "text2" : "Avant de créer son propre cabinet de conseil en management et communication en 2006, Stéphane a exercé des fonctions  marketing et commerciale et de dirigeant dans différentes entreprises commerciales et industrielles. En 1994, il tombe dans la marmite du conseil dans un gros cabinet National et va très vite exercer ses armes dans l'univers du sport de Haut niveau et dans des grandes entreprises Françaises",
 				  "text3" :"''Relevons ensemble un défi dans notre monde en mouvement permanent et en compétition de haut niveau ! Obtenons toujours plus de résultats (CA, Qualité, Rentabilité, Réactivité... etc) avec de moins en moins d'efforts (ce qui ne veut pas dire moins s'investir et moins travailler, quoique !), et surtout toujours plus de plaisirS ( énergie- épanouissement - harmonie - sens ... etc) et bien ce défi est réalisable !!!'' - Stéphane"
 				},
-        {
-          "photo" : "GuntherVerheyen.png",
-          "name"  : "Gunther Verheyen",
-          "text1" : "Gunther Verheyen is a seasoned Scrum professional. He works for Scrum.org, the home of Scrum, where he shepherds Professional Scrum. He represents Scrum co-creator Ken Schwaber and Scrum.org in Europe.",
-          "text2" : "Gunther ventured into IT and software development in 1992. His Agile journey started with eXtreme Programming and Scrum in 2003. Years of dedication followed, of working with several teams and organizations, of using Scrum in diverse circumstances, resulting in being the inspiring force behind some large-scale enterprise transformations.",
-          "text3" : "Gunther left consulting in 2013 to partner with Ken Schwaber, Scrum co-creator. He is Professional Scrum trainer, shepherds the ‘Professional Scrum’ series and is co-creator to the framework for Scaled Scrum of Scrum.org. ",
-          "text4" : "In 2013 Gunther published his highly appraised book “Scrum – A Pocket Guide,” a ‘smart travel companion’ to Scrum."
-        },
 		
 		{
 			"photo" : "GabinBellet.png",
@@ -25,3 +17,4 @@
 		}
 			]
 }
+
