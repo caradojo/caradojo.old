@@ -3,6 +3,7 @@
         "title" : "Home",
         "title_ag" : "Agile Grenoble 2015 : Let's grow together!",
         "description" : {
+			"paragraphe0": "<span class='glyphicon glyphicon-pencil'></span>Many of you are asking us whether the conference is maintained following the tragic events of last Friday. To date there is no directive from the prefect to ban protests like Agile Grenoble conference. WTC Congress Center continues to host events every day. More than ever we wish we gather next Thursday around the values we share and which contribute to make our world better.",
             "paragraphe1": "We are passionate with informatics (techniques, tools, management, but also simply humans and their wellness at work) and we strive to constantly improve our practices, our behaviors and our mindset. In this world where everything is moving fast, we need key reference points for that, and thus we are looking for meaning and more human values at work, at home and in daily life.",
             "paragraphe2": "Let's imagine together a satisfied/satisfied business world where durable collaboration is the focus of attention. A business world where together, as a team, we develop know-how, interpersonal skills, and learning skills, while still taking better care of ourselves. For better economical, social and human outcomes.",
             "paragraphe3": "If you too you sometimes have this dream, then let's meet at Agile Grenoble on <strong>Thursday 19 November 2015</strong>. We'll share our dreams, our hopes, our ideas and our experiences on this long learning path of growing together!"
@@ -70,7 +71,7 @@
             "name": "Waiting list",
             "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
         },
-		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation, which is not sold out,</li><li>and all along the year you can participate to the meetings, events or workshops organized by the Club Agile RhÃ´ne-Alpes (please register to the Yahoo! group to be informed).</li></ul>"		
+		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation, which is not sold out,</li><li>and all along the year you can participate to the meetings, events or workshops organized by the Club Agile Rhône-Alpes (please register to the Yahoo! group to be informed).</li></ul>"		
     },
 	
     "apropos" : {
