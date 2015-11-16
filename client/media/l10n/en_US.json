@@ -56,7 +56,7 @@
         "link": {
             "name": "Edit sessions and profile",
             "addr": "http://cfp.agile-grenoble.org/"
-        }
+              }
     },
 
 	"register" : {
@@ -65,7 +65,12 @@
         "link": {
             "name": "Buy your ticket",
             "addr": "http://yurplan.com/event/Agile-Grenoble-2015/5619"
-        }
+        },
+        "queueLink": {
+            "name": "Waiting list",
+            "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
+        },
+		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation, which is not sold out,</li><li>and all along the year you can participate to the meetings, events or workshops organized by the Club Agile Rhône-Alpes (please register to the Yahoo! group to be informed).</li></ul>"		
     },
 	
     "apropos" : {
