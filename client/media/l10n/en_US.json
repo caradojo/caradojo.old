@@ -62,7 +62,7 @@
 
 	"register" : {
         "title": "Registrations",
-        "description": "Registrations are now open. Do not wait for the very late moment to buy your ticket. For 8 years the tickets for our conference are sold out every year well in advance.",
+        "description": "Sorry the conference is sold out. For 8 years the tickets for our conference are sold out every year well in advance.",
         "link": {
             "name": "Buy your ticket",
             "addr": "http://yurplan.com/event/Agile-Grenoble-2015/5619"
@@ -71,7 +71,7 @@
             "name": "Waiting list",
             "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
         },
-		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation, which is not sold out,</li><li>and all along the year you can participate to the meetings, events or workshops organized by the Club Agile Rhône-Alpes (please register to the Yahoo! group to be informed).</li></ul>"		
+		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation,</li><li>and all along the year you can participate to the events organized by the Club Agile RhÃ´ne-Alpes.</li></ul>"		
     },
 	
     "apropos" : {

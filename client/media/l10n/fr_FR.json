@@ -62,7 +62,7 @@
 	
 	  "register" : {
         "title": "Inscriptions",
-        "description": "Notre billeterie en ligne est maintenant ouverte. N'attendez pas le dernier moment pour réserver votre place. Chaque année depuis 8 ans la conférence démarre à guichet complet, victime de son succès.",
+        "description": "Désolé mais la conférence est à guichet complet. Chaque année depuis 8 ans la conférence démarre à guichet complet, victime de son succès.",
         "link": {
             "name": "Achetez votre billet",
             "addr": "http://yurplan.com/event/Agile-Grenoble-2015/5619"
@@ -71,7 +71,7 @@
             "name": "Liste d'attente",
             "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
         },
-		"registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation, qui n'affiche pas encore complet,</li><li>et durant toute l'année, participer aux rencontres et ateliers du Club Agile Rhône-Alpes (inscrivez-vous au groupe Yahoo pour être tenu informé).</li></ul>"
+		"registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation,</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
     },
 
     "apropos" : {
