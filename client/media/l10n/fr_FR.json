@@ -1,14 +1,16 @@
 {
     "accueil": {
         "title" : "Accueil",
-        "title_ag" : "Agile Grenoble 2015 : se développer ensemble !",
+        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
         "description" : {
-            "paragraphe0": "<span class='glyphicon glyphicon-pencil'></span> Vous êtes nombreux à nous demander si la conférence est toujours maintenue suite aux événements tragiques de vendredi dernier. A ce jour il n’existe aucune directive du préfet visant à interdire les manifestations comme la conférence Agile Grenoble. Le Centre de Congrès du WTC continue d’accueillir des événements chaque jour. Plus que jamais nous souhaitons nous rassembler jeudi prochain autour des valeurs que nous partageons et qui contribuent à rendre notre monde meilleur.",
-			"paragraphe1" : "Passionnés par l’agilité dans l’informatique, qu’il s’agisse de technique, d’outils, de management ou tout simplement des humains et de leur bien-être au travail,  nous cherchons à améliorer constamment nos pratiques, nos comportements, notre état d’esprit. Dans ce monde où tout bouge très vite, nous avons besoin pour cela de repères, et donc de trouver du sens et des valeurs plus humaines au travail, comme à la maison ou dans la vie quotidienne.",
-            "paragraphe2": "Imaginons ensemble un monde du travail satisfait/satisfait où la collaboration durable est au centre des préoccupations. Un monde du travail où le savoir être se mélange avec le savoir-faire et le savoir apprendre, ensemble, en équipe, tout en prenant soin de soi-même. Pour de meilleurs résultats économiques, sociaux et humains.",
-            "paragraphe3": "Si vous aussi vous faites parfois ce rêve alors retrouvons nous à Agile Grenoble le <strong>jeudi 19 Novembre 2015</strong>. Nous partagerons nos rêves, nos espoirs, nos idées et nos expériences concrètes sur ce long chemin agile du savoir grandir ensemble !"
+            "paragraphe0": "",
+	    "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
+            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
+            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
+            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
+            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
         },
-        "date": "Rendez-vous le jeudi 19 Novembre 2015 !"
+        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées :<ul><li>Agile Grenoble “Lab”, le mercredi 16 novembre</li><li>Agile Grenoble “Conf”, le jeudi 17 novembre</li><li>Agile Grenoble “Forum”, le vendredi 18 novembre</li><li>Agile Grenoble “4Kids”, le samedi 19 novembre</li></ul>"
     },
 
 	"agileinnovation": {
