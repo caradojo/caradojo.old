@@ -10,17 +10,48 @@
             "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
             "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
         },
-        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées :<ul><li>Agile Grenoble “Lab”, le mercredi 16 novembre</li><li>Agile Grenoble “Conf”, le jeudi 17 novembre</li><li>Agile Grenoble “Forum”, le vendredi 18 novembre</li><li>Agile Grenoble “4Kids”, le samedi 19 novembre</li></ul>"
+        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
     },
 
-	"agileinnovation": {
-		"title": "Agile Innovation 2015",
-        "description": "Vous en voulez plus ? Venez nous rejoindre à Agile Innovation 2015 le vendredi 20 novembre (le lendemain de Agile Grenoble). Cette journée se déroulera sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
+        "agilegreconf": {
+                "title": "Agile Grenoble Conf : le jeudi 17 novembre",
+        	"description": "La conférence incontournable qui accueille chaque année plus de 500 personnes avec les keynotes, les présentations, les ateliers.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/conf/"
+                }
+        },
+
+        "agilegrelab": {
+                "title": "Agile Grenoble Lab : le mercredi 16 novembre",
+	        "description": "Nouveauté de cette année : venez suivre ces ateliers, apprendre en pratiquant.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/lab/"
+                }
+        },
+
+
+	"agilegreforum": {
+		"title": "Agile Grenoble Forum : le vendredi 18 novembre",
+	        "description": "Vous en voulez plus ? Venez nous rejoindre à Agile Innovation 2016 le vendredi 20 novembre (le lendemain de Agile Grenoble). Cette journée se déroulera sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
 		"link": {
             "name": "Plus d'information...",
-            "addr": "http://2015.agile-grenoble.org/agile-innovation/"
+            "addr": "http://agile-grenoble.org/forum/"
 		}
 	},
+
+        "agilegre4kids": {
+                "title": "Agile Grenoble 4Kids : le samedi 19 novembre",
+        "description": "Pour les enfants, la famille.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/4kids/"
+                }
+        },
+
+
+
 	
     "orateurs": {
         "title": "Orateurs",
