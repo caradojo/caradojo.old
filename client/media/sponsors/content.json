@@ -1,36 +1,12 @@
  {
  	"sponsors" : [
 				{
-				  "photo" : "criteo.png",
-				  "entreprise" : "Criteo",
-				  "web" : "http://labs.criteo.com/",
-				  "partenaire": false,
-				  "goldNotSilver" : true,
-				  "description" : "criteo.html"
-				},
-				{
 				  "photo" : "zenika.png",
 				  "entreprise" : "Zenika",
 				  "web" : "https://www.zenika.com/",
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "zenika.html"
-				},
-				{
-				  "photo" : "salesforce.png",
-				  "entreprise" : "Salesforce",
-				  "web" : "http://www.salesforce.com/fr/",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "salesforce.html"
-				},
-				{
-				  "photo" : "moodys.jpg",
-				  "entreprise" : "Moody's Analytics",
-				  "web" : "http://www.moodysanalytics.com/Regional/France",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "moodys.html"
 				},
 				{
 				  "photo" : "persistent.jpg",
@@ -65,28 +41,12 @@
 				  "description" : "memoclub.html"
 				},
 				{
-				  "photo" : "thales.jpg",
-				  "entreprise" : "Thales",
-				  "web" : "http://www.thalesgroup.com/",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "thales.html"
-				},
-				{
 				  "photo" : "samse.jpg",
 				  "entreprise" : "Samse",
 				  "web" : "http://www.samse.fr/",
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "samse.html"
-				},
-				{
-				  "photo" : "xerox.png",
-				  "entreprise" : "Xerox",
-				  "web" : "http://www.xrce.xerox.com",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "xerox.html"
 				}
 			]
 }
