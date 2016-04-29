@@ -55,33 +55,33 @@
 
     "orateurs": {
         "title": "Speakers",
-        "description": "The Agile Grenoble team is pleased to welcome you at the Word Trade Center on November 19, 2015 for a new day of exchanges around agility. Each year, about 50 speakers of France and other countries contributent to deliver a rich, diverse and high quality program."
+        "description": "The Agile Grenoble team is pleased to welcome you at the Word Trade Center on November 17, 2016 for a new day of exchanges around agility. Each year, about 50 speakers of France and other countries contributent to deliver a rich, diverse and high quality program."
     },
 
     "keynotes": {
         "title": "Keynotes",
-        "description": "In 2015 you'll discover several keynotes: conference opening and conference closing (third keynotes has been cancelled because of the unavailability of the speaker who is sincerely sorry)."
+        "description": "In 2016 you'll discover several keynotes: conference opening and early afternoon."
     },
 
     "sponsors": {
         "title": "Sponsors",
-        "remerciements": "Thanks to our 2015 sponsors",
-        "remerciements_partenaire": "Thanks to our 2015 partners",
+        "remerciements": "Thanks to our 2016 sponsors",
+        "remerciements_partenaire": "Thanks to our 2016 partners",
         "more_informations": "For more information:"
     },
 
     "participants": {
         "title": "Participants",
-        "date": "November 2015"
+        "date": "November 2016"
     },
 
     "themes" : {
         "title": "Conference theme",
-        "description": "In 2015, the main theme of the conference is: <strong>Let's grow together!</strong>The sessions will be organized around the following lines:",
-        "theme1": "Organizations and 21st century management",
-        "theme2": "Personal and collective development",
-        "theme3": "New competences and know-hows",
-        "theme4": "Wellness at work"
+        "description": "In 2016, the main theme of the conference is: <strong>Back to origin</strong>The sessions will be organized around the following lines:",
+        "theme1": "",
+        "theme2": "",
+        "theme3": "",
+        "theme4": ""
     },
 
     "cfp" : {
@@ -109,7 +109,7 @@
 	
     "apropos" : {
         "title": "About",
-        "description": "The conference <strong>Agile Grenoble</strong> exists since 2008 and the 2015 edition will be the 8th conference in a row. The event is wholly organized by the volunteers of the Club Agile Rhône-Alpes Grenoble, with of course the support of our sponsors and partners.",
+        "description": "The conference <strong>Agile Grenoble</strong> exists since 2008 and the 2016 edition will be the 9th conference in a row. The event is wholly organized by the volunteers of the Club Agile Rhône-Alpes Grenoble, with of course the support of our sponsors and partners.",
         "of": "of",
         "under": "under"
     },
@@ -125,7 +125,7 @@
 
     "programme": {
         "title": "Program",
-        "nondisponible": "2015 program is under finalization... stay tuned!",
+        "nondisponible": "2016 program will be defined... stay tuned!",
         "disponible": "The conference program is now available!<br>You can already view this year sessions and their description.",
         "link": "See the program"
     },

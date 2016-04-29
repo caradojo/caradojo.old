@@ -56,33 +56,33 @@
 	
     "orateurs": {
         "title": "Orateurs",
-        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 19 novembre 2015 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
+        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 17 novembre 2016 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
     },
 
     "keynotes": {
         "title": "Keynotes",
-        "description": "En 2015 vous découvrirez plusieurs keynotes en plénière : en ouverture de la conférence et à la clôture de la journée (la troisième keynote est annulée du fait de l'indisponibilité de l'orateur, qui s'en excuse sincèrement)."
+        "description": "En 2016 vous découvrirez plusieurs keynotes en plénière : en ouverture de la conférence et en début d'après-midi."
     },
 
     "sponsors": {
         "title": "Sponsors",
-        "remerciements": "Merci à nos sponsors 2015",
-        "remerciements_partenaire": "Merci à nos partenaires 2015",
+        "remerciements": "Merci à nos sponsors 2016",
+        "remerciements_partenaire": "Merci à nos partenaires 2016",
         "more_informations": "Pour plus d'informations:"
     },
 
     "participants": {
         "title": "Participants",
-        "date": "Novembre 2015"
+        "date": "Novembre 2016"
     },
 
     "themes" : {
         "title": "Thème de la conférence",
-        "description": "En 2015, le thème principale de la conférence sera : <strong>se développer ensemble !</strong>Les sessions s'organiseront autour des thèmes suivants :",
-        "theme1": "Organisations et Management du 21ème siècle",
-        "theme2": "Développement personnel et collectif",
-        "theme3": "Nouveaux compétences et savoir-faire",
-        "theme4": "Bien être au travail"
+        "description": "En 2016, le thème principale de la conférence sera : <strong>Retour aux sources de l'agilité</strong>Les sessions s'organiseront autour des thèmes suivants :",
+        "theme1": "",
+        "theme2": "",
+        "theme3": "",
+        "theme4": ""
     },
 
     "cfp" : {
@@ -110,7 +110,7 @@
 
     "apropos" : {
         "title": "A propos",
-        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
+        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 9ème édition consécutive en 2016. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
         "of": "de",
         "under": "sous"
     },
@@ -134,7 +134,7 @@
 
     "programme": {
         "title": "Programme",
-        "nondisponible": "Le programme 2015 est en cours de finalisation...  restez à l'écoute!",
+        "nondisponible": "Le programme 2016 sera défini prochainement...  restez à l'écoute!",
         "disponible": "Le programme de la conférence est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées pour cette année ainsi que leur description.",
         "link": "Voir le programme"
     },
