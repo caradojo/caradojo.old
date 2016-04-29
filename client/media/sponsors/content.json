@@ -47,6 +47,15 @@
 				  "partenaire": false,
 				  "goldNotSilver" : false,
 				  "description" : "samse.html"
-				}
+				},
+                                {
+                                  "photo" : "eloquant.jpg",
+                                  "entreprise" : "Eloquant",
+                                  "web" : "https://www.eloquant.com/",
+                                  "partenaire": false,
+                                  "goldNotSilver" : false,
+                                  "description" : "eloquant.html"
+                                }
+
 			]
 }
