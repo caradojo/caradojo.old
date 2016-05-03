@@ -1,19 +1,19 @@
 {
 	"keynotes" :[
 				{
-				  "photo" : "portrait_sb.png",
-				  "name"  : "Stéphane Bigeard",
-				  "text1" : "Stéphane bigeard vit à Arras, marié avec 4 magnifiques grands enfants. son credo : Identifier, utiliser et développer ses points forts pour transformer l'ordinaire en Extra Ordinaire !!!",
-				  "text2" : "Avant de créer son propre cabinet de conseil en management et communication en 2006, Stéphane a exercé des fonctions  marketing et commerciale et de dirigeant dans différentes entreprises commerciales et industrielles. En 1994, il tombe dans la marmite du conseil dans un gros cabinet National et va très vite exercer ses armes dans l'univers du sport de Haut niveau et dans des grandes entreprises Françaises",
-				  "text3" :"''Relevons ensemble un défi dans notre monde en mouvement permanent et en compétition de haut niveau ! Obtenons toujours plus de résultats (CA, Qualité, Rentabilité, Réactivité... etc) avec de moins en moins d'efforts (ce qui ne veut pas dire moins s'investir et moins travailler, quoique !), et surtout toujours plus de plaisirS ( énergie- épanouissement - harmonie - sens ... etc) et bien ce défi est réalisable !!!'' - Stéphane"
+				  "photo" : "portrait_andrea.png",
+				  "name"  : "Andrea Provoglio",
+				  "text1" : "",
+				  "text2" : "",
+				  "text3" : ""
 				},
 		
 		{
-			"photo" : "GabinBellet.png",
-			"name"  : "Gabin Bellet",
-			"text1" : "Il existe trois types de personnes : celle qui voudrait changer, celle qui pourrait changer et celle qui change les choses. Au travers d'histoires amusantes, d'exemples inspirants et des découvertes scientifiques les plus récentes, Gabin BELLET vous dévoilera les clés de ces individus qui font bouger les choses. Un kit de survie pratique pour toutes les personnes qui souhaitent impulser un changement durable avec efficacité, sérénité et enthousiasme.",
-			"text2" : "Gabin BELLET est coach, formateur et conférencier en développement humain. Il accompagne au quotidien les individus et les organisations à mettre en place les changements nécessaires pour atteindre leurs objectifs. Préparateur mental en sport de haut niveau depuis plusieurs années il accompagne aujourd'hui également les professionnels, les particuliers et les jeunes avec la même passion : révéler le meilleur en chacun de nous pour donner vie à nos rêves.",
-			"text3" : "Le site internet de Gabin : www.endeveloppement.fr"
+			"photo" : "portrait.png",
+			"name"  : "",
+			"text1" : "",
+			"text2" : "",
+			"text3" : ""
 		}
 			]
 }

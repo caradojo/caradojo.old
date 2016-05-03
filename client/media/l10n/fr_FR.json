@@ -1,54 +1,88 @@
 {
     "accueil": {
         "title" : "Accueil",
-        "title_ag" : "Agile Grenoble 2015 : se développer ensemble !",
+        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
         "description" : {
-            "paragraphe0": "<span class='glyphicon glyphicon-pencil'></span> Vous êtes nombreux à nous demander si la conférence est toujours maintenue suite aux événements tragiques de vendredi dernier. A ce jour il n’existe aucune directive du préfet visant à interdire les manifestations comme la conférence Agile Grenoble. Le Centre de Congrès du WTC continue d’accueillir des événements chaque jour. Plus que jamais nous souhaitons nous rassembler jeudi prochain autour des valeurs que nous partageons et qui contribuent à rendre notre monde meilleur.",
-			"paragraphe1" : "Passionnés par l’agilité dans l’informatique, qu’il s’agisse de technique, d’outils, de management ou tout simplement des humains et de leur bien-être au travail,  nous cherchons à améliorer constamment nos pratiques, nos comportements, notre état d’esprit. Dans ce monde où tout bouge très vite, nous avons besoin pour cela de repères, et donc de trouver du sens et des valeurs plus humaines au travail, comme à la maison ou dans la vie quotidienne.",
-            "paragraphe2": "Imaginons ensemble un monde du travail satisfait/satisfait où la collaboration durable est au centre des préoccupations. Un monde du travail où le savoir être se mélange avec le savoir-faire et le savoir apprendre, ensemble, en équipe, tout en prenant soin de soi-même. Pour de meilleurs résultats économiques, sociaux et humains.",
-            "paragraphe3": "Si vous aussi vous faites parfois ce rêve alors retrouvons nous à Agile Grenoble le <strong>jeudi 19 Novembre 2015</strong>. Nous partagerons nos rêves, nos espoirs, nos idées et nos expériences concrètes sur ce long chemin agile du savoir grandir ensemble !"
+            "paragraphe0": "",
+	    "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
+            "old_paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
+            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
+            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
+            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
+            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
         },
-        "date": "Rendez-vous le jeudi 19 Novembre 2015 !"
+        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
     },
 
-	"agileinnovation": {
-		"title": "Agile Innovation 2015",
-        "description": "Vous en voulez plus ? Venez nous rejoindre à Agile Innovation 2015 le vendredi 20 novembre (le lendemain de Agile Grenoble). Cette journée se déroulera sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
+        "agilegreconf": {
+                "title": "Agile Grenoble Conf : le jeudi 17 novembre",
+        	"description": "La conférence incontournable qui accueille chaque année plus de 500 personnes avec les keynotes, les présentations, les ateliers.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/conf/"
+                }
+        },
+
+        "agilegrelab": {
+                "title": "Agile Grenoble Lab : le mercredi 16 novembre",
+	        "description": "Nouveauté de cette année : venez suivre ces ateliers, apprendre en pratiquant.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/lab/"
+                }
+        },
+
+
+	"agilegreforum": {
+		"title": "Agile Grenoble Forum : le vendredi 18 novembre",
+	        "description": "Vous en voulez plus ? Venez nous rejoindre à la journée sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
 		"link": {
             "name": "Plus d'information...",
-            "addr": "http://2015.agile-grenoble.org/agile-innovation/"
+            "addr": "http://agile-grenoble.org/forum/"
 		}
 	},
+
+        "agilegre4kids": {
+                "title": "Agile Grenoble 4Kids : le samedi 19 novembre",
+        "description": "Pour les enfants, la famille.",
+                "link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/4kids/"
+                }
+        },
+
+
+
 	
     "orateurs": {
         "title": "Orateurs",
-        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 19 novembre 2015 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
+        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 17 novembre 2016 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
     },
 
     "keynotes": {
         "title": "Keynotes",
-        "description": "En 2015 vous découvrirez plusieurs keynotes en plénière : en ouverture de la conférence et à la clôture de la journée (la troisième keynote est annulée du fait de l'indisponibilité de l'orateur, qui s'en excuse sincèrement)."
+        "description": "En 2016 vous découvrirez plusieurs keynotes en plénière : en ouverture de la conférence et en début d'après-midi."
     },
 
     "sponsors": {
         "title": "Sponsors",
-        "remerciements": "Merci à nos sponsors 2015",
-        "remerciements_partenaire": "Merci à nos partenaires 2015",
+        "remerciements": "Merci à nos sponsors 2016",
+        "remerciements_partenaire": "Merci à nos partenaires 2016",
         "more_informations": "Pour plus d'informations:"
     },
 
     "participants": {
         "title": "Participants",
-        "date": "Novembre 2015"
+        "date": "Novembre 2016"
     },
 
     "themes" : {
         "title": "Thème de la conférence",
-        "description": "En 2015, le thème principale de la conférence sera : <strong>se développer ensemble !</strong>Les sessions s'organiseront autour des thèmes suivants :",
-        "theme1": "Organisations et Management du 21ème siècle",
-        "theme2": "Développement personnel et collectif",
-        "theme3": "Nouveaux compétences et savoir-faire",
-        "theme4": "Bien être au travail"
+        "description": "En 2016, le thème principale de la conférence sera : <strong>Retour aux sources de l'agilité</strong>Les sessions s'organiseront autour des thèmes suivants :",
+        "theme1": "",
+        "theme2": "",
+        "theme3": "",
+        "theme4": ""
     },
 
     "cfp" : {
@@ -76,7 +110,7 @@
 
     "apropos" : {
         "title": "A propos",
-        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 8ème édition consécutive en 2015. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
+        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 9ème édition consécutive en 2016. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
         "of": "de",
         "under": "sous"
     },
@@ -100,7 +134,7 @@
 
     "programme": {
         "title": "Programme",
-        "nondisponible": "Le programme 2015 est en cours de finalisation...  restez à l'écoute!",
+        "nondisponible": "Le programme 2016 sera défini prochainement...  restez à l'écoute!",
         "disponible": "Le programme de la conférence est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées pour cette année ainsi que leur description.",
         "link": "Voir le programme"
     },
