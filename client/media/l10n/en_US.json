@@ -2,52 +2,48 @@
 
     "accueil": {
         "title" : "Home",
-        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
+        "title_ag" : "Agile Grenoble 2016: Back to Basics of Agility",
         "description" : {
             "paragraphe0": "",
-	    "paragraphe1" : "You like <strong>stories</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
-            "old_paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
-            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
-            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
-            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
-            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
+	    "paragraphe1" : "Do you like stories ? So if we were telling the origin of agility, would you be interested ?"
+            "paragraphe2": "This year we will make you discover or rediscover that agility is primarily <strong>technical</strong> and that it’s not so easy to frequently deliver a good quality product without having good practices. We’ll also talk about <strong>people</strong>, and the difficulty of making them work together and techniques that facilitate the build of a successful team. We will remind you that it’s for bringing <strong>value</strong> to users that we do all this. And finally, we will not forget to tell you that this requires a change of <strong>mindset</strong>, some letting go and benevolence."
         },
-        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
+        "date": "Come to Agile Grenoble to hear the stories of those who live or attempt Agility, during one or more days, november 16-19th 2016."
     },
 
         "agilegreconf": {
-                "title": "Agile Grenoble Conf : le jeudi 17 novembre",
-        	"description": "La conférence incontournable qui accueille chaque année plus de 500 personnes avec les keynotes, les présentations, les ateliers.",
+                "title": "Agile Grenoble Conf<br> thursday, november 17th",
+        	"description": "The famous conference involving 500+ attendees each year, with the keynotes, the talks, the workshops.",
                 "link": {
-            "name": "Plus d'information...",
+            "name": "More information...",
             "addr": "http://agile-grenoble.org/conf/"
                 }
         },
 
         "agilegrelab": {
-                "title": "Agile Grenoble Lab : le mercredi 16 novembre",
-	        "description": "Nouveauté de cette année : venez suivre ces ateliers, apprendre en pratiquant.",
+                "title": "Agile Grenoble Lab<br> wednesday, november 16th",
+	        "description": "New in 2016: come and attend theses workshops to learn by practice",
                 "link": {
-            "name": "Plus d'information...",
+            "name": "More information...",
             "addr": "http://agile-grenoble.org/lab/"
                 }
         },
 
 
 	"agilegreforum": {
-		"title": "Agile Grenoble Forum : le vendredi 18 novembre",
-	        "description": "Vous en voulez plus ? Venez nous rejoindre à Agile Innovation 2016 le vendredi 20 novembre (le lendemain de Agile Grenoble). Cette journée se déroulera sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
+		"title": "Agile Grenoble Forum<br> friday, november 18th",
+	        "description": "Want some more? Join us for this Open Space, to deal with the topics which matters for you and for the other participants.",
 		"link": {
-            "name": "Plus d'information...",
+            "name": "More information...",
             "addr": "http://agile-grenoble.org/forum/"
 		}
 	},
 
         "agilegre4kids": {
-                "title": "Agile Grenoble 4Kids : le samedi 19 novembre",
-        "description": "For children, family.",
+                "title": "Agile Grenoble 4Kids<br> saturday, november 19th",
+        "description": "For children and family.",
                 "link": {
-            "name": "Plus d'information...",
+            "name": "More information...",
             "addr": "http://agile-grenoble.org/4kids/"
                 }
         },
