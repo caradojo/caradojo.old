@@ -16,7 +16,7 @@
 
         "agilegreconf": {
                 "title": "Agile Grenoble Conf : le jeudi 17 novembre",
-        	"description": "La conférence incontournable qui accueille chaque année plus de 500 personnes avec les keynotes, les présentations, les ateliers.",
+        	"description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
                 "link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/conf/"
@@ -25,7 +25,7 @@
 
         "agilegrelab": {
                 "title": "Agile Grenoble Lab : le mercredi 16 novembre",
-	        "description": "Nouveauté de cette année : venez suivre ces ateliers, apprendre en pratiquant.",
+	        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager.",
                 "link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/lab/"
@@ -35,7 +35,7 @@
 
 	"agilegreforum": {
 		"title": "Agile Grenoble Forum : le vendredi 18 novembre",
-	        "description": "Vous en voulez plus ? Venez nous rejoindre à la journée sous la forme d'un open space (forum ouvert) afin d'aborder des sujets qui comptent réellement pour vous et pour les autres participants.",
+	        "description": "La journée du vendredi qui a vu le jour en 2011 pour permettre à des agilistes expérimentés, ou moins expérimentés, de discuter ensemble des sujets qui les passionnent dans un environnement libre et décomplexé, sans programme, sans sponsor, et sans obligation.",
 		"link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/forum/"
@@ -44,7 +44,7 @@
 
         "agilegre4kids": {
                 "title": "Agile Grenoble 4Kids : le samedi 19 novembre",
-        "description": "Pour les enfants, la famille.",
+        	"description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
                 "link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/4kids/"
