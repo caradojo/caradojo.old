@@ -20,7 +20,10 @@
                 "link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/conf/"
-                }
+                },
+		"callforpapers1": "L'appel à orateurs va ouvrir mi-juin. Une présélection aura lieu début juillet. La finalisation du programme sera effectuée en septembre.",
+                "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016. Une présélection aura lieu début juillet. La finalisation du programme sera effectuée en septembre.",
+                "callforpaperslink": "http://..."
         },
 
         "agilegrelab": {

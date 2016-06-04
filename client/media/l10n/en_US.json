@@ -17,7 +17,10 @@
                 "link": {
             "name": "More information...",
             "addr": "http://agile-grenoble.org/conf/"
-                }
+                },
+                "callforpapers1": "The call for papers will open mid-june. An early-selection will occur on beginning of july. The final program will be defined in september.",
+                "callforpapers2": "The call for papers is opened until 3rd of september 2016. An early-selection occurs on beginning of july. The final program will be defined in september.",
+                "callforpaperslink": "http://..."
         },
 
         "agilegrelab": {
