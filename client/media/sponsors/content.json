@@ -55,7 +55,14 @@
                                   "partenaire": false,
                                   "goldNotSilver" : false,
                                   "description" : "eloquant.html"
+                                },
+                                                                {
+                                  "photo" : "logo-kaizen.jpg",
+                                  "entreprise" : "Kaizen Solutions",
+                                  "web" : "http://www.kaizen-solutions.net/",
+                                  "partenaire": false,
+                                  "goldNotSilver" : false,
+                                  "description" : "kaizen.html"
                                 }
-
 			]
 }
