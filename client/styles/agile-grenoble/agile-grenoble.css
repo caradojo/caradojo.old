@@ -58,6 +58,11 @@ h3 {
 }
 
 
+/* Preserve line breaks and wraps */
+.preserve-line-wrap {
+    white-space:pre-line;
+}
+
 /* XXL Bootstrap button */
 .text-xlarge {
 	cursor: pointer;
