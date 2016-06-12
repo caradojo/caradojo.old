@@ -28,6 +28,6 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ui-notification', 'd
         $translate.use(langKey);
       };
       
-      Notification.primary({title: '<img src="client/media/icon_orange_speaker_100.png" width="40" height="40"/> Appel à orateurs'});
+      Notification.primary({title: 'dummytitlejusttoactivatetitlefeature'});
 });
 

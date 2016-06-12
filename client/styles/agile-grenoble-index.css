@@ -492,6 +492,20 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   color: #2C2C2C;
   background-color: #00b8fc;
 }
+
+.ui-notification img {
+  float: left;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.ui-notification h3 {
+  position: relative;
+  left: 10px;
+}
+
+
 #apropos {
 	background-image:url('../media/background/apropos.jpg');
 }

@@ -320,3 +320,15 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   color: #2C2C2C; 
   background-color: #00b8fc; 
 }
+
+.ui-notification img {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.ui-notification h4 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
