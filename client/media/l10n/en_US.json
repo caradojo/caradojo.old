@@ -11,30 +11,29 @@
         "date": "Come to Agile Grenoble to hear the stories of those who live or attempt Agility, during one or more days, november 16-19th 2016."
     },
 
-        "agilegreconf": {
-                "title": "Agile Grenoble Conf<br> Thursday, nov. 17th",
-        	"description": "The great typical day Thursday with a rich program consisting of many tracks, high quality keynotes, surprises, coffee all day and a drink in the late afternoon. Not to mention the now famous 'Before' and 'After', now part of the reasons for coming to Grenoble for that day.",
-                "link": {
-            "name": "More information...",
-            "addr": "http://agile-grenoble.org/conf/"
-                },
-                "callforpapers1": "The call for papers will open mid-june. An early-selection will occur on beginning of july. The final program will be defined in september.",
-                "callforpapers2": "The call for papers is opened until 3rd of september 2016. An early-selection occurs on beginning of july. The final program will be defined in september.",
-                "callforpaperslink": "http://..."
-        },
+    "agilegreconf": {
+            "title": "Agile Grenoble Conf: Thursday, nov. 17th",
+        "description": "The great typical day Thursday with a rich program consisting of many tracks, high quality keynotes, surprises, coffee all day and a drink in the late afternoon. Not to mention the now famous 'Before' and 'After', now part of the reasons for coming to Grenoble for that day.",
+            "link": {
+        "name": "More information...",
+        "addr": "http://agile-grenoble.org/conf/"
+            },
+            "callforpapers1": "The call for papers will open <b>mid-june</b>.<br/>An early-selection will occur on beginning of july.<br/>The final program will be defined in september.",
+            "callforpapers2": "The call for papers is opened until 3rd of september 2016. An early-selection occurs on beginning of july. The final program will be defined in september.",
+            "callforpaperslink": "http://..."
+    },
 
-        "agilegrelab": {
-                "title": "Agile Grenoble Lab<br> Wednesday, nov. 16th",
-	        "description": "New in 2016, Wednesday will be dedicated to a day of practice-oriented workshop training. Several experts, selected by the organizing team, will make you experience different practical workshops in technical fields related to the role of the Product Owner, Scrum Master, or Manager.",
-                "link": {
-            "name": "More information...",
-            "addr": "http://agile-grenoble.org/lab/"
-                }
-        },
-
+    "agilegrelab": {
+            "title": "Agile Grenoble Lab: Wednesday, nov. 16th",
+        "description": "New in 2016, Wednesday will be dedicated to a day of practice-oriented workshop training. Several experts, selected by the organizing team, will make you experience different practical workshops in technical fields related to the role of the Product Owner, Scrum Master, or Manager.",
+            "link": {
+        "name": "More information...",
+        "addr": "http://agile-grenoble.org/lab/"
+            }
+    },
 
 	"agilegreforum": {
-		"title": "Agile Grenoble Forum<br> Friday, nov. 18th",
+		"title": "Agile Grenoble Forum: Friday, nov. 18th",
 	        "description": "On Friday, which was established in 2011 to enable Agile experienced, or less experienced, to discuss topics that interest them in a free environment and uninhibited, without program, without sponsors and without obligation.",
 	        "link": {
             "name": "More information...",
@@ -42,16 +41,14 @@
 		}
 	},
 
-        "agilegre4kids": {
-                "title": "Agile Grenoble 4Kids<br> Saturday, nov. 19th",
-                "description": "On Saturday, new edition of the Agile conference that helps Kids 6 to 11 years to develop creativity, confidence and collective intelligence through fun workshops specially designed for the occasion.",
-                "link": {
-            "name": "More information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-                }
-        },
-
-
+    "agilegre4kids": {
+            "title": "Agile Grenoble 4Kids: Saturday, nov. 19th",
+            "description": "On Saturday, new edition of the Agile conference that helps Kids 6 to 11 years to develop creativity, confidence and collective intelligence through fun workshops specially designed for the occasion.",
+            "link": {
+        "name": "More information...",
+        "addr": "http://agile-grenoble.org/4kids/"
+            }
+    },
     "orateurs": {
         "title": "Speakers",
         "description": "The Agile Grenoble team is pleased to welcome you at the Word Trade Center on November 17, 2016 for a new day of exchanges around agility. Each year, about 50 speakers of France and other countries contributent to deliver a rich, diverse and high quality program."

@@ -14,30 +14,29 @@
         "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
     },
 
-        "agilegreconf": {
-                "title": "Agile Grenoble Conf : le jeudi 17 novembre",
-        	"description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
-                "link": {
-            "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/conf/"
-                },
-		"callforpapers1": "L'appel à orateurs va ouvrir mi-juin. Une présélection aura lieu début juillet. La finalisation du programme sera effectuée en septembre.",
-                "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016. Une présélection aura lieu début juillet. La finalisation du programme sera effectuée en septembre.",
-                "callforpaperslink": "http://..."
-        },
+    "agilegreconf": {
+            "title": "Agile Grenoble Conf: Jeudi 17 novembre",
+        "description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://agile-grenoble.org/conf/"
+            },
+    "callforpapers1": "L'appel à orateurs va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
+            "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016. Une présélection aura lieu début juillet. La finalisation du programme sera effectuée en septembre.",
+            "callforpaperslink": "http://..."
+    },
 
-        "agilegrelab": {
-                "title": "Agile Grenoble Lab : le mercredi 16 novembre",
-	        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager.",
-                "link": {
-            "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/lab/"
-                }
-        },
-
+    "agilegrelab": {
+            "title": "Agile Grenoble Lab: Mercredi 16 novembre",
+        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://agile-grenoble.org/lab/"
+            }
+    },
 
 	"agilegreforum": {
-		"title": "Agile Grenoble Forum : le vendredi 18 novembre",
+		"title": "Agile Grenoble Forum: Vendredi 18 novembre",
 	        "description": "La journée du vendredi qui a vu le jour en 2011 pour permettre à des agilistes expérimentés, ou moins expérimentés, de discuter ensemble des sujets qui les passionnent dans un environnement libre et décomplexé, sans programme, sans sponsor, et sans obligation.",
 		"link": {
             "name": "Plus d'information...",
@@ -45,17 +44,14 @@
 		}
 	},
 
-        "agilegre4kids": {
-                "title": "Agile Grenoble 4Kids : le samedi 19 novembre",
-        	"description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
-                "link": {
-            "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-                }
-        },
-
-
-
+    "agilegre4kids": {
+            "title": "Agile Grenoble 4Kids: Samedi 19 novembre",
+        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://agile-grenoble.org/4kids/"
+            }
+    },
 	
     "orateurs": {
         "title": "Orateurs",
@@ -97,7 +93,7 @@
         }
     },
 	
-	  "register" : {
+    "register" : {
         "title": "Inscriptions",
         "description": "Désolé mais la conférence est à guichet complet. Chaque année depuis 8 ans la conférence démarre à guichet complet, victime de son succès.",
         "link": {
@@ -108,7 +104,7 @@
             "name": "Liste d'attente",
             "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
         },
-		"registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation,</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
+        "registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation,</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
     },
 
     "apropos" : {

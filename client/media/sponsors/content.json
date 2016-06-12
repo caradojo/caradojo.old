@@ -1,68 +1,68 @@
  {
  	"sponsors" : [
-				{
-				  "photo" : "zenika.png",
-				  "entreprise" : "Zenika",
-				  "web" : "https://www.zenika.com/",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "zenika.html"
-				},
-				{
-				  "photo" : "persistent.jpg",
-				  "entreprise" : "Persistent",
-				  "web" : "http://www.persistentsas.com",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "persistent.html"
-				},
-				{
-				  "photo" : "araymond.jpg",
-				  "entreprise" : "ARaymond",
-				  "web" : "http://www.araymond.fr/",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "araymond.html"
-				},
-				{
-				  "photo" : "soprasteria.png",
-				  "entreprise" : "Sopra Steria",
-				  "web" : "http://www.soprasteria.com/",
-				  "partenaire": false,
-				  "goldNotSilver" : true,
-				  "description" : "soprasteria.html"
-				},
-				{
-				  "photo" : "memoclub.jpg",
-				  "entreprise" : "MEMOCLUB",
-				  "web" : "http://www.memoclub.fr/",
-				  "partenaire": true,
-				  "goldNotSilver" : false,
-				  "description" : "memoclub.html"
-				},
-				{
-				  "photo" : "samse.jpg",
-				  "entreprise" : "Samse",
-				  "web" : "http://www.samse.fr/",
-				  "partenaire": false,
-				  "goldNotSilver" : false,
-				  "description" : "samse.html"
-				},
-                                {
-                                  "photo" : "logo-eloquant.jpg",
-                                  "entreprise" : "Eloquant",
-                                  "web" : "https://www.eloquant.com/",
-                                  "partenaire": false,
-                                  "goldNotSilver" : false,
-                                  "description" : "eloquant.html"
-                                },
-                                                                {
-                                  "photo" : "Logo-Kaizen-couleurs.pdf",
-                                  "entreprise" : "Kaizen Solutions",
-                                  "web" : "http://www.kaizen-solutions.net/",
-                                  "partenaire": false,
-                                  "goldNotSilver" : false,
-                                  "description" : "kaizen.html"
-                                }
-			]
+        {
+            "photo" : "zenika.png",
+            "entreprise" : "Zenika",
+            "web" : "https://www.zenika.com/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "zenika.html"
+        },
+        {
+            "photo" : "persistent.jpg",
+            "entreprise" : "Persistent",
+            "web" : "http://www.persistentsas.com",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "persistent.html"
+        },
+        {
+            "photo" : "araymond.jpg",
+            "entreprise" : "ARaymond",
+            "web" : "http://www.araymond.fr/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "araymond.html"
+        },
+        {
+            "photo" : "soprasteria.png",
+            "entreprise" : "Sopra Steria",
+            "web" : "http://www.soprasteria.com/",
+            "partenaire": false,
+            "goldNotSilver" : true,
+            "description" : "soprasteria.html"
+        },
+        {
+            "photo" : "memoclub.jpg",
+            "entreprise" : "MEMOCLUB",
+            "web" : "http://www.memoclub.fr/",
+            "partenaire": true,
+            "goldNotSilver" : false,
+            "description" : "memoclub.html"
+        },
+        {
+            "photo" : "samse.jpg",
+            "entreprise" : "Samse",
+            "web" : "http://www.samse.fr/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "samse.html"
+        },
+        {
+            "photo" : "logo-eloquant.jpg",
+            "entreprise" : "Eloquant",
+            "web" : "https://www.eloquant.com/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "eloquant.html"
+        },
+                                        {
+            "photo" : "Logo-Kaizen-couleurs.pdf",
+            "entreprise" : "Kaizen Solutions",
+            "web" : "http://www.kaizen-solutions.net/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "kaizen.html"
+        }
+    ]
 }

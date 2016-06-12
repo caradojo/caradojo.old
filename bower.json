@@ -27,7 +27,8 @@
     "angular-translate": "~2.7.2",
     "angular-cookies": "~1.4.3",
     "angular-translate-loader-static-files": "~2.7.2",
-    "angular-sanitize": "~1.4.3"
+    "angular-sanitize": "~1.4.3",
+    "angular-ui-notification": "~0.2.0"
   },
   "resolutions": {
     "angular": "1.4.3"
