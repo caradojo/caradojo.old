@@ -1,5 +1,11 @@
 <div class="ui-notification">
     <img src="client/media/icon_orange_speaker_100.png"/>
     <h3 ng-show="title"translate="agilegreconf.callforpaperstitle"></h3>
-    <div class="message" translate="agilegreconf.callforpapers1"></div>
+    <div class="message" translate="agilegreconf.callforpapers2">
+    <span translate="callforpaperslink"></span></div>
+    <a href="{{lienSoumission()}}" class="btn btn-primary btn-lg">
+        <span class="glyphicon glyphicon-info-sign hidden-xs"></span>
+        <span translate="agilegreconf.link.name"></span>
+    </a>
+
 </div>

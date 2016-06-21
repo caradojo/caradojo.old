@@ -7,7 +7,8 @@ AgileGrenobleApp.directive('agAccueil', function() {
             var $translate = $filter('translate');
 
             $scope.lienSoumission = function() {
-            return $translate('cfp.link.addr');
+            return $translate('agilegreconf.link.addr');
+
             };
 
             $scope.lienRegister = function() {
