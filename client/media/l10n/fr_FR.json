@@ -19,12 +19,15 @@
         "description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
             "link": {
         "name": "Plus d'information...",
-        "addr": "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
+        "addr": "http://"
             },
             "callforpaperstitle": "Appel à orateurs",
             "callforpapers1": "L'appel à orateurs pour Agile Grenoble Conf va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
             "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/> Une présélection aura lieu parmi ceux qui auront soumis avant le <b>8 juillet 2016</b>. La finalisation du programme sera effectuée en septembre.",
-            "callforpaperslink": "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
+            "callforpaperslink": {
+		"name" : "Soumettre une session...",
+		"addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
+		}
     },
 
     "agilegrelab": {
