@@ -33,6 +33,14 @@
             "description" : "soprasteria.html"
         },
         {
+            "photo" : "thales.jpg",
+            "entreprise" : "Thales",
+            "web" : "https://www.thalesgroup.com/fr/",
+            "partenaire": false,
+            "goldNotSilver" : true,
+            "description" : "thales.html"
+        },
+        {
             "photo" : "memoclub.jpg",
             "entreprise" : "MEMOCLUB",
             "web" : "http://www.memoclub.fr/",
