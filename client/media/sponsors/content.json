@@ -64,13 +64,21 @@
             "goldNotSilver" : false,
             "description" : "eloquant.html"
         },
-                                        {
+        {
             "photo" : "Kaizen.jpg",
             "entreprise" : "Kaizen Solutions",
             "web" : "http://www.kaizen-solutions.net/",
             "partenaire": false,
             "goldNotSilver" : false,
             "description" : "kaizen.html"
+        },
+        {
+            "photo" : "ViverisLogo.jpg",
+            "entreprise" : "Viveris",
+            "web" : "http://www.viveris.fr/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "viveris.html"
         }
     ]
 }
