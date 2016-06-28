@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="AgileGrenobleApp">
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+      <title>Agile Grenoble</title>
+      <meta name="description" content="La conf&#233;rence Agile Grenoble sera encore cette ann&#233;e l'&#233;v&#232;nement agile incontournable de la r&#233;gion. Elle est organis&#233;e par le Club Agile Rh&#244;ne-Alpes." />
+
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+      <link rel="stylesheet" href="client/lib/bootstrap/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="client/lib/angular-ui-notification/angular-ui-notification.min.css" />
+
+      <link rel="stylesheet" type="text/css" href="client/styles/agileconf/styles.css" />
+  </head>
+
+
+
+  <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
+
+    <div ag-nav></div>
+
+    <div ag-social-network url="http://agile-grenoble.org/"></div>
+
+    <div ag-page="accueil" offsetdown="-1" offsetup="-1">
+      <div ag-accueil></div>
+    </div>
+
+    <div ag-page="keynotes" offsetdown="0" offsetup="-1">
+      <div ag-keynotes></div>
+    </div>
+
+    <div ag-page="sponsors" offsetdown="0" offsetup="-1">
+      <div ag-sponsors></div>
+    </div>
+<!--
+    <div ag-page="orateurs" offsetdown="0" offsetup="-1">
+      <div ag-orateurs></div>
+    </div>
+
+    <div ag-page="participants" offsetdown="0" offsetup="-1">
+      <div ag-participants></div>
+    </div>
+-->
+    <div ag-page="apropos" offsetdown="10" offsetup="-1">
+      <div ag-apropos></div>
+    </div>
+
+    <script src="client/lib/bower-skrollr/skrollr.min.js"></script>
+    <script src="client/lib/jquery/jquery.min.js"></script>
+    <script src="client/lib/jquery-waypoints/waypoints.min.js"></script>
+    <script src="client/lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="client/lib/angular/angular.min.js"></script>
+    <script src="client/lib/angular-route/angular-route.min.js"></script>
+    <script src="client/lib/angular-cookies/angular-cookies.min.js"></script>
+    <script src="client/lib/angular-resource/angular-resource.min.js"></script>
+    <script src="client/lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="client/lib/angular-translate/angular-translate.js"></script>
+    <script src="client/lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+    <script src="client/lib/angular-ui-utils/ui-utils.js"></script>
+    <script src="client/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="client/lib/underscore/underscore-min.js"></script>
+    <script src="client/lib/angular-ui-notification/angular-ui-notification.min.js"></script>
+
+    <script src="client/scripts/agileconf/app.js"></script>
+
+    <script src="client/scripts/agileconf/utils/scrollDirective.js"></script>
+    <script src="client/scripts/agileconf/utils/angular-smoothscroll.js"></script>
+    <script src="client/scripts/agileconf/utils/sponsorsService.js"></script>
+    <script src="client/scripts/agileconf/utils/contentService.js"></script>
+    <script src="client/scripts/agileconf/utils/keynotesService.js"></script> 
+    <script src="client/scripts/agileconf/navigation/navDirective.js"></script>
+    <script src="client/scripts/agileconf/pages/accueilDirective.js"></script>
+    <script src="client/scripts/agileconf/pages/keynotesDirective.js"></script>
+    <script src="client/scripts/agileconf/pages/sponsorsDirective.js"></script>
+<!--    <script src="client/scripts/agileconf/pages/orateursDirective.js"></script>
+    <script src="client/scripts/agileconf/pages/participantsDirective.js"></script>
+-->    <script src="client/scripts/agileconf/pages/aproposDirective.js"></script>
+    <script src="client/scripts/agileconf/utils/pageDirective.js"></script>
+    <script src="client/scripts/agileconf/composants/socialNetworkDirective.js"></script>
+    <script src="client/scripts/agileconf/composants/carouselSponsors.js"></script>
+
+  </body>
+</html>
