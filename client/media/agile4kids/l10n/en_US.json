@@ -1,0 +1,68 @@
+{
+
+    "accueil": {
+        "title" : "Home",
+        "title_ag": "Agile Grenoble 4Kids: Saturday, nov. 19th",
+        "description": "On Saturday, new edition of the Agile conference that helps Kids 6 to 11 years to develop creativity, confidence and collective intelligence through fun workshops specially designed for the occasion.",
+        "link": {
+            "name": "More information...",
+            "addr": "http://agile-grenoble.org/4kids/"
+        }
+    },
+    
+    "apropos" : {
+        "title": "About",
+        "description": "The conference <strong>Agile Grenoble</strong> exists since 2008 and the 2016 edition will be the 9th conference in a row. The event is wholly organized by the volunteers of the Club Agile Rhône-Alpes Grenoble, with of course the support of our sponsors and partners.",
+        "of": "of",
+        "under": "under"
+    },
+
+    "cara": {
+        "title": "Club Agile Rhône Alpes (CARA)",
+        "description": "The CARA is a non-profit association, striving to promote and disseminate agile methods in the Rhône-Alpes area to a large public, with various means: conference, seminars, meetings and partnerships.",
+        "link": {
+            "name": "Visit the CARA's web site",
+            "addr": "http://www.clubagilerhonealpes.org/"
+        }
+    },
+
+    "hotels": {
+        "title": "Hotels",
+        "more": "More hotels on"
+    },
+
+    "acces": {
+        "title": "Acces"
+    },
+
+    "inscriptions" : {
+        "title": "Registrations",
+        "price": "Registrations are mandatory. The price is 50 €. The ticket gives access to all conference sessions , as well as lunch and beverages served during breaks.",
+        "description": "Registrations should be open around September 15th."
+    },
+
+    "emails" : {
+        "title" : "Contacts",
+        "description": "To contact us before the conference, just send us an email:",
+        "orateur" : {
+            "addr": "orateur@agile-grenoble.org",
+            "desc": "for the call for speakers and the session submissions"
+        },
+        "sponsor" : {
+            "addr": "sponsor@agile-grenoble.org",
+            "desc": "for the sponsoring"
+        },
+        "inscription" : {
+            "addr": "inscription@agile-grenoble.org",
+            "desc": "for the registrations"
+        },
+        "contact" : {
+            "addr": "contact@agile-grenoble.org",
+            "desc": "for any other question related to the conference"
+        }
+    },
+
+    "button": {
+        "close": "Close"
+    }
+}
