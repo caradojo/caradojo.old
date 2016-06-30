@@ -33,6 +33,14 @@
             "description" : "soprasteria.html"
         },
         {
+            "photo" : "moodys.jpg",
+            "entreprise" : "Moody's",
+            "web" : "https://www.moodys.com/",
+            "partenaire": false,
+            "goldNotSilver" : true,
+            "description" : "moodys.html"
+        },
+        {
             "photo" : "thales.jpg",
             "entreprise" : "Thales",
             "web" : "https://www.thalesgroup.com/fr/",
