@@ -37,7 +37,7 @@
             "entreprise" : "Moody's",
             "web" : "https://www.moodys.com/",
             "partenaire": false,
-            "goldNotSilver" : true,
+            "goldNotSilver" : false,
             "description" : "moodys.html"
         },
         {
