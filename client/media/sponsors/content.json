@@ -9,6 +9,14 @@
             "description" : "zenika.html"
         },
         {
+            "photo" : "UShareSoft-sRGB.png",
+            "entreprise" : "UShareSoft",
+            "web" : "https://www.usharesoft.com/home/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "usharesoft.html"
+        },
+        {
             "photo" : "persistent.jpg",
             "entreprise" : "Persistent",
             "web" : "http://www.persistentsas.com",
