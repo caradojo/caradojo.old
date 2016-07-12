@@ -81,6 +81,14 @@
             "description" : "eloquant.html"
         },
         {
+            "photo" : "salesforce.png",
+            "entreprise" : "Salesforce",
+            "web" : "http://www.salesforce.com/fr/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "salesforce.html"
+        },
+        {
             "photo" : "Kaizen.jpg",
             "entreprise" : "Kaizen Solutions",
             "web" : "http://www.kaizen-solutions.net/",
