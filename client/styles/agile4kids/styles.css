@@ -324,8 +324,8 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 }
 
 
-#apropos {
-	background-image:url('../../media/agile4kids/background/apropos.jpg');
+#details {
+	background-image:url('../../media/agile4kids/background/details.jpg');
 }
 
 .list-group {
@@ -558,14 +558,4 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 
 .panel-heading {
 	cursor: pointer;
-}
-
-.sponsor-gold {
-	 color: #aa4502;
-	 background-color: #f4be42;
-}
-
-.sponsor-silver {
-	 color: #5974a3;
-	 background-color: #c4c4c4;
 }

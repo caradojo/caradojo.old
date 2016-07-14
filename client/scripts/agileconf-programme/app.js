@@ -3,11 +3,11 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngResource', 'gridst
 		function($routeProvider) {
 			$routeProvider.
 			when('/principal', {
-				templateUrl: 'client/templates/agile-grenoble-programme/principal.html',
+				templateUrl: 'client/templates/agileconf-programme/principal.html',
 				controller: 'ProgrammePrincipalCtrl'
 			}).
 			when('/session/:id', {
-				templateUrl: 'client/templates/agile-grenoble-programme/session.html',
+				templateUrl: 'client/templates/agileconf-programme/session.html',
 				controller: 'ProgrammeSessionCtrl'
 			}).
 			otherwise({

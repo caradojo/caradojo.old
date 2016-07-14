@@ -2,8 +2,8 @@
    
     "accueil": {
         "title" : "Accueil",
-        "title_ag": "Agile Grenoble 4Kids: Samedi 19 novembre",
-        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
+        "title_ag": "Agile Grenoble Forum: Vendredi 18 novembre",
+        "description": "forum description",
         "link": {
             "name": "Plus d'information...",
             "addr": "http://agile-grenoble.org/4kids/"

@@ -1,8 +1,6 @@
 var AgileGrenobleApp = AgileGrenobleApp || {};
 AgileGrenobleApp.service('ProgrammeCacheService', function($q, ProgrammeService, AgCache) {
         
-        var program = {};
-
         this.get = function() {
 
             var deferred = $q.defer();

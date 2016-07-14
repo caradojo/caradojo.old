@@ -21,15 +21,13 @@
   <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
 
     <div ag-nav></div>
-
-    <div ag-social-network url="http://agile-grenoble.org/"></div>
-
+    
     <div ag-page="accueil" offsetdown="-1" offsetup="-1">
       <div ag-accueil></div>
     </div>
 
-    <div ag-page="apropos" offsetdown="10" offsetup="-1">
-      <div ag-apropos></div>
+    <div ag-page="details" offsetdown="0" offsetup="-1">
+      <div ag-details></div>
     </div>
 
     <script src="client/lib/bower-skrollr/skrollr.min.js"></script>
@@ -50,13 +48,12 @@
 
     <script src="client/scripts/agile4kids/app.js"></script>
 
-    <script src="client/scripts/agile4kids/utils/scrollDirective.js"></script>
-    <script src="client/scripts/agile4kids/utils/angular-smoothscroll.js"></script>
-    <script src="client/scripts/agile4kids/utils/contentService.js"></script>
+    <script src="client/scripts/utils/scrollDirective.js"></script>
+    <script src="client/scripts/utils/angular-smoothscroll.js"></script>
     <script src="client/scripts/agile4kids/navigation/navDirective.js"></script>
     <script src="client/scripts/agile4kids/pages/accueilDirective.js"></script>
--->    <script src="client/scripts/agile4kids/pages/aproposDirective.js"></script>
-    <script src="client/scripts/agile4kids/utils/pageDirective.js"></script>
+    <script src="client/scripts/agile4kids/pages/detailsDirective.js"></script>
+    <script src="client/scripts/utils/pageDirective.js"></script>
 
   </body>
 </html>

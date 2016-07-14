@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="client/lib/bootstrap/css/bootstrap.min.css" />
       <link rel="stylesheet" href="client/lib/angular-ui-notification/angular-ui-notification.min.css" />
 
-      <link rel="stylesheet" type="text/css" href="client/styles/agile-grenoble-index.css" />
+      <link rel="stylesheet" type="text/css" href="client/styles/agileforum/styles.css" />
   </head>
 
 
@@ -21,31 +21,13 @@
   <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
 
     <div ag-nav></div>
-
-    <div ag-social-network url="http://agile-grenoble.org/"></div>
-
+    
     <div ag-page="accueil" offsetdown="-1" offsetup="-1">
       <div ag-accueil></div>
     </div>
 
-    <div ag-page="keynotes" offsetdown="0" offsetup="-1">
-      <div ag-keynotes></div>
-    </div>
-
-    <div ag-page="sponsors" offsetdown="0" offsetup="-1">
-      <div ag-sponsors></div>
-    </div>
-<!--
-    <div ag-page="orateurs" offsetdown="0" offsetup="-1">
-      <div ag-orateurs></div>
-    </div>
-
-    <div ag-page="participants" offsetdown="0" offsetup="-1">
-      <div ag-participants></div>
-    </div>
--->
-    <div ag-page="apropos" offsetdown="10" offsetup="-1">
-      <div ag-apropos></div>
+    <div ag-page="details" offsetdown="0" offsetup="-1">
+      <div ag-details></div>
     </div>
 
     <script src="client/lib/bower-skrollr/skrollr.min.js"></script>
@@ -63,25 +45,14 @@
     <script src="client/lib/angular-ui-utils/ui-utils.js"></script>
     <script src="client/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="client/lib/underscore/underscore-min.js"></script>
-    <script src="client/lib/angular-ui-notification/angular-ui-notification.min.js"></script>
 
-    <script src="client/scripts/agile-grenoble/app.js"></script>
+    <script src="client/scripts/agileforum/app.js"></script>
 
-    <script src="client/scripts/agile-grenoble/utils/scrollDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/utils/angular-smoothscroll.js"></script>
-    <script src="client/scripts/agile-grenoble/utils/sponsorsService.js"></script>
-    <script src="client/scripts/agile-grenoble/utils/contentService.js"></script>
-    <script src="client/scripts/agile-grenoble/utils/keynotesService.js"></script> 
-    <script src="client/scripts/agile-grenoble/navigation/navDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/pages/accueilDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/pages/keynotesDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/pages/sponsorsDirective.js"></script>
-<!--    <script src="client/scripts/agile-grenoble/pages/orateursDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/pages/participantsDirective.js"></script>
--->    <script src="client/scripts/agile-grenoble/pages/aproposDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/utils/pageDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/composants/socialNetworkDirective.js"></script>
-    <script src="client/scripts/agile-grenoble/composants/carouselSponsors.js"></script>
-
+    <script src="client/scripts/utils/scrollDirective.js"></script>
+    <script src="client/scripts/utils/angular-smoothscroll.js"></script>
+    <script src="client/scripts/agileforum/navigation/navDirective.js"></script>
+    <script src="client/scripts/agileforum/pages/accueilDirective.js"></script>
+    <script src="client/scripts/agileforum/pages/detailsDirective.js"></script>
+    <script src="client/scripts/utils/pageDirective.js"></script>
   </body>
 </html>
