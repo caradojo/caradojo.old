@@ -17,17 +17,94 @@
   </head>
 
 
+  <body id="skrollr-body" ng-controller="AgileGrenobleCtrl">
 
-  <body>
-      <h1>Bienvenue sur le site d'Agile Grenoble</h1>
-      <h2 id="accueil">
-      <a href="/agileconf.html">agile conf</a>
-      <br/>
-      <a href="/agile4kids.html">agile 4kids</a>
-      <br/>
-      <a href="/agileforum.html">agile forum</a>
-      <br/>
-      <a href="/agilelab.html">agile lab</a>
-      </h2>
+<div>
+  <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+            <div class="navbar-brand logo-nav visible-md visible-lg">
+            <img  src="client/media/logo/logo_ag_white_64.png" alt="logo" width="80px">
+            </div>
+            <div class="navbar-brand logo-nav visible-sm">
+            <img  src="client/media/logo/logo_ag_white_64.png" alt="logo" width="60px">
+            </div>
+
+            <h4 class="ag-agtext visible-md visible-lg">Agile Grenoble</h4>
+            <p class="ag-agtext visible-sm">Agile Grenoble</p>
+            </div>
+      </div>
+   </nav>
+</div>
+
+<div class="content container" ag-page="accueil" offsetdown="-1" offsetup="-1" >	
+  <div class="row" class=page margin="100px">
+    <div class="col-md-12">
+
+	<div skrollr class="panel panel-default transparent_black65">
+	   <div class="panel-body">
+            <h1 class="ag-section-title visible-lg" translate="accueil.title_ag">accueil.title_ag</h1>
+            <h2 class="ag-section-title visible-md" translate="accueil.title_ag">accueil.title_ag</h2>
+            <h3 class="ag-section-title visible-sm" translate="accueil.title_ag">accueil.title_ag</h3>
+            <h4 class="ag-section-title visible-xs" translate="accueil.title_ag">accueil.title_ag</h4>
+            <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe1">accueil.description.paragraphe1</p>
+            <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe2">accueil.description.paragraphe2</p>
+            <h4 class="hidden-xs hidden-sm" translate="accueil.date">accueil.date</h4>
+            <p class="visible-sm" translate="accueil.date">accueil.date</p>
+          </div>
+        </div>
+     </div>
+   </div>
+
+   <div class="row">
+      <div class="col-md-3">
+         <div class="panel panel-default transparent_white75">
+  	    <div class="panel-body">
+               <h4 translate="agilegrelab.title">agilegrelab.title</h4>
+               <p class="hidden-xs" translate="agilegrelab.description">agilegrelab.description</p>
+               <a href="./agilelab.html" class="btn btn-primary btn-lg">Agile Grenoble Lab</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-3">
+          <div class="panel panel-default transparent_white75">
+  	         <div class="panel-body">
+               <h4 translate="agilegreconf.title">agilegreconf.title</h4>
+               <p class="hidden-xs" translate="agilegreconf.description">agilegreconf.description</p>
+               <a href="./agileconf.html" class="btn btn-primary btn-lg">Agile Grenoble Conf</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+         <div class="panel panel-default transparent_white75">
+            <div class="panel-body">
+               <h4 translate="agilegreforum.title">agilegreforum.title</h4>
+               <p class="hidden-xs" translate="agilegreforum.description">agilegreforum.description</p>
+               <a href="./agileforum.html" class="btn btn-primary btn-lg">Agile Grenoble Forum</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-3">
+         <div class="panel panel-default transparent_white75">
+            <div class="panel-body">
+               <h4 translate="agilegre4kids.title">agilegre4kids.title</h4>
+               <p class="hidden-xs" translate="agilegre4kids.description">agilegre4kids.description</p>
+               <a href="./agile4kids.html" class="btn btn-primary btn-lg">Agile Greonoble 4 Kids</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</div>
+</div>
   </body>
 </html>

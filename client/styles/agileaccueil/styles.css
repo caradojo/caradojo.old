@@ -1,7 +1,258 @@
 
+#accueil a {
+  text-decoration:none;
+}
+
+.ag-margin-before-after {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#accueil .dateConference {
+        position: absolute;
+        left:70%;
+        top:-15px;
+        width: 35%;
+        height: 35%;
+        background-image: url(../../media/text_hand_confdate_256.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+}
+
+/* General */
 body, html {
     height: 100%;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 35px 0 0 0;
+    background-image:url(../../media/agileconf/background/accueil.jpg);
 }
+
+h1 {
+    margin: 0 0 15px 0;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+}
+
+@font-face
+{
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+}
+
+
+/* utilisation de la fonte ubuntu pour les titres */
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:Ubuntu, Arial;
+}
+
+
+
+
+/* ====== transparent ====== */
+.transparent {
+  color: black;
+  border: none;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.0);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
+}
+
+.transparent_white50 {
+  color: black;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
+}
+
+.transparent_white65 {
+  color: black;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6FFFFFF,endColorstr=#A6FFFFFF);
+}
+
+.transparent_white75 {
+  color: black;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.75);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
+}
+
+.transparent_white85 {
+  color: black;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.85);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
+}
+
+.transparent_white95 {
+  color: black;
+  background: rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,.95);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
+}
+
+.transparent_black50 {
+  color: white;
+  background: rgb(0,0,0);
+  background: transparent\9;
+  background:rgba(0,0,0,0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+}
+
+.transparent_black65 {
+  color: white;
+  background: rgb(0,0,0);
+  background: transparent\9;
+  background:rgba(0,0,0,0.65);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+}
+
+.transparent_black75 {
+  color: white;
+  background: rgb(0,0,0);
+  background: transparent\9;
+  background:rgba(0,0,0,0.75);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0000000,endColorstr=#C0000000);
+}
+
+.transparent_black85 {
+  color: white;
+  background: rgb(0,0,0);
+  background: transparent\9;
+  background:rgba(0,0,0,0.85);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8000000,endColorstr=#D8000000);
+}
+
+.transparent_black95 {
+  color: white;
+  background: rgb(0,0,0);
+  background: transparent\9;
+  background:rgba(0,0,0,0.95);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#F2000000,endColorstr=#F2000000);
+}
+
+
+
+.navbar-default {
+  background-color: #2c2c2c;
+  border-color: #303030;
+  z-index: 10;
+  border-radius: 0px !important;
+  -moz-box-shadow: 1px 1px 5px 0px #2c2c2c;
+  -webkit-box-shadow: 1px 1px 5px 0px #2c2c2c;
+  -o-box-shadow: 1px 1px 5px 0px #2c2c2c;
+  box-shadow: 1px 1px 5px 0px #2c2c2c;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#2c2c2c, Direction=134, Strength=5);
+}
+
+.navbar-default .navbar-brand {
+  color: #ebeef5;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #00b8fc;
+}
+.navbar-default .navbar-text {
+  color: #ebeef5;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ebeef5;
+  border-bottom: 3px #ebeef5 solid;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #B0B0B0;
+  border-bottom: 3px #B0B0B0 solid;
+  cursor: pointer;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #00b8fc;
+  background-color: #2c2c2c;
+  border-bottom: 3px #00b8fc solid;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #00b8fc;
+  background-color: #2c2c2c;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2c2c2c;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #2c2c2c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ebeef5;
+}
+.navbar-default .navbar-collapse {
+  margin-right: 15px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ebeef5;
+}
+.navbar-default .navbar-link {
+  color: #ebeef5;
+}
+.navbar-default .navbar-link:hover {
+  color: #00b8fc;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ebeef5;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #00b8fc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #00b8fc;
+    background-color: #2c2c2c;
+  }
+}
+
+
+/* Logo Agile Grenoble */
+
+
+@media (max-width: 991px) {
+  .ag-agtext {
+    margin-top: 24px;
+    color: #E0E0E0;
+    width: 180px;
+    font-family:Ubuntu, Arial;
+  }
+  .logo-nav {
+   margin-top: 10 px;
+  }
+}
+@media (min-width: 992px) {
+  .ag-agtext {
+    margin-top: 24px;
+    color: #E0E0E0;
+    width: 240px;
+  }
+  .logo-nav {
+   margin-top: -4px;
+  }
+}
+
+
+
+.ag-anneetext {
+  color: #00b8fc;
+}
+
