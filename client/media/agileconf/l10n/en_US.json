@@ -21,10 +21,12 @@
             "callforpaperstitle": "Call for papers",
             "callforpapers1": "The call for papers for Agile Grenoble Conf will open <b>mid-june</b>.<br/>An early-selection will occur on beginning of july.<br/>The final program will be defined in september.",
             "callforpapers2": "The call for papers is opened until 3rd September.<br/>An early-selection will occur on sessions registered before <b>July 8, 2016</b>. The final program will be defined in september.",
+            "callforpapers3": "The call for papers is opened until 3rd September.<br/>The final program will be defined in september.",
             "callforpaperslink": {
                 "name" : "Register a session...",
                 "addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
-                }
+                },
+         "selection": "An early-selection have been done on sessions registered before July 8, 2016"
     },
 
 
@@ -58,6 +60,16 @@
         "title": "Speakers",
         "description": "The Agile Grenoble team is pleased to welcome you at the Word Trade Center on November 17, 2016 for a new day of exchanges around agility. Each year, about 50 speakers of France and other countries contributent to deliver a rich, diverse and high quality program."
     },
+    "themes" : {
+        "title": "Retour aux sources de l'agilité",
+        "description": "Agile Grenoble Conf will be the moment to exchange and share about theses folling lines :",
+        "theme1": "Individuals and interactions",
+        "theme2": "Working software",
+        "theme3": "Customer collaboration",
+        "theme4": "Responding to change",
+        "explanation": "These themes reminder something ? Then take part of adventure and come explore these 4 agile manifesto values by submitting your idea for the Agile Grenoble Conf day of November 17."
+
+    },
 
     "keynotes": {
         "title": "Keynotes",
@@ -76,14 +88,6 @@
         "date": "November 2016"
     },
 
-    "themes" : {
-        "title": "Conference theme",
-        "description": "In 2016, the main theme of the conference is: <strong>Back to origin</strong>The sessions will be organized around the following lines:",
-        "theme1": "",
-        "theme2": "",
-        "theme3": "",
-        "theme4": ""
-    },
 
     "cfp" : {
         "title": "Submission is now closed",

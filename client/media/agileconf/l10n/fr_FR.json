@@ -24,10 +24,12 @@
             "callforpaperstitle": "Appel à orateurs",
             "callforpapers1": "L'appel à orateurs pour Agile Grenoble Conf va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
             "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/> Une présélection aura lieu parmi ceux qui auront soumis avant le <b>8 juillet 2016</b>. La finalisation du programme sera effectuée en septembre.",
+            "callforpapers3": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/>La finalisation du programme sera effectuée en septembre.",
             "callforpaperslink": {
 		"name" : "Soumettre une session...",
 		"addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
-		}
+		},
+         "selection": "Une présélection a eu lieu parmi ceux qui ont soumis avant le 8 juillet 2016"
     },
 
     "agilegrelab": {
@@ -59,7 +61,17 @@
 	
     "orateurs": {
         "title": "Orateurs",
-        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le 17 novembre 2016 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
+        "description": "L'équipe de l'Agile Grenoble aura le plaisir de vous accueillir au Word Trade Center le jeudi 17 novembre 2016 pour une nouvelle journée d'échange autour de l'agilité. Chaque année une cinquantaine d'orateurs de France et d'ailleurs contribuent à livrer un programme de qualité et riche en diversité."
+    },
+    "themes" : {
+        "title": "Retour aux sources de l'agilité",
+        "description": "Agile Grenoble Conf sera l'occasion d'échanger et de partager autour des thèmes :",
+        "theme1": "Les individus et leurs interactions",
+        "theme2": "Des logiciels opérationnels",
+        "theme3": "La collaboration avec les clients",
+        "theme4": "L’adaptation au changement",
+        "explanation": "Ces thèmes vous rappellent quelque-chose ? Alors faites partie de l'aventure et venez (ré)explorer les 4 valeurs du manifeste agile en déposant votre idée de session pour la journée Agile Grenoble Conf du 17 novembre"
+
     },
 
     "keynotes": {
@@ -79,24 +91,7 @@
         "date": "Novembre 2016"
     },
 
-    "themes" : {
-        "title": "Thème de la conférence",
-        "description": "En 2016, le thème principale de la conférence sera : <strong>Retour aux sources de l'agilité</strong>Les sessions s'organiseront autour des thèmes suivants :",
-        "theme1": "",
-        "theme2": "",
-        "theme3": "",
-        "theme4": ""
-    },
 
-    "cfp" : {
-        "title": "La soumission des sessions est close",
-        "description": "Notre plateforme de soumissions reste ouverte afin de vous permettre d'améliorer la description des sessions ainsi que de saisir votre profil orateur.",
-        "link": {
-            "name": "Editer sessions et profil",
-            "addr": "http://cfp.agile-grenoble.org/"
-        }
-    },
-	
     "register" : {
         "title": "Inscriptions",
         "description": "Désolé mais la conférence est à guichet complet. Chaque année depuis 8 ans la conférence démarre à guichet complet, victime de son succès.",
