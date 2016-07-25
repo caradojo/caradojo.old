@@ -12,6 +12,7 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngSanitize', 'pascal
 }])
 .controller('AgileGrenobleCtrl', function($translate, $scope) {
       $scope.setLang = function(langKey) {
+        console.log(langKey);
         $translate.use(langKey);
       };
 });
