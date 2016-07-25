@@ -1,0 +1,49 @@
+<div>
+	<div class="jumbotron">
+	    <h1>
+	        <img src="client/media/logo/logo_ag_black_100.png" alt="logo" width="120px"> Programme
+	        <a href="index.html" class="pull-right glyphicon glyphicon-home"></a>
+	    </h1>
+	</div>
+
+    <div class="panel panel-default transparent_white75">
+        <div class="panel-heading clickable" ng-click="displaytheme=!displaytheme">
+            <span class="glyphicon glyphicon-chevron-down" ng-hide="!displaytheme"></span>
+            <span class="glyphicon glyphicon-chevron-right" ng-hide="displaytheme"></span>
+            <b> Thèmes</b>
+        </div>
+        <div class="panel-body animate-theme" ng-hide="!displaytheme">
+            <div class="row">
+                <div ng-repeat="(theme, name) in program.themes"  >
+                  <div class="col-xs-12 col-md-3 label text-summary {{theme}}">{{name}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<div gridster="gridsterOpts" class="header_program hidden-xs">
+		<ul>
+            <li data-gridster-item  class="text-center gridster-item" data-sizex="1" data-sizey="1" data-col="0" data-row="0">
+                <b>Horaire</b>
+            </li>
+			<li gridster-item="item" ng-repeat="room in program.rooms" class="text-center">
+              <b>{{room.name}}</b><br>
+              <span class="badge"><small>{{room.content.capacity}} places</small></span>
+            </li>
+        </ul>
+    </div>
+    <div class="program" gridster="gridsterOpts">
+        <ul ng-repeat="slot in program.slots">
+            <li data-gridster-item  class="session text-center gridster-item" data-sizex="1" data-sizey="getHoursLength($index)" data-col="0" data-row="getHoursRowPosition($index)">
+                <b>{{getHourText($index)}}</b>
+            </li>
+            <li data-gridster-item  class="session {{item.theme}} text-center  gridster-item" ng-class="{keynote: isKeynote(slot['Auditorium'])}" data-sizex="item.width" data-sizey="item.length" data-col="getColPosition(item)" data-row="item.rowposition" ng-repeat="item in slot">
+                <a ng-href="{{getSessionLink(item)}}">
+                    <b>{{item.title}}</b><br>
+                    <i><span ng-repeat="speaker in item.speakers | filter:'!@' track by $index "><span ng-if="!$first">, </span>{{speaker}}</span></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

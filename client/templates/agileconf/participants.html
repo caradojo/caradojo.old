@@ -1,0 +1,105 @@
+<div class="content container">
+	<div class="row">
+		<div class = "col-md-12 col-sm-11" >
+	        <div class="panel panel-default transparent_black75">
+	          	<div class="panel-body">
+			        <h3 class="ag-section-title" translate="participants.date"></h3>
+		 						<div class="btn-group" role="toolbar" ng-init="info='program'">
+
+						<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'program','btn btn-ag-panel-default' : info != 'program' }"  ng-click="info='program'" ><span translate="programme.title"></span></button>
+
+	            		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'register', 'btn btn-ag-panel-default' : info != 'register' }"  ng-click="info='register'"><span translate="inscriptions.title"></span></button>
+
+	            		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'access', 'btn btn-ag-panel-default' : info != 'access' }"   ng-click="info='access'"><span translate="acces.title"></span></button>
+
+	            		<button type="button"  ng-class="{'btn btn-ag-panel-selected' : info == 'hotels', 'btn btn-ag-panel-default' : info != 'hotels' }"  ng-click="info='hotels'"><span translate="hotels.title"></span></button>
+
+		            </div>
+		          	<div class="col-md-9">
+								<div ng-show="info == 'access'">
+						        <address>
+						          <strong>Centre de congrès du WTC</strong><br>
+						          5 place Robert Schumann<br>
+						          38000 Grenoble<br>
+						        </address>
+
+						        <div class="visible-md visible-lg">
+						          <iframe class="container well well-small" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 300px;" frameborder="0" style="border:0"></iframe>
+						        </div>
+						        <div class="visible-sm">
+						          <iframe class="container well well-small visible-sd" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 150px;" frameborder="0" style="border:0"></iframe>
+						        </div>
+						        <div class="visible-xs">
+						          <a href="https://www.google.fr/maps/place/Centre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble/@45.1910246,5.713109,17z/data=!3m1!4b1!4m2!3m1!1s0x478af481b7661f97:0x2f475fe8d95f61e0">Google maps</a>
+						        </div>
+				      		</div>
+
+									<div ng-show="info == 'hotels'">
+								    <ul class=" hidden-xs">
+								      <address ng-repeat="hotel in content.hotels">
+											  <strong class="text-primary">{{hotel.name}} <span ng-repeat="item in [1,2,3]|limitTo:hotel.stars" class="glyphicon glyphicon-star"></span></strong><br>
+											  <i>{{hotel.address}}</i><br>
+											  <abbr title="Telephone">Tél:</abbr>+33 (0){{hotel.phone}}
+											</address>
+								    </ul>
+								    <p>
+								      <i class="glyphicon glyphicon-info-sign"></i>
+								      <span translate="hotels.more"></span>
+								      <a href="http://www.grenoble-tourisme.com/" target="_blank">Grenoble Tourism</a>
+								    </p>
+							    </div>
+
+
+									<div ng-show="info == 'program'">
+										<h4 class="hidden-xs hidden-sm" translate="programme.title"></h4>
+										<!--<p translate="programme.nondisponible"></p>-->
+										<p class="hidden-xs" translate="programme.disponible">
+										</p>
+										<a href="agileconf-programme.html" class="hidden-xs hidden-sm btn btn-primary btn-lg">
+						                  <span class="glyphicon glyphicon-eye-open"></span>
+						                  Programme
+						                </a>
+						                <a href="agileconf-programme.html" class="hidden-lg hidden-md btn btn-primary btn">
+						                  <span class="glyphicon glyphicon-eye-open"></span>
+						                  <span translate="programme.link"></span>
+						                </a>
+									</div>
+
+						<div ng-show="info == 'register'">
+							<h4 class="hidden-xs hidden-sm" translate="inscriptions.title"></h4>
+							<p translate="inscriptions.price"></p>
+							<!--p class="hidden-xs" translate="inscriptions.description"></p-->
+
+							<img src="client/media/complet-soldout.png" style="height:150px;" alt="complet/sold-out" />
+							<!-- div class="width:100%; float:left">
+							    <iframe src="http://yurplan.com/event/Agile-Grenoble-2015/5619/tickets/widget?from=widget&default_culture=fr" height="500" width="750" scrolling="auto" frameborder="0"></iframe>
+							        <div style="font-family:Helvetica, Arial; font-size:13px; padding:5px 15px 10px; width:100%; text-align:left;" >
+							        <a title="Logiciel billetterie en ligne" style="color:#ddd; text-decoration:none;" target="_blank" href="http://pro.yurplan.com">Billetterie en ligne</a>
+							        <span style="color:#ddd;"> pour </span>
+							        <a title="Logiciel billetterie en ligne" style="color:#ddd; text-decoration:none;" target="_blank" href="http://yurplan.com/event/Agile-Grenoble-2015/5619">Agile Grenoble 2015</a>
+							        <span style="color:#ddd;">par</span> <a title="Logiciel billetterie en ligne" style="color:#ddd; text-decoration:none;" target="_blank" href="https://yurplan.com">YurPlan</a>
+							    </div>
+							</div -->
+
+							<!--div class="hidden-xs">
+								<script type="text/javascript" src="https://www.weezevent.com/js/widget.js"></script>
+								<iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;resize=1&amp;color_primary=00B8FC" width="600" height="450" scrolling="auto" frameborder="0" id="78436"></iframe>
+							</div>
+							<div class="visible-xs">
+								<a href="https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF" onclick="var w=window.open('https://www.weezevent.com/widget_billeterie.php?id_evenement=78436&amp;code=23606&amp;color_primary=00AEEF', 'Billetterie_weezevent', 'width=650, height=600, top=100, left=100, toolbar=no, resizable=yes, scrollbars=yes, status=no'); w.focus(); return false;"><img src="http://www.weezevent.com/images/statique/bt_achetez_billets_blu.png" alt="Achetez vos billets" /></a>
+							</div-->
+						</div>
+					</div>
+					<div class="col-md-3">
+			            <!--div class="text-left">
+			              <h4 class="hidden-xs">Application mobile</h4>
+			              <p class="hidden-xs">L'application officielle de la conférence est désormais disponible.</p>
+			              <a href="https://play.google.com/store/apps/details?id=com.ionicframework.aggrenoble912871&hl=fr_FR"><img src="client/media/AndroidApp.png" ></img></a>
+			            </div-->
+			        </div>
+
+	        	</div>
+	        </div>
+		</div>
+	</div>
+</div>

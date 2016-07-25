@@ -1,0 +1,53 @@
+<div ng-show="content.sponsors.length" class="panel panel-default transparent_black65">
+  <div class="panel-body text-center carousel">
+    <div ng-repeat="sponsor in content.sponsors" ng-show="isActive($index)" class="text-center">
+
+      <div class="blockquote-size hidden-xs" ng-show="isActive($index)">
+        <p ng-class="{gold: sponsor.goldNotSilver}">
+          <b>
+			  <span ng-if="!sponsor.partenaire">
+				<span ng-switch="sponsor.goldNotSilver">
+				  <span ng-switch-when="true">Sponsor Gold</span>
+				  <span ng-switch-when="false">Sponsor Silver</span>
+				  <span ng-switch-default></span>
+				</span>
+			  </span>
+            <span ng-if="sponsor.partenaire">Partenaire</span>
+          </b>
+        </p>
+      </div>
+
+      <div class="container slider slider-size">
+        <img data-toggle="modal" data-target="#modal{{name}}{{$index}}" ng-click="stopSlideshow()" title="Cliquez pour plus d'informations sur {{sponsor.entreprise}}" class="slide" ng-src="{{sponsor.photo}}" />
+      </div>
+
+        <!-- Modal -->
+      <div class="modal fade" data-backdrop="static" id="modal{{name}}{{$index}}" tabindex="-1" role="dialog" aria-labelledby="modallabel{{name}}{{$index}}" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" ng-click="startSlideshow()" aria-hidden="true">&times;</button>
+                <img data-toggle="modal" title="{{sponsor.entreprise}}" class="slide" ng-src="{{sponsor.photo}}" />
+            </div>
+
+            <div class="modal-body text-left">
+              <div ng-include="description(sponsor)"></div>
+              <br>
+              <p>
+                <span translate="sponsors.more_informations"></span>
+                <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+              </p>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="startSlideshow()"><span translate="button.close"></span></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

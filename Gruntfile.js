@@ -1,14 +1,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 
-
-    concat: {
-        dist: {
-              src: ['client/styles/agile-grenoble/*.css'],
-              dest: 'client/styles/agile-grenoble-index.css'
-            }
-    },
-
     sync: {
       main: {
         files: [{
@@ -41,7 +33,6 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sync');
-  grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', ['sync', 'concat']);
+  grunt.registerTask('default', ['sync']);
 };

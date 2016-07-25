@@ -1,0 +1,79 @@
+{
+  "credits" : [
+                {
+                  "photourl":"http://www.camptocamp.org/images/377738/fr/la-cordee",
+                  "desc": "La Cordée",
+                  "ownername":"susheen",
+                  "ownerurl":"http://www.camptocamp.org/users/202842",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                },
+                {
+                  "photourl":"http://www.camptocamp.org/images/378896/fr/grenoble-sous-les-etoiles",
+                  "desc": "Grenoble sous les étoiles",
+                  "ownername":"Benoit Audige",
+                  "ownerurl":"http://www.camptocamp.org/users/11491",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                },
+                {
+                  "photourl":"http://www.camptocamp.org/images/241031/fr/un-matin-au-mont-rose",
+                  "desc": "Un matin au mont rose",
+                  "ownername":"Jean-Louis Decosse",
+                  "ownerurl":"http://www.camptocamp.org/users/13874",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                }
+              ],
+  "hotels" : [
+            {
+              "name":"Novotel Grenoble Centre",
+              "stars": 3,
+              "url":"http://www.accorhotels.com/fr/hotel-1624-novotel-grenoble-centre/index.shtml",
+              "address": "next to the WTC and one minute from the station",
+              "phone":"4 76 70 84 84"
+            },
+            {
+              "name":"Grenoble Europole",
+              "stars": 3,
+              "url":"http://www.hoteleuropole.com/",
+              "address": "(in front of WTC) 29, rue Pierre-Sémard",
+              "phone":"4 76 49 51 52"
+            },
+            {
+              "name":"Best Western Terminus",
+              "stars": 3,
+              "url":"http://www.terminus-hotel-grenoble.fr",
+              "address": "(in front of the train station)",
+              "phone":"4 76 87 24 33"
+            },
+        {
+              "name":"Ibis",
+              "stars": 3,
+              "url":"http://www.ibishotel.com/fr/hotel-2737-ibis-grenoble-gare/index.shtml",
+              "address": "(further) 27 Quai Claude Bernard",
+              "phone":"4 76 86 68 68"
+            },
+        {
+              "name":"Hôtel des Alpes",
+              "stars": 2,
+              "url":"http://www.hotel-des-alpes.fr",
+              "address": "(near train station) 45, avenue Félix Viallet",
+              "phone":"4 76 87 00 71"
+            },
+        {
+              "name":"Hôtel Bastille",
+              "stars": 2,
+              "url":"http://www.isere-tourisme.com/HOT/Hotel-Bastille/Grenoble/fiche-1104-1-38AAHOT100025.html",
+              "address": "(near train station) 25 avenue Félix Viallet",
+              "phone":"4 76 43 10 27"
+            },
+        {
+              "name":"Hôtel Institut",
+              "stars": 2,
+              "url":"http://www.institut-hotel.fr",
+              "address": "(proche WTC, gare) 10 rue Louis Barbillon",
+              "phone":"4 76 46 36 44"
+            }
+      ]
+}

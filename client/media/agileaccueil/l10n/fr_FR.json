@@ -1,0 +1,198 @@
+{
+    "accueil": {
+        "title" : "Accueil",
+        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
+        "description" : {
+            "paragraphe0": "",
+	    "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
+            "old_paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
+            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
+            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
+            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
+            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
+        },
+        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
+    },
+
+    "agilegreconf": {
+        "title": "Agile Grenoble Conf",
+        "date":"Jeudi 17 novembre",
+        "description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://"
+            },
+            "callforpaperstitle": "Appel à orateurs",
+            "callforpapers1": "L'appel à orateurs pour Agile Grenoble Conf va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
+            "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/> Une présélection aura lieu parmi ceux qui auront soumis avant le <b>8 juillet 2016</b>. La finalisation du programme sera effectuée en septembre.",
+            "callforpapers3": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/>La finalisation du programme sera effectuée en septembre.",
+            "callforpaperslink": {
+		"name" : "Soumettre une session...",
+		"addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
+		},
+         "selection": "Une présélection a eu lieu parmi ceux qui ont soumis avant le 8 juillet 2016"
+    },
+
+    "agilegrelab": {
+        "title": "Agile Grenoble Lab",
+        "date":"Mercredi 16 novembre",
+        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://agile-grenoble.org/lab/"
+            }
+    },
+
+	"agilegreforum": {
+        "title": "Agile Grenoble Forum",
+        "date": "Vendredi 18 novembre",
+	        "description": "La journée du vendredi qui a vu le jour en 2011 pour permettre à des agilistes expérimentés, ou moins expérimentés, de discuter ensemble des sujets qui les passionnent dans un environnement libre et décomplexé, sans programme, sans sponsor, et sans obligation.",
+		"link": {
+            "name": "Plus d'information...",
+            "addr": "http://agile-grenoble.org/forum/"
+		}
+	},
+
+    "agilegre4kids": {
+        "title": "Agile Grenoble 4Kids",
+        "date": "Samedi 19 novembre",
+        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
+            "link": {
+        "name": "Plus d'information...",
+        "addr": "http://agile-grenoble.org/4kids/"
+            }
+    },
+
+    "apropos" : {
+        "title": "A propos",
+        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 9ème édition consécutive en 2016. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
+        "of": "de",
+        "under": "sous"
+    },
+
+    "cara": {
+        "title": "Club Agile Rhône Alpes (CARA)",
+        "description": "Le CARA est association loi 1901 dont la raison d'être est la promotion et la diffusion des méthodes agiles dans la région Rhône-Alpes au plus grand nombre et par tous moyens de communication et d’intervention: conférence, séminaire, rencontre ou partenariat.",
+        "link": {
+            "name": "Visiter le site du CARA",
+            "addr": "http://www.clubagilerhonealpes.org/"
+        },
+        "eventslink": {
+            "name": "Les autres événements du CARA",
+            "addr": "http://grenoble.clubagilerhonealpes.org/cat/activites"
+        },
+        "contactlink": {
+            "name": "Contacter le CARA",
+            "addr": "http://grenoble.clubagilerhonealpes.org/contact"
+        }
+    },
+
+    "acces": {
+        "title": "Accès"
+    },
+
+    "emails" : {
+        "title" : "Contacts",
+        "description": "Pour nous contacter avant la conférence envoyez-nous tout simplement un email :",
+        "orateur" : {
+            "addr": "orateur@agile-grenoble.org",
+            "desc": "pour l'appel à orateur et les soumissions de sessions"
+        },
+        "sponsor" : {
+            "addr": "sponsor@agile-grenoble.org",
+            "desc": "pour l'offre de sponsoring"
+        },
+        "inscription" : {
+            "addr": "inscription@agile-grenoble.org",
+            "desc": "pour les inscriptions à la conférence"
+        },
+        "contact" : {
+            "addr": "contact@agile-grenoble.org",
+            "desc": "pour toute autre question au sujet de la conférence"
+        }
+    },
+
+    "credits" : [
+                {
+                  "photourl":"http://www.camptocamp.org/images/377738/fr/la-cordee",
+                  "desc": "La Cordée",
+                  "ownername":"susheen",
+                  "ownerurl":"http://www.camptocamp.org/users/202842",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                },
+                {
+                  "photourl":"http://www.camptocamp.org/images/378896/fr/grenoble-sous-les-etoiles",
+                  "desc": "Grenoble sous les étoiles",
+                  "ownername":"Benoit Audige",
+                  "ownerurl":"http://www.camptocamp.org/users/11491",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                },
+                {
+                  "photourl":"http://www.camptocamp.org/images/241031/fr/un-matin-au-mont-rose",
+                  "desc": "Un matin au mont rose",
+                  "ownername":"Jean-Louis Decosse",
+                  "ownerurl":"http://www.camptocamp.org/users/13874",
+                  "licencename":"CC-by-SA",
+                  "licenceurl":"http://creativecommons.org/licenses/by-sa/3.0/deed.fr"
+                }
+              ],
+
+  "hotels" : {
+        "title": "Hôtels",
+        "more": "Plus d'hôtels sur",
+        "hotels": [
+            {
+              "name":"Novotel Grenoble Centre",
+              "stars": 3,
+              "url":"http://www.accorhotels.com/fr/hotel-1624-novotel-grenoble-centre/index.shtml",
+              "address": "next to the WTC and one minute from the station",
+              "phone":"4 76 70 84 84"
+            },
+            {
+              "name":"Grenoble Europole",
+              "stars": 3,
+              "url":"http://www.hoteleuropole.com/",
+              "address": "(in front of WTC) 29, rue Pierre-Sémard",
+              "phone":"4 76 49 51 52"
+            },
+            {
+              "name":"Best Western Terminus",
+              "stars": 3,
+              "url":"http://www.terminus-hotel-grenoble.fr",
+              "address": "(in front of the train station)",
+              "phone":"4 76 87 24 33"
+            },
+        {
+              "name":"Ibis",
+              "stars": 3,
+              "url":"http://www.ibishotel.com/fr/hotel-2737-ibis-grenoble-gare/index.shtml",
+              "address": "(further) 27 Quai Claude Bernard",
+              "phone":"4 76 86 68 68"
+            },
+        {
+              "name":"Hôtel des Alpes",
+              "stars": 2,
+              "url":"http://www.hotel-des-alpes.fr",
+              "address": "(near train station) 45, avenue Félix Viallet",
+              "phone":"4 76 87 00 71"
+            },
+        {
+              "name":"Hôtel Bastille",
+              "stars": 2,
+              "url":"http://www.isere-tourisme.com/HOT/Hotel-Bastille/Grenoble/fiche-1104-1-38AAHOT100025.html",
+              "address": "(near train station) 25 avenue Félix Viallet",
+              "phone":"4 76 43 10 27"
+            },
+        {
+              "name":"Hôtel Institut",
+              "stars": 2,
+              "url":"http://www.institut-hotel.fr",
+              "address": "(proche WTC, gare) 10 rue Louis Barbillon",
+              "phone":"4 76 46 36 44"
+            }
+      ]
+  }
+        
+}

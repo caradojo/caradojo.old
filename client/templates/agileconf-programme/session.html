@@ -1,0 +1,46 @@
+ <div>
+ 	<div class="jumbotron">
+		<h2 class="hidden-xs hidden-sm">
+			<img src="client/media/logo/logo_ag_black_100.png" alt="logo" width="120px"> 
+			{{session.title}}  
+			<a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a>
+			<br><small>{{session.sub_title}}</small>
+		</h2>
+        <h4 class="visible-xs visible-sm">
+        	<img src="client/media/logo/logo_ag_black_100.png" alt="logo" width="50px"> 
+        	{{session.title}} 
+        	<a class="pull-right glyphicon glyphicon-chevron-up" href="#/principal"></a>
+        	<br><small>{{session.sub_title}}</small>
+        </h4>
+    </div>
+	 <div class="panel panel-default panel-session">
+	    <div class="panel-body">
+	        <div><b>Salle:</b> {{session.room}}</div>
+	        <div><b>Thème:</b> {{session.themeName}}</div>
+	    </div>
+	    <div class="panel-body">
+	        <div class="preserve-line-wrap" ng-show="session.abstract"><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
+	            <p><b>Bénéfices pour les participants : </b>{{session.benefits}}</p>
+		</div>
+	    </div>
+	    <div class="panel-body">
+		<div class="preserve-line-wrap" ng-show="session.description"><b>Description : </b><p ng-bind-html="session.description"></p></div>
+	    </div>
+	    <div class="panel-divider"></div>
+	    <div class="panel-body">
+	        <div ng-repeat="speaker in session['speakers-detail']">
+	            <div>
+	            	<b>{{speaker.name}}</b>: 
+	            	<a ng-show="speaker.twitter_id" ng-href="https://twitter.com/{{speaker.twitter_id}}">
+	            		<img witdh="25" height="25" ng-src="client/media/icon_twitter_40.png"></img>
+	            	</a>
+	            	<a ng-show="speaker.website" class="glyphicon glyphicon-home" ng-href="{{speaker.website}}"></a> 
+	            	<br/>
+	                <span class="preserve-line-wrap" ng-bind-html="speaker.bio"></span>
+	            </div>
+	            <br>
+	        </div>
+	    
+	    </div>
+	</div>
+</div>

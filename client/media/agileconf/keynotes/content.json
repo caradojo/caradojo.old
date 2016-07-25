@@ -1,0 +1,20 @@
+{
+	"keynotes" :[
+        {
+            "photo" : "andrea_web_900.jpg",
+            "name"  : "Andrea Provaglio",
+            "text1" : "As a strategic IT Professional, Agile Transformation Coach, Consultant and Trainer, I help organizations to implement better ways of doing business with Information Technology, and I coach teams and individuals who want to improve technically, relationally and culturally.",
+            "text2" : "Keynote title : The beating heart of Agile",
+            "text3" : "What is it that makes an Agile team or an Agile organization run like a clockwork, deliver and succeed? We have values and principles, but are those what really makes the difference between a team that delivers and one that doesn’t? More than anything else: could it be that effective teamwork and social/relational proficiency, custom-fit for an Agile cultural environment, are the ultimate - and largely untapped - source of real competitive advantage?",
+            "text4" : "In this session, we'll explore topics such as challenging mental models, collective intelligence, organizational learning and self-organization."
+        },
+        {
+            "photo" : "ChristianDenHartigh.png",
+            "name"  : "Christian Den Hartigh",
+            "text1" : "Professeur de français en collège REP depuis 2000. Passionné par l’apprentissage, l’information et la notion d’évolution. Cheminant sur la voie de l’Agilité depuis février 2012 je tente de mettre en place une pédagogie plus respectueuse des capacités cognitives de chaque apprenant. Je choisis de mieux comprendre la biologie afin d’établir un pont entre les disciplines et de parvenir à mettre en place une pédagogie basée sur le biomimétisme.",
+            "text2" : "Titre de la Keynote : Agilité et Biomimétisme dans la pédagogie",
+            "text3" : "Dans quel but adopter un état d’esprit Agile et Biomimétisme, et repenser la transmission de l’information dans des cours de français de collège ?"
+        }
+	]
+}
+

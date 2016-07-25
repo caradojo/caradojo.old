@@ -1,0 +1,91 @@
+<div class="content container">
+
+  <div class="row">
+
+		<div class="col-md-5">
+			<div class="panel panel-default transparent_black50">
+        <div class="panel-body">
+
+  			  <h3 class="ag-section-title hidden-xs">
+            <span translate="sponsors.remerciements"></span>
+            <span class="sponsor-gold">GOLD</span>
+          </h3>
+
+					<div class="panel-group" id="accordionSponsorsGold">
+            <div class="panel panel-default" ng-repeat="sponsor in getGold()">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <div data-toggle="collapse" data-parent="#accordionSponsorsGold" ng-href="#collapse{{$index}}">
+                  <span class="glyphicon glyphicon-chevron-right"></span> {{sponsor.entreprise}}
+                  </div>
+                </h4>
+              </div>
+              <div id="collapse{{$index}}" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div ng-include="description(sponsor)"></div>
+                  <br>
+                  <p>
+                    <span translate="sponsors.more_informations"></span>
+                    <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+   		  </div>
+
+        <div class="panel-body">
+          <h3 class="ag-section-title hidden-xs" translate="sponsors.remerciements_partenaire"></h3>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <a ng-repeat="sponsor in getPartenaire()" href="{{sponsor.web}}">{{sponsor.entreprise}}</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div ag-carousel="sponsors"></div>
+
+    </div>
+
+  	<div class="col-md-7 hidden-sm hidden-xs">
+  		<div class="panel panel-default transparent_black50">
+        <div class="panel-body">
+
+  			  <h3 class="ag-section-title">
+            <span translate="sponsors.remerciements"></span>
+            <span class="sponsor-silver">SILVER</span>
+          </h3>
+
+  				<div class="panel-group" id="accordionSponsorsSilver">
+   					<div class="panel panel-default" ng-repeat="sponsor in getSilver()">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <div data-toggle="collapse" data-parent="#accordionSponsorsSilver" ng-href="#collapseSilver{{$index}}">
+                  <span class="glyphicon glyphicon-chevron-right"></span> {{sponsor.entreprise}}
+                  </div>
+                </h4>
+              </div>
+              <div id="collapseSilver{{$index}}" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div ng-include="description(sponsor)"></div>
+                  <br>
+                  <p>
+                    <span translate="sponsors.more_informations"></span>
+                    <a ng-href="{{sponsor.web}}">{{sponsor.web}}</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+   		 		</div>
+
+   			</div>
+  		</div>
+
+    </div>
+
+ 	</div>
+
+</div>
+
