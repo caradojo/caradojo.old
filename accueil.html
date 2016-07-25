@@ -8,73 +8,90 @@
       <title>Agile Grenoble</title>
       <meta name="description" content="La conf&#233;rence Agile Grenoble sera encore cette ann&#233;e l'&#233;v&#232;nement agile incontournable de la r&#233;gion. Elle est organis&#233;e par le Club Agile Rh&#244;ne-Alpes." />
 
+      <link rel="stylesheet" href="client/lib/bootstrap/css/bootstrap.min.css" />
       <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" type="text/css" href="client/styles/agileaccueil/styles.css" />
   </head>
 
   <body ng-controller="AgileGrenobleCtrl">
-    <h1 class="visible-lg" translate="accueil.title_ag"></h1>
+    <div class="container">
+      <div class="panel panel-default transparent_black65">
+        <div class="panel-body">
+          <h1 class="ag-section-title visible-lg" translate="accueil.title_ag"></h1>
+          <h3 class="ag-section-title visible-sm" translate="accueil.title_ag"></h3>
+          <h4 class="ag-section-title visible-xs" translate="accueil.title_ag"></h4>
+          <p class="visible-sm" translate="accueil.title_ag"></p>
+          <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe1"></p>    
+        </div>
+      </div>
+    </div>
 
-<div class="container">
-    <section class="main">
-			
-				<ul class="ch-grid">
+    <div class="container">
+      <section class="main">
+        <ul class="ch-grid">
           <li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-1"></div>
-								<div class="ch-info-back">
+            <div class="ch-item">
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-1"></div>
+                <div class="ch-info-back">
                   <a href="lab.html">
-                    <h3 translate="agilegrelab.title"></h3>
+                    <h3 class="lab-color" translate="agilegrelab.title"></h3>
                     <p translate="agilegrelab.date"></p>
                   </a>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item">				
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-2"></div>
+                <div class="ch-info-back">
                   <a href="conf.html">
-                    <h3 translate="agilegreconf.title"></h3>
+                    <h3 class="conf-color" translate="agilegreconf.title"></h3>
                     <p translate="agilegreconf.date"></p>
                   </a>
-								</div>
-							</div>
-						</div>
-					</li>
+                </div>
+              </div>
+            </div>
+          </li>
           <li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-3"></div>
-								<div class="ch-info-back">
+            <div class="ch-item">				
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-3"></div>
+                <div class="ch-info-back">
                   <a href="forum.html">
-                    <h3 translate="agilegreforum.title"></h3>
+                    <h3 class="forum-color" translate="agilegreforum.title"></h3>
                     <p translate="agilegreforum.date"></p>
                   </a>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-4"></div>
-								<div class="ch-info-back">
+                </div>	
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item">
+              <div class="ch-info">
+                <div class="ch-info-front ch-img-4"></div>
+                <div class="ch-info-back">
                   <a href="4kids.html">
-                    <h3 translate="agilegre4kids.title"></h3>
+                    <h3 class="kids-color" translate="agilegre4kids.title"></h3>
                     <p translate="agilegre4kids.date"></p>
                   </a>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				
-			</section>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        
+      </section>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <p class="text-muted">Copyright CARA 2016</p>
       </div>
+    </footer>
 
     <script src="client/lib/angular/angular.min.js"></script>
     <script src="client/lib/angular-sanitize/angular-sanitize.min.js"></script>
