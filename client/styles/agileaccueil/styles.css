@@ -12,6 +12,11 @@ a{
 	color: #555;
 	text-decoration: none;
 }
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
 .container{
 	width: 100%;
 	position: relative;

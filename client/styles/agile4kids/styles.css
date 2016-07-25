@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5,h6 {
 /* ========= panels ========= */
 
 .ag-section-title  {
-  color :#00b8fc;
+  color :#B06D54;
 
 }
 
@@ -267,7 +267,7 @@ fieldset[disabled] .btn-ag-panel-default.active {
 /* ========= ag-btn-panel-selected ========== */
 
 .btn-ag-panel-selected {
-  color: #00b8fc;
+  color: #B06D54;
   background-color: #2C2C2C;
   border-color: #000000;
 }
@@ -277,7 +277,7 @@ fieldset[disabled] .btn-ag-panel-default.active {
 .btn-ag-panel-selected:active,
 .btn-ag-panel-selected.active,
 .open .dropdown-toggle.btn-ag-panel-selected {
-  color: #00b8fc;
+  color: #B06D54;
   border-color: #000000;
 }
 
@@ -308,7 +308,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 
 .btn-ag-panel-selected .badge {
   color: #2C2C2C;
-  background-color: #00b8fc;
+  background-color: #B06D54;
 }
 
 .ui-notification img {
@@ -465,7 +465,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   color: #ebeef5;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #00b8fc;
+  color: #B06D54;
 }
 .navbar-default .navbar-text {
   color: #ebeef5;
@@ -480,12 +480,12 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   cursor: pointer;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #00b8fc;
+  color: #B06D54;
   background-color: #2c2c2c;
-  border-bottom: 3px #00b8fc solid;
+  border-bottom: 3px #B06D54 solid;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #00b8fc;
+  color: #B06D54;
   background-color: #2c2c2c;
 }
 .navbar-default .navbar-toggle {
@@ -509,7 +509,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
   color: #ebeef5;
 }
 .navbar-default .navbar-link:hover {
-  color: #00b8fc;
+  color: #B06D54;
 }
 
 
@@ -518,10 +518,10 @@ fieldset[disabled] .btn-ag-panel-selected.active {
     color: #ebeef5;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #00b8fc;
+    color: #B06D54;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #00b8fc;
+    color: #B06D54;
     background-color: #2c2c2c;
   }
 }
@@ -529,11 +529,14 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 
 /* Logo Agile Grenoble */
 
+a:focus, a:hover {
+  text-decoration: none;
+}
 
 @media (max-width: 991px) {
   .ag-agtext {
     margin-top: 24px;
-    color: #E0E0E0;
+    color: #B06D54;
     width: 180px;
     font-family:Ubuntu, Arial;
   }
@@ -544,7 +547,7 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 @media (min-width: 992px) {
   .ag-agtext {
     margin-top: 24px;
-    color: #E0E0E0;
+    color: #B06D54;
     width: 240px;
   }
   .logo-nav {
