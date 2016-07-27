@@ -39,12 +39,6 @@ a:focus, a:hover {
   text-decoration: none;
 }
 
-.container{
-	width: 100%;
-	position: relative;
-}
-
-
 .ch-grid {
 	margin: 20px 0 0 0;
 	padding: 0;
