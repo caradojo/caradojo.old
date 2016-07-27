@@ -98,16 +98,36 @@
 
     </div>
 
-    <footer>
-      <div class="container">
-        <p class="text-muted">Copyright CARA 2016</p>
-      </div>
-    </footer>
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <a href="http://grenoble.clubagilerhonealpes.org/" target="blank_">
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                2016 Club Agile Rhône Alpes <img class="cara" src="client/media/logo/green_cara.png"/>
+              </a>
+              <div class="hidden-xs credits">Crédits Photos:
+                <span class="hidden-xs" ng-repeat="credit in content.credits">
+                  <a href="{{credit.photourl  | translate}}" target="blank_">{{credit.desc}}</a>
+                    <span translate="apropos.of"></span>
+                    <a href="{{credit.ownername  | translate}}" target="blank_">{{credit.ownername}}</a>
+                    <span translate="apropos.under"></span>
+                    <a href="{{credit.licenceurl  | translate}}" target="blank_">licence {{credit.licencename}}</a>.
+                </span>
+              </div>
+            </div>
+        </div>
+    </nav>
 
+
+
+    <script src="client/lib/jquery/jquery.min.js"></script>
+    <script src="client/lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="client/lib/angular/angular.min.js"></script>
     <script src="client/lib/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="client/lib/angular-translate/angular-translate.js"></script>
+    <script src="client/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <script src="client/lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
     <script src="client/scripts/agileaccueil/app.js"></script>
+    <script src="client/scripts/agileaccueil/contentService.js"></script>
   </body>
 </html>

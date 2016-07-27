@@ -10,10 +10,21 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngSanitize', 'pascal
 
   $translateProvider.useSanitizeValueStrategy('sanitize');
 }])
-.controller('AgileGrenobleCtrl', function($translate, $scope) {
+.controller('AgileGrenobleCtrl', function($translate, $scope, $filter, ContentService) {
+
       $scope.setLang = function(langKey) {
         console.log(langKey);
         $translate.use(langKey);
+      };
+
+      $scope.content = ContentService.getCommonData().then(function (data) {
+        $scope.content = data;
+      }, function (data) {
+        $scope.content = data;
+      });
+
+      $scope.mails = function (strToTranslate) {
+        return $translate(strToTranslate);
       };
 });
 
