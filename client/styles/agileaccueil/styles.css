@@ -1,16 +1,33 @@
 body{
   background-image: url(../../media/agileaccueil/background/accueil.png);
-	font-family: Cambria, Georgia, serif;
 	font-weight: 300;
 	font-size: 15px;
-	color: #333;
+	color: #2c2c2c;
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.small-text {
+	font-size: 0.8em;
 }
 
 .main {
 	margin-bottom: 50px;
+}
+
+.navbar {
+		border: none;
+		border-radius: 0;
+}
+
+.navbar.nobackground {
+	background-color: rgba(0,0,0,0.0);
+}
+
+.navbar.transparent {
+	background-color: rgba(0,0,0,0.5);
 }
 
 .content {
@@ -204,96 +221,6 @@ a:focus, a:hover {
 	opacity: 1;
 }
 
-/* ====== transparent ====== */
-.transparent {
-  color: black;
-  border: none;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.0);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
-}
-
-.transparent_white50 {
-  color: black;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.5);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80FFFFFF,endColorstr=#80FFFFFF);
-}
-
-.transparent_white65 {
-  color: black;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.5);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6FFFFFF,endColorstr=#A6FFFFFF);
-}
-
-.transparent_white75 {
-  color: black;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.75);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
-}
-
-.transparent_white85 {
-  color: black;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.85);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
-}
-
-.transparent_white95 {
-  color: black;
-  background: rgb(255,255,255);
-  background: transparent\9;
-  background:rgba(255,255,255,.95);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0FFFFFF,endColorstr=#C0FFFFFF);
-}
-
-.transparent_black50 {
-  color: white;
-  background: rgb(0,0,0);
-  background: transparent\9;
-  background:rgba(0,0,0,0.5);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
-}
-
-.transparent_black65 {
-  color: white;
-  background: rgb(0,0,0);
-  background: transparent\9;
-  background:rgba(0,0,0,0.65);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
-}
-
-.transparent_black75 {
-  color: white;
-  background: rgb(0,0,0);
-  background: transparent\9;
-  background:rgba(0,0,0,0.75);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C0000000,endColorstr=#C0000000);
-}
-
-.transparent_black85 {
-  color: white;
-  background: rgb(0,0,0);
-  background: transparent\9;
-  background:rgba(0,0,0,0.85);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8000000,endColorstr=#D8000000);
-}
-
-.transparent_black95 {
-  color: white;
-  background: rgb(0,0,0);
-  background: transparent\9;
-  background:rgba(0,0,0,0.95);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#F2000000,endColorstr=#F2000000);
-}
-
 *,
 *:before,
 *:after {
@@ -310,86 +237,51 @@ a:focus, a:hover {
           box-sizing: border-box;
 }
 
-.navbar-default {
+.navbar-bottom {
 	padding: 5px;
 	font-size: 0.8em;
-  background-color: #2c2c2c;
-  border-color: #303030;
-  z-index: 10;
 	min-height:40px;
-  border-radius: 0px !important;
-  -moz-box-shadow: 1px 1px 5px 0px #2c2c2c;
-  -webkit-box-shadow: 1px 1px 5px 0px #2c2c2c;
-  -o-box-shadow: 1px 1px 5px 0px #2c2c2c;
-  box-shadow: 1px 1px 5px 0px #2c2c2c;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#2c2c2c, Direction=134, Strength=5);
 }
 
-.navbar-default img.cara {
+img.cara {
 	width: 15px;
 }
 
-.navbar-default .credits {
+.credits {
 	font-size: 0.7em;
 }
 
-.navbar-default .navbar-brand {
-  color: #ebeef5;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6970D6;
-}
-.navbar-default .navbar-text {
-  color: #ebeef5;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ebeef5;
-  border-bottom: 3px #ebeef5 solid;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #B0B0B0;
-  border-bottom: 3px #B0B0B0 solid;
-  cursor: pointer;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6970D6;
-  background-color: #2c2c2c;
-  border-bottom: 3px #6970D6 solid;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6970D6;
-  background-color: #2c2c2c;
-}
-.navbar-default .navbar-toggle {
-  border-color: #2c2c2c;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #2c2c2c;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ebeef5;
-}
-.navbar-default .navbar-collapse {
-  margin-right: 15px;
+.navbar-brand {
+	text-decoration: none;
+	color: #2c2c2c !important;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ebeef5;
-}
-.navbar-default {
-  color: #ebeef5;
+.navbar-inverse .navbar-nav>li {
+	margin-top: 5px;
+	margin-right: 10px;
+	color: #2c2c2c !important;
+	-webkit-transition: all .4s ease-in;
+	-moz-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	transition: all .4s ease-in;
 }
 
-@media (max-width: 768px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ebeef5;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #6970D6;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6970D6;
-    background-color: #2c2c2c;
-  }
+.navbar-inverse .navbar-nav>li:hover {
+	background-color: rgba(0,0,0,0.5);
+	color: #ebeef5;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	text-decoration: none;
+	color: #2c2c2c !important;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>div {
+	margin: 5px;
+}
+
+.navbar-header .float-right {
+		float: right;
 }

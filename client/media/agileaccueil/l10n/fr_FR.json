@@ -1,11 +1,9 @@
 {
     "accueil": {
-        "title" : "Accueil",
-        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
+        "title" : "Agile Grenoble",
+        "title_ag" : "Edition 2016 : Retour aux sources de l'agilité",
         "description" : {
-            "paragraphe0": "",
-	    "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
-            "old_paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
+	        "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
             "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
             "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
             "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",

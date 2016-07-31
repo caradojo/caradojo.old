@@ -9,33 +9,64 @@
       <meta name="description" content="La conf&#233;rence Agile Grenoble sera encore cette ann&#233;e l'&#233;v&#232;nement agile incontournable de la r&#233;gion. Elle est organis&#233;e par le Club Agile Rh&#244;ne-Alpes." />
 
       <link rel="stylesheet" href="client/lib/bootstrap/css/bootstrap.min.css" />
-      <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" type="text/css" href="client/styles/agileaccueil/styles.css" />
   </head>
 
   <body ng-controller="AgileGrenobleCtrl">
-    <div class="container">
-      <div class="panel panel-default transparent_black65">
-        <div class="panel-body">
-          <h1 class="ag-section-title visible-lg" translate="accueil.title_ag"></h1>
-          <h3 class="ag-section-title visible-sm" translate="accueil.title_ag"></h3>
-          <h4 class="ag-section-title visible-xs" translate="accueil.title_ag"></h4>
-          <p class="visible-sm" translate="accueil.title_ag"></p>
-          <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe1"></p>    
-        </div>
-      </div>
-    </div>
+     <nav class="navbar navbar-inverse nobackground">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-    <div class="container">
-      <ul class="nav navbar-nav">
-        <div class="navbar-brand" ng-click="setLang('fr_FR')">
-          <a href="#"><img alt="FR" src="client/media/fr.png"></a>
-        </div>
-        <div class="navbar-brand" ng-click="setLang('en_US')">
-          <a href="#"><img alt="EN" src="client/media/en.png"></a>
-        </div>
-      </ul>
-    </div>
+            <div class="navbar-brand logo-nav visible-md visible-lg">
+              <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="80px">
+              Agile Grenoble
+            </div>
+            <div class="navbar-brand logo-nav visible-sm">
+              <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="60px">
+              Agile Grenoble
+            </div>
+            <div class="navbar-brand logo-nav visible-xs">
+              <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="40px">
+              Agile Grenoble
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                  <a translate="apropos.title"></a>
+              </li>
+              <div class="navbar-brand" ng-click="setLang('fr_FR')">
+                <a href="#"><img alt="FR" src="client/media/fr.png"></a>
+              </div>
+              <div class="navbar-brand" ng-click="setLang('en_US')">
+                <a href="#"><img alt="EN" src="client/media/en.png"></a>
+              </div>
+            </ul>
+
+            <ul class="nav navbar-nav">
+              
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+           
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container">
+            <h1 class="visible-lg float-right" translate="accueil.title_ag"></h1>
+            <h2 class="visible-md float-right" translate="accueil.title_ag"></h2>
+            <h3 class="visible-sm float-right" translate="accueil.title_ag"></h3>
+            <h4 class="visible-xs" translate="accueil.title_ag"></h4>
+      </div>
+
+    <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe1"></p>
 
     <div class="container">
       <section class="main">
@@ -98,7 +129,7 @@
 
     </div>
 
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-bottom">
+    <nav role="navigation" class="navbar navbar-inverse navbar-bottom navbar-fixed-bottom transparent">
         <div class="container-fluid">
             <div class="navbar-header">
               <a href="http://grenoble.clubagilerhonealpes.org/" target="blank_">
