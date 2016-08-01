@@ -1,11 +1,9 @@
 body{
-  background-image: url(../../media/agileaccueil/background/accueil.png);
+  	background-image: url(../../media/agileaccueil/background/accueil.png);
 	font-weight: 300;
 	font-size: 15px;
 	color: #2c2c2c;
 	-webkit-font-smoothing: antialiased;
-	overflow-y: scroll;
-	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif, Arial;
 }
 
@@ -13,13 +11,17 @@ body{
 	font-size: 0.8em;
 }
 
+.italic {
+	font-style: italic;
+}
+
 .main {
 	margin-bottom: 50px;
 }
 
 .navbar {
-		border: none;
-		border-radius: 0;
+	border: none;
+	border-radius: 0;
 }
 
 .navbar.nobackground {
@@ -241,6 +243,7 @@ a:focus, a:hover {
 	padding: 5px;
 	font-size: 0.8em;
 	min-height:40px;
+	color: #ebeef5 !important;
 }
 
 img.cara {
