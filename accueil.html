@@ -17,54 +17,58 @@
   <body ng-controller="AgileGrenobleCtrl" id="skrollr-body" skrollr>
      <nav data-0="background-color: rgba(0,0,0,0.0);" data-500="background-color: rgba(222,222,222,0.9); height:60px;" class="navbar navbar-inverse nobackground navbar-fixed-top">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <div class="navbar-brand logo-nav visible-md visible-lg">
+            <div class="navbar-brand visible-md visible-lg">
               <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="80px">
               <span data-0="opacity:1;font-size:100%;" data-100="opacity:0;font-size:0%;">Agile Grenoble</span>
             </div>
-            <div class="navbar-brand logo-nav visible-sm">
+            <div class="navbar-brand visible-sm">
               <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="60px">
-              <span data-0="opacity:1;font-size:100%;" data-100="opacity:0;font-size:0%;">Agile Grenoble</span>
+              <span data-0="opacity:1;font-size:90%;" data-100="opacity:0;font-size:0%;">Agile Grenoble</span>
             </div>
-            <div class="navbar-brand logo-nav visible-xs">
+            <div class="navbar-brand visible-xs">
               <img src="client/media/logo/logo_ag_black_100.png" alt="Agile Grenoble" width="40px">
-              <span data-0="opacity:1;font-size:100%;" data-100="opacity:0;font-size:0%;">Agile Grenoble</span>
+              <span data-0="opacity:1;font-size:70%;" data-100="opacity:0;font-size:0%;">Agile Grenoble</span>
             </div>
-          </div>
 
-          <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <div class="navbar-brand" ng-click="setLang('fr_FR')">
-                <a href="javascript:void(0)"><img alt="FR" src="client/media/fr.png"></a>
+             <ul class="navbar-right">
+               <div class="navbar-brand visible-md visible-lg visible-sm" ng-click="setLang('fr_FR')">
+                <a href="javascript:void(0)">
+                  <img alt="FR" src="client/media/fr.png">
+                </a>
               </div>
-              <div class="navbar-brand" ng-click="setLang('en_US')">
-                <a href="javascript:void(0)"><img alt="EN" src="client/media/en.png"></a>
+              <div class="navbar-brand visible-md visible-lg visible-sm" ng-click="setLang('en_US')">
+                <a href="javascript:void(0)">
+                  <img alt="EN" src="client/media/en.png">
+                </a>
+              </div>
+              <div class="navbar-brand noleftpadding visible-xs" ng-click="setLang('fr_FR')">
+                <a href="javascript:void(0)">
+                  <img alt="FR" src="client/media/fr.png">
+                </a>
+              </div>
+              <div class="navbar-brand noleftpadding visible-xs" ng-click="setLang('en_US')">
+                <a href="javascript:void(0)">
+                  <img alt="EN" src="client/media/en.png">
+                </a>
               </div>
             </ul>
-          </div><!-- /.navbar-collapse -->
-
-           
         </div><!-- /.container-fluid -->
       </nav>
 
       <div class="main-content">
         <section id="home">
           <div class="container-fluid">
-            <div class="main-title text-center" styles="font-weight:bold;">
-                <h1 class="visible-lg float-right" translate="accueil.title_ag"></h1>
-                <h2 class="visible-md float-right" translate="accueil.title_ag"></h2>
-                <h3 class="visible-sm float-right" translate="accueil.title_ag"></h3>
-                <h4 class="visible-xs" translate="accueil.title_ag"></h4>
+            <div class="main-title text-center">
+                <h1 class="visible-lg bold" translate="accueil.title_ag"></h1>
+                <h2 class="visible-md bold" translate="accueil.title_ag"></h2>
+                <h3 class="visible-sm bold" translate="accueil.title_ag"></h3>
+                <h4 class="visible-xs bold" translate="accueil.title_ag"></h4>
             </div>
             <div class="text-center italic">
               <p class="hidden-xs hidden-sm" translate="accueil.description.paragraphe1"></p>
+            </div>
+            <div class="text-center">
+              <p translate="accueil.date"></p>
             </div>
           </div>
 
@@ -124,50 +128,131 @@
           </ul>
         </section>
 
-        <section>
-          <div class="container-fluid">
-            <div class="jumbotron">
-              <h1>Bootstrap Tutorial</h1> 
-              <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-              responsive, mobile-first projects on the web.</p> 
+        <section id="about">
+          <div class="container-fluid text-center">
+            <div class="container">
+              <div class="row">
+                <h1 class="title-section" translate="apropos.title"></h1> 
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <p translate="apropos.description"></p> 
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                  <img src="client/media/agileaccueil/openspace.jpg" class="img-responsive img-rounded" alt="Responsive image">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                  <img src="client/media/agileaccueil/keynotes.jpg" class="img-responsive img-rounded" alt="Responsive image">
+              </div>
             </div>
-            <p>This is some text.</p> 
-            <p>This is another text.</p> 
           </div>
         </section>
 
-        <section>
-          <div class="container-fluid">
-            <div class="jumbotron">
-              <h1>Bootstrap Tutorial 2</h1> 
-              <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-              responsive, mobile-first projects on the web.</p> 
+        <section id="location">
+          <div class="container-fluid text-center">
+            <div class="container">
+              <h1 class="title-section" translate="location.title"></h1>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <ul style="font-size:0.8em;">
+                    <address ng-repeat="hotel in content.hotels">
+                      <strong class="text-primary">{{hotel.name}} <span ng-repeat="item in [1,2,3]|limitTo:hotel.stars" class="glyphicon glyphicon-star"></span></strong><br>
+                      <i>{{hotel.address}}</i><br>
+                      <abbr title="Telephone">Tél:</abbr>+33 (0){{hotel.phone}}
+                    </address>
+                  </ul>
+                  <p>
+                    <i class="glyphicon glyphicon-info-sign"></i>
+                    <span translate="hotels.more"></span>
+                    <a href="http://www.grenoble-tourisme.com/" target="_blank">Grenoble Tourisme</a>
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <address>
+						          <strong>Centre de congrès du WTC</strong><br>
+						          5 place Robert Schumann<br>
+						          38000 Grenoble<br>
+						        </address>
+
+						        <div class="visible-md visible-lg">
+						          <iframe class="container well well-small" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 300px;" frameborder="0" style="border:0"></iframe>
+						        </div>
+						        <div class="visible-sm">
+						          <iframe class="container well well-small visible-sd" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2811.803360182313!2d5.7137363!3d45.19107665000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af481a467bd11%3A0xd9070099953ccffb!2sCentre+de+Congr%C3%A8s+et+Seminaire+WTC+Grenoble!5e0!3m2!1sfr!2sfr!4v1395177516214" style="width:80%; height: 150px;" frameborder="0" style="border:0"></iframe>
+						        </div>
+						        <div class="visible-xs">
+						          <a href="https://www.google.fr/maps/place/Centre+de+congr%C3%A8s+du+World+Trade+Center+Grenoble/@45.1910246,5.713109,17z/data=!3m1!4b1!4m2!3m1!1s0x478af481b7661f97:0x2f475fe8d95f61e0">Google maps</a>
+						        </div>
+                </div>
             </div>
-            <p>This is some text.</p> 
-            <p>This is another text.</p> 
+          </div>
+        </section>
+
+         <section id="contacts">
+          <div class="container-fluid text-center">
+            <div class="container">
+              <div class="row">
+                <h1 class="title-section" translate="emails.title"></h1> 
+                <p translate="emails.description"></p>
+                <p>
+                  <a href="mailto:{{mails('emails.orateur.addr')}}" translate="emails.orateur.addr"></a>
+                  <span translate="emails.orateur.desc"></span>
+                </p>
+                <p>
+                  <a href="mailto:{{mails('emails.sponsor.addr')}}" translate="emails.sponsor.addr"></a>
+                  <span translate="emails.sponsor.desc"></span>
+                </p>
+                <p>
+                  <a href="mailto:{{mails('emails.inscription.addr')}}" translate="emails.inscription.addr"></a>
+                  <span translate="emails.inscription.desc"></span>
+                </p>
+                <p>
+                  <a href="mailto:{{mails('emails.contact.addr')}}" translate="emails.contact.addr"></a>
+                  <span translate="emails.contact.desc"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cara">
+          <div class="container-fluid text-center">
+            <div class="container"> 
+              <div class="row">
+                <h3>
+                  <img class="hidden-sm" src="client/media/logo/green_cara.png" width="32px">
+                  <span translate="cara.title"></span>
+                </h3>
+                <p translate="cara.description"></p>
+                <a href="http://www.clubagilerhonealpes.org/"  target="_blank" class="btn btn-primary btn-lg">
+                  <span class="glyphicon glyphicon-globe"></span>
+                  <span translate="cara.link.name"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="footer">
+          <div class="container-fluid text-center">
+            <div class="container">
+              <div class="row">
+                <a href="http://grenoble.clubagilerhonealpes.org/" target="blank_">
+                  <span class="glyphicon glyphicon-copyright-mark"></span>
+                  2016 Club Agile Rhône Alpes <img class="cara" src="client/media/logo/green_cara.png"/>
+                </a>
+                <div class="credits">Crédits Photos:
+                  <span ng-repeat="credit in content.credits">
+                    <a href="{{credit.photourl  | translate}}" target="blank_">{{credit.desc}}</a>
+                      <span translate="apropos.of"></span>
+                      <a href="{{credit.ownername  | translate}}" target="blank_">{{credit.ownername}}</a>
+                      <span translate="apropos.under"></span>
+                      <a href="{{credit.licenceurl  | translate}}" target="blank_">licence {{credit.licencename}}</a>.
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
-
-    <nav role="navigation" class="navbar navbar-inverse navbar-bottom navbar-fixed-bottom transparent">
-        <div class="container-fluid">
-            <div class="navbar-header">
-              <a href="http://grenoble.clubagilerhonealpes.org/" target="blank_">
-                <span class="glyphicon glyphicon-copyright-mark"></span>
-                2016 Club Agile Rhône Alpes <img class="cara" src="client/media/logo/green_cara.png"/>
-              </a>
-              <div class="hidden-xs credits">Crédits Photos:
-                <span class="hidden-xs" ng-repeat="credit in content.credits">
-                  <a href="{{credit.photourl  | translate}}" target="blank_">{{credit.desc}}</a>
-                    <span translate="apropos.of"></span>
-                    <a href="{{credit.ownername  | translate}}" target="blank_">{{credit.ownername}}</a>
-                    <span translate="apropos.under"></span>
-                    <a href="{{credit.licenceurl  | translate}}" target="blank_">licence {{credit.licencename}}</a>.
-                </span>
-              </div>
-            </div>
-        </div>
-    </nav>
 
     <script src="client/lib/bower-skrollr/skrollr.min.js"></script>
     <script src="client/lib/jquery/jquery.min.js"></script>

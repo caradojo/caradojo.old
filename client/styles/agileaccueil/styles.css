@@ -29,6 +29,10 @@ body{
 	margin-top: 120px;
 }
 
+.bold {
+	font-weight:bold !important;
+}
+
 .small-text {
 	font-size: 0.8em;
 }
@@ -39,18 +43,6 @@ body{
 
 .main {
 	margin-bottom: 50px;
-}
-
-.navbar {
-	border: none;
-	border-radius: 0;
-}
-.navbar.nobackground {
-	background-color: rgba(0,0,0,0.0);
-}
-
-.navbar.transparent {
-	background-color: rgba(0,0,0,0.5);
 }
 
 .content {
@@ -260,6 +252,27 @@ a:focus, a:hover {
           box-sizing: border-box;
 }
 
+.navbar {
+	border: none;
+	border-radius: 0;
+}
+
+.navbar.nobackground {
+	background-color: rgba(0,0,0,0.0);
+}
+
+.white-transparent {
+	background-color: rgba(222,222,222,0.9);
+}
+
+.navbar.transparent {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-right {
+  float: right!important;
+}
+
 .navbar-bottom {
 	padding: 5px;
 	font-size: 0.8em;
@@ -272,6 +285,7 @@ img.cara {
 }
 
 .credits {
+	padding-top: 30px;
 	font-size: 0.7em;
 }
 
@@ -280,32 +294,48 @@ img.cara {
 	color: #2c2c2c !important;
 }
 
-.navbar-inverse .navbar-nav>li {
-	margin-top: 5px;
-	margin-right: 10px;
-	color: #2c2c2c !important;
-	-webkit-transition: all .4s ease-in;
-	-moz-transition: all .4s ease-in;
-	-o-transition: all .4s ease-in;
-	transition: all .4s ease-in;
+.noleftpadding {
+	padding-left: 0px !important;
 }
 
-.navbar-inverse .navbar-nav>li:hover {
-	background-color: rgba(0,0,0,0.5);
-	color: #ebeef5;
-	font-weight: bold;
+#location {
+	color: #2c2c2c;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-	text-decoration: none;
-	color: #2c2c2c !important;
-	font-weight: bold;
+#contacts {
+	background-color: #41485C;
+	color: #E1E2E6;
 }
 
-.navbar-inverse .navbar-nav>div {
-	margin: 5px;
+#about {
+	background-color: #41485C;
+	color: #E1E2E6;
 }
 
-.navbar-header .float-right {
-		float: right;
+#cara {
+	color: #0e533f;
+}
+
+#footer {
+	background-color: #1B2030;
+	color: #E1E2E6;
+	min-height: 20px;
+}
+
+.row {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#footer .row {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.title-section {
+	padding-bottom: 40px;
+}
+
+.contact {
+	list-style-type: none;
 }

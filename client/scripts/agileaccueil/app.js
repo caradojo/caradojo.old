@@ -12,6 +12,8 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['directives.skrollr',
 }])
 .controller('AgileGrenobleCtrl', function($translate, $scope, $filter, ContentService) {
 
+      var translate = $filter('translate');
+
       $scope.setLang = function(langKey) {
         console.log(langKey);
         $translate.use(langKey);
@@ -24,7 +26,7 @@ var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['directives.skrollr',
       });
 
       $scope.mails = function (strToTranslate) {
-        return $translate(strToTranslate);
+        return translate(strToTranslate);
       };
 });
 

@@ -84,6 +84,10 @@
   "hotels" : {
         "title": "Hôtels",
         "more": "Plus d'hôtels sur"
+  },
+
+  "location": {
+      "title": "Informations pratiques"
   }
         
 }
