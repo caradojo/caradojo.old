@@ -1,62 +1,25 @@
 {
     "accueil": {
-        "title" : "Accueil",
-        "title_ag" : "Agile Grenoble 2016 : Retour aux sources de l'agilité",
-        "description" : {
-            "paragraphe0": "",
-	    "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
-            "old_paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques.",
-            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
-            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
-            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
-            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
-        },
-        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
+        "title": "Accueil"
     },
-
+    
     "agilegreconf": {
-            "title": "Agile Grenoble Conf: Jeudi 17 novembre",
+        "title": "Agile Grenoble Conf: Jeudi 17 novembre",
+        "title_ag" : "Edition 2016 : Retour aux sources de l'agilité",
         "description": "La grande journée habituelle du Jeudi avec un programme très riche constitué de nombreux tracks, de keynotes de grande qualité, de surprises, de café toute la journée et d’un apéro en fin d’après midi. Sans oublier les maintenant célèbres « Before » et « After » qui font maintenant partie des raisons pour venir à Grenoble pour cette journée.",
-            "link": {
-        "name": "Plus d'information...",
-        "addr": "http://"
-            },
-            "callforpaperstitle": "Appel à orateurs",
-            "callforpapers1": "L'appel à orateurs pour Agile Grenoble Conf va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
-            "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/> Une présélection aura lieu parmi ceux qui auront soumis avant le <b>8 juillet 2016</b>. La finalisation du programme sera effectuée en septembre.",
-            "callforpapers3": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/>La finalisation du programme sera effectuée en septembre.",
-            "callforpaperslink": {
-		"name" : "Soumettre une session...",
-		"addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
-		},
-         "selection": "Une présélection a eu lieu parmi ceux qui ont soumis avant le 8 juillet 2016"
-    },
-
-    "agilegrelab": {
-            "title": "Agile Grenoble Lab: Mercredi 16 novembre",
-        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager.",
-            "link": {
-        "name": "Plus d'information...",
-        "addr": "http://agile-grenoble.org/lab/"
-            }
-    },
-
-	"agilegreforum": {
-		"title": "Agile Grenoble Forum: Vendredi 18 novembre",
-	        "description": "La journée du vendredi qui a vu le jour en 2011 pour permettre à des agilistes expérimentés, ou moins expérimentés, de discuter ensemble des sujets qui les passionnent dans un environnement libre et décomplexé, sans programme, sans sponsor, et sans obligation.",
-		"link": {
+        "link": {
             "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/forum/"
-		}
-	},
-
-    "agilegre4kids": {
-            "title": "Agile Grenoble 4Kids: Samedi 19 novembre",
-        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
-            "link": {
-        "name": "Plus d'information...",
-        "addr": "http://agile-grenoble.org/4kids/"
-            }
+            "addr": "http://"
+        },
+        "callforpaperstitle": "Appel à orateurs",
+        "callforpapers1": "L'appel à orateurs pour Agile Grenoble Conf va ouvrir <b>mi-juin</b>.<br/>Une présélection aura lieu début juillet.<br/>La finalisation du programme sera effectuée en septembre.",
+        "callforpapers2": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/> Une présélection aura lieu parmi ceux qui auront soumis avant le <b>8 juillet 2016</b>. La finalisation du programme sera effectuée en septembre.",
+        "callforpapers3": "L'appel à orateurs est ouvert jusqu'au 3 septembre 2016.<br/>La finalisation du programme sera effectuée en septembre.",
+        "callforpaperslink": {
+            "name" : "Soumettre une session...",
+            "addr" : "http://my.efm.me/m4/itw/answer/s/g626c681k2/k/AO"
+		},
+        "selection": "Une présélection a eu lieu parmi ceux qui ont soumis avant le 8 juillet 2016"
     },
 	
     "orateurs": {

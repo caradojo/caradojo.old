@@ -2,29 +2,13 @@
    
     "accueil": {
         "title" : "Accueil",
-        "title_ag": "Agile Grenoble 4Kids: Samedi 19 novembre",
-        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion.",
-        "link": {
-            "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-        }
+        "title_ag": "Agile Grenoble 4Kids",
+        "date": "Samedi 19 novembre",
+        "description": "Le samedi, nouvelle édition de la conférence Agile qui aide les Kids de 6 à 11 ans à développer créativité, confiance et intelligence collective grâce à des ateliers ludiques spécialement conçus pour l’occasion."
     },
 
     "details" : {
         "title": "Détails",
         "description": "Informations sur la conf..."
-    },
-
-    "emails" : {
-        "title" : "Contacts",
-        "description": "Pour nous contacter avant la conférence envoyez-nous tout simplement un email :",
-        "inscription" : {
-            "addr": "inscription@agile-grenoble.org",
-            "desc": "pour les inscriptions à la conférence"
-        },
-        "contact" : {
-            "addr": "contact@agile-grenoble.org",
-            "desc": "pour toute autre question au sujet de la conférence"
-        }
     }
 }

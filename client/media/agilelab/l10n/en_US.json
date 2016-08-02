@@ -2,29 +2,13 @@
 
     "accueil": {
         "title" : "Home",
-        "title_ag": "Agile Grenoble Lab: Wednesday, nov. 16th",
-        "description": "....",
-        "link": {
-            "name": "More information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-        }
+        "title_ag": "Agile Grenoble Lab",
+        "date": "Wednesday, nov. 16th",
+        "description": "New in 2016, Wednesday will be dedicated to a day of practice-oriented workshop training. Several experts, selected by the organizing team, will make you experience different practical workshops in technical fields related to the role of the Product Owner, Scrum Master, or Manager."
     },
     
     "details" : {
         "title": "Details",
         "description": "Informations..."
-    },
-
-    "emails" : {
-        "title" : "Contacts",
-        "description": "To contact us before the conference, just send us an email:",
-        "inscription" : {
-            "addr": "inscription@agile-grenoble.org",
-            "desc": "for the registrations"
-        },
-        "contact" : {
-            "addr": "contact@agile-grenoble.org",
-            "desc": "for any other question related to the conference"
-        }
     }
 }

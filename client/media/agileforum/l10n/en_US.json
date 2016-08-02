@@ -2,29 +2,13 @@
 
     "accueil": {
         "title" : "Home",
-        "title_ag": "Agile Grenoble Forum: Friday, nov. 18th",
-        "description": "...",
-        "link": {
-            "name": "More information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-        }
+        "title_ag": "Agile Grenoble Forum",
+        "date": "Friday, nov. 18th",
+	    "description": "On Friday, which was established in 2011 to enable Agile experienced, or less experienced, to discuss topics that interest them in a free environment and uninhibited, without program, without sponsors and without obligation."  
     },
-    
+
     "details" : {
         "title": "Details",
         "description": "Informations..."
-    },
-
-    "emails" : {
-        "title" : "Contacts",
-        "description": "To contact us before the conference, just send us an email:",
-        "inscription" : {
-            "addr": "inscription@agile-grenoble.org",
-            "desc": "for the registrations"
-        },
-        "contact" : {
-            "addr": "contact@agile-grenoble.org",
-            "desc": "for any other question related to the conference"
-        }
     }
 }

@@ -2,29 +2,13 @@
    
     "accueil": {
         "title" : "Accueil",
-        "title_ag": "Agile Grenoble Lab: Mercredi 16 novembre",
-        "description": "....",
-        "link": {
-            "name": "Plus d'information...",
-            "addr": "http://agile-grenoble.org/4kids/"
-        }
+        "title_ag": "Agile Grenoble Lab",
+        "date":"Mercredi 16 novembre",
+        "description": "Nouveauté cette année, le mercredi sera consacrée à une journée de formation orientée atelier pratique. Plusieurs experts, sélectionnés par l’équipe d’organisation, viendront vous faire expérimenter différents ateliers pratiques dans des domaines techniques, liés au rôle du Product Owner, ou celui du Scrum Master, ou celui de Manager."
     },
 
     "details" : {
         "title": "Détails",
         "description": "Informations sur la conf..."
-    },
-
-    "emails" : {
-        "title" : "Contacts",
-        "description": "Pour nous contacter avant la conférence envoyez-nous tout simplement un email :",
-        "inscription" : {
-            "addr": "inscription@agile-grenoble.org",
-            "desc": "pour les inscriptions à la conférence"
-        },
-        "contact" : {
-            "addr": "contact@agile-grenoble.org",
-            "desc": "pour toute autre question au sujet de la conférence"
-        }
     }
 }
