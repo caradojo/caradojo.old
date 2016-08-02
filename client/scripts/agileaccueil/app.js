@@ -1,4 +1,4 @@
-var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['ngSanitize', 'pascalprecht.translate'])
+var AgileGrenobleApp = angular.module('AgileGrenobleApp', ['directives.skrollr', 'ngSanitize', 'angularSmoothscroll', 'pascalprecht.translate'])
 .config(['$translateProvider', function($translateProvider){
 
   $translateProvider.useStaticFilesLoader({

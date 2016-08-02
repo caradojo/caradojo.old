@@ -1,10 +1,32 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 body{
-  	background-image: url(../../media/agileaccueil/background/accueil.png);
 	font-weight: 300;
 	font-size: 15px;
 	color: #2c2c2c;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', sans-serif, Arial;
+}
+
+.main-content {
+	height: 100%;
+  	margin: 0;
+}
+
+#home {
+	background-image: url(../../media/agileaccueil/background/accueil.png);
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main-title {
+	margin-top: 80px;
 }
 
 .small-text {
@@ -23,7 +45,6 @@ body{
 	border: none;
 	border-radius: 0;
 }
-
 .navbar.nobackground {
 	background-color: rgba(0,0,0,0.0);
 }
