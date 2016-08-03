@@ -291,7 +291,7 @@ a:focus, a:hover {
 }
 
 #home {
-	background-image: url(../../media/agileaccueil/background/accueil.png);
+	background-image: url(../../media/agileaccueil/background/accueil.jpg);
 	background-size: cover;
 	min-height: 100%;
 	overflow: hidden;
