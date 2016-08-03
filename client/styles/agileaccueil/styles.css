@@ -149,27 +149,27 @@ a:focus, a:hover {
 }
 
 .ch-img-1 { 
-	background-image: url(../../media/agilelab/background/accueil.jpg);
-  background-size: 340px;
-  background-repeat:no-repeat;
+	background-image: url(../../media/agileaccueil/images/lab.jpg);
+  	background-size: 340px;
+  	background-repeat:no-repeat;
 }
 
 .ch-img-2 { 
-	background-image: url(../../media/agileconf/background/accueil.jpg);
-  background-size: 340px;
-  background-repeat:no-repeat;
+	background-image: url(../../media/agileaccueil/images/conf.jpg);
+  	background-size: 340px;
+  	background-repeat:no-repeat;
 }
 
 .ch-img-3 { 
-	background-image: url(../../media/agileforum/background/accueil.jpg);
-  background-size: 340px;
-  background-repeat:no-repeat;
+	background-image: url(../../media/agileaccueil/images/forum.jpg);
+  	background-size: 340px;
+  	background-repeat:no-repeat;
 }
 
 .ch-img-4 { 
-	background-image: url(../../media/agile4kids/background/accueil.jpg);
-  background-size: 340px;
-  background-repeat:no-repeat;
+	background-image: url(../../media/agileaccueil/images/4kids.jpg);
+  	background-size: 340px;
+  	background-repeat:no-repeat;
 }
 
 
