@@ -260,6 +260,11 @@ a:focus, a:hover {
 	background-color: rgba(222,222,222,0.9);
 }
 
+.black-transparent {
+	background-color: rgba(0,0,0,0.2);
+	padding-bottom: 20px;
+}
+
 .navbar.transparent {
 	background-color: rgba(0,0,0,0.5);
 }
@@ -275,14 +280,6 @@ a:focus, a:hover {
 	color: #ebeef5 !important;
 }
 
-img.cara {
-	width: 15px;
-}
-
-.credits {
-	padding-top: 30px;
-	font-size: 0.7em;
-}
 
 .navbar-brand {
 	text-decoration: none;
@@ -330,15 +327,29 @@ img.cara {
 	padding-bottom: 20px;
 }
 
+img.cara {
+	width: 15px;
+}
+
+.credits {
+	padding-top: 40px;
+	font-size: 0.7em;
+}
+
 #footer .row {
-	padding-top: 50px;
+	padding-top: 60px;
 	padding-bottom: 20px;
 }
 
 .title-section {
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .contact {
 	list-style-type: none;
+}
+
+.btn-primary {
+	background-color: #0e533f !important;
+	border-color: #062E22 !important;
 }
