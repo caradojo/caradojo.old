@@ -20,8 +20,6 @@ body{
 
 .main-title {
 	color: #41485C;
-	margin-top: 100px;
-	padding-bottom: 40px;
 }
 
 .bold {
@@ -67,7 +65,6 @@ a:focus, a:hover {
 }
 
 .ch-grid {
-	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -86,12 +83,9 @@ a:focus, a:hover {
 }
 
 .ch-grid li {
-	width: 220px;
-	height: 220px;
 	display: inline-block;
 	margin: 20px;
 }
-
 
 .ch-item {
 	width: 100%;
@@ -99,11 +93,6 @@ a:focus, a:hover {
 	border-radius: 50%;
 	position: relative;
 	cursor: default;
-	-webkit-perspective: 900px;
-	-moz-perspective: 900px;
-	-o-perspective: 900px;
-	-ms-perspective: 900px;
-	perspective: 900px;
 }
 .ch-info{
 	position: absolute;
@@ -139,47 +128,115 @@ a:focus, a:hover {
 }
 
 .ch-info .ch-info-back {
-	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
 	background: #000;
 	opacity: 0;
 }
 
+@media (max-width: 768px) {
+	.main-title {
+		margin-top: 70px;
+		padding-bottom: 0px;
+	}
+	.ch-grid {
+		margin: 5px 0 0 0;
+	}
+	.ch-item {
+		-webkit-perspective: 300px;
+		-moz-perspective: 300px;
+		-o-perspective: 300px;
+		-ms-perspective: 300px;
+		perspective: 300px;
+	}
+	.ch-info .ch-info-back {
+		-webkit-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+		-moz-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+		-o-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+		-ms-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+		transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+	}
+	.ch-img-1, .ch-img-2, .ch-img-3, .ch-img-4 {
+		background-size: 250px;
+	}
+	.ch-grid li {
+		width: 150px;
+		height: 150px;
+	}
+	.ch-info h3 {
+		letter-spacing: 1px;
+		font-size: 10px;
+		margin: 0 15px;
+		padding: 40px 0 0 0;
+		height: 40px;
+	}
+	.ch-info p {
+		font-size: 10px;
+	}
+ }
+
+ @media (min-width: 768px) {
+	.main-title {
+		margin-top: 100px;
+		padding-bottom: 40px;
+	}
+	.ch-grid {
+		margin: 20px 0 0 0;
+	}
+	.ch-item {
+		-webkit-perspective: 900px;
+		-moz-perspective: 900px;
+		-o-perspective: 900px;
+		-ms-perspective: 900px;
+		perspective: 900px;
+	}
+	.ch-info .ch-info-back {
+		-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+		-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+		-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+		-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+		transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+	}
+	.ch-img-1, .ch-img-2, .ch-img-3, .ch-img-4 {
+		background-size: 340px;
+	}
+	.ch-grid li {
+		width: 220px;
+		height: 220px;
+	}
+	.ch-info h3 {
+		letter-spacing: 2px;
+		font-size: 24px;
+		margin: 0 15px;
+		padding: 60px 0 0 0;
+		height: 110px;
+	}
+	.ch-info p {
+		font-size: 8px;
+	}
+ }
+
+ .ch-img-1, .ch-img-2, .ch-img-3, .ch-img-4 {
+	background-repeat:no-repeat;
+}
+
 .ch-img-1 { 
 	background-image: url(../../media/agileaccueil/images/lab.jpg);
-  	background-size: 340px;
-  	background-repeat:no-repeat;
 }
 
 .ch-img-2 { 
 	background-image: url(../../media/agileaccueil/images/conf.jpg);
-  	background-size: 340px;
-  	background-repeat:no-repeat;
 }
 
 .ch-img-3 { 
 	background-image: url(../../media/agileaccueil/images/forum.jpg);
-  	background-size: 340px;
-  	background-repeat:no-repeat;
 }
 
 .ch-img-4 { 
 	background-image: url(../../media/agileaccueil/images/4kids.jpg);
-  	background-size: 340px;
-  	background-repeat:no-repeat;
 }
 
 
 .ch-info h3 {
 	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 24px;
-	margin: 0 15px;
-	padding: 60px 0 0 0;
-	height: 110px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
@@ -189,9 +246,8 @@ a:focus, a:hover {
 .ch-info p {
 	color: #fff;
 	padding: 10px 5px;
-	font-style: italic;
 	margin: 0 30px;
-	font-size: 12px;
+	font-style: italic;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
