@@ -51,12 +51,13 @@
 
     "participants": {
         "title": "Participants",
-        "date": "Novembre 2016"
+        "date": "17 Novembre 2016"
     },
 
 
     "register" : {
         "title": "Inscriptions",
+        "message_bientot": "Un peu de patience, la billeterie ouvrira courant septembre",
         "description": "Désolé mais la conférence est à guichet complet. Chaque année depuis 8 ans la conférence démarre à guichet complet, victime de son succès.",
         "link": {
             "name": "Achetez votre billet",
@@ -68,6 +69,8 @@
         },
         "registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation,</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
     },
+
+
 
     "apropos" : {
         "title": "A propos",
