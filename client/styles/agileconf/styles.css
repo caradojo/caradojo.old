@@ -7,11 +7,11 @@
 }
 
 #fleche {
-  position: fixed;
-  padding:5px;
-  bottom: 0px;
-  right: 0px;
-  z-index: 2000;
+    left: 0px;
+    width: 100%; 
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
 }
 
 
