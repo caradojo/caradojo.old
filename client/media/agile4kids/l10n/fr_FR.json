@@ -1,4 +1,4 @@
-{
+﻿{
    
     "accueil": {
         "title" : "Accueil",
@@ -9,9 +9,13 @@
 
     "details" : {
         "title": "Détails",
-        "description": "Informations sur la conf..."
+        "message": "Pour plus de détails sur le fonctionnement de Agile Grenoble 4 Kids ...",
+        "description": "Le détail sera bientôt disponible."
     },
-    "billetterie": {
-        "title" : "Billetterie"
+
+    "ticket": {
+        "title": "Billetterie",
+        "description": "La billetterie pour la journée du Samedi 19 novembre sera ouverte à partir du 12 septembre 2016.",
+        "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
 }
