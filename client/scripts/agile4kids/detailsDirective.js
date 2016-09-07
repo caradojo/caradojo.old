@@ -10,6 +10,6 @@ AgileGrenobleApp.directive('agDetails', function () {
         return $translate(strToTranslate);
       };
     },
-    templateUrl: 'client/templates/agile4kids/ticket.html'
+    templateUrl: 'client/templates/agile4kids/details.html'
   };
 });

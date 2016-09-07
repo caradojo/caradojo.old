@@ -9,7 +9,8 @@
 
     "details" : {
         "title": "Details",
-        "description": "Informations..."
+        "description": "Informations...",
+        "description2": ""
     },
 
     "ticket" : {
