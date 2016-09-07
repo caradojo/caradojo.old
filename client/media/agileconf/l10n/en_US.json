@@ -65,8 +65,9 @@
               }
     },
 
-	"register" : {
+   "register" : {
         "title": "Registrations",
+        "message_bientot": "Registrations will open in September",
         "description": "Sorry the conference is sold out. For 8 years the tickets for our conference are sold out every year well in advance.",
         "link": {
             "name": "Buy your ticket",
