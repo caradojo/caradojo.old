@@ -11,5 +11,12 @@
         "title": "Details",
         "description_principale": "Informations...",
         "description_detaillee": "details..."
+    },
+
+    "ticket" : {
+        "title": "Tickets",
+        "description": "Registration on Wednesday, nov. 16th",
+        "warning": "To register on the classical conference day on thursday, please to back to main home"
     }
+
 }

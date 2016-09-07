@@ -8,7 +8,16 @@
     },
 
     "details" : {
+        "message": "Pour plus de détails sur le fonctionnement du forum ...",
         "title": "Détails",
-        "description": "Informations sur la conf..."
+        "description": "Le Forum Ouvert crée un espace dans lequel beaucoup de personnes peuvent s'organiser elles-mêmes et résoudre leurs problèmes en groupe à leur propre responsabilité. Il n'y a pas de thèmes imposés. Chacun peut faire avancer ce qui lui tient à cœur. Les sujets ne vont être formulés qu'au début de la conférence. <br> Les 4 principes : <ul><li>les personnes qui se présentent sont les bonnes ;</li><li>ce qui arrive, est la seule chose qui pouvait arriver ;</li><li>ça commence quand ça commence ;</li><li> quand c’est fini, c’est fini.</li></ul>  La loi de la mobilité ou loi des deux pieds : si vous n’êtes ni en train d’apprendre, ni de contribuer, passez à autre chose !",
+        "description2": "Venez avec sujets à discuter, partager et/ou profitez des sujets proposés le jour J."
+    },
+
+    "ticket": {
+        "title": "Billetterie",
+        "description": "La billetterie pour la journée du Vendredi 18 novembre sera ouverte à partir du 12 septembre 2016.",
+        "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
+
 }

@@ -2,6 +2,14 @@
 	background-image:url('../../media/agile4kids/background/accueil.jpg');
 }
 
+#details {
+        background-image:url('../../media/agile4kids/background/accueil.jpg');
+}
+
+#ticket {
+        background-image:url('../../media/agile4kids/background/accueil.jpg');
+}
+
 #accueil a {
   text-decoration:none;
 }

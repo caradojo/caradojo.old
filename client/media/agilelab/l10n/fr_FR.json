@@ -7,9 +7,16 @@
         "description": "Cette année, Agile Grenoble expérimente une nouvelle journée: Agil'Lab !"
     },
 
-    "details" : {
+    "details": {
         "title": "Détails",
-        "description_principale":"Elle prend place le mercredi et propose une formule innovante à la frontière d'une formation, de sessions de partage d'expériences et d'un open space tout en laissant une plus grande place au contenu &quot;technique&quot;.",
+        "description_principale": "Elle prend place le mercredi et propose une formule innovante à la frontière d'une formation, de sessions de partage d'expériences et d'un open space tout en laissant une plus grande place au contenu &quot;technique&quot;.",
         "description_detaillee": "Cette journée s'adresse à un public pratiquant déjà les méthodes agiles au quotidien depuis 2/3 ans sans être des experts.<br/>Il sera proposé quatre parcours, chacun correspondant à un rôle agile: Product-owner, Scrummaster, Manager, Développeur/Administrateur Système.<br/>Pour chaque parcours, la journée sera décomposée en trois parties:<br/>&ndash;Une session spécialisée par parcours prenant place le matin: &quot;Réparer les pratiques&quot; de 9h à 12h<br/>Plutôt avec une tonalité formation, elle proposera du contenu sous la forme d&apos;auto-évaluation, de présentations, d'explorations, etc..<br/>&ndash;Une session d&apos;échange &quot;bilatéral&quot; entre rôles en début d'après-midi: &quot;Etendre la démarche&quot; de 13h30 à 15h30<br/>L'idée est de traiter un certain nombre de sujets au croisement de plusieurs rôles: par exemple le BDD qui fait interagir les développeurs et les PO.<br/>Un intervenant introduit le sujet avec une rapide présentation et lance les échanges en collectant les retours d'expérience et les questions entre participants, en partageant son expertise, en répondant aux questions.<br/>&ndash;Une session plus transverse en fin d&apos;après-midi: &quot;Cultiver la dynamique d'équipe&quot; de 16h à 17h30<br/>Elle proposera des sujets plus larges qui concernent tous les acteurs de l'agilité avec des modes variés: découverte de nouvelles tendances, débats de fond, discussions autour de sujets précis. Voici un aperçu du programme en cours de préparation.<br/>Nous souhaitons a travers cette formule expérimenter un événement différent en développant les échanges entre les différents rôles tout en proposant un contenu riche."
+    },
+
+    "ticket": {
+        "title": "Billetterie",
+        "description": "Billetterie pour la journée du Mercredi 16 novembre.",
+        "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
+
 }

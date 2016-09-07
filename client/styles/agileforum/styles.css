@@ -328,6 +328,11 @@ fieldset[disabled] .btn-ag-panel-selected.active {
 	background-image:url('../../media/agileforum/background/details.jpg');
 }
 
+#ticket {
+        background-image:url('../../media/agileforum/background/details.jpg');
+}
+
+
 .list-group {
 	border: none;
 }
