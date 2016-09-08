@@ -2,6 +2,18 @@
 	background-image:url('../../media/agilelab/background/accueil.jpg');
 }
 
+#details {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#ticket {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#intervenants {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
 #accueil a {
   text-decoration:none;
 }
