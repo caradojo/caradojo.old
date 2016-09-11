@@ -4,19 +4,64 @@
         "title" : "Accueil",
         "title_ag": "Agile Grenoble Lab",
         "date":"Mercredi 16 novembre",
-        "description": "Cette année, Agile Grenoble expérimente une nouvelle journée: Agil'Lab !"
+        "description": "Cette année, Agile Grenoble expérimente une nouvelle journée: Agil'Lab !. <br/>Elle prend place le mercredi et propose une formule innovante à la frontière d'une formation, de sessions de partage d'expériences et d'un open space tout en laissant une plus grande place au contenu &quot;technique&quot;."
     },
 
     "details": {
         "title": "Détails",
-        "description_principale": "Elle prend place le mercredi et propose une formule innovante à la frontière d'une formation, de sessions de partage d'expériences et d'un open space tout en laissant une plus grande place au contenu &quot;technique&quot;.",
-        "description_detaillee": "Cette journée s'adresse à un public pratiquant déjà les méthodes agiles au quotidien depuis 2/3 ans sans être des experts.<br/>Il sera proposé quatre parcours, chacun correspondant à un rôle agile: Product-owner, Scrummaster, Manager, Développeur/Administrateur Système.<br/>Pour chaque parcours, la journée sera décomposée en trois parties:<br/>&ndash;Une session spécialisée par parcours prenant place le matin: &quot;Réparer les pratiques&quot; de 9h à 12h<br/>Plutôt avec une tonalité formation, elle proposera du contenu sous la forme d&apos;auto-évaluation, de présentations, d'explorations, etc..<br/>&ndash;Une session d&apos;échange &quot;bilatéral&quot; entre rôles en début d'après-midi: &quot;Etendre la démarche&quot; de 13h30 à 15h30<br/>L'idée est de traiter un certain nombre de sujets au croisement de plusieurs rôles: par exemple le BDD qui fait interagir les développeurs et les PO.<br/>Un intervenant introduit le sujet avec une rapide présentation et lance les échanges en collectant les retours d'expérience et les questions entre participants, en partageant son expertise, en répondant aux questions.<br/>&ndash;Une session plus transverse en fin d&apos;après-midi: &quot;Cultiver la dynamique d'équipe&quot; de 16h à 17h30<br/>Elle proposera des sujets plus larges qui concernent tous les acteurs de l'agilité avec des modes variés: découverte de nouvelles tendances, débats de fond, discussions autour de sujets précis. Voici un aperçu du programme en cours de préparation.<br/>Nous souhaitons a travers cette formule expérimenter un événement différent en développant les échanges entre les différents rôles tout en proposant un contenu riche."
+        "description": "Pour plus de détails sur le déroulement de la journée",
+        "description_principale": "Déroulement et contenu de la journée",
+        "description_detaillee": "Cette journée s'adresse à un public pratiquant déjà les méthodes agiles au quotidien depuis 2/3 ans sans être des experts.<br/>Il sera proposé quatre parcours, chacun correspondant à un rôle agile: Product-owner, Scrummaster, Manager, Développeur/Administrateur Système.<br/>Pour chaque parcours, la journée sera décomposée en trois parties:<br/><ul><li>Une session spécialisée par parcours prenant place le matin: &quot;Réparer les pratiques&quot; de 9h à 12h<br/>Plutôt avec une tonalité formation, elle proposera du contenu sous la forme d&apos;auto-évaluation, de présentations, d'explorations, etc..<br/></li><li>Une session d&apos;échange &quot;bilatéral&quot; entre rôles en début d'après-midi: &quot;Etendre la démarche&quot; de 13h30 à 15h30<br/>L'idée est de traiter un certain nombre de sujets au croisement de plusieurs rôles: par exemple le BDD qui fait interagir les développeurs et les PO.<br/>Un intervenant introduit le sujet avec une rapide présentation et lance les échanges en collectant les retours d'expérience et les questions entre participants, en partageant son expertise, en répondant aux questions.<br/></li><li>Une session plus approfondie en fin d&apos;après-midi: &quot;Cultiver la dynamique d'équipe&quot; de 16h à 17h30<br/></li></ul><br/>Nous souhaitons a travers cette formule expérimenter un événement différent en développant les échanges entre les différents rôles tout en proposant un contenu riche."
+    },
+
+    "sujets": {
+        "title": "Sujets",
+        "description": "Voici la liste des sujets abordés par parcours.",
+        "warning": "Non contractuel. Contenu en cours de finalisation. Peut être soumis à des changements.",
+      "contenu_track_tek":"Automatisation des déploiements<br/>DevOps<br/>Introduction au Test Driven Development en paires<br/>BDD (session croisée avec les PO)<br/>Revue de code (session croisée avec les SM) ",
+      "contenu_track_sm":"Faciliter les rituels planif, daily, revue/démo, rétro <br/>Protéger l'équipe : lever les obstacles et contenir les interférences extérieures <br/>Développer la créativité, l'autonomie et l'amélioration continue <br/>Former en continue et expliquer les approches agiles <br/>En collaboration avec le track PO: Collaboration équipe/PO <br/>En collaboration avec le track Manager : Communication équipe/management <br/>En collaboration avec le track Manager :Evangélisation de l'agilité dans l'entreprise <br/>Combattre la lassitude, la routine et le statu quo (ex : rétrospectives, rythme) <br/>Soutenir le développement personnel et le leadership (ex : coaching bref, modèles de personnalité et de communication)",
+      "contenu_track_po":"Créer et partager une vision <BR/>User Story Mapping <BR/>Expression de besoins et DoD <BR/>Bâtir ses indicateurs <BR/>Impact Mapping <BR/>Exigences non-fonctionnelles <BR/>Kanban pour Product Owner <BR/>Donner un second souffle à son produito",
+      "contenu_track_mgr":"Gestion de conflit ? <BR/>L'agilité vs l'organisation <BR/>L'augmentation annuelle <BR/>En collaboration avec la track PO: L'agilité à l'echelle ? <BR/>En collaboration avec la track DEV: Faire grandir son equipe ? <BR/>Entretenir la motivation d'une équipe sur le long terme <BR/>L'amelioration continue de vos equipes/equipiers "
+    },
+
+    "intervenants": {
+        "title": "Intervenants",
+        "description": "Présentation des intervenants.",
+        "warning": "RAS",
+        "intervenant1_nom":"Johan Martinsson",
+        "intervenant1_bio":"Passionné par le développement et la poursuite de l'excellence, Johan est spécialisé dans le design et refactoring de code, maitrise l'orienté objet avancé et connait la programmation fonctionnelle, possède une expérience en Packaging et déploiement de code, et le tout avec un zeste de Coaching et mentoring agile.",
+        "intervenant1_img":"Johan Martinsson img",
+        "intervenant1_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/johan_alps\">twitter</a><br><a class=\"btn btn-default\" href=\"http://martinsson-johan.blogspot.fr/\">siteweb</a>",
+
+        "intervenant2_nom":"Alain Delafosse",
+        "intervenant2_bio":"Alain Delafosse a passé sa carrière à assurer le lien entre des équipes opérations/infrastructures et des équipes de developpement. Très naturellement, il s'est tourné vers le mouvement devops qu'il fréquente depuis longtemps et qu'il a mis en pratique dans des sociétés du web.",
+        "intervenant2_img":"Alain Delafosse img",
+        "intervenant2_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/AlainDELAFOSSE\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.alaindelafosse.com\">siteweb</a>",
+
+        "intervenant3_nom":"Alfred Almendra",
+        "intervenant3_bio":"Alfred est consultant en management agile. Il forme et accompagne les entreprises dans leur double transformation agile et digitale. Alfred aide les équipes à s'approprier les approches agiles grâce aux jeux sérieux et autres ateliers d'innovation, que ce soit pour augmenter la valeur des produits et services de l'entreprise ou pour fluidifier et optimiser les processus de travail. Il accompagne également les managers dans leur nouvelle posture, à la fois leaders libérateurs et coachs de leurs équipes.",
+        "intervenant3_img":"Alfred Almendra img",
+        "intervenant3_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/alfredalmendra\">twitter</a><br><a class=\"btn btn-default\" href=\"http://1cube-and-go.com/\">siteweb</a>",
+
+        "intervenant4_nom":"Romain Couturier",
+        "intervenant4_bio":"Romain Couturier est coach agile et facilitateur graphique. En tant qu’artisan du changement, il accompagne les équipes et les organisations dans leur transition et évolution vers l’agilité. Il travaille à développer la valeur ajoutée des produits avec les responsables métier, unifier les équipes, et soutenir les managers dans le déploiement de contextes d'amélioration continue.Il est passé indépendant avec Terre d’Agile en 2012 après 10 années d’apprentissage dans les mondes de l’édition logicielle, startup et SSII. En 2016, il créée 1CUBE&GO, des stages courts en gestion de projet agile. Intervenant ponctuel dans les universités pour l'enseignement de l'Agilité, il transmet et contribue à la communauté agile en tant que membre du CARA Lyon et de la Fédération Agile.",
+        "intervenant4_img":"Romain Couturier img",
+        "intervenant4_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/romaincouturier\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.terredagile.com\">siteweb</a>",
+
+        "intervenant5_nom":"Jean Dupuis",
+        "intervenant5_bio":"Jean Dupuis est Coach Agile au sein de la société Open. ",
+        "intervenant5_img":"Jean Dupuis img",
+        "intervenant5_rezo":"Jean Dupuis rezo",
+
+        "intervenant6_nom":"Franck Rageade ",
+        "intervenant6_bio":"Coach agile pour la société Persistent Systems. Agiliplanchiste chevronné, je planche sur l’agilité depuis 2006 : consultant SAFe (SPC), Scrum Master (CSM) et Product Owner (PSPO) certifié, j’accompagne de grandes sociétés dans leur transformation digitale à travers la mise en place de méthodes agiles.Agile sur les planches depuis (déjà…) 20 ans, j’ai joué de nombreuses pièces sur des scènes nationales comme en appartement. Je suis également auteur de plusieurs textes que j’ai montés avec des troupes grenobloises.",
+        "intervenant6_img":"Franck Rageade img",
+        "intervenant6_rezo":"Franck Rageade rezo"
     },
 
     "ticket": {
         "title": "Billetterie",
         "description": "La billetterie pour la journée du Mercredi 16 novembre sera ouverte à partir du 12 septembre 2016.",
-        "info": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
+        "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
-
 }
