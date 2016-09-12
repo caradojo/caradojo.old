@@ -1,22 +1,57 @@
 {
-
     "accueil": {
-        "title" : "Home",
+        "title": "Home",
         "title_ag": "Agile Grenoble Lab",
         "date": "Wednesday, nov. 16th",
-        "description": "New in 2016, Wednesday will be dedicated to a day of practice-oriented workshop training. Several experts, selected by the organizing team, will make you experience different practical workshops in technical fields related to the role of the Product Owner, Scrum Master, or Manager."
+        "description": "New in 2016, Agile Grenoble is experimenting a new day: Agil'Lab<br/>It will take place the Wednesday and will propose an innovative format mixing training, experience sharing with an improved technical focus."
     },
-    
-    "details" : {
+    "details": {
         "title": "Details",
-        "description_principale": "Informations...",
-        "description_detaillee": "details..."
+        "description": "For more details regarding this day",
+        "description_principale": "Agenda and content",
+        "description_detaillee": "This day is dedicated to people having a first agile experience (2/3 years) without feeling expert.<br/> There will be four tracks, each one matching an agile role: Product-owner, Scrummaster, Manager, Developer/Sysadmin<br/>For each track,three parts will take place:<br><li><ul>A Sspecialized session taking place during the morning &quot;Repair practives&quot; from 9am to 12<br/>More training oriented, it will propose content like self-assesment, presentations, explorations, etc..<br/></li><li>An bilateral between roles exchange session at the beginning of the afternoon: &quot;Extend approach&quot; from 1:30pm to 3:30pm<br/>The background idea is about mixing tracks int he same romm to discuss specific topics involving both roles: by example BDD which requires interaction between developpers and product owners.<br/></li><li>Late afternoon, a session: &quot;Seed Team spirir&quot; from 4pm to 5:30pm<br/></li></ul><br/>We wish through this formula experimenting a different event pushing forward agile roles exchanges while proposing a rich content."
     },
-
-    "ticket" : {
+    "ticket": {
         "title": "Tickets",
-        "description": "Registration on Wednesday, nov. 16th",
-        "info": "To register on the classical conference day on thursday, please back to main home"
+        "description": "Registration for Wednesday, nov. 16th will be open from Monday 12 september",
+        "warning": "To register on the classical conference day on thursday, please back to main home"
+    },
+    "sujets": {
+        "title": "Topics",
+        "description": "Here are the topics for each track.",
+        "warning": "Take Care. Content subject to change.",
+        "contenu_track_tek": "Deployment automation<br/>DevOps<br/>Test Driven Development pair introduction<br/>BDD (session with PO )<br/>Code review (wession with SM) ",
+        "contenu_track_sm": "Improve agile rituals: planification, daily standup, review/demo, retro <br/>Protect team: clear blockers and manage external perturbations<br/>DEvelop creativity, autonomy et continuous improvement<br/>Continuous agile training <<br/>Team/management communication(in collaboration with Manager tack)<br/>Enterprise agile evangelization (in collaboration with Manager tack)<br/>Fight lassitude, routine and statu quo (retrospectives, rythm) <br/>Support personal development and leadership (quick coaching, personality and communication models)",
+        "contenu_track_po": "Create and share vision <BR/>User Story Mapping <BR/>Requirement and DoD <BR/>Build relevant metrics<BR/>Impact Mapping <BR/>Non functional requirements<BR/>Kanban for Product Owner <BR/>Second blow for your product",
+        "contenu_track_mgr": "Conflict management<BR/>Agility versus Organization <BR/>Raises in agile world<BR/>Scaling Agile (session with PO)<BR/>Team growing (session with dev/sysadmin)<BR/>Keep commmitment up<BR/>Team continous improvement "
+    },
+    "intervenants": {
+        "title": "Speakers",
+        "description": "Speakers Introduction.",
+        "warning": "RAS",
+        "intervenant1_nom": "Johan Martinsson",
+        "intervenant1_bio": "Passionné par le développement et la poursuite de l'excellence, Johan est spécialisé dans le design et refactoring de code, maitrise l'orienté objet avancé et connait la programmation fonctionnelle, possède une expérience en Packaging et déploiement de code, et le tout avec un zeste de Coaching et mentoring agile.",
+        "intervenant1_img": "Johan Martinsson img",
+        "intervenant1_rezo": "<a class=\"btn btn-default\" href=\"https://twitter.com/johan_alps\">twitter</a><br><a class=\"btn btn-default\" href=\"http://martinsson-johan.blogspot.fr/\">siteweb</a>",
+        "intervenant2_nom": "Alain Delafosse",
+        "intervenant2_bio": "Alain Delafosse a passé sa carrière à assurer le lien entre des équipes opérations/infrastructures et des équipes de developpement. Très naturellement, il s'est tourné vers le mouvement devops qu'il fréquente depuis longtemps et qu'il a mis en pratique dans des sociétés du web.",
+        "intervenant2_img": "Alain Delafosse img",
+        "intervenant2_rezo": "<a class=\"btn btn-default\" href=\"https://twitter.com/AlainDELAFOSSE\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.alaindelafosse.com\">siteweb</a>",
+        "intervenant3_nom": "Alfred Almendra",
+        "intervenant3_bio": "Alfred est consultant en management agile. Il forme et accompagne les entreprises dans leur double transformation agile et digitale. Alfred aide les équipes à s'approprier les approches agiles grâce aux jeux sérieux et autres ateliers d'innovation, que ce soit pour augmenter la valeur des produits et services de l'entreprise ou pour fluidifier et optimiser les processus de travail. Il accompagne également les managers dans leur nouvelle posture, à la fois leaders libérateurs et coachs de leurs équipes.",
+        "intervenant3_img": "Alfred Almendra img",
+        "intervenant3_rezo": "<a class=\"btn btn-default\" href=\"https://twitter.com/alfredalmendra\">twitter</a><br><a class=\"btn btn-default\" href=\"http://1cube-and-go.com/\">siteweb</a>",
+        "intervenant4_nom": "Romain Couturier",
+        "intervenant4_bio": "Romain Couturier est coach agile et facilitateur graphique. En tant qu’artisan du changement, il accompagne les équipes et les organisations dans leur transition et évolution vers l’agilité. Il travaille à développer la valeur ajoutée des produits avec les responsables métier, unifier les équipes, et soutenir les managers dans le déploiement de contextes d'amélioration continue.Il est passé indépendant avec Terre d’Agile en 2012 après 10 années d’apprentissage dans les mondes de l’édition logicielle, startup et SSII. En 2016, il créée 1CUBE&GO, des stages courts en gestion de projet agile. Intervenant ponctuel dans les universités pour l'enseignement de l'Agilité, il transmet et contribue à la communauté agile en tant que membre du CARA Lyon et de la Fédération Agile.",
+        "intervenant4_img": "Romain Couturier img",
+        "intervenant4_rezo": "<a class=\"btn btn-default\" href=\"https://twitter.com/romaincouturier\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.terredagile.com\">siteweb</a>",
+        "intervenant5_nom": "Jean Dupuis",
+        "intervenant5_bio": "Jean Dupuis est Coach Agile au sein de la société Open. ",
+        "intervenant5_img": "Jean Dupuis img",
+        "intervenant5_rezo": "Jean Dupuis rezo",
+        "intervenant6_nom": "Franck Rageade ",
+        "intervenant6_bio": "Coach agile pour la société Persistent Systems. Agiliplanchiste chevronné, je planche sur l’agilité depuis 2006 : consultant SAFe (SPC), Scrum Master (CSM) et Product Owner (PSPO) certifié, j’accompagne de grandes sociétés dans leur transformation digitale à travers la mise en place de méthodes agiles.Agile sur les planches depuis (déjà…) 20 ans, j’ai joué de nombreuses pièces sur des scènes nationales comme en appartement. Je suis également auteur de plusieurs textes que j’ai montés avec des troupes grenobloises.",
+        "intervenant6_img": "Franck Rageade img",
+        "intervenant6_rezo": "Franck Rageade rezo"
     }
-
 }
