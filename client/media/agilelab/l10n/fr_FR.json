@@ -21,7 +21,7 @@
       "contenu_track_tek":"Automatisation des déploiements<br/>DevOps<br/>Introduction au Test Driven Development en paires<br/>BDD (session croisée avec les PO)<br/>Revue de code (session croisée avec les SM) ",
       "contenu_track_sm":"Faciliter les rituels planif, daily, revue/démo, rétro <br/>Protéger l'équipe : lever les obstacles et contenir les interférences extérieures <br/>Développer la créativité, l'autonomie et l'amélioration continue <br/>Former en continue et expliquer les approches agiles <br/>En collaboration avec le track PO: Collaboration équipe/PO <br/>En collaboration avec le track Manager : Communication équipe/management <br/>En collaboration avec le track Manager :Evangélisation de l'agilité dans l'entreprise <br/>Combattre la lassitude, la routine et le statu quo (ex : rétrospectives, rythme) <br/>Soutenir le développement personnel et le leadership (ex : coaching bref, modèles de personnalité et de communication)",
       "contenu_track_po":"Créer et partager une vision <BR/>User Story Mapping <BR/>Expression de besoins et DoD <BR/>Bâtir ses indicateurs <BR/>Impact Mapping <BR/>Exigences non-fonctionnelles <BR/>Kanban pour Product Owner <BR/>Donner un second souffle à son produito",
-      "contenu_track_mgr":"Gestion de conflit ? <BR/>L'agilité vs l'organisation <BR/>L'augmentation annuelle <BR/>En collaboration avec la track PO: L'agilité à l'echelle ? <BR/>En collaboration avec la track DEV: Faire grandir son equipe ? <BR/>Entretenir la motivation d'une équipe sur le long terme <BR/>L'amelioration continue de vos equipes/equipiers "
+      "contenu_track_mgr":"Quel rôle pour un Manager dans Scrum / organisation agile ? <BR/>Comment amener l’agilité / créer un îlot agile dans une entreprise non agile ? <BR/>Comment pousser / servir la démarche agile quand on est Manager ? <BR/>En collaboration avec la track PO: Roadmap, engagement sur les déploiements, gestion budgétaire et planning, reporting, pilotage...<BR/>En collaboration avec la track DEV: vivre le dev agile, apporter support et bienveillance à son équipe pour l’aider à grandir et se perfectionner.<BR/>En collaboration avec la track SM : la mise en place du groupe de facilitation, s’assurer des conditions de la motivation d'une équipe sur le long terme<BR/>Quels outils pour le Manager agile ?<BR/>Comment passer à l’échelle ? Faut-il se former à SAFe, LeSS et autres frameworks ?"
     },
 
     "intervenants": {
@@ -49,19 +49,19 @@
         "intervenant4_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/romaincouturier\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.terredagile.com\">siteweb</a>",
 
         "intervenant5_nom":"Jean Dupuis",
-        "intervenant5_bio":"Jean Dupuis est Coach Agile au sein de la société Open. ",
+        "intervenant5_bio":"Avec plus de 20 ans d’expérience dans la transformation des organisations et de système d’information, Jean est un professionnel de l’accompagnement des grandes évolutions. Tombé en agilité en 2008, il a rejoint le Club Agile Rhône-Alpes et le cœur de l’organisation d’Agile Grenoble. Après une quinzaine d’années dans le business consulting auprès des équipes MOA et des Directions IT, Jean est devenu Directeur de projets informatiques puis Coach Agile au sein de la société Open. Jean est certifié PMP du PMI et  professeur affilié à Grenoble Ecole de management et au CESI de Grenoble.",
         "intervenant5_img":"Jean Dupuis img",
-        "intervenant5_rezo":"Jean Dupuis rezo",
+        "intervenant5_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/jdup\">twitter</a>",
 
         "intervenant6_nom":"Franck Rageade ",
         "intervenant6_bio":"Coach agile pour la société Persistent Systems. Agiliplanchiste chevronné, je planche sur l’agilité depuis 2006 : consultant SAFe (SPC), Scrum Master (CSM) et Product Owner (PSPO) certifié, j’accompagne de grandes sociétés dans leur transformation digitale à travers la mise en place de méthodes agiles.Agile sur les planches depuis (déjà…) 20 ans, j’ai joué de nombreuses pièces sur des scènes nationales comme en appartement. Je suis également auteur de plusieurs textes que j’ai montés avec des troupes grenobloises.",
         "intervenant6_img":"Franck Rageade img",
-        "intervenant6_rezo":"Franck Rageade rezo"
+        "intervenant6_rezo":"<a class=\"btn btn-default\" href=\"https://twitter.com/thelor\">twitter</a><br><a class=\"btn btn-default\" href=\"https://www.thelor.com\">siteweb</a>"
     },
 
     "ticket": {
         "title": "Billetterie",
-        "description": "La billetterie pour la journée du Mercredi 16 novembre sera ouverte à partir du 12 septembre 2016.<br/>Nous contacter pour des conventions de formation.",
+        "description": "La billetterie pour la journée du Mercredi 16 novembre sera ouverte à partir du 12 septembre 2016.<br/>Nous contacter pour des conventions de formation: agilelab@agile-grenoble.org",
         "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
 }
