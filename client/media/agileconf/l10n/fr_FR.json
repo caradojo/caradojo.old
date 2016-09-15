@@ -1,4 +1,4 @@
-{
+﻿{
     "accueil": {
         "title": "Accueil"
     },
@@ -49,9 +49,10 @@
         "more_informations": "Pour plus d'informations:"
     },
 
-    "participants": {
-        "title": "Participants",
-        "date": "17 Novembre 2016"
+    "ticket": {
+        "title": "Billetterie",
+        "description": "La billetterie pour la journée classique de conférence Agile Grenoble du Jeudi 17 novembre sera ouverte à partir du 12 septembre 2016.",
+        "info": "Pour réserver les autres journées spécifiques de Agile Grenoble. Retournez sur l'accueil principal du site. "
     },
 
 
@@ -96,7 +97,7 @@
         }
     },
 
-    "programme": {
+    "program": {
         "title": "Programme",
         "nondisponible": "Le programme 2016 sera défini prochainement...  restez à l'écoute!",
         "disponible": "Le programme de la conférence est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées pour cette année ainsi que leur description.",

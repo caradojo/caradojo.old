@@ -1,5 +1,22 @@
+
 #accueil {
 	background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#details {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#ticket {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#intervenants {
+        background-image:url('../../media/agilelab/background/accueil.jpg');
+}
+
+#sujets {
+    background-image:url('../../media/agilelab/background/accueil.jpg');
 }
 
 #accueil a {
@@ -39,7 +56,7 @@ h3 {
 
 /* Slides */
 .page {
-  height: 100%;
+  min-height: 100%;
   border-box: box-sizing;
   background-position: center center;
 	background-repeat: no-repeat;

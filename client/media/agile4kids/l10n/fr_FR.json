@@ -10,12 +10,13 @@
     "details" : {
         "title": "Détails",
         "message": "Pour plus de détails sur le fonctionnement de Agile Grenoble 4 Kids ...",
-        "description": "Le détail sera bientôt disponible."
+        "description": "A travers 2 ateliers, nous aiderons les enfants (et leurs parents) à exprimer leurs émotions et ressentis grâce à un jeu simple, à rejouer à la maison. Ils apprendront aussi à être présent de façon consciente, comprendre ce qui se passe maintenant, en adoptant une attitude d'ouverture et de bienveillance."
     },
 
     "ticket": {
         "title": "Billetterie",
         "description": "La billetterie pour l'après-midi du Samedi 19 novembre sera ouverte à partir du 12 septembre 2016.",
-        "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
+        "info": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
+
 }

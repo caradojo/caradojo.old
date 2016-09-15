@@ -1,4 +1,4 @@
-{
+﻿{
     "accueil": {
         "title": "Home"
     },
@@ -65,6 +65,12 @@
               }
     },
 
+    "ticket": {
+        "title": "Registration",
+        "description": "Registration for Thursday 17 November open on 12 September.",
+        "info": "To register on other specicific Agile Grenoble days : Back to main home of site. "
+    },
+
    "register" : {
         "title": "Registrations",
         "message_bientot": "Registrations will open in September",
@@ -96,7 +102,7 @@
         }
     },
 
-    "programme": {
+    "program": {
         "title": "Program",
         "nondisponible": "2016 program will be defined... stay tuned!",
         "disponible": "The conference program is now available!<br>You can already view this year sessions and their description.",
@@ -110,12 +116,6 @@
 
     "acces": {
         "title": "Acces"
-    },
-
-    "inscriptions" : {
-        "title": "Registrations",
-        "price": "Registrations are mandatory. The price is 50 €. The ticket gives access to all conference sessions , as well as lunch and beverages served during breaks.",
-        "description": "Registrations should be open around September 15th."
     },
 
     "emails" : {

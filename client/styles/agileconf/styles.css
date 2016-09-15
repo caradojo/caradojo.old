@@ -2,6 +2,10 @@
 	background-image:url('../../media/agileconf/background/accueil.jpg');
 }
 
+#ticket {
+        background-image:url('../../media/agileconf/background/participants.jpg');
+}
+
 #accueil a {
   text-decoration:none;
 }

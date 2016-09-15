@@ -15,6 +15,6 @@
     "ticket" : {
         "title": "Tickets",
         "description": "Registration on Saturday, nov. 19th afternoon",
-        "warning": "To register on the classical conference day on thursday, please to back to main home"
+        "info": "To register on the classical conference day on thursday, please to back to main home"
     }
 }
