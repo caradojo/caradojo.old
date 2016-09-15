@@ -61,7 +61,8 @@
 
     "ticket": {
         "title": "Billetterie",
-        "description": "La billetterie pour la journée du Mercredi 16 novembre sera ouverte à partir du 12 septembre 2016.<br/>Nous contacter pour des conventions de formation: agilelab@agile-grenoble.org",
+        "description": "La billetterie pour la journée du Mercredi 16 novembre sera ouverte à partir du 12 septembre 2016.",
+        "contact": "Nous contacter pour des conventions de formation: agilelab@agile-grenoble.org",
         "warning": "Pour réserver la journée de conférence classique du jeudi. Retournez sur l'accueil principal du site"
     }
 }
