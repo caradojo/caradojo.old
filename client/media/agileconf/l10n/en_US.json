@@ -81,9 +81,9 @@
         },
         "queueLink": {
             "name": "Waiting list",
-            "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
+            "addr": "https://docs.google.com/forms/d/e/1FAIpQLScEF1Cgn44TG-uAR4qyX-e-bwTmccEgZ_-7q7kfcB5TM4JRkQ/viewform"
         },
-		"registrationfinished": "... but you have other options : <ul><li>Take the waiting list,</li><li>Agile Innovation,</li><li>and all along the year you can participate to the events organized by the Club Agile Rhône-Alpes.</li></ul>"		
+	"registrationfinished": "When registration will be sold out, you have other options : <ul><li>Take the waiting list,</li><li>Agile Grenoble Lab on Wednesday,</li><li>Agile Grenoble Forum on Friday,</li><li>and all along the year you can participate to the events organized by the Club Agile Rhône-Alpes.</li></ul>"		
     },
 	
     "apropos" : {

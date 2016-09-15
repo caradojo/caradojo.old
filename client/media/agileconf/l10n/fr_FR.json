@@ -66,9 +66,9 @@
         },
         "queueLink": {
             "name": "Liste d'attente",
-            "addr": "https://docs.google.com/forms/d/1_wF7KMRca3rqa-Qqh_77xKHv7se9DSDtaIrGT9iPj3I/viewform"
+            "addr": "https://docs.google.com/forms/d/e/1FAIpQLScEF1Cgn44TG-uAR4qyX-e-bwTmccEgZ_-7q7kfcB5TM4JRkQ/viewform"
         },
-        "registrationfinished": "... mais il vous reste encore plusieurs solutions:<ul><li>Tenter la liste d'attente,</li><li>Agile Innovation,</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
+        "registrationfinished": "Même si la billetterie est complète, vous avez d'autres options :<ul><li>Tenter la liste d'attente,</li><li>Agile Grenoble Lab du mercredi,</li><li>Agile Grenoble Forum du Vendredi</li><li>et durant toute l'année, participer aux rencontres du Club Agile Rhône-Alpes.</li></ul>"
     },
 
 
