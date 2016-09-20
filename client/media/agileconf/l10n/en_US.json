@@ -141,5 +141,11 @@
 
     "button": {
         "close": "Close"
+    },
+
+    "topics": {
+        "title": "Topics",
+        "description": "This is the list of selected sessions"
     }
+
 }

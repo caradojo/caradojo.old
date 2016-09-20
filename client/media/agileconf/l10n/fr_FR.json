@@ -142,5 +142,10 @@
 
     "button": {
         "close": "Fermer"
+    },
+
+    "topics": {
+        "title": "Sujets",
+        "description": "Voici la liste des sessions sélectionnées"
     }
 }

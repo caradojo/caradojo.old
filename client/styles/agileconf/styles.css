@@ -6,6 +6,11 @@
         background-image:url('../../media/agileconf/background/participants.jpg');
 }
 
+#topics {
+        background-image:url('../../media/agileconf/background/orateurs.jpg');
+}
+
+
 #accueil a {
   text-decoration:none;
 }
