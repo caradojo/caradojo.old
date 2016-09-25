@@ -8,9 +8,11 @@
     },
 
     "details" : {
+        "message": "For more details about forum behaviour ...",
         "title": "Details",
-        "description": "Informations...",
-        "description2": ""
+        "description": "Forum  is an openspace.",
+        "description2": "Come with your topics to discuss, share subjects proposed day D.",
+        "info": "Illustrated presentation"
     },
 
     "ticket" : {
