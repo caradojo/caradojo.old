@@ -30,17 +30,11 @@ angular.callbacks._0({ "rooms" : { "Atrium 1" : { "capacity" : 20,
           "id" : 1
         },
 
-      "Mt Blanc 1+2" : { "capacity" : 24, /*ééé*/
+      "Mt Blanc 1+2" : { "capacity" : 48, /*ééé*/
           "id" : 22
         },
-      "Mt Blanc 3+4" : { "capacity" : 24,
+      "Mt Blanc 3+4" : { "capacity" : 48,
           "id" : 23
-        },
-      "MtBlanc 1" : { "capacity" : 24,
-          "id" : 6
-        },
-      "Mt Blanc 2" : { "capacity" : 24,
-          "id" : 7
         },
       "Mt Blanc 3" : { "capacity" : 24,
           "id" : 8
