@@ -157,6 +157,9 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
         }
 
        var addGridLayoutColumnPositionToSession = function(session, room) {
-            session.colposition = rooms[room].id;
+	   if (rooms[room] === undefined) {
+	       throw new Error("Error: room '" + room + "' not found.");
+	   }
+           session.colposition = rooms[room].id;
        }
     });
