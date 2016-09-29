@@ -1,12 +1,66 @@
+'use strict';
+
+{
 // supprime 1ière ligne (headers sur 2ième)
-var convert = function (csvInput) {
+var rooms = {
+      "Auditorium" : { "capacity" : 530,
+          "id" : 0
+        },
+      "Makalu" : { "capacity" : 110,
+          "id" : 1
+        },
+      "Cervin" : { "capacity" : 40,
+          "id" : 3
+        },
+      "Everest" : { "capacity" : 40,
+          "id" : 4
+        },
+      "Meije" : { "capacity" : -1,
+          "id" : 5
+        },
+
+      "Kili 1+2" : { "capacity" : 55,
+          "id" : 6
+        },
+      "Kili 3+4" : { "capacity" : 55,
+          "id" : 7
+        },
+      "Kili 3" : { "capacity" : -24, /*ééé*/
+          "id" : 8
+        },
+      "Kili 4" : { "capacity" : -24,
+          "id" : 9
+        },
+
+      "Mt Blanc 1+2" : { "capacity" : -48, /*ééé*/
+          "id" : 10
+        },
+      "Mt Blanc 3+4" : { "capacity" : -48,
+          "id" : 11
+        },
+      "Mt Blanc 3" : { "capacity" : 24,
+          "id" : 12
+        },
+      "Mt Blanc 4" : { "capacity" : 24,
+          "id" : 13
+        }
+    };
+/*        "Atrium 1" : { "capacity" : 20,
+          "id" : 10
+        },
+      "Atrium 2" : { "capacity" : 30,
+          "id" : 11
+        },*/
+
+
+var convert = function (rooms, csvInput) {
     csvInput = csvInput.slice(csvInput.indexOf('\n')+1);
-    sessionsCsv = $.csv.toObjects(csvInput, csvError);
-    sessionsJson = [];
-    for (s = 0; s<sessionsCsv.length; s++) {
-	session = sessionsCsv[s];
-	room = session.room;
-	if (room != undefined) {
+    var sessionsCsv = $.csv.toObjects(csvInput, csvError);
+    var programmeJson = [];
+    for (var s = 0; s<sessionsCsv.length; s++) {
+	var session = sessionsCsv[s];
+	var room = session.room;
+	if (room != undefined && room != '') {
 	    if(session.length == undefined) {
 		session.length = 3;
 	    }
@@ -22,14 +76,18 @@ var convert = function (csvInput) {
 	    
 	    //session.speakers[i]=
 
-	    slot = session.slot;
-	    if (sessionsJson[slot] == undefined) {
-		sessionsJson[slot] = {};
+	    var slot = session.slot;
+	    if (programmeJson[slot] === undefined) {
+		programmeJson[slot] = [];
 	    }
-	    sessionsJson[slot][room] = session;
+	    var order = rooms[room].id;
+	    if (programmeJson[slot][order] === undefined) {
+		programmeJson[slot][order] = {};
+	    }
+	    programmeJson[slot][order][room] = session;
 	}
     };
-    return sessionsJson;
+    return programmeJson;
 }
 
 var csvError = function (err, data){
@@ -54,8 +112,8 @@ var dataLoad = function (url) {
     });
 }
 var OnSuccess = function (result) {
-    c = convert(result);
-    $('#divResultat').html(JSON.stringify(c));
+    var c = convert(rooms, result);
+    $('#divResultat').html('angular.callbacks._0({ "rooms": ' + JSON.stringify(rooms) + ', "slots": ' + JSON.stringify(c) + '})');
 }
 
 var OnError = function (jqXHR, textStatus, errorThrown) {
@@ -64,3 +122,4 @@ var OnError = function (jqXHR, textStatus, errorThrown) {
 
 dataLoad("https://docs.google.com/spreadsheets/d/1eNbJzyZOHES02YQaBHb5Ikxs6gPi5s8unVCkyIMJVUw/export?format=csv");
 
+}
