@@ -10,39 +10,39 @@ var rooms = {
           "id" : 1
         },
       "Cervin" : { "capacity" : 40,
-          "id" : 3
+          "id" : 2
         },
       "Everest" : { "capacity" : 40,
-          "id" : 4
+          "id" : 3
         },
       "Meije" : { "capacity" : -1,
-          "id" : 5
+          "id" : 4
         },
 
       "Kili 1+2" : { "capacity" : 55,
-          "id" : 6
+          "id" : 5
         },
       "Kili 3+4" : { "capacity" : 55,
-          "id" : 7
+          "id" : 6
         },
       "Kili 3" : { "capacity" : -24, /*ééé*/
-          "id" : 8
+          "id" : 7
         },
       "Kili 4" : { "capacity" : -24,
-          "id" : 9
+          "id" : 8
         },
 
       "Mt Blanc 1+2" : { "capacity" : -48, /*ééé*/
-          "id" : 10
+          "id" : 9
         },
       "Mt Blanc 3+4" : { "capacity" : -48,
-          "id" : 11
+          "id" : 10
         },
       "Mt Blanc 3" : { "capacity" : 24,
-          "id" : 12
+          "id" : 11
         },
       "Mt Blanc 4" : { "capacity" : 24,
-          "id" : 13
+          "id" : 12
         }
     };
 /*        "Atrium 1" : { "capacity" : 20,
