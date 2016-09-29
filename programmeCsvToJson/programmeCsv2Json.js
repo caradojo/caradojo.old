@@ -78,13 +78,15 @@ var convert = function (rooms, csvInput) {
 
 	    var slot = session.slot;
 	    if (programmeJson[slot] === undefined) {
-		programmeJson[slot] = [];
+		programmeJson[slot] = {};
 	    }
+/*
 	    var order = rooms[room].id;
 	    if (programmeJson[slot][order] === undefined) {
 		programmeJson[slot][order] = {};
 	    }
-	    programmeJson[slot][order][room] = session;
+	    programmeJson[slot][order][room] = session;*/
+	    programmeJson[slot][room] = session;
 	}
     };
     return programmeJson;
