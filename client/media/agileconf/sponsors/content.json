@@ -89,6 +89,14 @@
             "description" : "kaizen.html"
         },
         {
+            "photo" : "LOGO_VISEO_WEB_RVB_HD.png",
+            "entreprise" : "Viseo",
+            "web" : "http://www.viseo.com/",
+            "partenaire": false,
+            "goldNotSilver" : false,
+            "description" : "viseo.html"
+        },
+        {
             "photo" : "ViverisLogo.jpg",
             "entreprise" : "Viveris",
             "web" : "http://www.viveris.fr/",
