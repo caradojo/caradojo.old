@@ -78,13 +78,19 @@
 	        //session.speakers[i]=
 
 	        // Créneau double
-	        if (session.slot.indexOf('+') != -1) {
-		    session.slot = parseInt(session.slot);
+	        if (session.slot.indexOf('+') == -1) {
+                    session.slot--;
+                } else {
+		    session.slot = parseInt(session.slot)-1;  // pour tableau (index à partir de 0)
                     var nextSlot = session.slot+1;
 		    if (programmeJson[nextSlot] === undefined) {
 		        programmeJson[nextSlot] = {};
 		    }
-		    var sessionSuite = JSON.parse(JSON.stringify(session));
+                    var sessionSuite = {};
+		    //var sessionSuite = JSON.parse(JSON.stringify(session));
+                    sessionSuite.theme = session.theme;
+                    sessionSuite.width = session.width;
+                    sessionSuite.length = session.length;
 		    sessionSuite.slot = nextSlot;
 		    sessionSuite.type = 'suiteCreneauDouble';
 		    sessionSuite.title = 'suite (créneau double)';
@@ -92,7 +98,7 @@
                     console.log(sessionSuite);
 	        }
 
-	        var slot = session.slot-1; // pour tableau (index à partir de 0)
+	        var slot = session.slot;
 	        if (slot != undefined && slot != null) {
 		    if (programmeJson[slot] === undefined) {
 		        programmeJson[slot] = {};
