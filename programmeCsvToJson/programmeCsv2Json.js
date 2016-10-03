@@ -76,11 +76,28 @@
 	        
 	        //session.speakers[i]=
 
+                // Nettoie
+	        session.room = undefined;
+	        session.status = undefined;
+	        session[''] = undefined;
+
+                // Salle double?
+                var indexPlus = room.indexOf('+');
+                if (rooms[room] === undefined &&  indexPlus != -1) {
+                    room = room.slice(0,indexPlus);
+                    var room2 = room.slice(0,-1) + (Number(room.slice(-1))+1);
+                }
+                
+                // Créneau double?
+	        if (session.slot.indexOf('+') == -1) {
+                    session.slot--;
+                } else {
+		    session.slot = parseInt(session.slot)-1;  // pour tableau (index à partir de 0)
+                    var nextSlot = session.slot+1;
+                }
+
                 // Salle double à mettre sur 2 salles simples
-                var indexPlus = session.room.indexOf('+');
-                if (rooms[session.room] === undefined &&  indexPlus != -1) {
-                    session.room = session.room.slice(0,indexPlus-1);
-                    var room2 = session.room.slice(0,-1) + (1+session.room.slice(-1,-1));
+                if (room2 !== undefined) {
                     var sessionDouble = {};
                     sessionDouble.theme = session.theme;
                     sessionDouble.width = session.width;
@@ -89,20 +106,11 @@
 		    sessionDouble.type = 'salleDouble';
 		    sessionDouble.title = '(salle double)';
 		    programmeJson[session.slot][room2] = sessionDouble;
-console.log(sessionDouble);
+                    console.log(room2,sessionDouble,room);
                 }
 
-                // Nettoie
-	        session.room = undefined;
-	        session.status = undefined;
-	        session[''] = undefined;
-
 	        // Suite de créneau pour créneau double
-	        if (session.slot.indexOf('+') == -1) {
-                    session.slot--;
-                } else {
-		    session.slot = parseInt(session.slot)-1;  // pour tableau (index à partir de 0)
-                    var nextSlot = session.slot+1;
+                if (nextSlot !== undefined) {
 		    if (programmeJson[nextSlot] === undefined) {
 		        programmeJson[nextSlot] = {};
 		    }
@@ -117,7 +125,7 @@ console.log(sessionDouble);
 		    programmeJson[nextSlot][room] = sessionSuite;
 	        }
 
-                // Créneau
+                // La session elle-même
 	        var slot = session.slot;
 	        if (slot != undefined && slot != null) {
 		    if (programmeJson[slot] === undefined) {
