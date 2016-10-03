@@ -22,9 +22,9 @@
         "Kili 1+2" : { "capacity" : 55,
                        "id" : 5
                      },
-        "Kili 3+4" : { "capacity" : 55,
+        /* "Kili 3+4" : { "capacity" : 55,
                        "id" : 6
-                     },
+                     }, */
         "Kili 3" : { "capacity" : -24, /*ééé*/
                      "id" : 7
                    },
@@ -35,9 +35,9 @@
         "Mt Blanc 1+2" : { "capacity" : -48, /*ééé*/
                            "id" : 9
                          },
-        "Mt Blanc 3+4" : { "capacity" : -48,
+        /*"Mt Blanc 3+4" : { "capacity" : -48,
                            "id" : 10
-                         },
+                         },*/
         "Mt Blanc 3" : { "capacity" : 24,
                          "id" : 11
                        },
@@ -52,7 +52,9 @@
               "id" : 11
               },*/
 
-
+/** Filtre les sessions non retenues (room pas défini)
+    Prend les noms de champs sur la 2ième ligne
+ */
     var convert = function (rooms, csvInput) {
         csvInput = csvInput.slice(csvInput.indexOf('\n')+1);
         var sessionsCsv = $.csv.toObjects(csvInput, csvError);
@@ -71,13 +73,31 @@
 	        if(session.type == undefined) {
 		    session.type = 'session';
 	        }
-	        session.room = undefined;
-	        session.status = undefined;
-	        session[''] = undefined;
 	        
 	        //session.speakers[i]=
 
-	        // Créneau double
+                // Salle double à mettre sur 2 salles simples
+                var indexPlus = session.room.indexOf('+');
+                if (rooms[session.room] === undefined &&  indexPlus != -1) {
+                    session.room = session.room.slice(0,indexPlus-1);
+                    var room2 = session.room.slice(0,-1) + (1+session.room.slice(-1,-1));
+                    var sessionDouble = {};
+                    sessionDouble.theme = session.theme;
+                    sessionDouble.width = session.width;
+                    sessionDouble.length = session.length;
+		    sessionDouble.slot = session.slot;
+		    sessionDouble.type = 'salleDouble';
+		    sessionDouble.title = '(salle double)';
+		    programmeJson[session.slot][room2] = sessionDouble;
+console.log(sessionDouble);
+                }
+
+                // Nettoie
+	        session.room = undefined;
+	        session.status = undefined;
+	        session[''] = undefined;
+
+	        // Suite de créneau pour créneau double
 	        if (session.slot.indexOf('+') == -1) {
                     session.slot--;
                 } else {
@@ -95,9 +115,9 @@
 		    sessionSuite.type = 'suiteCreneauDouble';
 		    sessionSuite.title = 'suite (créneau double)';
 		    programmeJson[nextSlot][room] = sessionSuite;
-                    console.log(sessionSuite);
 	        }
 
+                // Créneau
 	        var slot = session.slot;
 	        if (slot != undefined && slot != null) {
 		    if (programmeJson[slot] === undefined) {
@@ -107,7 +127,7 @@
 		       if (programmeJson[slot][order] === undefined) {
 		       programmeJson[slot][order] = {};
 		       }
-		       programmeJson[slot][order][room] = session;*/
+		       programmeJson[slot][order]: room --> session;*/
 		    programmeJson[slot][room] = session;
 	        }
 	    }
