@@ -114,9 +114,6 @@
 
 	        // Suite de créneau pour créneau double
                 if (nextSlot !== undefined) {
-		    if (programmeJson[nextSlot] === undefined) {
-		        programmeJson[nextSlot] = {};
-		    }
                     var sessionSuite = {};
 		    //var sessionSuite = JSON.parse(JSON.stringify(session));
                     sessionSuite.theme = session.theme;
@@ -131,9 +128,6 @@
                 // La session elle-même
 	        var slot = session.slot;
 	        if (slot != undefined && slot != null) {
-		    if (programmeJson[slot] === undefined) {
-		        programmeJson[slot] = {};
-		    }
 		    /* var order = rooms[room].id;
 		       if (programmeJson[slot][order] === undefined) {
 		       programmeJson[slot][order] = {};
@@ -148,9 +142,14 @@
 
     /** Vérifie sesions qui se marchent dessus */
     var insertCheckSession = function (programmeJson, slot, room, session) {
-        if (programmeJson[slot][room] !== undefined) {
-            session.title = "ERREUR: les sessions " + programmeJson[slot][room].id + " et " + session.id + " SONT SUR LE MEME CRENEAU.";
+        if (programmeJson[slot] !== undefined && programmeJson[slot][room] !== undefined) {
+            session.title = "ERREUR: les sessions " + programmeJson[slot][room].id + " et " + session.id + " SONT SUR LE MEME CRENEAU (" + session.title + ")";
+            console.log("EN DOUBLE: " + room + " " + JSON.stringify(programmeJson[slot][room]));
+            console.log("           " + room + " " + JSON.stringify(session));
         } 
+	if (programmeJson[slot] === undefined) {
+	    programmeJson[slot] = {};
+	}
         programmeJson[slot][room] = session;
     }
 
