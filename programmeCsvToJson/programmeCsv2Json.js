@@ -108,8 +108,8 @@
 		    sessionDouble.slot = session.slot;
 		    sessionDouble.type = 'salleDouble';
 		    sessionDouble.title = '(salle double)';
-		    programmeJson[session.slot][room2] = sessionDouble;
-                    console.log(room2,sessionDouble,room);
+		    insertCheckSession(programmeJson,session.slot,room2,sessionDouble);
+                    //console.log(room2,sessionDouble,room);
                 }
 
 	        // Suite de créneau pour créneau double
@@ -125,7 +125,7 @@
 		    sessionSuite.slot = nextSlot;
 		    sessionSuite.type = 'suiteCreneauDouble';
 		    sessionSuite.title = 'suite (creneau double)';
-		    programmeJson[nextSlot][room] = sessionSuite;
+		    insertCheckSession(programmeJson,nextSlot,room,sessionSuite);
 	        }
 
                 // La session elle-même
@@ -139,18 +139,26 @@
 		       programmeJson[slot][order] = {};
 		       }
 		       programmeJson[slot][order]: room --> session;*/
-		    programmeJson[slot][room] = session;
+		    insertCheckSession(programmeJson, slot, room, session);
 	        }
 	    }
         };
         return programmeJson;
     }
 
+    /** Vérifie sesions qui se marchent dessus */
+    var insertCheckSession = function (programmeJson, slot, room, session) {
+        if (programmeJson[slot][room] !== undefined) {
+            session.title = "ERREUR: les sessions " + programmeJson[slot][room].id + " et " + session.id + " SONT SUR LE MEME CRENEAU.";
+        } 
+        programmeJson[slot][room] = session;
+    }
+
     var csvError = function (err, data){
         if (err) {
-	    alert ('*********** CSV ERROR: ' + err);
+	    console.log('*********** CSV ERROR: ' + err);
         } else {
-	    alert('Convert ok: ' + data);
+	    console.log('Convert ok: ' + data);
         };
     }
 
