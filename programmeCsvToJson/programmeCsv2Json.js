@@ -1,5 +1,7 @@
 'use strict';
 
+/** id=rang d'affichage - ne pas laisser de trous dans la numérotation
+*/
 {
     // supprime 1ière ligne (headers sur 2ième)
     var rooms = {
@@ -23,37 +25,38 @@
                        "id" : 5
                      },
         /* "Kili 3+4" : { "capacity" : 55,
-                       "id" : 6
+                       "id" : 
                      }, */
         "Kili 3" : { "capacity" : -24, /*ééé*/
-                     "id" : 7
+                     "id" : 6
                    },
         "Kili 4" : { "capacity" : -24,
-                     "id" : 8
+                     "id" : 7
                    },
 
         "Mt Blanc 1+2" : { "capacity" : -48, /*ééé*/
-                           "id" : 9
+                           "id" : 8
                          },
         /*"Mt Blanc 3+4" : { "capacity" : -48,
-                           "id" : 10
+                           "id" : 
                          },*/
         "Mt Blanc 3" : { "capacity" : 24,
-                         "id" : 11
+                         "id" : 9
                        },
         "Mt Blanc 4" : { "capacity" : 24,
-                         "id" : 12
+                         "id" : 10
                        }
     };
     /*        "Atrium 1" : { "capacity" : 20,
-              "id" : 10
+              "id" : 
               },
               "Atrium 2" : { "capacity" : 30,
-              "id" : 11
+              "id" : 
               },*/
 
-/** Filtre les sessions non retenues (room pas défini)
+/** Filtre les sessions non retenues (=room pas défini)
     Prend les noms de champs sur la 2ième ligne
+    Indique les sessions doubles (slot: '.+.') et les salles doubles (salle: 'xxx.+.').
  */
     var convert = function (rooms, csvInput) {
         csvInput = csvInput.slice(csvInput.indexOf('\n')+1);
@@ -121,7 +124,7 @@
                     sessionSuite.length = session.length;
 		    sessionSuite.slot = nextSlot;
 		    sessionSuite.type = 'suiteCreneauDouble';
-		    sessionSuite.title = 'suite (créneau double)';
+		    sessionSuite.title = 'suite (creneau double)';
 		    programmeJson[nextSlot][room] = sessionSuite;
 	        }
 
