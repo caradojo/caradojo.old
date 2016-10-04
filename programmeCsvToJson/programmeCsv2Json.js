@@ -66,6 +66,9 @@
 	    var session = sessionsCsv[s];
 	    //console.log(session);
 	    var room = session.room;
+	    var room2 = undefined;
+	    var nextSlot = undefined;
+
 	    if (room != undefined && room != '') {
 	        if(session.length == undefined) {
 		    session.length = 3;
@@ -88,7 +91,7 @@
                 var indexPlus = room.indexOf('+');
                 if (rooms[room] === undefined &&  indexPlus != -1) {
                     room = room.slice(0,indexPlus);
-                    var room2 = room.slice(0,-1) + (Number(room.slice(-1))+1);
+                    room2 = room.slice(0,-1) + (Number(room.slice(-1))+1);
                 }
                 
                 // Créneau double?
@@ -96,7 +99,7 @@
                     session.slot--;
                 } else {
 		    session.slot = parseInt(session.slot)-1;  // pour tableau (index à partir de 0)
-                    var nextSlot = session.slot+1;
+                    nextSlot = session.slot+1;
                 }
 
                 // Salle double à mettre sur 2 salles simples
@@ -109,7 +112,6 @@
 		    sessionDouble.type = 'salleDouble';
 		    sessionDouble.title = '(salle double)';
 		    insertCheckSession(programmeJson,session.slot,room2,sessionDouble);
-                    //console.log(room2,sessionDouble,room);
                 }
 
 	        // Suite de créneau pour créneau double
@@ -144,8 +146,8 @@
     var insertCheckSession = function (programmeJson, slot, room, session) {
         if (programmeJson[slot] !== undefined && programmeJson[slot][room] !== undefined) {
             session.title = "ERREUR: les sessions " + programmeJson[slot][room].id + " et " + session.id + " SONT SUR LE MEME CRENEAU (" + session.title + ")";
-            console.log("EN DOUBLE: " + room + " " + JSON.stringify(programmeJson[slot][room]));
-            console.log("           " + room + " " + JSON.stringify(session));
+            console.log("*** EN DOUBLE: " + room + " " + JSON.stringify(programmeJson[slot][room]));
+            console.log("               " + room + " " + JSON.stringify(session));
         } 
 	if (programmeJson[slot] === undefined) {
 	    programmeJson[slot] = {};
