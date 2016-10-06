@@ -108,8 +108,8 @@ console.log(JSON.stringify(sessionDetails));
     /** Insère session (cas double créneau et double salle) dans @param program */
     var sessionToSlots = function(program, rooms, session) {
 	var room = session.room;
-        var room2;
-        var nextSlot;
+        var room2 = undefined;
+        var nextSlot = undefined;
 
 	if(session.length == undefined) {
 	    session.length = 3;
