@@ -17,6 +17,8 @@
 	    <div class="panel-body">
 	        <div><b>Salle:</b> {{session.room}}</div>
 	        <div><b>Thème:</b> {{session.themeName}}</div>
+	        <div><b>Niveau:</b> {{session.level}}</div>
+	        <div><b>Durée:</b> {{session.duration}}</div>
 	    </div>
 	    <div class="panel-body">
 	        <div class="preserve-line-wrap" ng-show="session.abstract"><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
@@ -30,7 +32,7 @@
 	    <div class="panel-body">
 	        <div ng-repeat="speaker in session['speakers-detail']">
 	            <div>
-	            	<b>{{speaker.name}}</b>: 
+	            	<b>{{speaker.name}}</b>  {{speaker.company}}: 
 	            	<a ng-show="speaker.twitter_id" ng-href="https://twitter.com/{{speaker.twitter_id}}">
 	            		<img witdh="25" height="25" ng-src="client/media/icon_twitter_40.png"></img>
 	            	</a>
