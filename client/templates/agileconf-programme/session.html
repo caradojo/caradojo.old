@@ -20,6 +20,7 @@
 	        <div><b>Niveau:</b> {{session.level}}</div>
 	        <div><b>Durée:</b> {{session.duration}}</div>
 	    </div>
+<!-- Abstract + description (maintenant: que abstract)
 	    <div class="panel-body">
 	        <div class="preserve-line-wrap" ng-show="session.abstract"><b>Résumé : </b><p><em ng-bind-html="session.abstract"></em></p>
 	            <p><b>Bénéfices pour les participants : </b>{{session.benefits}}</p>
@@ -27,6 +28,10 @@
 	    </div>
 	    <div class="panel-body">
 		<div class="preserve-line-wrap" ng-show="session.description"><b>Description : </b><p ng-bind-html="session.description"></p></div>
+	    </div>
+-->
+	    <div class="panel-body">
+		<div class="preserve-line-wrap" ng-show="session.abstract"><b>Description : </b><p ng-bind-html="session.abstract"></p></div>
 	    </div>
 	    <div class="panel-divider"></div>
 	    <div class="panel-body">

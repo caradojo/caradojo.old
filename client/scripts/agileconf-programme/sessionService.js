@@ -6,7 +6,7 @@ AgileGrenobleApp.service('SessionService', function (ThemeService) {
         cleanUpSpeakers(session);
         session.themeName = ThemeService.findName(session.theme);
         addLackingHttp(session);
-        suppressDuplicateDescription(session);
+        //suppressDuplicateDescription(session);
     };
 
     /// Ajoute http:// au début de l'url des orateurs si absent (sinon c'est traité en url relative)

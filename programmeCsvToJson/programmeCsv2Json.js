@@ -79,7 +79,7 @@
                 sessionToSlots(program, rooms, sessionSummary);
             }
         }
-console.log(JSON.stringify(sessionDetails));
+	//console.log(JSON.stringify(sessionDetails));
         return program; // sessionDetails
     }
 
