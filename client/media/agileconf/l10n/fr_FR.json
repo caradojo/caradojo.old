@@ -101,7 +101,9 @@
         "title": "Programme",
         "nondisponible": "Le programme 2016 sera défini prochainement...  restez à l'écoute!",
         "disponible": "Le programme de la conférence est désormais disponible!<br>Vous pouvez d'ores et déjà visualiser les sessions sélectionnées pour cette année ainsi que leur description.",
-        "link": "Voir le programme"
+        "link": {
+	    "title": "Voir le programme"
+	}
     },
 
     "hotels": {

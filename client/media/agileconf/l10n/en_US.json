@@ -106,7 +106,9 @@
         "title": "Program",
         "nondisponible": "2016 program will be defined... stay tuned!",
         "disponible": "The conference program is now available!<br>You can already view this year sessions and their description.",
-        "link": "See the program"
+        "link": {
+	    "title": "See the program"
+	    }
     },
 
     "hotels": {
