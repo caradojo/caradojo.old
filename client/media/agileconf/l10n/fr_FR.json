@@ -148,6 +148,6 @@
 
     "topics": {
         "title": "Sessions",
-        "description": "Voici la liste des sessions sélectionnées"
+        "description": "Voici la liste des sessions sélectionnées et le programme de la journée:"
     }
 }
