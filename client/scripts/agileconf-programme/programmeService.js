@@ -4,11 +4,16 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
         var slots = {};
         var rooms = {};
 
-        var slot_hours = [
-            "8h00",
-            "8h30",
-            "9h00",
-            "9h40",
+	var slot_hours = [
+		"session1 matin",
+		"session2 matin",
+		"session3 apres-midi",
+		"session4 apres-midi",
+//        var slot_hours = [
+//           "8h00",
+//           "8h30",
+//            "9h00",
+//            "9h40",
             "9h50",
             "10h35",
             "10h55",
