@@ -30,3 +30,4 @@ Install project dependencies
     ./build.sh
 
 During installation, if there is some choice for Angular version, select always the more recent version.
+
