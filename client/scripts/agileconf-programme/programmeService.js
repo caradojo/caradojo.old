@@ -5,30 +5,24 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
         var rooms = {};
 
 	var slot_hours = [
-		"session1 matin",
-		"session2 matin",
-		"session3 apres-midi",
-		"session4 apres-midi",
-//        var slot_hours = [
-//           "8h00",
-//           "8h30",
-//            "9h00",
-//            "9h40",
-            "9h50",
-            "10h35",
-            "10h55",
-            "11h40",
-            "13h10",
-            "13h30",
-            "14h10",
-            "14h20",
-            "15h05",
-            "15h25",
+	    "8:00",
+		"8:30",
+		"9:10",
+		"9:55",
+	    "10h05",	            
+        "10h50",
+		"11h10",
+        "11h55",
+            "13h25",
+            "13h45",
+            "14h30",
+            "14h40",
+            "15h40",          	
             "16h10",
-            "16h30",
+            "16h55",
             "17h15",
-            "17h25",
-            "17h55"
+            "18h00",
+            "19h30"
         ];
 
         var MAX_SESSION_LENGTH = 1000;
