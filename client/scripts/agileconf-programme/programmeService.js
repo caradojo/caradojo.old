@@ -96,8 +96,8 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
                     if(prop == 'all') {
                         splitAndCreateAllSession(slot, slot[prop], rowposition);
                     } else {
-                        addGridLayoutColumnPositionToSession(slot[prop], prop);
-                        updateRoomLength(rooms[prop].id, slot[prop].length, slot[prop].width);
+	                        addGridLayoutColumnPositionToSession(slot[prop], prop);
+	                        updateRoomLength(rooms[prop].id, slot[prop].length, slot[prop].width);
                     }
                     addGridLayoutRowPositionToSession(slot[prop], rowposition);
                 }
@@ -112,7 +112,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
             while (roomIndex < room_length.length) {
                 if(room_length[roomIndex] <= rowposition) {
                     width++;
-                    updateRoomLength(roomIndex, session.length, 1);
+                    updateRoomLength(roomIndex, session.length/2, 1);
                 } else {
                     isFirst = createAllSessionWithCorrectSize(session, width, isFirst, slot, roomIndex);
                     width = 0;
