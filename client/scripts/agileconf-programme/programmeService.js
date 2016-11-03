@@ -112,6 +112,7 @@ AgileGrenobleApp.service('ProgrammeService', function($q, Slots, ThemeService) {
             while (roomIndex < room_length.length) {
                 if(room_length[roomIndex] <= rowposition) {
                     width++;
+                    // /2  !!! ?? fix heure apéro et aligne les sessions doubles très étrangement
                     updateRoomLength(roomIndex, session.length/2, 1);
                 } else {
                     isFirst = createAllSessionWithCorrectSize(session, width, isFirst, slot, roomIndex);

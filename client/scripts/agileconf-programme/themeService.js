@@ -3,6 +3,13 @@ AgileGrenobleApp.service('ThemeService', function () {
 
     var dictionary =
     {
+    		tech : "Technique",
+    		scrummaster : "Scrum master",
+    		tous: "Pour tous",
+    		manager: "Manager",
+    		po: "PO",
+    		rex: "Retour d'experience",
+    		debutnat: "Debutant"
 /*
         tech: "Nouveaux savoir-faire & competences",
         development: "Developpement personnel & collectif",
