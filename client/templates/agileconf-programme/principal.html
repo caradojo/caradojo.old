@@ -29,7 +29,7 @@
             </li>
 			<li gridster-item="item" ng-repeat="room in program.rooms" class="text-center">
               <b>{{room.name}}</b><br>
-              <span class="badge"><small>{{room.content.capacity}} places</small></span>
+              <span class="badge" ng-if="room.content.capacity>0"><small>{{room.content.capacity}} places</small></span>
             </li>
         </ul>
     </div>
