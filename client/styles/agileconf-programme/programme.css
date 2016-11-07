@@ -99,6 +99,10 @@ a, a:hover {
     background-color: fuchsia;
 }
 
+.tous {
+    background-color: white;
+}
+
 .jumbotron {
     opacity: 0.8;
     filter: alpha(opacity=0.8);
