@@ -146,8 +146,8 @@
     },
 
     "topics": {
-        "title": "Sessions",
-        "description": "This is the list of selected sessions"
+        "title": "Slides",
+        "description": ""
     }
 
 }
