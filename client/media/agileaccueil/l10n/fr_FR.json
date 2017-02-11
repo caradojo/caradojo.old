@@ -1,15 +1,18 @@
 {
     "accueil": {
         "title" : "Agile Grenoble",
-        "title_ag" : "Edition 2016 : Retour aux sources de l'agilité",
+        "title_ag" : "Edition 2017 : L'agilité en grand, pour grandir et se développer",
         "description" : {
-	        "paragraphe1" : "Il paraît que vous aimez les <strong>histoires</strong> ? Et si nous vous racontions l’origine de l’agilité, cela vous mettrait-il l’eau à la bouche ?",
-            "paragraphe2": "Cette année nous allons vous faire découvrir ou redécouvrir que l’agilité est avant tout <strong>technique</strong> et qu’il n’est pas facile de livrer fréquemment un produit de bonne qualité sans avoir les bonnes pratiques. Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante. Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela. Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance.",
-            "paragraphe3": "Nous vous parlerons également des <strong>gens</strong>, de la difficulté de les faire travailler ensemble et des techniques qui facilitent la mise en place d’une équipe performante.",
-            "paragraphe4": "Nous vous rappellerons que c’est pour apporter de la <strong>valeur</strong> aux utilisateurs que nous faisons tout cela.",
-            "paragraphe5": "Et enfin, nous n’oublierons pas de vous dire que tout cela nécessite un changement d’<strong>état d’esprit</strong>, du lâcher prise et de la bienveillance."
+	        "paragraphe1" : "2017 sera la 10ème édition de Agile Grenoble."
         },
-        "date": "Venez écouter les histoires de ceux qui vivent ou tentent l’Agilité, sur une ou plusieurs journées du 16 novembre au 19 novembre 2016."
+        "date": "Du mercredi 22 au vendredi 24 novembre 2017"
+    },
+    
+    "lastedition": {
+        "title" : "Edition 2016",
+        "title_ag" : "Edition 2016 : Retour aux sources de l'agilité",
+        "link_description" : "Allez regarder les détails, les liens des présentations et le programme de l'édition qui vient de passer.",
+        "link_videos_description" : "Quoi de mieux qu'un résumé en images pour présenter Agile Grenoble. Cliquer pour voir les vidéos."
     },
 
     "agilegreconf": {
@@ -22,19 +25,10 @@
         "date":"Mercredi 16 novembre"
     },
 
-	"agilegreforum": {
-        "title": "Agile Grenoble Forum",
-        "date": "Vendredi 18 novembre"
-	},
-
-    "agilegre4kids": {
-        "title": "Agile Grenoble 4Kids",
-        "date": "Samedi 19 novembre"
-    },
 
     "apropos" : {
         "title": "A propos",
-        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agit de sa 9ème édition consécutive en 2016. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
+        "description": "La conférence <strong>Agile Grenoble</strong> existe depuis 2008 et il s'agira de sa 10ème édition consécutive en 2017. L'évènement est entièrement organisé par les bénévoles du Club Agile Rhône-Alpes Grenoble, avec le soutien bien évidemment de nos sponsors et partenaires.",
         "of": "de",
         "under": "sous"
     },
