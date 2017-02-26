@@ -13,7 +13,9 @@
         "title" : "Edition 2016",
         "title_ag" : "Edition 2016 : Back to basics",
         "link_description" : "See presentations, program",
-        "link_videos_description" : "Click here to see Agile Grenoble videos"
+	"button" : "Edition 2016",
+        "link_videos_description" : "See 2016 Agile Grenoble videos",
+	"button_videos" : "Clik here to see videos"
     },
 
     "agilegreconf": {

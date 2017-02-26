@@ -12,7 +12,9 @@
         "title" : "Edition 2016",
         "title_ag" : "Edition 2016 : Retour aux sources de l'agilité",
         "link_description" : "Allez regarder les détails, les liens des présentations et le programme de l'édition qui vient de passer.",
-        "link_videos_description" : "Quoi de mieux qu'un résumé en images pour présenter Agile Grenoble. Cliquer pour voir les vidéos."
+	"button": "Edition 2016",
+        "link_videos_description" : "Quoi de mieux qu'un résumé en images pour présenter Agile Grenoble.",
+	"button_videos" : "Cliquer pour voir les vidéos."
     },
 
     "agilegreconf": {
