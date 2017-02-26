@@ -2,12 +2,17 @@
 
     "accueil": {
         "title" : "Agile Grenoble",
-        "title_ag" : "2017: Agility in big",
+        "title_ag" : "2017: Agility in all states",
         "description" : {
-	        "paragraphe1" : "2017 is the 10th edition of Agile Grenoble"
+	        "paragraphe1" : "Themes for this 10th edition of Agile Grenoble are",
+		"paragraphe2" : "Day-to-day agility : concrete, tools, practices",
+		"paragraphe3" : "Memories of Agility travel",
+		"paragraphe4" : "A new breath for your agility",
+		"paragraphe5" : ""
         },
         "date": "November 22-24th 2017."
     },
+
     
     "lastedition": {
         "title" : "Edition 2016",

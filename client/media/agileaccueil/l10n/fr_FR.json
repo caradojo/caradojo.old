@@ -1,9 +1,12 @@
 {
     "accueil": {
         "title" : "Agile Grenoble",
-        "title_ag" : "Edition 2017 : L'agilité en grand, pour grandir et se développer",
+        "title_ag" : "Edition 2017 : L'agilité dans tous ses états",
         "description" : {
-	        "paragraphe1" : "2017 sera la 10ème édition de Agile Grenoble."
+		"paragraphe1" : "Les thèmes de ce cette 10ème édition de Agile Grenoble :",
+	        "paragraphe2" : "L'agilité au jour le jour : du concret, des outils, des pratiques.",
+		"paragraphe3" : "Souvenirs de voyages en Agilité",
+		"paragraphe4" : "Un nouveau souffle pour votre agilité"
         },
         "date": "Du mercredi 22 au vendredi 24 novembre 2017"
     },
