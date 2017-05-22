@@ -6,9 +6,20 @@
 		"paragraphe1" : "Les thèmes de ce cette 10ème édition de Agile Grenoble :",
 	        "paragraphe2" : "L'agilité au jour le jour : du concret, des outils, des pratiques.",
 		"paragraphe3" : "Souvenirs de voyages en Agilité",
-		"paragraphe4" : "Un nouveau souffle pour votre agilité"
+		"paragraphe4" : "Un nouveau souffle pour votre agilité",
+		"paragraphe5" : "Pour cet édition spéciale nous avons imaginé un format spécial sur 3 journées et 2 soirées."
         },
-        "date": "Du mercredi 22 au vendredi 24 novembre 2017"
+        "date": "Du mercredi 22 au vendredi 24 novembre 2017",
+	"callforpapers": {
+		"selection" : "Nous attendons vos idées de session, atelier, jeu ou coding dojo.",
+		"message" : "Soumettez au plus tôt pour être présélectionné :",
+		"linkname" : "Soumettre une session"
+	},
+        "sponsors": {
+                "selection" : "Nous avons besoin de partenaires pour construire un événement riche riche.",
+                "message" : "Soyez moteur de l'événement en devenant sponsor :",
+                "linkname" : "Offre de sponsoring"
+        }
     },
     
     "lastedition": {

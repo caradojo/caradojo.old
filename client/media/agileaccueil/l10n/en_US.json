@@ -10,7 +10,18 @@
 		"paragraphe4" : "A new breath for your agility",
 		"paragraphe5" : ""
         },
-        "date": "November 22-24th 2017."
+        "date": "November 22-24th 2017.",
+        "callforpapers": {
+                "selection" : "We are waiting your ideas of session, workshop, game or coding dojo.",
+                "message" : "Submit early to be selected :",
+                "linkname" : "Submit a session"
+        },
+        "sponsors": {
+                "selection" : "We need partners to build this rich event.",
+                "message" : "Be part of this event becoming a sponsor :",
+                "linkname" : "Offre de sponsoring"
+        }
+
     },
 
     
