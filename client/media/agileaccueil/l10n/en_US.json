@@ -74,6 +74,18 @@
         "title": "Acces"
     },
 
+
+    "inscription" : {
+        "title" : "Registrations",
+        "description": "registrations will be opened beginning of September",
+        "inscription" : {
+                "link": "Fill form",
+                "description": " to be aware by mail when registration will open"
+        }
+     },
+
+
+
     "emails" : {
         "title" : "Contacts",
         "description": "To contact us before the conference, just send us an email:",

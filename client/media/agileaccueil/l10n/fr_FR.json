@@ -70,6 +70,17 @@
         "title": "Accès"
     },
 
+
+    "inscription" : {
+        "title" : "Inscriptions",
+        "description": "Les inscriptions seront ouvertes début septembre",
+	"inscription" : {
+		"link": "Remplissez le formulaire",
+		"description": " pour être prévenu par mail de l'ouverture des inscriptions"
+	}
+     },
+
+
     "emails" : {
         "title" : "Contacts",
         "description": "Pour nous contacter avant la conférence envoyez-nous tout simplement un email :",
